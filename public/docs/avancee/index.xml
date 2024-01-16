@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configuration avancée on My New Hugo Site</title>
+    <link>https://example.org/docs/avancee/</link>
+    <description>Recent content in Configuration avancée on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <atom:link href="https://example.org/docs/avancee/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arborescence</title>
+      <link>https://example.org/docs/avancee/arborescence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/avancee/arborescence/</guid>
+      <description>Architecture simplifiée Arborescence avec génération des pages d’audit auto-générées. L&amp;rsquo;utilisateur n’a pas besoin de créer une page pour chaque type d’audit et par projet.&#xA;.&#xD;├── config.toml&#xD;└── content&#xD;├── _index.md // page d’accueil du site :: ⚠️ Ajouter `type: projects` dans l&amp;#39;entête du fichier en cas de mono projet =&amp;gt; va afficher directement la page de synthèse de tous les audits&#xD;├── audits // Type de contenu audits, les projets doivent être dans un répertoire avec le nom audits&#xD;│ ├── projet1&#xD;│ │ ├── index.</description>
+    </item>
+    <item>
+      <title>Contenus complémentaires</title>
+      <link>https://example.org/docs/avancee/complementaire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/avancee/complementaire/</guid>
+      <description>Quelques contenus complémentaires qui peuvent être utilisés pour agrémenter le suivi de projet.&#xA;Annuaire Lister les personnes contactées pendant la durée du défi de mise en conformité. Cet annuaire permet de partager les contacts dans le temps de l’amélioration de la démarche.&#xA;Éditer : static/directory.json&#xA;Recueil de tests utilisateurs Les tests utilisateurs de type quantitatifs consistent à poser des questions similaires à un panel important d’usagers. Pour le service usertests, il existe une mise en forme pour l’analyse rapide de ces résultats.</description>
+    </item>
+    <item>
+      <title>Personnalisation du thème</title>
+      <link>https://example.org/docs/avancee/personnalisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/avancee/personnalisation/</guid>
+      <description>Hugo permet de surcharger les fichiers présents dans le thème, la condition est de respecter la même arborescence. Ainsi pour surcharger un thème avec :&#xA;Sa police Son logo Ses couleurs … Il suffit de créer tous ces fichiers dans le répertoire static. Le thème appelle automatiquement les polices contenues dans le répertoire static/assets/fonts (à la place de la police Marianne).&#xA;static&#xD;└── assets&#xD;├── css&#xD;│ ├── fonts.css&#xD;│ └── main.</description>
+    </item>
+  </channel>
+</rss>

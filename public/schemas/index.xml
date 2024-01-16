@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Schemas on My New Hugo Site</title>
+    <link>https://example.org/schemas/</link>
+    <description>Recent content in Schemas on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <atom:link href="https://example.org/schemas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://example.org/schemas/2021-2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/schemas/2021-2023/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/schemas/2024-2026/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/schemas/2024-2026/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

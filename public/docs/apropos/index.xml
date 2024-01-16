@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>À propos on My New Hugo Site</title>
+    <link>https://example.org/docs/apropos/</link>
+    <description>Recent content in À propos on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <atom:link href="https://example.org/docs/apropos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Auteurs &amp; Crédits</title>
+      <link>https://example.org/docs/apropos/auteurs-credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/apropos/auteurs-credits/</guid>
+      <description>2020-2021, Bertrand Keller pour Lowdit</description>
+    </item>
+    <item>
+      <title>Licenses</title>
+      <link>https://example.org/docs/apropos/licenses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/apropos/licenses/</guid>
+      <description>Le code source de ce dépôt est publié sous licence MIT.&#xA;Le thème FRAGO utilise cette liste de bibliothèques :&#xA;Frappe Charts (MIT) : https://github.com/frappe/charts - https://github.com/frappe/charts Mermaid (MIT) : https://github.com/mermaid-js/mermaid Highlight.js (MIT) : https://github.com/highlightjs/highlight.js simplelightbox (MIT) : https://github.com/andreknieriem/simplelightbox Van11y accessible tabs panel system (MIT) : https://github.com/nico3333fr/van11y-accessible-tab-panel-aria Checka11y.css (MIT) : https://github.com/jackdomleo7/Checka11y.css </description>
+    </item>
+  </channel>
+</rss>

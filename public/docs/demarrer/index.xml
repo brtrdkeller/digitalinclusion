@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Démarrer on My New Hugo Site</title>
+    <link>https://example.org/docs/demarrer/</link>
+    <description>Recent content in Démarrer on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <atom:link href="https://example.org/docs/demarrer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installer Hugo</title>
+      <link>https://example.org/docs/demarrer/installer-hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/demarrer/installer-hugo/</guid>
+      <description>Comprendre comment installer goHugo sur sa machine ou le configurer sur un système de déploiement automatisé (site en ligne). ⚠️ Nécessite de savoir ouvrir un terminal, un petit peu de manip, mais une fois réalisé, on a l’impression d’être un DEV 😁.&#xA;Hugo est un exécutable qui fonctionne sur tous les systèmes d’exploitation. Il ne dépend d’aucune autre technologie à installer au préalable (à part les systèmes de gestions d’installation type : Brew, Chocolatey, pkg).</description>
+    </item>
+    <item>
+      <title>Installer Hugo sur windows</title>
+      <link>https://example.org/docs/demarrer/installer-hugo-windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/demarrer/installer-hugo-windows/</guid>
+      <description>Il est possible d’installer goHugo sur une machine sans droits administrateurs. Voici une liste d’étapes indicatives pour installer goHugo sur une machine windows.&#xA;Les étapes : Créer les répertoires de démarrage à la racine Pour les actions ci-dessous. Si vous ne pouvez pas créer de répertoire à la racine de votre disque, vous pouvez le faire dans votre répertoire Users, sur votre bureau (c’est pareil).&#xA;Ouvrir le gestionnaire de fichiers Aller sur le disque C: (Windows (C:)) ou dans c:\Users\nomutilisateur\ Créer un répertoire hugo (Aller dans le répertoire hugo) Créer un répertoire bin Installer goHugo Ouvrir le répertoire bin Ouvrir la page https://github.</description>
+    </item>
+    <item>
+      <title>Configurer FRAGO</title>
+      <link>https://example.org/docs/demarrer/configurer-frago/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/demarrer/configurer-frago/</guid>
+      <description>Comprendre comment configurer FRAGO pour la génération de rapports de synthèse pour le suivi et l’amélioration de l’accessibilité web.&#xA;Présentation Le thème Frago a pour objectif d’aider à la génération de synthèses pour l’amélioration des démarches en ligne du gouvernement français..&#xA;Attention, goHugo est très sensible à l’architecture des contenus. Si les contenus sont absents ou présentent des erreurs le site peut planter. Si l’architecture du thème change, de même, il n’est plus possible d’utiliser les dernières versions du thème (sans modifier l’architecture de contenu).</description>
+    </item>
+    <item>
+      <title>Démarrer un audit d’accessibilité</title>
+      <link>https://example.org/docs/demarrer/audit-demarrer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/demarrer/audit-demarrer/</guid>
+      <description>Accessibilité Le thème interprète un fichier d’audit csv avec une structure fixe et imposée. Les intitulés de colonnes doivent respecter un nommage précis (Thématiques, Critères, Tests… puis le titre de chaque page).&#xA;Note : Le titre d’une page peut être suivi de l’URL de la page ; titre et URL séparés par le caractère |.&#xA;Exemple d’un tableau avec uniquement la prise en compte des critères&#xA;Thématiques Critères Accueil।https://monsite.fr 1 1 nc 1 2 c 1 3 na 1 4 nt … … … 13 12 nc Liste des fichiers exemples à télécharger</description>
+    </item>
+  </channel>
+</rss>

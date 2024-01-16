@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation de FRAGO on My New Hugo Site</title>
+    <link>https://example.org/</link>
+    <description>Recent content in Documentation de FRAGO on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Thu, 24 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installer Hugo</title>
+      <link>https://example.org/docs/demarrer/installer-hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/demarrer/installer-hugo/</guid>
+      <description>Comprendre comment installer goHugo sur sa machine ou le configurer sur un système de déploiement automatisé (site en ligne). ⚠️ Nécessite de savoir ouvrir un terminal, un petit peu de manip, mais une fois réalisé, on a l’impression d’être un DEV 😁.&#xA;Hugo est un exécutable qui fonctionne sur tous les systèmes d’exploitation. Il ne dépend d’aucune autre technologie à installer au préalable (à part les systèmes de gestions d’installation type : Brew, Chocolatey, pkg).</description>
+    </item>
+    <item>
+      <title>Installer Hugo sur windows</title>
+      <link>https://example.org/docs/demarrer/installer-hugo-windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/demarrer/installer-hugo-windows/</guid>
+      <description>Il est possible d’installer goHugo sur une machine sans droits administrateurs. Voici une liste d’étapes indicatives pour installer goHugo sur une machine windows.&#xA;Les étapes : Créer les répertoires de démarrage à la racine Pour les actions ci-dessous. Si vous ne pouvez pas créer de répertoire à la racine de votre disque, vous pouvez le faire dans votre répertoire Users, sur votre bureau (c’est pareil).&#xA;Ouvrir le gestionnaire de fichiers Aller sur le disque C: (Windows (C:)) ou dans c:\Users\nomutilisateur\ Créer un répertoire hugo (Aller dans le répertoire hugo) Créer un répertoire bin Installer goHugo Ouvrir le répertoire bin Ouvrir la page https://github.</description>
+    </item>
+    <item>
+      <title>Audit d’accessibilité</title>
+      <link>https://example.org/docs/renseigner/accessibilite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/renseigner/accessibilite/</guid>
+      <description>Renseigner un audit d’accessibilité avec FRAGO</description>
+    </item>
+    <item>
+      <title>Audit d’Éco-conception</title>
+      <link>https://example.org/docs/renseigner/ecoconception/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/renseigner/ecoconception/</guid>
+      <description>Renseigner un audit RGESN avec FRAGO</description>
+    </item>
+    <item>
+      <title>Audit Opquast</title>
+      <link>https://example.org/docs/renseigner/opquast/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/renseigner/opquast/</guid>
+      <description>Renseigner un audit Opquast avec FRAGO</description>
+    </item>
+    <item>
+      <title>Configurer FRAGO</title>
+      <link>https://example.org/docs/demarrer/configurer-frago/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/demarrer/configurer-frago/</guid>
+      <description>Comprendre comment configurer FRAGO pour la génération de rapports de synthèse pour le suivi et l’amélioration de l’accessibilité web.&#xA;Présentation Le thème Frago a pour objectif d’aider à la génération de synthèses pour l’amélioration des démarches en ligne du gouvernement français..&#xA;Attention, goHugo est très sensible à l’architecture des contenus. Si les contenus sont absents ou présentent des erreurs le site peut planter. Si l’architecture du thème change, de même, il n’est plus possible d’utiliser les dernières versions du thème (sans modifier l’architecture de contenu).</description>
+    </item>
+    <item>
+      <title>Démarrer un audit d’accessibilité</title>
+      <link>https://example.org/docs/demarrer/audit-demarrer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/demarrer/audit-demarrer/</guid>
+      <description>Accessibilité Le thème interprète un fichier d’audit csv avec une structure fixe et imposée. Les intitulés de colonnes doivent respecter un nommage précis (Thématiques, Critères, Tests… puis le titre de chaque page).&#xA;Note : Le titre d’une page peut être suivi de l’URL de la page ; titre et URL séparés par le caractère |.&#xA;Exemple d’un tableau avec uniquement la prise en compte des critères&#xA;Thématiques Critères Accueil।https://monsite.fr 1 1 nc 1 2 c 1 3 na 1 4 nt … … … 13 12 nc Liste des fichiers exemples à télécharger</description>
+    </item>
+    <item>
+      <title>Audit CIGREF</title>
+      <link>https://example.org/docs/renseigner/cigref/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/renseigner/cigref/</guid>
+      <description>Renseigner une évaluation des critères RSE à appliquer dès le lancement de projets IT avec FRAGO</description>
+    </item>
+    <item>
+      <title>Audit de performance</title>
+      <link>https://example.org/docs/renseigner/performance-renseigner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/renseigner/performance-renseigner/</guid>
+      <description>Intégrer un audit Lighthouse</description>
+    </item>
+    <item>
+      <title>Audit GreenIT</title>
+      <link>https://example.org/docs/renseigner/greenit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/renseigner/greenit/</guid>
+      <description>Renseigner un audit 74 bonnes pratiques du GreenIT avec FRAGO</description>
+    </item>
+    <item>
+      <title>Audit Sobriété Éditoriale</title>
+      <link>https://example.org/docs/renseigner/sobriete-editoriale/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/renseigner/sobriete-editoriale/</guid>
+      <description>Renseigner un audit éditorial avec FRAGO</description>
+    </item>
+    <item>
+      <title>Rapport de Recommandations</title>
+      <link>https://example.org/docs/renseigner/recommandations-renseigner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/renseigner/recommandations-renseigner/</guid>
+      <description>Renseigner des préconisations et les affecter à des lots de correction</description>
+    </item>
+    <item>
+      <title>Plan d’action</title>
+      <link>https://example.org/docs/renseigner/plans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/renseigner/plans/</guid>
+      <description>Intégrer un plan d’actions par année</description>
+    </item>
+    <item>
+      <title>Auteurs &amp; Crédits</title>
+      <link>https://example.org/docs/apropos/auteurs-credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/apropos/auteurs-credits/</guid>
+      <description>2020-2021, Bertrand Keller pour Lowdit</description>
+    </item>
+    <item>
+      <title>Licenses</title>
+      <link>https://example.org/docs/apropos/licenses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/apropos/licenses/</guid>
+      <description>Le code source de ce dépôt est publié sous licence MIT.&#xA;Le thème FRAGO utilise cette liste de bibliothèques :&#xA;Frappe Charts (MIT) : https://github.com/frappe/charts - https://github.com/frappe/charts Mermaid (MIT) : https://github.com/mermaid-js/mermaid Highlight.js (MIT) : https://github.com/highlightjs/highlight.js simplelightbox (MIT) : https://github.com/andreknieriem/simplelightbox Van11y accessible tabs panel system (MIT) : https://github.com/nico3333fr/van11y-accessible-tab-panel-aria Checka11y.css (MIT) : https://github.com/jackdomleo7/Checka11y.css </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/audits/amendes/greenit/</link>
+      <pubDate>Fri, 29 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.org/audits/amendes/greenit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FRAGO : outil pour suivre la mise en conformité des démarches</title>
+      <link>https://example.org/blog/frago-suivre-accessibilite/</link>
+      <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.org/blog/frago-suivre-accessibilite/</guid>
+      <description>Découvrez FRAGO FRAGO, pour French Reports for Accessibility compliance with GO, est un outil créé pour suivre les démarches de mise en conformité (RGAA) de services numériques.&#xA;Accéder au dépôt Github de FRAGO : https://github.com/lowdit/frago/&#xA;Répondre à 3 problématiques Le travail de compréhension de l’accessibilité, de compréhension du RGAA, de compréhension des contraintes légales, de communication des résultats… est extrêmement fastidieux.&#xA;La démarche de mise en conformité (RGAA) présente plusieurs obstacles qui amène à abandonner les développements pour la simplification des démarches pour nos usagers.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/audits/amendes/performance/</link>
+      <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.org/audits/amendes/performance/</guid>
+      <description>GTmetrix - https://gtmetrix.com/reports/amendes.gouv.fr/KuMF8hmf/ Extrait du chargement des assets </description>
+    </item>
+    <item>
+      <title>Audit de performance</title>
+      <link>https://example.org/audits/timbres/performance/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.org/audits/timbres/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/audits/amendes/accessibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/audits/amendes/accessibility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/audits/amendes/quality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/audits/amendes/quality/</guid>
+      <description>Corrections non complètes Placeholder : doit reprendre le format de l&amp;rsquo;entrée (type de données) pas l&amp;rsquo;intitulé du label. Régressions La structure de titre est cassée (hiérarchie h1 puis h3) :: à revoir. Une chaîne de caractère n&amp;rsquo;est pas traduite : &amp;ldquo;You wish to pay the balance due for your fixed fine, which is currently at the reduced rate of € {{AMOUNT}}, or make a partial payment.&amp;rdquo; La zone class=&amp;quot;montant-info&amp;quot; devrait avoir une id est être reliée à une autre zone par un aria-labelledby.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/audits/prelevement-a-la-source/accessibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/audits/prelevement-a-la-source/accessibility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/audits/prelevement-a-la-source/ecoconception/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/audits/prelevement-a-la-source/ecoconception/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/audits/timbres/accessibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/audits/timbres/accessibility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/plans/2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/plans/2021/</guid>
+      <description>sss</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/plans/2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/plans/2022/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/schemas/2021-2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/schemas/2021-2023/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/schemas/2024-2026/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/schemas/2024-2026/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API</title>
+      <link>https://example.org/docs/naviguer/api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/naviguer/api/</guid>
+      <description>Cette API permet d’obtenir des fichiers json de type :&#xA;https://monurl.com/index.json https://monurl.com/audits/monprojet/index.json https://monurl.com/audits/monprojet/accessibility.json https://monurl.com/audits/monprojet/recommendation.json https://monurl.com/audits/monprojet/performance.json Mais aussi des affichages de pages de type :&#xA;https://monurl.com/audits/monprojet/accessibility.html https://monurl.com/audits/monprojet/recommendation.html https://monurl.com/audits/monprojet/performance.html https://monurl.com/audits/monprojet/declaration.html https://monurl.com/audits/monprojet/declaration.txt </description>
+    </item>
+    <item>
+      <title>Arborescence</title>
+      <link>https://example.org/docs/avancee/arborescence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/avancee/arborescence/</guid>
+      <description>Architecture simplifiée Arborescence avec génération des pages d’audit auto-générées. L&amp;rsquo;utilisateur n’a pas besoin de créer une page pour chaque type d’audit et par projet.&#xA;.&#xD;├── config.toml&#xD;└── content&#xD;├── _index.md // page d’accueil du site :: ⚠️ Ajouter `type: projects` dans l&amp;#39;entête du fichier en cas de mono projet =&amp;gt; va afficher directement la page de synthèse de tous les audits&#xD;├── audits // Type de contenu audits, les projets doivent être dans un répertoire avec le nom audits&#xD;│ ├── projet1&#xD;│ │ ├── index.</description>
+    </item>
+    <item>
+      <title>Contenus complémentaires</title>
+      <link>https://example.org/docs/avancee/complementaire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/avancee/complementaire/</guid>
+      <description>Quelques contenus complémentaires qui peuvent être utilisés pour agrémenter le suivi de projet.&#xA;Annuaire Lister les personnes contactées pendant la durée du défi de mise en conformité. Cet annuaire permet de partager les contacts dans le temps de l’amélioration de la démarche.&#xA;Éditer : static/directory.json&#xA;Recueil de tests utilisateurs Les tests utilisateurs de type quantitatifs consistent à poser des questions similaires à un panel important d’usagers. Pour le service usertests, il existe une mise en forme pour l’analyse rapide de ces résultats.</description>
+    </item>
+    <item>
+      <title>Personnalisation du thème</title>
+      <link>https://example.org/docs/avancee/personnalisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/avancee/personnalisation/</guid>
+      <description>Hugo permet de surcharger les fichiers présents dans le thème, la condition est de respecter la même arborescence. Ainsi pour surcharger un thème avec :&#xA;Sa police Son logo Ses couleurs … Il suffit de créer tous ces fichiers dans le répertoire static. Le thème appelle automatiquement les polices contenues dans le répertoire static/assets/fonts (à la place de la police Marianne).&#xA;static&#xD;└── assets&#xD;├── css&#xD;│ ├── fonts.css&#xD;│ └── main.</description>
+    </item>
+    <item>
+      <title>Schéma pluri-annuel</title>
+      <link>https://example.org/docs/renseigner/schemas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/renseigner/schemas/</guid>
+      <description>Intégrer un schéma pluriannuel à pour un organisme</description>
+    </item>
+  </channel>
+</rss>

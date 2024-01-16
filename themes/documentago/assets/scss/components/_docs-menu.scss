@@ -1,0 +1,36 @@
+.docs-menu {
+  display: none;
+  padding-top: 1.5rem;
+  h4,.h4 {
+    font-weight: bold;
+    font-family: $font-family-title;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      font-size: 0.9rem;
+      line-height: 1.4;
+      font-weight: 400;
+      margin: 0 0 0 1em;
+      padding: 4px 0 4px 0;
+      &.active {
+        a {
+          //color: lighten($primary, 10%);
+        }
+      }
+    }
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .docs-menu {
+    display: block;
+  }
+}

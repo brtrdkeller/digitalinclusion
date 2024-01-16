@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on My New Hugo Site</title>
+    <link>https://example.org/blog/</link>
+    <description>Recent content in Blog on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FRAGO : outil pour suivre la mise en conformité des démarches</title>
+      <link>https://example.org/blog/frago-suivre-accessibilite/</link>
+      <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.org/blog/frago-suivre-accessibilite/</guid>
+      <description>Découvrez FRAGO FRAGO, pour French Reports for Accessibility compliance with GO, est un outil créé pour suivre les démarches de mise en conformité (RGAA) de services numériques.&#xA;Accéder au dépôt Github de FRAGO : https://github.com/lowdit/frago/&#xA;Répondre à 3 problématiques Le travail de compréhension de l’accessibilité, de compréhension du RGAA, de compréhension des contraintes légales, de communication des résultats… est extrêmement fastidieux.&#xA;La démarche de mise en conformité (RGAA) présente plusieurs obstacles qui amène à abandonner les développements pour la simplification des démarches pour nos usagers.</description>
+    </item>
+  </channel>
+</rss>

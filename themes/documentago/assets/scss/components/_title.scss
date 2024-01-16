@@ -1,0 +1,13 @@
+.title-main {
+  line-height: 1.1;
+  letter-spacing: -0.2px;
+  margin-bottom: 20px;
+  @include media-breakpoint-up(md) {
+    margin-bottom: 30px;
+  }
+}
+.title-summary {
+  font-family: $font-family-base;
+  letter-spacing: -0.2px;
+  font-weight: 200;
+}
