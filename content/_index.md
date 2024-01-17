@@ -1,5 +1,5 @@
 ---
-title: Empower people with accessibility inclusion
+title: Empowering people with accessibility inclusion
 subtitle: 
 seo_title:
 

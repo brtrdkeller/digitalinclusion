@@ -3,6 +3,7 @@ public
 resources
 _vendor
 go.sum
+.hugo_build.lock
 
 # OS file systems
 .DS_Store

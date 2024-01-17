@@ -1,5 +1,19 @@
 baseURL = ''
 languageCode = 'fr'
 title = 'Social Inclusion - Digital Accessibilty'
-
 theme = 'hugo-liftoff'
+
+[menus]
+[[menus.main]]
+    # Top-level menu entry
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 1
+
+[[menus.main]]
+    identifier = "interviews"
+    name = "Interviews"
+    url = "/interviews/"
+    weight = 1
+
