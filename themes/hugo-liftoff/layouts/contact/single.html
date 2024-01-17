@@ -1,0 +1,69 @@
+{{ define "main" }}
+<div class="container">
+  <section class="page-header--c">
+    <h1 class="page-header-title">{{ .Title }}</h1>
+  </section>
+</div>
+<div class="contact">
+  <div class="single-container markdown">{{ .Content }}</div>
+  <div id="comment-post">
+    <h3>Leave a comment</h3>
+    <p>Note : Your comment will not be displayed until a Github PullRequest have been merged.</p>
+    <noscript><p>Note2: Require Javascript to submit a comment.</p></noscript>
+    <script type="text/javascript" src="/js/spark-md5.min.js"></script>
+    <script type="text/javascript">
+        var comment = function(button){
+          if ( !window.event.target.parentElement.reportValidity() ){
+            return;
+          }
+
+          let keywords = ["slug" , "name" , "email" , "url" , "comment" , "replyto"];
+
+          let payload = {};
+          keywords.forEach(function(item, index) {
+              payload[item] = document.getElementById("comment-"+item).value;
+          });
+          //payload["email"] = SparkMD5.hash(payload["email"]);
+          console.log(payload)
+          fetch("https://publicactiontrigger.azurewebsites.net/api/dispatches//brtrdkeller/digitalinclusion", {
+            method: 'POST',
+            mode: 'cors',
+            credentials: 'omit',
+            cache: 'no-cache',
+            redirect: 'error',
+            referrerPolicy: 'no-referrer',
+            body: JSON.stringify({ event_type: 'interview', client_payload: { data: payload } })
+          }).then(function(resp){
+            if(resp.ok){
+              document.getElementById("comment-result").textContent = "Success."
+              console.log(resp)
+            } else if (resp.status == 422){
+              resp.text().then(
+                function(msg){
+                  document.getElementById("comment-result").textContent = "Error: "+msg;
+                })
+            }
+          });
+        }
+
+    </script>
+    <form  class="single-container">
+        <input id="comment-slug" name="options[slug]" type="hidden" value="{{ .Name }}">
+        <p><label>Name:</label> <input id="comment-name" name="fields[name]" type="text" placeholder="(Required)" required="required"></p>
+        <p><label>E-mail:</label> <input id="comment-email" name="fields[email]" type="email" placeholder="(Required to calcuate MD5 for displaying avatar)" required="required"></p>
+        <p><label>Website:</label> <input id="comment-url" name="fields[url]" type="text" placeholder="(Optional)"></p>
+        <p><label>Comment:</label> <textarea id="comment-comment" name="fields[comment]" rows=5 required="required"></textarea></p>
+        <p><label>Reply To(<a alt="Clean replyto" onclick="document.getElementById('comment-replyto').value = null">Clear</a>):</label>
+          <input id="comment-replyto" name="fields[replyto]" type="text" placeholder="(Empty if directly replying to this article)" readonly></p>
+        <input type="button" value="Submit" onclick="comment()" ></input>
+        <p id="comment-result"></p>
+    </form>
+  </div>
+  <form id="contact-form" class="single-container" name="contact" method="POST" {{ with .Site.Params.netlify_forms }}data-netlify="{{ . }}"{{ end }}>
+    <input type="text" class="contact-form--input" name="name" placeholder="Your name..." title="Enter your name" required>
+    <input type="email" class="contact-form--input" name="email" placeholder="Your best email..." title="Enter your best email" required>
+    <textarea class="contact-form--textarea" name="message" placeholder="Your message..." title="Enter your message" required></textarea>
+    <button type="submit" id="contact-form--submit" class="btn-primary">Send</button>
+  </form>
+</div>
+{{ end }}
