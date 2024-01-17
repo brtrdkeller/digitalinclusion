@@ -52,7 +52,7 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          base: source
+          base: master
           branch: interviews-${{ steps.preprocess.outputs._id }}
           delete-branch: true
           title: "${{ steps.preprocess.outputs.name }} interviews on ${{ steps.preprocess.outputs.slug }}"
