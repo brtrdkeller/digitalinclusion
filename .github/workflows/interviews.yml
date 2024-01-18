@@ -22,11 +22,7 @@ jobs:
         run: |
           echo "_id=$(uuidgen)" >> $GITHUB_OUTPUT
           echo "date=$(date +%s)" >> $GITHUB_OUTPUT
-          $data = ${{ github.event.client_payload.keywords }}
-          for item in data
-          do
-            item
-          done
+          
           echo "$(echo "${{ github.event.client_payload.data }}")"
           echo "$(echo ${{ github.event.client_payload.data }} | awk -F'/' '{print $NF}')"
           echo "data=${{ github.event.client_payload.data }}" >> $GITHUB_OUTPUT
