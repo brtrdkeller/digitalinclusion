@@ -52,7 +52,7 @@ jobs:
           base: master
           branch: interviews-${{ steps.preprocess.outputs._id }}
           delete-branch: true
-          title: "${{ Interviews on ${{ steps.preprocess.outputs.slug }}"
+          title: "Interviews on ${{ steps.preprocess.outputs.slug }}"
           body: |
             Interviews on **${{ steps.preprocess.outputs.slug }}**:
 
