@@ -23,7 +23,7 @@ jobs:
           echo "_id=$(uuidgen)" >> $GITHUB_OUTPUT
           echo "date=$(date +%s)" >> $GITHUB_OUTPUT
           echo "data<<EOF" >> "$GITHUB_OUTPUT"
-          ${{ toJSON(github.event.client_payload.data.data) }} >> "$GITHUB_OUTPUT"
+          ${{ toJSON(github.event.client_payload) }} >> "$GITHUB_OUTPUT"
           echo "EOF" >> "$GITHUB_OUTPUT"
           echo "slug=${{ github.event.client_payload.data.slug }}" >> $GITHUB_OUTPUT
 
