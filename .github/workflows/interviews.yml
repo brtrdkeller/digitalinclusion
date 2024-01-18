@@ -22,9 +22,6 @@ jobs:
         run: |
           echo "_id=$(uuidgen)" >> $GITHUB_OUTPUT
           echo "date=$(date +%s)" >> $GITHUB_OUTPUT
-          echo "data<<EOF" >> $GITHUB_OUTPUT
-          ${{ toJSON(github.event.client_payload) }} >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
           echo "slug=${{ github.event.client_payload.data.slug }}" >> $GITHUB_OUTPUT
 
       - name: Validate required fields
@@ -43,7 +40,7 @@ jobs:
         ## if moderation -> true
         run: |
           mkdir -p _data/interviews/${{ steps.preprocess.outputs.slug}}
-          echo '${{ toJSON(steps.preprocess.outputs) }}' >  _data/interviews/${{ steps.preprocess.outputs.slug}}/entry${{ steps.preprocess.outputs._id }}.json
+          echo '${{ toJSON(github.event.client_payload) }}' >  _data/interviews/${{ steps.preprocess.outputs.slug}}/entry${{ steps.preprocess.outputs._id }}.json
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
