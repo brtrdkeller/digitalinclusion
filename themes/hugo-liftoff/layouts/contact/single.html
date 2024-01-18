@@ -10,30 +10,37 @@
     <h3>Leave a comment</h3>
     <p>Note : Your comment will not be displayed until a Github PullRequest have been merged.</p>
     <noscript><p>Note2: Require Javascript to submit a comment.</p></noscript>
-    <script type="text/javascript" src="/js/spark-md5.min.js"></script>
     <script type="text/javascript">
         var comment = function(button){
           if ( !window.event.target.parentElement.reportValidity() ){
             return;
           }
 
-          let keywords = ["slug" {{ range .Params.questions }}, {{- if eq .type "radio" }}{{ printf "%s-%s" (urlize .label) .type }}{{ else }}{{ urlize .label }}{{ end }}{{ end }}];
+          let keywords = ["slug" {{ range .Params.questions }}, {{- if eq .type "radio" }}{{ printf "%s_%s" (urlize .label) .type }}{{ else }}{{ urlize .label }}{{ end }}{{ end }}];
 
           let payload = {};
+          payload.data = {}
           keywords.forEach(function(item, index) {
-            if (item.indexOf("-radio") !== -1 ) {
-                var radioitem = item.split('-')[0]
+            if (item.indexOf("_radio") !== -1 ) {
+                var radioitem = item.split('_')[0]
                 var ele = document.getElementsByName("fields["+radioitem+"]");
-                payload[radioitem] = false
+                payload.data[radioitem] = false
                 for(i = 0; i < ele.length; i++) {
                   if(ele[i].checked)
-                  payload[radioitem] = ele[i].value
+                  payload.data[radioitem] = ele[i].value
                 }
               }
               else {
-                payload[item] = document.getElementById("comment-"+item).value.trim();  
+                if (item == "slug"){
+                  payload[item] = document.getElementById("comment-"+item).value.trim();
+                }
+                else {
+                  payload.data[item] = document.getElementById("comment-"+item).value.trim(); 
+                } 
               }
           });
+          keywords = keywords.map((item) => item.split('_')[0]);
+          payload.keywords = keywords.splice(1, keywords.length)
           //payload["email"] = SparkMD5.hash(payload["email"]);
           console.log(payload)
           fetch("https://publicactiontrigger.azurewebsites.net/api/dispatches//brtrdkeller/digitalinclusion", {
@@ -62,7 +69,7 @@
         <input id="comment-slug" name="options[slug]" type="hidden" value="{{ .Name }}">
         {{- range .Params.questions }}
         {{- if eq .type "radio" }}
-        <fieldset id="comment-{{ urlize .label }}-{{ .type }}">
+        <fieldset id="comment-{{ urlize .label }}_{{ .type }}">
           {{- $label := .label }}
           <legend>{{ .label }}</legend>
           {{- range .element }}
