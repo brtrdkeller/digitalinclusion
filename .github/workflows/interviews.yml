@@ -22,7 +22,7 @@ jobs:
         run: |
           echo "_id=$(uuidgen)" >> $GITHUB_OUTPUT
           echo "date=$(date +%s)" >> $GITHUB_OUTPUT
-          echo "data=${{ github.event.client_payload.data | jq -r . }}"
+          echo "data=$(echo ${{ github.event.client_payload.data | jq -r . }})"
           echo "data=${{ github.event.client_payload.data }}" >> $GITHUB_OUTPUT
           echo "slug=${{ github.event.client_payload.data.slug }}" >> $GITHUB_OUTPUT
 
