@@ -20,6 +20,7 @@
 
           let payload = {};
           payload.data = {}
+          payload.date = Date.now()
           keywords.forEach(function(item, index) {
             if (item.indexOf("_radio") !== -1 ) {
                 var radioitem = item.split('_')[0]
@@ -39,8 +40,8 @@
                 } 
               }
           });
-          keywords = keywords.map((item) => item.split('_')[0]);
-          payload.keywords = keywords.splice(1, keywords.length)
+          //keywords = keywords.map((item) => item.split('_')[0]);
+          //payload.keywords = keywords.splice(1, keywords.length)
           //payload["email"] = SparkMD5.hash(payload["email"]);
           console.log(payload)
           fetch("https://publicactiontrigger.azurewebsites.net/api/dispatches//brtrdkeller/digitalinclusion", {
