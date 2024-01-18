@@ -1,6 +1,7 @@
 name: 'Receive Interviews'
 
 ## example payload { "event": "comment", "client_payload" : { "data": { "slug": "TEST" , "name": "TEST" , "email": "TEST" ,"comment": TEST }}}
+## https://jackyzy823.github.io/tech/blog-comment-system-upgrade-2021-en.html
 
 # because we install `https://github.com/apps/public-action-trigger`
 on:
@@ -21,16 +22,12 @@ jobs:
         run: |
           echo "_id=$(uuidgen)" >> $GITHUB_OUTPUT
           echo "date=$(date +%s)" >> $GITHUB_OUTPUT
+          echo "data=${{ github.event.client_payload.data }}" >> $GITHUB_OUTPUT
           echo "slug=${{ github.event.client_payload.data.slug }}" >> $GITHUB_OUTPUT
-          echo "name=${{ github.event.client_payload.data.name }}" >> $GITHUB_OUTPUT
-          echo "email=${{ github.event.client_payload.data.email }}" >> $GITHUB_OUTPUT
-          echo "comment=${{ github.event.client_payload.data.comment }}" >> $GITHUB_OUTPUT
-          echo "url=${{ github.event.client_payload.data.url }}" >> $GITHUB_OUTPUT
-          echo "replyto=${{ github.event.client_payload.data.replyto }}" >> $GITHUB_OUTPUT
 
       - name: Validate required fields
         run: |
-          if [[ -z "${{ steps.preprocess.outputs.slug }}" || -z  "${{ steps.preprocess.outputs.name }}" || -z  "${{ steps.preprocess.outputs.email }}" || -z  "${{ steps.preprocess.outputs.comment }}" ]];
+          if [[ -z "${{ steps.preprocess.outputs.slug }}" ]];
           then
             exit 1;
           fi
@@ -55,9 +52,9 @@ jobs:
           base: master
           branch: interviews-${{ steps.preprocess.outputs._id }}
           delete-branch: true
-          title: "${{ steps.preprocess.outputs.name }} interviews on ${{ steps.preprocess.outputs.slug }}"
+          title: "${{ Interviews on ${{ steps.preprocess.outputs.slug }}"
           body: |
-            ![Logo](https://seccdn.libravatar.org/avatar/{{interviews.email}}?d=identicon) **${{ steps.preprocess.outputs.name }}** interviews on **${{ steps.preprocess.outputs.slug }}**:
+            Interviews on **${{ steps.preprocess.outputs.slug }}**:
 
             **${{ steps.preprocess.outputs.interviews }}**
           draft: false

@@ -157,7 +157,21 @@ p > code, li > code {
 form {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   row-gap: 10px;
+  margin: auto;
+  padding: 1.5rem;
+  max-width: 40rem;
+  border: 2px solid;
+ 
+  p {
+    margin: 0;
+  }
+
+  label, input:not([type=button]), textarea, fieldset {
+    display: block;
+    width: 100%;
+  }
 
   input, textarea {
     border: 1px solid var(--color-contrast-medium-low);
