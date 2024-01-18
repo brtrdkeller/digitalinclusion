@@ -1,0 +1,15 @@
+{
+  "data": {
+    "data": {
+      "choisir": false,
+      "label": "xxx",
+      "message": ""
+    },
+    "keywords": [
+      "label",
+      "message",
+      "choisir"
+    ],
+    "slug": "Contact"
+  }
+}
