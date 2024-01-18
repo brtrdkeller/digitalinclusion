@@ -22,7 +22,7 @@ jobs:
         run: |
           echo "_id=$(uuidgen)" >> $GITHUB_OUTPUT
           echo "date=$(date +%s)" >> $GITHUB_OUTPUT
-          echo "data=${{ toJSON(github.event.client_payload.data) }}" >> $GITHUB_OUTPUT
+          echo "data=${{ github.event.client_payload.data }}" >> $GITHUB_OUTPUT
           echo "slug=${{ github.event.client_payload.data.slug }}" >> $GITHUB_OUTPUT
 
       - name: Validate required fields
