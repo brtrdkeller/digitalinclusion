@@ -41,10 +41,7 @@ jobs:
         ## if moderation -> true
         run: |
           mkdir -p data/interviews/${{ steps.preprocess.outputs.slug}}
-      - name: yq - portable yaml processor
-        uses: mikefarah/yq@v4.40.5
-        with:
-          cmd: yq -p json -o yaml ${{ toJSON(github.event.client_payload) }} >  data/interviews/${{ steps.preprocess.outputs.slug}}/${{ github.event.client_payload.data.slugname }}-${{ github.event.client_payload.data.date }}.yaml 
+          echo '---\n${{ toJSON(github.event.client_payload.data) }}\n---' >  data/interviews/${{ steps.preprocess.outputs.slug}}/${{ github.event.client_payload.data.slugname }}-${{ github.event.client_payload.data.date }}.yaml
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
