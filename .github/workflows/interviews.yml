@@ -40,8 +40,8 @@ jobs:
         #### !!!! CAUTION slug is path-travsel!!
         ## if moderation -> true
         run: |
-          mkdir -p _data/interviews/${{ steps.preprocess.outputs.slug}}
-          echo '${{ toJSON(github.event.client_payload.data) }}' >  data/interviews/${{ steps.preprocess.outputs.slug}}/entry${{ steps.preprocess.outputs._id }}.json
+          mkdir -p data/interviews/${{ steps.preprocess.outputs.slug}}
+          echo '${{ toJSON(github.event.client_payload.data) }}' >  data/interviews/${{ steps.preprocess.outputs.slug}}/${{ steps.preprocess.outputs.name }}.json
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
