@@ -19,7 +19,10 @@
 
           let payload = {};
           payload.data = {}
-          payload.date = new Date().toUTCString()
+          payload.name = "anonymous"
+          const date = new Date();
+          const formattedDate = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}-${String(date.getMinutes())}-${String(date. getSeconds())}`;
+          payload.date = formattedDate
           keywords.forEach(function(item, index) {
             if (item.indexOf("_radio") !== -1 ) {
                 var radioitem = item.split('_')[0]
@@ -33,6 +36,9 @@
               else {
                 if (item == "slug"){
                   payload[item] = document.getElementById("comment-"+item).value.trim();
+                }
+                else if (item == "name") {
+
                 }
                 else {
                   payload.data[item] = document.getElementById("comment-"+item).value.trim(); 
@@ -71,13 +77,13 @@
       <input id="comment-slug" name="options[slug]" type="hidden" value="{{ urlize (lower .Name) }}">
         {{- range .Params.questions }}
         {{- if eq .type "radio" }}
-        <fieldset id="comment-{{ urlize .label }}_{{ .type }}">
-          {{- $label := .label }}
+        <fieldset id="comment-{{ urlize .name }}_{{ .type }}">
+          {{- $name := .name }}
           <legend>{{ .label }}</legend>
           {{- range .element }}
             <p>                            
               <label class="form-control">
-                <input name="fields[{{ urlize $label }}]" type="radio" value="{{ urlize .label }}">
+                <input name="fields[{{ urlize $name }}]" type="radio" value="{{ urlize .label }}">
                 {{ .label }}
               </label>
             </p>
@@ -88,7 +94,7 @@
           <label>
             {{ .label }}{{ if .required }}<span class="form__required">{{ i18n "form-required" }}</span>{{ end }}
           </label>
-          <textarea id="comment-{{ urlize .label }}" name="fields[{{ urlize .label }}]" type="{{ .type }}" rows=5 placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }}>
+          <textarea id="comment-{{ urlize .name }}" name="fields[{{ urlize .name }}]" type="{{ .type }}" rows=5 placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }}>
           </textarea>
         </p>
         {{- else }}
@@ -96,7 +102,7 @@
           <label>
             {{ .label }}{{ if .required }}<span class="form__required">{{ i18n "form-required" }}</span>{{ end }}
           </label>
-          <input id="comment-{{ urlize .label }}" name="fields[{{ urlize .label }}]" type="{{ .type }}" placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }} />
+          <input id="comment-{{ urlize .name }}" name="fields[{{ urlize .name }}]" type="{{ .type }}" placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }} />
         </p>
         {{ end }}
         {{ end }}

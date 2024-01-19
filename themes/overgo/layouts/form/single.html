@@ -15,7 +15,7 @@
             return;
           }
 
-          let keywords = ["slug" {{ range .Params.questions }}, {{- if eq .type "radio" }}{{ printf "%s_%s" (urlize .label) .type }}{{ else }}{{ urlize .label }}{{ end }}{{ end }}];
+          let keywords = ["slug" {{ range .Params.questions }}, {{- if eq .type "radio" }}{{ printf "%s_%s" (anchorize .name) .type }}{{ else }}{{ anchorize .name }}{{ end }}{{ end }}];
 
           let payload = {};
           payload.data = {}
@@ -68,16 +68,16 @@
     <form>
       <fieldset>
         <legend>Interview Accessibilité</legend>
-      <input id="comment-slug" name="options[slug]" type="hidden" value="{{ urlize (lower .Name) }}">
-        {{- range .Params.questions }}
+      <input id="comment-slug" name="options[slug]" type="hidden" value="{{ anchorize (lower .Name) }}">
+        {{- range $id, $value := .Params.questions }}
         {{- if eq .type "radio" }}
-        <fieldset id="comment-{{ urlize .label }}_{{ .type }}">
+        <fieldset id="comment-{{ anchorize .name }}_{{ .type }}">
           {{- $label := .label }}
           <legend>{{ .label }}</legend>
           {{- range .element }}
             <p>                            
               <label class="form-control">
-                <input name="fields[{{ urlize $label }}]" type="radio" value="{{ urlize .label }}">
+                <input name="fields[{{ anchorize $label }}]" type="radio" value="{{ anchorize .name }}">
                 {{ .label }}
               </label>
             </p>
@@ -88,7 +88,7 @@
           <label>
             {{ .label }}{{ if .required }}<span class="form__required">{{ i18n "form-required" }}</span>{{ end }}
           </label>
-          <textarea id="comment-{{ urlize .label }}" name="fields[{{ urlize .label }}]" type="{{ .type }}" rows=5 placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }}>
+          <textarea id="comment-{{ anchorize .name }}" name="fields[{{ anchorize .name }}]" type="{{ .type }}" rows=5 placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }}>
           </textarea>
         </p>
         {{- else }}
@@ -96,7 +96,7 @@
           <label>
             {{ .label }}{{ if .required }}<span class="form__required">{{ i18n "form-required" }}</span>{{ end }}
           </label>
-          <input id="comment-{{ urlize .label }}" name="fields[{{ urlize .label }}]" type="{{ .type }}" placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }} />
+          <input id="comment-{{ anchorize .name }}" name="fields[{{ anchorize .name }}]" type="{{ .type }}" placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }} />
         </p>
         {{ end }}
         {{ end }}
