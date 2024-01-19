@@ -17,8 +17,6 @@ jobs:
       - uses: actions/checkout@v3
       # do we need echo to  ::set-output?
       # in order not to be abused. all fields are processed single by single.
-      - name: yq - portable yaml processor
-        uses: mikefarah/yq@v4.40.5
       - name: Preprocess data
         id: preprocess
         run: |
@@ -43,7 +41,10 @@ jobs:
         ## if moderation -> true
         run: |
           mkdir -p data/interviews/${{ steps.preprocess.outputs.slug}}
-          echo '${{ toJSON(github.event.client_payload.data) }}' >  data/interviews/${{ steps.preprocess.outputs.slug}}/${{ github.event.client_payload.data.slugname }}-${{ github.event.client_payload.data.date }}.yam
+      - name: yq - portable yaml processor
+        uses: mikefarah/yq@v4.40.5
+        with:
+          cmd: yq -Poy ${{ toJSON(github.event.client_payload.data) }}  data/interviews/${{ steps.preprocess.outputs.slug}}/${{ github.event.client_payload.data.slugname }}-${{ github.event.client_payload.data.date }}.yaml 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
