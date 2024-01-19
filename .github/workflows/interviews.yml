@@ -32,7 +32,7 @@ jobs:
             exit 1;
           fi
 
-          if [[ ! $(realpath -m data/interviews/${{ steps.preprocess.outputs.slug }}) =~ ^$(realpath -m _data/interviews/).* ]];
+          if [[ ! $(realpath -m data/interviews/${{ steps.preprocess.outputs.slug }}) =~ ^$(realpath -m data/interviews/).* ]];
           then
             exit 1;
           fi
