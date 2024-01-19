@@ -1,5 +1,4 @@
 {{ define "main" }}
-{{- partialCached "elements/content.html" .Content -}}
 {{ partialCached "utils/css.html" (dict "context" . "filefolder" "object" "filename" "form") "form" }}
 <div class="fg-wrapper">
   <section class="page-header--c">
@@ -7,7 +6,7 @@
   </section>
 </div>
 <div class="fg-wrapper">
-  <div class="single-container markdown">{{ .Content }}</div>
+  <div class="single-container markdown">{{- partialCached "elements/content.html" .Content -}}</div>
   <div id="comment-post">
     <script type="text/javascript">
         var comment = function(button){
@@ -19,7 +18,10 @@
 
           let payload = {};
           payload.data = {}
-          payload.date = new Date().toUTCString()
+          payload.name = "anonymous"
+          const date = new Date();
+          const formattedDate = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}-${String(date.getMinutes())}-${String(date. getSeconds())}`;
+          payload.date = formattedDate
           keywords.forEach(function(item, index) {
             if (item.indexOf("_radio") !== -1 ) {
                 var radioitem = item.split('_')[0]
@@ -34,6 +36,9 @@
                 if (item == "slug"){
                   payload[item] = document.getElementById("comment-"+item).value.trim();
                 }
+                else if (item == "name") {
+                  payload[item] = document.getElementById("comment-"+item).value.trim();
+                }
                 else {
                   payload.data[item] = document.getElementById("comment-"+item).value.trim(); 
                 } 
@@ -42,7 +47,7 @@
           //keywords = keywords.map((item) => item.split('_')[0]);
           //payload.keywords = keywords.splice(1, keywords.length)
           //payload["email"] = SparkMD5.hash(payload["email"]);
-          //console.log(payload)
+          console.log(payload)
           fetch("https://publicactiontrigger.azurewebsites.net/api/dispatches//brtrdkeller/digitalinclusion", {
             method: 'POST',
             mode: 'cors',
@@ -68,16 +73,16 @@
     <form>
       <fieldset>
         <legend>Interview Accessibilité</legend>
-      <input id="comment-slug" name="options[slug]" type="hidden" value="{{ anchorize (lower .Name) }}">
-        {{- range $id, $value := .Params.questions }}
+        <input id="comment-slug" name="options[slug]" type="hidden" value="{{ anchorize (lower .Title) }}">
+        {{- range .Params.questions }}
         {{- if eq .type "radio" }}
         <fieldset id="comment-{{ anchorize .name }}_{{ .type }}">
-          {{- $label := .label }}
+          {{- $name := .name }}
           <legend>{{ .label }}</legend>
           {{- range .element }}
             <p>                            
               <label class="form-control">
-                <input name="fields[{{ anchorize $label }}]" type="radio" value="{{ anchorize .name }}">
+                <input name="fields[{{ anchorize $name }}]" type="radio" value="{{ anchorize .label }}">
                 {{ .label }}
               </label>
             </p>
@@ -88,8 +93,7 @@
           <label>
             {{ .label }}{{ if .required }}<span class="form__required">{{ i18n "form-required" }}</span>{{ end }}
           </label>
-          <textarea id="comment-{{ anchorize .name }}" name="fields[{{ anchorize .name }}]" type="{{ .type }}" rows=5 placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }}>
-          </textarea>
+          <textarea id="comment-{{ anchorize .name }}" name="fields[{{ anchorize .name }}]" type="{{ .type }}" rows=5 placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }}></textarea>
         </p>
         {{- else }}
         <p>

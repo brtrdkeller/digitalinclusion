@@ -73,7 +73,7 @@
     <form>
       <fieldset>
         <legend>Interview Accessibilité</legend>
-        <input id="comment-slug" name="options[slug]" type="hidden" value="{{ anchorize (lower .Title) }}">
+        <input id="comment-slug" name="options[slug]" type="hidden" value="{{ anchorize (lower .Page.Title) }}">
         {{- range .Params.questions }}
         {{- if eq .type "radio" }}
         <fieldset id="comment-{{ anchorize .name }}_{{ .type }}">
