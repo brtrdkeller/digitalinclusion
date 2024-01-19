@@ -9,6 +9,16 @@
   <div class="single-container markdown">{{- partialCached "elements/content.html" .Content -}}</div>
   <div id="comment-post">
     <script type="text/javascript">
+        const slugify = text =>
+          text
+            .toString()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .toLowerCase()
+            .trim()
+            .replace(/\s+/g, '-')
+            .replace(/[^\w-]+/g, '')
+            .replace(/--+/g, '-')
         var comment = function(button){
           if ( !window.event.target.parentElement.reportValidity() ){
             return;
@@ -19,6 +29,7 @@
           let payload = {};
           payload.data = {}
           payload.name = "anonymous"
+          payload.slugname = "anonymous"
           const date = new Date();
           const formattedDate = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}-${String(date.getMinutes())}-${String(date. getSeconds())}`;
           payload.date = formattedDate
@@ -38,6 +49,7 @@
                 }
                 else if (item == "name") {
                   payload[item] = document.getElementById("comment-"+item).value.trim();
+                  payload.slugname = document.getElementById("comment-"+item).value.trim().slugify;
                 }
                 else {
                   payload.data[item] = document.getElementById("comment-"+item).value.trim(); 
@@ -73,7 +85,7 @@
     <form>
       <fieldset>
         <legend>Interview Accessibilité</legend>
-        <input id="comment-slug" name="options[slug]" type="hidden" value="{{ anchorize (lower .Title) }}">
+        <input id="comment-slug" name="options[slug]" type="hidden" value="{{ anchorize (lower .Page.Title) }}">
         {{- range .Params.questions }}
         {{- if eq .type "radio" }}
         <fieldset id="comment-{{ anchorize .name }}_{{ .type }}">
