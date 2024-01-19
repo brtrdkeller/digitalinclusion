@@ -32,7 +32,7 @@ jobs:
             exit 1;
           fi
 
-          if [[ ! $(realpath -m _data/interviews/${{ steps.preprocess.outputs.slug }}) =~ ^$(realpath -m _data/interviews/).* ]];
+          if [[ ! $(realpath -m data/interviews/${{ steps.preprocess.outputs.slug }}) =~ ^$(realpath -m _data/interviews/).* ]];
           then
             exit 1;
           fi
@@ -41,18 +41,18 @@ jobs:
         ## if moderation -> true
         run: |
           mkdir -p data/interviews/${{ steps.preprocess.outputs.slug}}
-          echo '${{ toJSON(github.event.client_payload.data) }}' >  data/interviews/${{ steps.preprocess.outputs.slug}}/${{ steps.preprocess.outputs.name }}-{{ github.event.client_payload.data.name }}.json
+          echo '${{ toJSON(github.event.client_payload.data) }}' >  data/interviews/${{ steps.preprocess.outputs.slug}}/${{ steps.preprocess.outputs.name }}-${{ github.event.client_payload.data.date }}.json
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: "${{ steps.preprocess.outputs.name}} interviews on ${{ steps.preprocess.outputs.slug}} via apps/public-action-trigger"
+          commit-message: "${{ steps.preprocess.outputs.name }} interviews on ${{ steps.preprocess.outputs.slug }} via apps/public-action-trigger"
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
           base: master
           branch: interviews-${{ steps.preprocess.outputs._id }}
           delete-branch: true
-          title: "Interviews on ${{ steps.preprocess.outputs.slug }}"
+          title: "Interviews of ${{ steps.preprocess.outputs.name }} on ${{ steps.preprocess.outputs.slug }}"
           body: |
             Interviews on **${{ steps.preprocess.outputs.slug }}**:
 

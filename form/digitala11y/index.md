@@ -3,7 +3,7 @@ title: Digital Accessibility
 type: form
 questions:
   - label: Votre Nom
-    name: first-word
+    name: name
     type: text
     placeholder: Prénom Nom
     required: true
