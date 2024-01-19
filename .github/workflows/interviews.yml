@@ -41,7 +41,7 @@ jobs:
         ## if moderation -> true
         run: |
           mkdir -p data/interviews/${{ steps.preprocess.outputs.slug}}
-          echo '---\n${{ toJSON(github.event.client_payload.data) }}\n---' >  data/interviews/${{ steps.preprocess.outputs.slug}}/${{ github.event.client_payload.data.slugname }}-${{ github.event.client_payload.data.date }}.yaml
+          echo -e '---\n${{ toJSON(github.event.client_payload.data) }}\n---' >  data/interviews/${{ steps.preprocess.outputs.slug}}/${{ github.event.client_payload.data.slugname }}-${{ github.event.client_payload.data.date }}.md
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
