@@ -32,7 +32,7 @@ jobs:
             exit 1;
           fi
 
-          if [[ ! $(realpath -m data/interviews/${{ steps.preprocess.outputs.slug }}) =~ ^$(realpath -m data/interviews/).* ]];
+          if [[ ! $(realpath -m content/interviews/${{ steps.preprocess.outputs.slug }}) =~ ^$(realpath -m content/interviews/).* ]];
           then
             exit 1;
           fi
@@ -40,8 +40,8 @@ jobs:
         #### !!!! CAUTION slug is path-travsel!!
         ## if moderation -> true
         run: |
-          mkdir -p data/interviews/${{ steps.preprocess.outputs.slug}}
-          echo -e '---\n${{ toJSON(github.event.client_payload.data) }}\n---' >  data/interviews/${{ steps.preprocess.outputs.slug}}/${{ github.event.client_payload.data.slugname }}-${{ github.event.client_payload.data.date }}.md
+          mkdir -p content/interviews/${{ steps.preprocess.outputs.slug}}
+          echo -e '---\n${{ toJSON(github.event.client_payload.data) }}\n---' >  content/interviews/${{ steps.preprocess.outputs.slug}}/${{ github.event.client_payload.data.slugname }}-${{ github.event.client_payload.data.date }}.md
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
