@@ -1,0 +1,61 @@
+name: 'Receive Interviews'
+
+## example payload { "event": "comment", "client_payload" : { "data": { "slug": "TEST" , "name": "TEST" , "email": "TEST" ,"comment": TEST }}}
+## https://jackyzy823.github.io/tech/blog-comment-system-upgrade-2021-en.html
+
+# because we install `https://github.com/apps/public-action-trigger`
+on:
+  # NOTE: your site source-code branch must be default branch
+  repository_dispatch:
+    # A custom event-type
+    types: [interview]
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      # do we need echo to  ::set-output?
+      # in order not to be abused. all fields are processed single by single.
+      - name: Preprocess data
+        id: preprocess
+        run: |
+          echo "_id=$(uuidgen)" >> $GITHUB_OUTPUT
+          echo "date=$(date +%s)" >> $GITHUB_OUTPUT
+          echo "slug=${{ github.event.client_payload.data.slug }}" >> $GITHUB_OUTPUT
+
+      - name: Validate required fields
+        run: |
+          if [[ -z "${{ steps.preprocess.outputs.slug }}" ]];
+          then
+            exit 1;
+          fi
+
+          if [[ ! $(realpath -m _data/interviews/${{ steps.preprocess.outputs.slug }}) =~ ^$(realpath -m _data/interviews/).* ]];
+          then
+            exit 1;
+          fi
+      - name: Create interviews data file
+        #### !!!! CAUTION slug is path-travsel!!
+        ## if moderation -> true
+        run: |
+          mkdir -p _data/interviews/${{ steps.preprocess.outputs.slug}}
+          echo '${{ toJSON(github.event.client_payload.data) }}' >  _data/interviews/${{ steps.preprocess.outputs.slug}}/entry${{ steps.preprocess.outputs._id }}.json
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: "${{ steps.preprocess.outputs.name}} interviews on ${{ steps.preprocess.outputs.slug}} via apps/public-action-trigger"
+          committer: GitHub <noreply@github.com>
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          signoff: false
+          base: master
+          branch: interviews-${{ steps.preprocess.outputs._id }}
+          delete-branch: true
+          title: "Interviews on ${{ steps.preprocess.outputs.slug }}"
+          body: |
+            Interviews on **${{ steps.preprocess.outputs.slug }}**:
+
+            **${{ steps.preprocess.outputs.interviews }}**
+          draft: false
+        # once Pull Request merged. .github/workflows/publish.yml will be trigged.
+        # as Pull Request merge is  a push
