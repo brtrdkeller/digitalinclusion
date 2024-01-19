@@ -45,7 +45,7 @@ jobs:
           mkdir -p data/interviews/${{ steps.preprocess.outputs.slug}}
       - name: Write File
         with:
-          cmd: echo '${{ yq -Poy toJSON(github.event.client_payload.data) }}' >  data/interviews/${{ steps.preprocess.outputs.slug}}/${{ github.event.client_payload.data.slugname }}-${{ github.event.client_payload.data.date }}.yaml 
+          cmd: yq -Poy ${{ toJSON(github.event.client_payload.data) }}  data/interviews/${{ steps.preprocess.outputs.slug}}/${{ github.event.client_payload.data.slugname }}-${{ github.event.client_payload.data.date }}.yaml 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
