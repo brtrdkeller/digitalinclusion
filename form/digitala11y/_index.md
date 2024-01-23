@@ -26,17 +26,17 @@ form:
           - label: réduite
           - label: moyenne
           - label: importante
-          - label: total
-      - label: Quel est, selon vous, le degré de prise en compte de l'accessibilité numérique dans vos projets ?
+          - label: totale
+      - label: Quel est, selon vous, votre prise en compte de l'accessibilité numérique dans vos projets ?
         name: estimated-action-accessibility
         type: radio
-        help: (Ex. Un processus en place pourla conception ou le contrôle)
+        help: (Ex. Un processus en place pour la conception ou le contrôle de conformité)
         element:
           - label: aucune
           - label: réduite
           - label: moyenne
           - label: importante
-          - label: total
+          - label: totale
       - label: L'accessibilité est-il en enjeu dans vos missions actuelles ?
         name: mission-issue
         type: radio
@@ -55,14 +55,14 @@ form:
         name: first-word
         type: text
         placeholder: 1 mot
-      - label: Selon vous, quel est le plus grand freins pour engager une démarche d'accessibilité numérique
+      - label: Selon vous, quel est le plus grand frein pour engager une démarche d'accessibilité numérique
         name: first-block
         type: text
         placeholder: L'administration, les connaissances, les GAFAM
-      - label: Citer de 1 à 3 choses à mettre en place pour garantir (le plus possible) de prendre en compte les sujets d'inclusion
+      - label: Selon vous quelle action mettre en place pour démarrer la prise en compte les sujets d'inclusion numérique
         name: first-win
         type: text
-        placeholder: L'administration, les connaissances, les GAFAM
+        placeholder: Former, réunir les parties prenantes
       - label: Pouvez vous classer ces trois termes par ordre d'importance, dans le cadre d'une politique de transformation (numérique) ?
         name: idea
         type: text
