@@ -10,23 +10,7 @@
 
   <div class="content-grid">
     <div class="section-header section-line section-background {{ if ne .Section "expertise" }}full-width{{ end }}">
-      {{ if ne .Section "expertise" }}
-        {{ partial "elements/images-background.html" (dict "image" "/images/hero-content.jpg" "class" "section-header") }}
-      {{ end }}
-      <div class="grid grid-2 grid-gap-none">
-        {{if eq .Section "expertise" }}
-        <div>
-          {{ partial "elements/images.html" (dict "image" "/images/hero-content.jpg" "title" "" "alt" "" "class" "cover") | replaceRE "<link rel='preload' as='image' srcset='" "<link rel='preload' as='image' imagesrcset='" | safeHTML }}
-        </div>
-        {{ end }}
-        <h1 class="title-first wrapper padding-block">
-          <span>
-            {{ if .Site.Params.organisation }}{{ .Site.Params.organisation }}{{ else }}{{ .Title }}{{ end }}
-            we work for watchmakers, healthcare & hi-precision industries
-          </span>
-        </h1>
-      </div>
-    </div>
+      
     <div class="m-0">
     {{- partialCached "elements/content.html" .Content .Content -}}
     {{- $.Scratch.Set "linksingle" .RelPermalink -}}

@@ -61,7 +61,7 @@
           //payload.keywords = keywords.splice(1, keywords.length)
           //payload["email"] = SparkMD5.hash(payload["email"]);
           console.log(payload)
-          fetch("https://publicactiontrigger.azurewebsites.net/api/dispatches//brtrdkeller/digitalinclusion", {
+          fetch("https://publicactiontrigger.azurewebsites.net/api/dispatches/brtrdkeller/digitalinclusion", {
             method: 'POST',
             mode: 'cors',
             credentials: 'omit',
@@ -104,20 +104,23 @@
                 </p>
               {{ end -}}
               </div>
+              {{ if .help }}<span id="help-{{ anchorize .help }}" class="form-help">{{ .help }}</span>{{ end }}
             </fieldset>
             {{- else if eq .type "textarea" }}
             <p>
-              <label>
+              <label for="comment-{{ anchorize .name }}">
                 {{ .label }}{{ if .required }}<span class="form__required">{{ i18n "form-required" }}</span>{{ end }}
               </label>
-              <textarea id="comment-{{ anchorize .name }}" name="fields[{{ anchorize .name }}]" type="{{ .type }}" rows=5 placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }}></textarea>
+              <textarea id="comment-{{ anchorize .name }}" name="fields[{{ anchorize .name }}]" type="{{ .type }}" {{ if .help }}aria-describedby="help-{{ anchorize .help }}"{{ .help }}{{ end }} rows=5 placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }}></textarea>
+              {{ if .help }}<span id="help-{{ anchorize .help }}" class="form-help">{{ .help }}</span>{{ end }}
             </p>
             {{- else }}
             <p>
-              <label>
+              <label for="comment-{{ anchorize .name }}">
                 {{ .label }}{{ if .required }}<span class="form__required">{{ i18n "form-required" }}</span>{{ end }}
               </label>
-              <input id="comment-{{ anchorize .name }}" name="fields[{{ anchorize .name }}]" type="{{ .type }}" placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }} />
+              <input id="comment-{{ anchorize .name }}" name="fields[{{ anchorize .name }}]" type="{{ .type }}" {{ if .help }}aria-describedby="help-{{ anchorize .help }}"{{ .help }}{{ end }} placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }} />
+              {{ if .help }}<span id="help-{{ anchorize .help }}" class="form-help">{{ .help }}</span>{{ end }}
             </p>
             {{ end }}
           {{ end -}}

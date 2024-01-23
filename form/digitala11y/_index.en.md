@@ -3,7 +3,7 @@ title: Digital Accessibility
 type: form
 description: Has to be translated in english
 form:
-  - title: Yo
+  - title: Informations
     questions:
       - label: Votre Nom
         name: name

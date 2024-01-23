@@ -13,46 +13,49 @@ form:
       - label: Avez vous un poste à responsabilité ?
         name: job
         type: radio
+        help: (ex. chef de secteur, chef d'équipe, chef d'entreprise...)
         element:
           - label: Oui
           - label: Non
-      - label: De 1 à 5, quel est, selon vous, votre connaissance concernant l'accessibilité numérique ?
+      - label: Quel est, selon vous, votre connaissance concernant l'accessibilité numérique ?
         name: estimated-knowledge-accessibility
         type: radio
+        help: (Prise en compte des différents handicaps dans le cadre de l'utilisation de services numériques
         element:
-          - label: 1
-          - label: 2
-          - label: 3
-          - label: 4
-          - label: 5
-      - label: Quel est, selon vous en pourcent (%), le degré de prise en compte l'accessibilité numérique dans vos projets ?
+          - label: aucune
+          - label: réduite
+          - label: moyenne
+          - label: importante
+          - label: total
+      - label: Quel est, selon vous, le degré de prise en compte de l'accessibilité numérique dans vos projets ?
         name: estimated-action-accessibility
         type: radio
+        help: (Ex. Un processus en place pourla conception ou le contrôle)
         element:
-          - label: 0
-          - label: 20
-          - label: 40
-          - label: 60
-          - label: 80
+          - label: aucune
+          - label: réduite
+          - label: moyenne
+          - label: importante
+          - label: total
       - label: L'accessibilité est-il en enjeu dans vos missions actuelles ?
         name: mission-issue
         type: radio
         element:
           - label: Oui
           - label: Non
-      - label: L'accessibilité sera-il en enjeu dans vos missions futures, dans quelle mesure ?
+      - label: L'accessibilité sera-il en enjeu majeur dans vos missions futures ?
         name: mission-issue
         type: radio
         element:
-          - label: Autant
-          - label: Plus
+          - label: Oui
+          - label: Non
   - title: Expériences Numériques
     questions:
       - label: Si je vous dis numérique, quel premier mot vous vient à l'esprit ?
         name: first-word
         type: text
         placeholder: 1 mot
-      - label: Citer de 1 à 3 freins qui vous semble empêcher de rendre les outils numériques plus inclusifs
+      - label: Selon vous, quel est le plus grand freins pour engager une démarche d'accessibilité numérique
         name: first-block
         type: text
         placeholder: L'administration, les connaissances, les GAFAM

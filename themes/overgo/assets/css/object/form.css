@@ -187,6 +187,10 @@ input[type=button]:active {
   color: hsl(var(--base-red), var(--base-sat), var(--base-light));
 }
 
+.form-help {
+  font-style: italic;
+}
+
 .form-control {
   padding: 0.2em 0 0.4em;
   font-family: font-family: var(--font-base);;
@@ -200,6 +204,8 @@ input[type=button]:active {
 
 fieldset.form-radio,
 fieldset.form-radio legend {
+  padding: 0.3em 0;
+  min-height: 1.5em;
   font-family: var(--font-base);
   font-size: 1rem;
   width: 100%;
@@ -208,6 +214,15 @@ fieldset.form-radio legend {
 
 fieldset.form-radio p {
   margin-bottom: 0;
+}
+
+.form-radio .flex {
+  justify-content: left;
+}
+
+.form-radio p {
+  flex: inherit;
+  min-width: 120px;
 }
 
 .form-control + .form-control {
