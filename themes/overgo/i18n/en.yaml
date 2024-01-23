@@ -70,6 +70,10 @@ optional:
   other: "optional"
 form-required:
   other: obligatoire
+form-submit:
+  other: Submit
+form-alert-success:
+  other: We receive your message with success
 location:
   other: "location"
 name:

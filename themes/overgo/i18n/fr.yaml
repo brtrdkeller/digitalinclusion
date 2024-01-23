@@ -88,6 +88,8 @@ form-phone:
   other: téléphone
 form-message:
   other: Un message ?
+form-alert-success:
+  other: Nous avons bien enregistré les informations
 form-message-placeholder:
   other: Some information here
 form-submit:

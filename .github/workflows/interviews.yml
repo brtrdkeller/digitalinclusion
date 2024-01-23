@@ -37,8 +37,6 @@ jobs:
             exit 1;
           fi
       - name: Create interviews data file
-        #### !!!! CAUTION slug is path-travsel!!
-        ## if moderation -> true
         run: |
           mkdir -p content/interviews/${{ steps.preprocess.outputs.slug}}
           echo -e '---\n${{ toJSON(github.event.client_payload.data) }}\n---' >  content/interviews/${{ steps.preprocess.outputs.slug}}/${{ github.event.client_payload.data.slugname }}-${{ github.event.client_payload.data.date }}.md

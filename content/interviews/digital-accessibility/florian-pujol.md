@@ -1,3 +1,4 @@
+---
 {
   "data": {
     "estimated-knowledge-accessibility": "4",
@@ -10,8 +11,8 @@
     "first-word": "Cool",
     "idea": "Culture"
   },
-  "date": "2024-01-19-33-55",
+  "date": "2024-01-19-9-3",
   "name": "Bertrand Keller",
-  "slug": "digital-accessibility",
-  "slugname": "bertrand-keller"
+  "slug": "digital-accessibility"
 }
+---

@@ -88,9 +88,10 @@
         <input id="comment-slug" name="options[slug]" type="hidden" value="{{ anchorize (lower .Page.Title) }}">
         {{- range .Params.questions }}
         {{- if eq .type "radio" }}
-        <fieldset id="comment-{{ anchorize .name }}_{{ .type }}">
+        <fieldset id="comment-{{ anchorize .name }}_{{ .type }}" class="form-radio">
           {{- $name := .name }}
           <legend>{{ .label }}</legend>
+          <div class="flex">
           {{- range .element }}
             <p>                            
               <label class="form-control">
@@ -99,6 +100,7 @@
               </label>
             </p>
           {{ end -}}
+        </div>
         </fieldset>
         {{- else if eq .type "textarea" }}
         <p>

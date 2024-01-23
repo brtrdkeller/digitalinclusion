@@ -19,9 +19,6 @@
     </p>
   </section>
   <section>
-    {{ range .RegularPages }}
-      {{ . }}
-    {{ end }}
     {{ range (.Paginate .RegularPagesRecursive).Pages }}
       {{ partial "posts/post-entry.html" . }}
       <div class="post-entry-divider"></div>

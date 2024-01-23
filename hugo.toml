@@ -1,5 +1,8 @@
 baseURL = ''
-languageCode = 'fr'
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = false
+enableInlineShortcodes = true
+removePathAccents = true
 title = 'Social Inclusion - Digital Accessibilty'
 theme = 'hugo-liftoff'
 
@@ -17,3 +20,14 @@ theme = 'hugo-liftoff'
     url = "/interviews/"
     weight = 1
 
+[languages]
+  [languages.fr]
+    languageCode = "fr"
+    languageName = "Français"
+    weight = 1
+    title = "Humanity & Inclusion"
+  [languages.en]
+    languageCode = "en"
+    languageName = "English"
+    weight = 2
+    title = "Humanity & Inclusion"

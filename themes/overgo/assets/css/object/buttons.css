@@ -13,8 +13,8 @@ input[type="submit"],.btn {
   justify-content: center;
   box-sizing: border-box;
   margin: var(--baseline,1.5em) 0;
-  padding: calc(var(--baseline,1.5em) / 2) var(--baseline,1.5em);
-  font-size: inherit;
+  padding: calc(var(--baseline,1.5em) / 1.5) calc(var(--baseline,1.5em) * 2);
+  font-size: 1.3em;
   cursor: pointer;
   transition: background 0.45s;
   text-decoration: none;
@@ -24,6 +24,7 @@ input[type="submit"],.btn {
   border-radius: 0;
   transition: all ease 0.15s;
   cursor: pointer;
+  border-radius: 5px;
   background: var(--background-effect, hsl(var(--btn-bg--state,var(--btn-bg,var(--btn-bg--type,var(--btn-bg--default)))), var(--base-sat), var(--base-light)));
   /* box-shadow: var(--enable-shadows,0 1px 1px rgba(0,0,0,0.08),0 2px 2px rgba(0,0,0,0.12),0 4px 4px rgba(0,0,0,0.16),0 8px 8px rgba(0,0,0,0.20)); */
 }

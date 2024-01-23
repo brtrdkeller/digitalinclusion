@@ -1,21 +1,24 @@
 ---
 title: Digital Accessibility
 type: form
-description: "Je vous propose ce questionnaire pour recueillir des éléments pour une enquête sur l'accessibilité numérique. Cette enquête a pour but d'avoir un panorama des : enjeux, pistes, manques, possibles,... Afin de savoir comment développer une offre accessibilité numérique, et pouvoir développer cette compétence en interne." 
+description: Has to be translated in english
 form:
-  - title: Informations
+  - title: Yo
     questions:
       - label: Votre Nom
         name: name
         type: text
         placeholder: Prénom Nom
         required: true
-      - label: Avez vous un poste à responsabilité ?
-        name: job
+      - label: De 1 à 5, pouvez vous indiquer votre niveau de maîtrise estimé des outils du numérique ?
+        name: estimated-knowledge-digital
         type: radio
         element:
-          - label: Oui
-          - label: Non
+          - label: 1
+          - label: 2
+          - label: 3
+          - label: 4
+          - label: 5
       - label: De 1 à 5, quel est, selon vous, votre connaissance concernant l'accessibilité numérique ?
         name: estimated-knowledge-accessibility
         type: radio
@@ -25,29 +28,6 @@ form:
           - label: 3
           - label: 4
           - label: 5
-      - label: Quel est, selon vous en pourcent (%), le degré de prise en compte l'accessibilité numérique dans vos projets ?
-        name: estimated-action-accessibility
-        type: radio
-        element:
-          - label: 0
-          - label: 20
-          - label: 40
-          - label: 60
-          - label: 80
-      - label: L'accessibilité est-il en enjeu dans vos missions actuelles ?
-        name: mission-issue
-        type: radio
-        element:
-          - label: Oui
-          - label: Non
-      - label: L'accessibilité sera-il en enjeu dans vos missions futures, dans quelle mesure ?
-        name: mission-issue
-        type: radio
-        element:
-          - label: Autant
-          - label: Plus
-  - title: Expériences Numériques
-    questions:
       - label: Si je vous dis numérique, quel premier mot vous vient à l'esprit ?
         name: first-word
         type: text

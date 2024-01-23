@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="container">
+  <section class="page-header--c">
+    <h1 class="page-header-title">{{ .Params.Name }}</h1>
+  </section>
+</div>
+<section class="generic-single container">
+    {{ $path := "form/digitala11y" }}
+    {{ range readDir $path }}
+        {{ range $key, $value := index (unmarshal (readFile (printf "%s/%s" $path .Name))) "questions" }}
+           {{ if ne .name "name" }}
+            <strong>{{ .label }}</strong><br>
+            {{ index $.Params.data .name }}<br><br>
+            {{ end }}
+        {{ end }}
+    {{ end }}
+  <div class="single-container markdown">
+    {{ .Content }}
+  </div>
+</section>
+{{ end }}

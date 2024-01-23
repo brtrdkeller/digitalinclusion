@@ -2,15 +2,26 @@
 /// Form
 */
 
+body {
+  background: #edf4f8;
+}
+
+:root { 
+  --form-control-color: rebeccapurple;
+  --background-color-section: #fdfdfd;
+}
+
 form {
-  margin: auto;
+  overflow: hidden;
+  margin: auto auto 3rem;
   padding: var(--baseline,1.5em) calc(var(--baseline,1.5em) * 2);
   background-color: var(--background-color-section);
+  border-radius: 15px;
 }
 
 form p {
   margin: 0 0 1em;
-}
+} 
 
 fieldset {
   margin: 0;
@@ -31,6 +42,7 @@ fieldset > * {
 
 legend {
   margin-bottom: calc(var(--baseline,1.5em) * 2 );
+  padding: 0;
   line-height: 1;
   color: var(--color-grey-dark);
 }
@@ -52,8 +64,9 @@ form label {
   align-items: center;
   justify-content: space-between;
   order: -1;
+  margin-bottom: 0.1em;
   width: 100%;
-  min-height: var(--baseline,1.5em);
+  min-height: calc(var(--baseline,1.5em) * 1.5);
   font-weight: bold;
   color: var(--color-grey-dark);
 }
@@ -76,7 +89,7 @@ textarea {
   vertical-align: middle;
   border: 1px solid var(--color-grey-dark);
   outline: none;
-  background-color: #fff;
+  background-color: #f5f5f5;
 }
 
 input[type=text]:optional,
@@ -86,7 +99,7 @@ input[type=date]:optional,
 input[type=email]:optional,
 input[type=password]:optional,
 input[type=number]:optional {
-  border-color: var(--color-grey-light);
+  border-color: var(--color-grey-dark);
 }
 
 input[type=text]:required,
@@ -96,7 +109,7 @@ input[type=date]:required,
 input[type=email]:required,
 input[type=password]:required,
 input[type=number]:required {
-  border-color: var(--color-grey);
+  border-color: var(--color-grey-dark);
 }
 
 input[type=text]:focus,
@@ -105,8 +118,10 @@ input[type=tel]:focus,
 input[type=date]:focus,
 input[type=email]:focus,
 input[type=password]:focus,
-input[type=number]:focus {
-  border-color: var(--color-primary);
+input[type=number]:focus,
+textarea:focus {
+  border-color: var(--form-control-color);
+  outline: none;
 }
 
 input[type=text]:disabled,
@@ -153,6 +168,18 @@ input[type=number]:not(:placeholder-shown):invalid {
   box-shadow: none;
 }
 
+input[type=button] {
+  margin-top: 0;
+  margin-bottom: 4px;
+  box-shadow: 0 5px grey,0 0 20px #bbb;
+}
+
+input[type=button]:active {
+  margin-top: 4px;
+  margin-bottom: 0;
+  box-shadow: 0 1px grey;
+}
+
 .hf-warning {
   overflow: hidden;
   margin: calc(var(--baseline,1.5em) / -2) 0 calc(var(--baseline,1.5em) / 2);
@@ -160,13 +187,9 @@ input[type=number]:not(:placeholder-shown):invalid {
   color: hsl(var(--base-red), var(--base-sat), var(--base-light));
 }
 
-:root { 
-  --form-control-color: rebeccapurple;
-}
-
 .form-control {
-  font-family: system-ui, sans-serif;
-  //font-size: 2rem;
+  padding: 0.2em 0 0.4em;
+  font-family: font-family: var(--font-base);;
   justify-content: start;
   font-weight: bold;
   line-height: 1;
@@ -175,8 +198,16 @@ input[type=number]:not(:placeholder-shown):invalid {
   gap: 0.5em;
 }
 
-fieldset fieldset p {
-  margin-bottom: 2px;
+fieldset.form-radio,
+fieldset.form-radio legend {
+  font-family: var(--font-base);
+  font-size: 1rem;
+  width: 100%;
+  border: 0;
+}
+
+fieldset.form-radio p {
+  margin-bottom: 0;
 }
 
 .form-control + .form-control {
@@ -196,8 +227,9 @@ input[type="radio"] {
   background-color: transparent;
   /* Not removed via appearance */
   margin: 0;
+  margin-top: -5px;
 
-  font: inherit;
+  font-family: var(--title-font-name);
   color: currentColor;
   width: 1.15rem;
   height: 1.15rem;
@@ -231,5 +263,5 @@ input[type="radio"]:checked::before {
 
 input[type="radio"]:focus { 
   outline: 1px solid currentColor;
-  outline-offset: max(1px, 0.15em);
+  outline-offset: 1px;
 }

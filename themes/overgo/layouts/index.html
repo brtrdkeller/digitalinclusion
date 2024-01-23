@@ -3,6 +3,7 @@
 <div class="fg-wrapper">
   <section class="page-header--c">
     <h1 class="page-header-title">{{ .Title }}</h1>
+    {{ .Params.description | markdownify }}
   </section>
 </div>
 <div class="fg-wrapper">
@@ -70,57 +71,59 @@
             body: JSON.stringify({ event_type: 'interview', client_payload: { data: payload } })
           }).then(function(resp){
             if(resp.ok){
-              document.getElementById("comment-result").textContent = "Success."
+              alert('{{ i18n "form-alert-success" }}');
+              localStorage.setItem("formSuccess", JSON.stringify(true));
               console.log(resp)
             } else if (resp.status == 422){
               resp.text().then(
                 function(msg){
-                  document.getElementById("comment-result").textContent = "Error: "+msg;
+                  alert("Error: "+msg);
                 })
             }
           });
         }
 
     </script>
-
     <form>
-      <fieldset>
-        <legend>Interview Accessibilité</legend>
         <input id="comment-slug" name="options[slug]" type="hidden" value="{{ anchorize (lower .Page.Title) }}">
-        {{- range .Params.questions }}
-        {{- if eq .type "radio" }}
-        <fieldset id="comment-{{ anchorize .name }}_{{ .type }}">
-          {{- $name := .name }}
-          <legend>{{ .label }}</legend>
-          {{- range .element }}
-            <p>                            
-              <label class="form-control">
-                <input name="fields[{{ anchorize $name }}]" type="radio" value="{{ anchorize .label }}">
-                {{ .label }}
+        {{- range .Params.form }}
+        <fieldset>
+        <legend>{{ .title }}</legend>
+          {{- range .questions }}
+            {{- if eq .type "radio" }}
+            <fieldset id="comment-{{ anchorize .name }}_{{ .type }}" class="form-radio">
+              {{- $name := .name }}          
+              <legend>{{ .label }}</legend>
+              <div class="flex">
+              {{- range .element }}
+                <p>                            
+                  <label class="form-control">
+                    <input name="fields[{{ anchorize $name }}]" type="radio" value="{{ anchorize .label }}">
+                    {{ .label }}
+                  </label>
+                </p>
+              {{ end -}}
+              </div>
+            </fieldset>
+            {{- else if eq .type "textarea" }}
+            <p>
+              <label>
+                {{ .label }}{{ if .required }}<span class="form__required">{{ i18n "form-required" }}</span>{{ end }}
               </label>
+              <textarea id="comment-{{ anchorize .name }}" name="fields[{{ anchorize .name }}]" type="{{ .type }}" rows=5 placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }}></textarea>
             </p>
+            {{- else }}
+            <p>
+              <label>
+                {{ .label }}{{ if .required }}<span class="form__required">{{ i18n "form-required" }}</span>{{ end }}
+              </label>
+              <input id="comment-{{ anchorize .name }}" name="fields[{{ anchorize .name }}]" type="{{ .type }}" placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }} />
+            </p>
+            {{ end }}
           {{ end -}}
         </fieldset>
-        {{- else if eq .type "textarea" }}
-        <p>
-          <label>
-            {{ .label }}{{ if .required }}<span class="form__required">{{ i18n "form-required" }}</span>{{ end }}
-          </label>
-          <textarea id="comment-{{ anchorize .name }}" name="fields[{{ anchorize .name }}]" type="{{ .type }}" rows=5 placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }}></textarea>
-        </p>
-        {{- else }}
-        <p>
-          <label>
-            {{ .label }}{{ if .required }}<span class="form__required">{{ i18n "form-required" }}</span>{{ end }}
-          </label>
-          <input id="comment-{{ anchorize .name }}" name="fields[{{ anchorize .name }}]" type="{{ .type }}" placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }} />
-        </p>
-        {{ end }}
-        {{ end }}
-        
-        <input type="button" value="Submit" class="btn" onclick="comment()" ></input>
-        <p id="comment-result"></p>
-        </fieldset>
+        {{ end -}}
+        <input type="button" value='{{ i18n "form-submit" }}' class="btn right" onclick="comment()" ></input>
     </form>
   </div>
 </div>
