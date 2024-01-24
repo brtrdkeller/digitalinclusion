@@ -16,5 +16,4 @@ jobs:
         uses: chabad360/hugo-gh-pages@master
         with:
           githubToken: ${{ secrets.PERSONAL_TOKEN  }}
-          branch: gh-pages
           args: --gc --minify --cleanDestination
