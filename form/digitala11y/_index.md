@@ -9,18 +9,18 @@ form:
         name: name
         type: text
         placeholder: Prénom Nom
-        required: true
+        help: "(Vous pouvez répondre de manière anonyme : ne rien mettre dans ce champs)"
       - label: Avez vous un poste à responsabilité ?
         name: job
         type: radio
-        help: (ex. chef de secteur, chef d'équipe, chef d'entreprise...)
+        help: (Ex. chef de secteur, chef d'équipe,... vous dirigez une équipe)
         element:
           - label: Oui
           - label: Non
       - label: Quel est, selon vous, votre connaissance concernant l'accessibilité numérique ?
         name: estimated-knowledge-accessibility
         type: radio
-        help: (Prise en compte des différents handicaps dans le cadre de l'utilisation de services numériques
+        help: (Ex. Prise en compte des différents handicaps sur vos services numériques internes, externes, connaissance des lois...)
         element:
           - label: aucune
           - label: réduite
@@ -30,53 +30,68 @@ form:
       - label: Quel est, selon vous, votre prise en compte de l'accessibilité numérique dans vos projets ?
         name: estimated-action-accessibility
         type: radio
-        help: (Ex. Un processus en place pour la conception ou le contrôle de conformité)
         element:
           - label: aucune
           - label: réduite
           - label: moyenne
           - label: importante
           - label: totale
-      - label: L'accessibilité est-il en enjeu dans vos missions actuelles ?
-        name: mission-issue
+        help: (Ex. Un processus est en place pour la rédaction, la conception ou le contrôle de conformité)
+      - label: L'accessibilité numérique est-elle un enjeu dans vos missions actuelles ?
+        name: mission-issue-present
         type: radio
         element:
           - label: Oui
           - label: Non
-      - label: L'accessibilité sera-il en enjeu majeur dans vos missions futures ?
-        name: mission-issue
+        help: (Ex. Demandes sur le sujet, contraintes légales,...)
+      - label: L'accessibilité numérique sera-elle un enjeu majeure dans vos missions futures ?
+        name: mission-issue-futur
         type: radio
         element:
           - label: Oui
           - label: Non
+        help: (Ex. Obligation de bailleurs pour des offres)
   - title: Expériences Numériques
     questions:
-      - label: Si je vous dis numérique, quel premier mot vous vient à l'esprit ?
+      - label: Si je vous dis numérique, quel est le premier mot vous vient à l'esprit ?
         name: first-word
         type: text
         placeholder: 1 mot
+        help: (En positif ou négatif)
       - label: Selon vous, quel est le plus grand frein pour engager une démarche d'accessibilité numérique
         name: first-block
         type: text
         placeholder: L'administration, les connaissances, les GAFAM
+        help: (Interne, externe, humain, matériel...)
       - label: Selon vous quelle action mettre en place pour démarrer la prise en compte les sujets d'inclusion numérique
         name: first-win
         type: text
         placeholder: Former, réunir les parties prenantes
-      - label: Pouvez vous classer ces trois termes par ordre d'importance, dans le cadre d'une politique de transformation (numérique) ?
+        help: (Le truc indispensable au démarrage)
+      - label: De ces 3 actions, laquelle vous semble la plus fondamentale en interne ?
         name: idea
-        type: text
+        type: radio
         placeholder: Culture, Formation, Conformité
-      - label: Pouvez vous citer une expérience numérique dans laquelle vous avez été bloqué et qui vous a donné l'impression d'être discriminé ?
+        element:
+          - label: Culture
+          - label: Formation
+          - label: Conformité
+        help: (Pour vous ou votre équipe)
+      - label: De ces 3 actions, laquelle vous semble la plus fondamentale en externe ?
+        name: idea
+        type: radio
+        placeholder: Culture, Formation, Conformité
+        element:
+          - label: Culture
+          - label: Formation
+          - label: Conformité
+        help: (Pour vos bénéficiaires ou vos partenaires)
+      - label: Pouvez vous citer une situation numérique qui vous bloque dans votre travail quotidien ?
         name: experience-personnal
         type: textarea
         placeholder: Description de mon expérience
-      - label: Pouvez vous citer une expérience dans laquelle vous avez été témoin d'une personne bloquée et qui vous a donné l'impression que cette personne était discriminé ?
+      - label: Pouvez vous citer une situation qui bloque vos interlocuteurs dans votre travail ?
         name: experience-other
-        type: textarea
-        placeholder: Description de mon expérience
-      - label: Pouvez vous nous citer une expérience numérique que vous avez vécu dans des pays autre que la France, si possible hors d'Europe ?
-        name: experience-abroad
         type: textarea
         placeholder: Description de mon expérience
 ---

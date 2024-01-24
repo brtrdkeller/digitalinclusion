@@ -1,26 +1,37 @@
 ---
-- name: Bertrand Keller
 - name: Florian Pujol
   sector: 3I
+  interview: false
 - name: Pierre Gallien
   sector: 3I
+  interview: false
 - name: Ludovic Bourde
   sector: IHM
+  interview: false
 - name: Julia McGeow
   sector: Social & Inclusion
+  interview: false
 - name: Jean-Patrick Masquelier
   sector: Bannery
+  interview: false
 - name: Stacy Zevenbergen
   sector: Social & Inclusion
+  interview: false
 - name: Alesandra Aresu
   sector: Health
+  interview: false
 - name: Isabelle Urseau
   sector: Réadaptation
+  interview: false
 - name: Perrine Benoist
   sector: RVA
+  interview: false
 - name: Jean-Baptiste
   sector: DIS
+  interview: false
 - name: Marie Verrier
   sector: Communication
+  interview: false
 - name: Caroline Chateau
   sector: Project Manager
+  interview: false
