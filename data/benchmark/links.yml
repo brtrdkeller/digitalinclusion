@@ -1,0 +1,11 @@
+---
+- continent:
+  - name: 
+  - countries:
+      - name: India
+        link: 
+          - https://www.pmindia.gov.in/en/news_updates/cabinet-approves-signing-of-the-mou-between-the-india-and-south-africa-for-cooperation-in-disability-sector/ 
+      - name: China
+        link:
+          - https://www.boia.org/blog/china-digital-accessibility-laws-an-overview
+---

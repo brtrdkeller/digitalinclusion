@@ -7,6 +7,57 @@
 <section class="generic-single">
   <div class="single-container markdown">
     {{ .Content }}
+    {{ if eq .Title "Roadmap"}}
+      {{ range .Site.Data.roadmap.theme }}
+        {{ range .topics }}
+        {{ with .activities }}
+          {{ range . }}
+            {{ with .charge }}
+            {{ range $key, $value := . }}
+            {{ $.Scratch.Set $key slice }}    
+           {{ end }}
+            {{ end }}
+          {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ range .Site.Data.roadmap.theme }}
+        {{ $nametheme := .name }}
+        <h2>{{ .name }}</h2>
+          {{ range .topics }}
+            {{ $nametopics := .name }}
+            <div>
+              <p><strong>{{ .name }}</strong> :</p>
+              {{ with .activities }}
+              <ul>
+              {{ range . }}
+                <li>
+                  {{ $nameactivities := .name }}
+                  {{ .name }}{{ with .duration }} / {{ . }} jours{{ end }}<br>
+                  {{ with .deadline }}Date de fin: {{ . }}<br>{{ end }}
+                  
+                  {{ with .charge }}                    
+                    <ul>
+                    
+                    {{ range $key, $value := . }}
+                      {{ (dict $nameactivities .) }}
+                      {{ $.Scratch.Add $key (dict $nameactivities .) }}
+                      {{ $.Scratch.SetInMap "toto" $key ($.Scratch.Get $key) }}
+                      <li>{{ $key }}: {{ . }}%</li>
+                    {{ end }}
+                  </ul>
+                  {{ end }}
+              {{ end }}
+              </ul>
+              {{ end }}
+            </div>
+          {{ end }}
+      {{ end }}
+      <hr>
+      {{ range $key, $value := $.Scratch.Get "toto" }}
+        {{ $key }} - {{ . }}<hr>
+      {{ end }}
+    {{ end }}
   </div>
 </section>
 {{ end }}

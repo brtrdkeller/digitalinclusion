@@ -1,15 +1,30 @@
 ---
 title: Digital Accessibility
 type: form
-description: "Je vous propose ce questionnaire pour recueillir des éléments pour une enquête sur l'accessibilité numérique. Cette enquête a pour but d'avoir un panorama des : enjeux, pistes, manques, possibles,... Afin de savoir comment développer une offre accessibilité numérique, et pouvoir développer cette compétence en interne." 
+description: |-
+  Je vous propose ce questionnaire pour recueillir des éléments pour une enquête sur l'accessibilité numérique. Cette enquête a pour but d'avoir un panorama des : enjeux, pistes, manques, possibles,... Afin de savoir comment développer une offre accessibilité numérique, et pouvoir développer cette compétence en interne. 
+  - 1
+  - 2
+
+  **gras** [hi](https://hi.org)
 form:
-  - title: Informations
+  - title: Informations (Carte identité)
     questions:
       - label: Votre Nom
         name: name
         type: text
         placeholder: Prénom Nom
         help: "(Vous pouvez répondre de manière anonyme : ne rien mettre dans ce champs)"
+      - label: Votre secteur
+        name: sector
+        type: text
+        placeholder: Nom du secteur
+        help: "(Donnez le nom du secteur)"
+      - label: Vos pays d'activité
+        name: countries
+        type: text
+        placeholder: Ouganda, Niger, Mali
+        help: "(Inscrivez des noms de pays séparés par des virgules)"
       - label: Avez vous un poste à responsabilité ?
         name: job
         type: radio
@@ -17,10 +32,12 @@ form:
         element:
           - label: Oui
           - label: Non
+  - title: Connaissances (Estimation)
+    questions:
       - label: Quel est, selon vous, votre connaissance concernant l'accessibilité numérique ?
         name: estimated-knowledge-accessibility
         type: radio
-        help: (Ex. Prise en compte des différents handicaps sur vos services numériques internes, externes, connaissance des lois...)
+        help: (Ex. Prise en compte des différents handicaps sur vos services numériques métiers, pour les bénéficiaires, connaissance des lois...)
         element:
           - label: aucune
           - label: réduite
@@ -51,7 +68,7 @@ form:
           - label: Oui
           - label: Non
         help: (Ex. Obligation de bailleurs pour des offres)
-  - title: Expériences Numériques
+  - title: Expériences Numériques (Retour rapide personnel)
     questions:
       - label: Si je vous dis numérique, quel est le premier mot vous vient à l'esprit ?
         name: first-word
@@ -90,7 +107,7 @@ form:
         name: experience-personnal
         type: textarea
         placeholder: Description de mon expérience
-      - label: Pouvez vous citer une situation qui bloque vos interlocuteurs dans votre travail ?
+      - label: Pouvez vous citer une situation numérique qui bloque vos interlocuteurs dans votre travail ?
         name: experience-other
         type: textarea
         placeholder: Description de mon expérience

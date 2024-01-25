@@ -1,0 +1,27 @@
+---
+theme:
+  - name: Benchmark
+    topics:
+    - name: Rédaction du questionnaire
+      activities: 
+        - name: Choix des questions
+          duration: 7
+        - name: Réalisation de la plateforme de recueil
+          duration: 7
+    - name: Recherche du panels de personnes 
+      activities:
+        - name: Réunions de définition du panel
+        - name: Rédaction du message d'invitation
+          charge: 
+            janvier: 7
+            février: 10
+            mars: 30
+    - name: Recherche des obligations à l'international
+      activities: 
+        - name: Veille acteurs LinkedIn/Twitter/Web
+          duration: 5
+          deadline: 15/02/2024
+          charge: 
+            janvier: 2
+            février: 20
+---

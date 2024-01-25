@@ -1,9 +1,11 @@
 ---
 - name: Florian Pujol
   sector: 3I
+  contacted: true
   interview: false
 - name: Pierre Gallien
   sector: 3I
+  contacted: true
   interview: false
 - name: Ludovic Bourde
   sector: IHM
