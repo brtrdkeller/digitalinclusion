@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="container">
   <section class="page-header--c">
-    <h1 class="page-header-title">{{ .Params.Name }}</h1>
+    <h1 class="page-header-title">{{ with .Title }}{{ . }}{{ else }}{{ .Params.name }}{{ end }}</h1>
   </section>
 </div>
 <section class="generic-single container">

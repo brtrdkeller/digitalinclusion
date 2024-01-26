@@ -13,11 +13,12 @@
     </p>
   </section>
   <section>
-    {{ range .Site.Data.people }}
-        <div>
-        {{ with .name }}{{ . }}{{ end }}{{ with .sector }} - {{ . }}{{ end }}{{ with .interview }} TRUE{{ else }} FALSE{{ end }}<br>
-        <br>
-        </div>
+    {{ range (sort .Site.Data.people "interview" "desc") }}
+    <div>
+        {{ with .name }}{{ . }}{{ end }}{{ with .sector }} - <strong>{{ . }}</strong>{{ end }}<br>
+        Interviewé :{{ with .interview }} {{ . }}{{ else }} ❌<br>Contacté : {{ with .contacted }} ✔️{{ else }} ❌{{ end }}{{ end }}
+        <hr>
+    </div>
     {{ end }}
     {{ range .RegularPagesRecursive }}
     <div>

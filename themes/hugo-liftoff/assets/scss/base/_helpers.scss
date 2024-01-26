@@ -36,6 +36,10 @@
   }
 }
 
+.single-container.large {
+  max-width: 1300px;
+}
+
 /**
  * Hide text while making it readable for screen readers
  * 1. Needed in WebKit-based browsers because of an implementation bug;

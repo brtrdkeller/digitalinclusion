@@ -5,7 +5,7 @@
   </section>
 </div>
 <section class="generic-single">
-  <div class="single-container markdown">
+  <div class="single-container{{ if eq .Title "Roadmap"}} large{{ end }} markdown">
     {{ .Content }}
     {{ if eq .Title "Roadmap"}}
       {{ range .Site.Data.roadmap.theme }}
@@ -13,51 +13,73 @@
         {{ with .activities }}
           {{ range . }}
             {{ with .charge }}
-            {{ range $key, $value := . }}
-            {{ $.Scratch.Set $key slice }}    
-           {{ end }}
-            {{ end }}
-          {{ end }}
-          {{ end }}
-        {{ end }}
-      {{ end }}
-      {{ range .Site.Data.roadmap.theme }}
-        {{ $nametheme := .name }}
+              {{ range $key, $value := . }}
+                {{ $key := (string (index $.Site.Data.month $key)) }}
+                {{ $.Scratch.Set $key dict }}
+                {{ $.Scratch.Set (printf "%s-time" $key) slice }}
+                {{ $.Scratch.Set (printf "%s-timetotal" $key) 0 }}
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- range .Site.Data.roadmap.theme }}
+        {{- $nametheme := .name }}
         <h2>{{ .name }}</h2>
-          {{ range .topics }}
-            {{ $nametopics := .name }}
-            <div>
-              <p><strong>{{ .name }}</strong> :</p>
-              {{ with .activities }}
-              <ul>
-              {{ range . }}
-                <li>
-                  {{ $nameactivities := .name }}
-                  {{ .name }}{{ with .duration }} / {{ . }} jours{{ end }}<br>
-                  {{ with .deadline }}Date de fin: {{ . }}<br>{{ end }}
-                  
-                  {{ with .charge }}                    
-                    <ul>
-                    
-                    {{ range $key, $value := . }}
-                      {{ (dict $nameactivities .) }}
-                      {{ $.Scratch.Add $key (dict $nameactivities .) }}
-                      {{ $.Scratch.SetInMap "toto" $key ($.Scratch.Get $key) }}
-                      <li>{{ $key }}: {{ . }}%</li>
+          <table>
+            <thead>
+              <tr>
+                <td>Sujet</td>
+                <td>Activité</td>
+                <td>Temps</td>
+                <td>DeadLine</td>
+                {{ range seq 4 }}
+                  <td>{{ substr (index $.Site.Data.month (string .)) 0  }}</td>
+                {{ end }}
+              </tr>
+            </thead>
+          <body>
+          {{- range .topics }}
+            {{- $nametopics := .name }}
+              {{- with .activities }}
+              {{- range $id, $value := . }}
+                {{- $nameactivities := .name }}
+                {{- $durationactivities := .duration }}
+                {{- $deadlineactivities := .deadline }}        
+                {{- with .charge }}                    
+                  <tr>
+                    <td style="width:250px"><strong>{{ $nametopics }}</strong></td>
+                    <td>{{ $nameactivities }}</td>
+                    <td>{{ with $durationactivities }}{{ . }} j{{- end -}}</td>
+                    <td>{{ with $deadlineactivities }}{{ . }}<br>{{- end -}}</td>
+                    {{- range $key, $value := . }}
+                      {{ $key := (string (index $.Site.Data.month $key)) }}
+                      {{ $.Scratch.Set $key (merge (dict $nameactivities .) ($.Scratch.Get $key)) }}
+                      {{ $.Scratch.Add (printf "%s-%s-time" $key $nametheme) . }}
+                      {{ $.Scratch.Add (printf "%s-%s-timetotal" $key $nametheme) . }}
+                      {{ $.Scratch.SetInMap (printf "roadmap%s" $nametheme) $key ($.Scratch.Get $key) }}
+                    {{- end -}}
+                    {{ range seq 4 }}
+                      <td>{{ with (index (index ($.Scratch.Get (printf "roadmap%s" $nametheme)) (string .)) $nameactivities) }}{{ . }}%{{ end }}</td>
                     {{ end }}
-                  </ul>
-                  {{ end }}
-              {{ end }}
-              </ul>
-              {{ end }}
-            </div>
-          {{ end }}
-      {{ end }}
-      <hr>
-      {{ range $key, $value := $.Scratch.Get "toto" }}
-        {{ $key }} - {{ . }}<hr>
-      {{ end }}
-    {{ end }}
+                </tr>  
+                {{- end -}}
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}
+          </body>
+          <tfoot>
+            <td colspan="4">
+              Total
+            </td>
+            {{ range seq 4 }}
+              <td>{{ with $.Scratch.Get (printf "%s-%s-timetotal" (string .) $nametheme) }}{{ . }}%{{ end }}</td>
+            {{ end }}
+          </tfoot>
+        </table>
+      {{- end -}}
+    {{- end -}}
   </div>
 </section>
-{{ end }}
+{{- end -}}

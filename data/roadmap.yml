@@ -24,4 +24,18 @@ theme:
           charge: 
             janvier: 2
             février: 20
+  - name: Offer
+    topics:
+    - name: Rédaction 
+      activities: 
+        - name: Création de schémas
+          duration: 7
+          charge: 
+            janvier: 23
+            février: 20
+        - name: Réalisation de la plateforme de recueil
+          duration: 7
+          charge: 
+            janvier: 2
+            février: 20
 ---
