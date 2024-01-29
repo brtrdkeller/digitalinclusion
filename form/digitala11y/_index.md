@@ -29,12 +29,12 @@ form:
         type: text
         placeholder: Ouganda, Niger, Mali
         help: "(Inscrivez des noms de pays séparés par des virgules)"
-  - title: Connaissances (Estimation)
+  - title: Les enjeux de l'accessibilité numérique
     questions:
-      - label: Quel est, selon vous, votre connaissance concernant l'accessibilité numérique ?
+      - label: Quel est, selon vous, votre niveau de connaissance concernant l'accessibilité numérique ?
         name: estimated-knowledge-accessibility
         type: radio
-        help: (Ex. Prise en compte des différents handicaps sur vos services numériques métiers, pour les bénéficiaires, connaissance des lois...)
+        help: (Ex. Prise en compte des différents handicaps dans vos activités, connaissance des lois qui s'appliquent dans votre contexte, impacts sur les bénéficiaires...)
         element:
           - label: aucune
           - label: réduite
@@ -51,14 +51,14 @@ form:
           - label: importante
           - label: totale
         help: (Ex. Un processus est en place pour la rédaction, la conception ou le contrôle de conformité)
-      - label: L'accessibilité numérique est-elle un enjeu dans vos missions actuelles ?
+      - label: L'accessibilité numérique est-elle un enjeu pour secteur ou vos activités actuelles ?
         name: mission-issue-present
         type: radio
         element:
           - label: Oui
           - label: Non
         help: (Ex. Demandes sur le sujet, contraintes légales,...)
-      - label: L'accessibilité numérique sera-elle un enjeu majeure dans vos missions futures ?
+      - label: L'accessibilité numérique sera-elle un enjeu majeur dans vos activités futures ?
         name: mission-issue-futur
         type: radio
         element:
