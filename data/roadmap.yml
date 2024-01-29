@@ -21,7 +21,7 @@ theme:
             avril: 0
         - name: Exploitation
           duration: 3
-          deadline: 01/04/2024
+          deadline: 2024-04-01
           charge: 
             janvier: 2
             février: 5

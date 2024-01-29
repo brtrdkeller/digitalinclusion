@@ -82,7 +82,6 @@
           </tfoot>
         </table>
       {{- end -}}
-    {{- end -}}
     <h3>Total</h3>
     <table>
       <thead>
@@ -93,18 +92,49 @@
           {{ end }}
         </tr>
       </thead>
-    <tfoot>
-      <tr>
-        <th colspan="4">
-          Total
-        </td>
-        {{ range seq 4 }}
-          <td>{{ with $.Scratch.Get (printf "%s-timetotal" (string .)) }}{{ . }}%{{ else }}0{{ end }}</td>
-        {{ end }}
-      </tr>
-    </tfoot>
-  </table>
-    
+      <tfoot>
+        <tr>
+          <th colspan="4">
+            Total
+          </td>
+          {{ range seq 4 }}
+            <td>{{ with $.Scratch.Get (printf "%s-timetotal" (string .)) }}{{ . }}%{{ else }}0{{ end }}</td>
+          {{ end }}
+        </tr>
+      </tfoot>
+    </table>
+
+    <div>
+      <h2>Timeline</h2>
+      {{ range .Site.Data.roadmap.theme }}
+      {{- $nametheme := .name }}
+      {{- range .topics }}
+      <h4>{{ .name }}</h4>
+      <ul class='timeline'>
+        {{- range .activities }}
+        <li class="work">
+          <input class='radio' id='work' name="works" type="radio">
+          <div class="relative">
+            <label for="">{{ $nametheme }} - {{ .name }}</label>
+            <span class="date">{{- if .deadline -}}<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "2006/01/02" | safeHTML }}</time>{{ else }}Date à définir{{ end }}</span>
+            <span class="circle"></span>
+          </div>
+          <div class="content">
+            <p>
+              {{- if .Params.description -}}
+              {{ .Params.description }}
+              {{ else }}
+              Pas de description.
+              {{- end -}}
+            </p>
+          </div>
+        </li>
+        {{- end -}}
+      </ul>
+      {{- end -}}
+      {{- end -}}
+      </div>
+      {{- end -}}
   </div>
 </section>
 {{- end -}}
