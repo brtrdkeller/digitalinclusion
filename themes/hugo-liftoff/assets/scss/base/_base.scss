@@ -75,37 +75,50 @@ h6 {
 }
 
 table {
-  border-collapse: collapse;    
-  display: block;
+  border-collapse: collapse;
   overflow-x: auto;
+  width: 100%;
+  margin-inline: auto; 
+  table-layout: fixed;
+  overflow-wrap: break-word;
 }
 
 td, th {
-  border: 1px solid var(--color-contrast-medium-low);
+  border: 1px solid #555;
   padding: 10px 20px;
   font-size: 0.9rem;
   line-height: 1.4rem;
+  font-weight: bold;
 }
 
 th {
+  border-color: rgb(57, 22, 92) !important;
+}
+
+th, tfoot td {
   border: 1px solid var(--color-contrast-medium);
-  background-color: var(--color-contrast-medium-low);
-  color: var(--color-contrast-high);
+  background-color: rgb(57, 22, 92);
+  color: #fff;
   font-size: 1rem;
+}
+
+tfoot td, tfoot tr {
+  color: #111;
+  background-color:#dedede ;
+  border: 1px solid #111;
+}
+
+thead td {
+  border: none !important;
+  background: none !important;
+}
+
+tr:last-child td {
+  border-bottom: 1px solid #111;
 }
 
 td {
   text-align: center;
-}
-
-tr:nth-child(even) td {
-  background-color: var(--color-contrast-lower);
-  color: var(--color-contrast-high);
-}
-
-tr:nth-child(odd) td {
-  background-color: var(--color-contrast-low);
-  color: var(--color-contrast-high);
 }
 
 blockquote {

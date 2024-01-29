@@ -2,10 +2,12 @@
 
 ---
 
+Entretien Social Inclusion - Accessibilité Numérique
+
 Florian,
 
 Je ne sais pas si on s’est déjà vu. Je suis arrivé le 8 janvier au siège à Lyon.
-J’ai pour mission de déterminer si l’accessibilité pourrait être une discipline que nous pourrions développer chez HI.
+J’ai pour mission de déterminer si l’accessibilité numérique pourrait être une discipline que nous pourrions développer chez HI.
 Particulièrement sous forme d’ATI.
 
 En 4 mois, je dois faire un panorama interne et externe du sujet.

@@ -1,21 +1,115 @@
 ---
 theme:
-  - name: Benchmark
+  - name: Internal Survey
     topics:
-    - name: Rédaction du questionnaire
+    - name: Questionnaire
       activities: 
         - name: Choix des questions
           duration: 7
-        - name: Réalisation de la plateforme de recueil
-          duration: 7
-    - name: Recherche du panels de personnes 
-      activities:
-        - name: Réunions de définition du panel
-        - name: Rédaction du message d'invitation
+          budget:
           charge: 
             janvier: 7
+            février: 0
+            mars: 0
+            avril: 0
+        - name: Plateforme de recueil
+          duration: 3
+          charge: 
+            janvier: 7
+            février: 0
+            mars: 0
+            avril: 0
+        - name: Exploitation
+          duration: 3
+          deadline: 01/04/2024
+          charge: 
+            janvier: 2
+            février: 5
+            mars: 10
+            avril: 0
+        - name: Rédaction
+          duration: 3
+          deadline: 01/04/2024
+          charge: 
+            janvier: 0
+            février: 0
+            mars: 15
+            avril: 10
+    - name: Panel 
+      activities:
+        - name: Définition du panel
+          duration: 1
+          deadline: 01/02/2024
+          charge: 
+              janvier: 7
+              février: 2
+              mars: 0
+              avril: 0
+    - name: Equipe
+      activities:
+        - name: Echange
+          duration: 3
+          deadline: "-"
+          charge: 
+            janvier: 5
+            février: 5
+            mars: 5
+            avril: 5
+  - name: Offer
+    topics:
+    - name: Réflexion
+      activities: 
+        - name: Création de schémas
+          duration: 7
+          charge: 
+            janvier: 10
+            février: 5
+            mars: 0
+            avril: 0
+        - name: Etude marché
+          duration: 7
+          deadline: 15/02/2024
+          charge: 
+            janvier: 2
             février: 10
-            mars: 30
+            mars: 0
+            avril: 0
+    - name: Veille
+      activities:
+        - name: Veille besoin Bailleurs
+          duration: 3
+          charge: 
+            janvier: 10
+            février: 10
+            mars: 0
+            avril: 0
+    - name: Equipe
+      activities:
+        - name: Echange
+          duration: 7
+          charge: 
+            janvier: 5
+            février: 5
+            mars: 5
+            avril: 5
+        - name: Proposition
+          duration: 7
+          charge: 
+            janvier: 2
+            février: 20
+            mars: 20
+            avril: 20
+    - name: Assitance ?
+      activities:
+        - name: ATI
+          duration: 7
+          charge: 
+            janvier: 0
+            février: 0
+            mars: 10
+            avril: 30
+  - name: Benchmark
+    topics:
     - name: Recherche des obligations à l'international
       activities: 
         - name: Veille acteurs LinkedIn/Twitter/Web
@@ -23,19 +117,57 @@ theme:
           deadline: 15/02/2024
           charge: 
             janvier: 2
-            février: 20
-  - name: Offer
-    topics:
-    - name: Rédaction 
-      activities: 
-        - name: Création de schémas
-          duration: 7
+            février: 5
+            mars: 0
+            avril: 0
+        - name: Echange acteurs internationaux
+          duration: 5
+          deadline: 15/02/2024
           charge: 
-            janvier: 23
-            février: 20
-        - name: Réalisation de la plateforme de recueil
-          duration: 7
+            janvier: 0
+            février: 5
+            mars: 10
+            avril: 10
+  - name: Formation et Assistance
+    topics: 
+    - name: Formation
+      activities: 
+        - name: Hi Academy
+          charge: 
+            janvier: 20
+            février: 5
+            mars: 5
+            avril: 0
+        - name: Conférence
+          charge: 
+            janvier: 3
+            février: 3
+            mars: 3
+            avril: 3
+        - name: Veille
           charge: 
             janvier: 2
-            février: 20
+            février: 2
+            mars: 2
+            avril: 2
+    - name: Assistance
+      activities: 
+        - name: Erasmus+ (Health)
+          charge: 
+            janvier: 2
+            février: 1
+            mars: 1
+            avril: 0
+        - name: DSI
+          charge: 
+            janvier: 2
+            février: 2
+            mars: 2
+            avril: 4
+        - name: Other
+          charge: 
+            janvier: 0
+            février: 2
+            mars: 2
+            avril: 2
 ---

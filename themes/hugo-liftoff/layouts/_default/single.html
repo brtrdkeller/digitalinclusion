@@ -8,6 +8,7 @@
   <div class="single-container{{ if eq .Title "Roadmap"}} large{{ end }} markdown">
     {{ .Content }}
     {{ if eq .Title "Roadmap"}}
+      <h2>Tableau de tâches en fonction des chantiers</h2>
       {{ range .Site.Data.roadmap.theme }}
         {{ range .topics }}
         {{ with .activities }}
@@ -17,7 +18,6 @@
                 {{ $key := (string (index $.Site.Data.month $key)) }}
                 {{ $.Scratch.Set $key dict }}
                 {{ $.Scratch.Set (printf "%s-time" $key) slice }}
-                {{ $.Scratch.Set (printf "%s-timetotal" $key) 0 }}
               {{- end -}}
             {{- end -}}
           {{- end -}}
@@ -26,16 +26,16 @@
       {{- end -}}
       {{- range .Site.Data.roadmap.theme }}
         {{- $nametheme := .name }}
-        <h2>{{ .name }}</h2>
+        <h3>{{ .name }}</h3>
           <table>
             <thead>
               <tr>
-                <td>Sujet</td>
-                <td>Activité</td>
-                <td>Temps</td>
-                <td>DeadLine</td>
+                <th>Sujet</th>
+                <th>Activité</th>
+                <th>Temps</th>
+                <th>DeadLine</th>
                 {{ range seq 4 }}
-                  <td>{{ substr (index $.Site.Data.month (string .)) 0  }}</td>
+                  <th style="width:100px">{{ substr (index $.Site.Data.month (string .)) 0  }}</th>
                 {{ end }}
               </tr>
             </thead>
@@ -51,17 +51,18 @@
                   <tr>
                     <td style="width:250px"><strong>{{ $nametopics }}</strong></td>
                     <td>{{ $nameactivities }}</td>
-                    <td>{{ with $durationactivities }}{{ . }} j{{- end -}}</td>
-                    <td>{{ with $deadlineactivities }}{{ . }}<br>{{- end -}}</td>
+                    <td>{{ with $durationactivities }}{{ . }} j{{ else }}-{{- end -}}</td>
+                    <td>{{ with $deadlineactivities }}{{ . }}{{ else }}-{{- end -}}</td>
                     {{- range $key, $value := . }}
                       {{ $key := (string (index $.Site.Data.month $key)) }}
                       {{ $.Scratch.Set $key (merge (dict $nameactivities .) ($.Scratch.Get $key)) }}
                       {{ $.Scratch.Add (printf "%s-%s-time" $key $nametheme) . }}
+                      {{ $.Scratch.Add (printf "%s-timetotal" $key) . }}
                       {{ $.Scratch.Add (printf "%s-%s-timetotal" $key $nametheme) . }}
                       {{ $.Scratch.SetInMap (printf "roadmap%s" $nametheme) $key ($.Scratch.Get $key) }}
                     {{- end -}}
                     {{ range seq 4 }}
-                      <td>{{ with (index (index ($.Scratch.Get (printf "roadmap%s" $nametheme)) (string .)) $nameactivities) }}{{ . }}%{{ end }}</td>
+                      <td>{{ with (index (index ($.Scratch.Get (printf "roadmap%s" $nametheme)) (string .)) $nameactivities) }}{{ . }}%{{ else }}0{{ end }}</td>
                     {{ end }}
                 </tr>  
                 {{- end -}}
@@ -70,16 +71,40 @@
           {{- end -}}
           </body>
           <tfoot>
-            <td colspan="4">
+            <tr>
+            <th colspan="4">
               Total
-            </td>
+            </th>
             {{ range seq 4 }}
-              <td>{{ with $.Scratch.Get (printf "%s-%s-timetotal" (string .) $nametheme) }}{{ . }}%{{ end }}</td>
+              <td>{{ with $.Scratch.Get (printf "%s-%s-timetotal" (string .) $nametheme) }}{{ . }}%{{ else }}0{{ end }}</td>
             {{ end }}
+          </tr>
           </tfoot>
         </table>
       {{- end -}}
     {{- end -}}
+    <h3>Total</h3>
+    <table>
+      <thead>
+        <tr>
+          <td colspan="4"></th>
+          {{ range seq 4 }}
+            <th style="width:100px">{{ substr (index $.Site.Data.month (string .)) 0 }}</th>
+          {{ end }}
+        </tr>
+      </thead>
+    <tfoot>
+      <tr>
+        <th colspan="4">
+          Total
+        </td>
+        {{ range seq 4 }}
+          <td>{{ with $.Scratch.Get (printf "%s-timetotal" (string .)) }}{{ . }}%{{ else }}0{{ end }}</td>
+        {{ end }}
+      </tr>
+    </tfoot>
+  </table>
+    
   </div>
 </section>
 {{- end -}}
