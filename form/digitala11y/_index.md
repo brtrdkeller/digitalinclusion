@@ -85,9 +85,9 @@ form:
       - label: De ces 3 actions, laquelle vous semble la plus fondamentale en interne ?
         name: idea
         type: radio
-        placeholder: Culture, Formation, Conformité
+        placeholder: Culture interne, Formation, Conformité
         element:
-          - label: Culture
+          - label: Culture interne
           - label: Formation
           - label: Conformité
         help: (Pour vous ou votre équipe)
