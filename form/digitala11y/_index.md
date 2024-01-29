@@ -2,7 +2,7 @@
 title: Digital Accessibility
 type: form
 description: |-
-  Je vous propose ce questionnaire pour recueillir des éléments pour une enquête sur l'accessibilité numérique. Cette enquête a pour but d'avoir un panorama des : enjeux, pistes, manques, possibles,... Afin de savoir comment développer une offre accessibilité numérique, et pouvoir développer cette compétence en interne. 
+  Je vous propose ce questionnaire pour recueillir des éléments pour une enquête sur l'accessibilité numérique. Cette enquête a pour but d'avoir un panorama des : enjeux, pistes, manques, possibles, en fonction des secteurs techniques, des programmes, ... Afin de savoir comment développer une offre accessibilité numérique adaptée aux activités de HI, et pouvoir développer cette compétence en interne. 
   - 1
   - 2
 
