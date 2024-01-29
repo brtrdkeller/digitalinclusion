@@ -8,7 +8,7 @@ description: |-
 
   **gras** [hi](https://hi.org)
 form:
-  - title: Pour commencer, parlez-nous de vous:
+  - title: Pour commencer, parlez-nous de vous
     questions:
       - label: Votre Nom
         name: name
