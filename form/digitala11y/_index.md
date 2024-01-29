@@ -8,30 +8,27 @@ description: |-
 
   **gras** [hi](https://hi.org)
 form:
-  - title: Informations (Carte identité)
+  - title: Pour commencer, parlez-nous de vous:
     questions:
       - label: Votre Nom
         name: name
         type: text
         placeholder: Prénom Nom
         help: "(Vous pouvez répondre de manière anonyme : ne rien mettre dans ce champs)"
-      - label: Votre secteur
+      - label: Votre secteur, si applicable
         name: sector
         type: text
         placeholder: Nom du secteur
         help: "(Donnez le nom du secteur)"
+      - label: Quelle fonction occupez-vous à HI?
+        name: jobtitle
+        type: text
+        placeholder: Nom de la fonction
       - label: Vos pays d'activité
         name: countries
         type: text
         placeholder: Ouganda, Niger, Mali
         help: "(Inscrivez des noms de pays séparés par des virgules)"
-      - label: Avez vous un poste à responsabilité ?
-        name: job
-        type: radio
-        help: (Ex. chef de secteur, chef d'équipe,... vous dirigez une équipe)
-        element:
-          - label: Oui
-          - label: Non
   - title: Connaissances (Estimation)
     questions:
       - label: Quel est, selon vous, votre connaissance concernant l'accessibilité numérique ?
