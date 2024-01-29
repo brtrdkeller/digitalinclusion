@@ -100,13 +100,5 @@ form:
           - label: Formation
           - label: Conformité
         help: (Pour vos bénéficiaires ou vos partenaires)
-      - label: Pouvez vous citer une situation numérique qui vous bloque dans votre travail quotidien ?
-        name: experience-personnal
-        type: textarea
-        placeholder: Description de mon expérience
-      - label: Pouvez vous citer une situation numérique qui bloque vos interlocuteurs dans votre travail ?
-        name: experience-other
-        type: textarea
-        placeholder: Description de mon expérience
 ---
   
