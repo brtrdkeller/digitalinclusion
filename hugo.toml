@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'digitalinclusion/'
 defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = false
 enableInlineShortcodes = true
