@@ -26,14 +26,14 @@
             return;
           }
 
-          let keywords = ["slug" {{ range .Params.questions }}, {{- if eq .type "radio" }}{{ printf "%s_%s" (anchorize .name) .type }}{{ else }}{{ anchorize .name }}{{ end }}{{ end }}];
+          let keywords = ["slug" {{- range .Params.form }}{{ range .questions }}, {{- if eq .type "radio" }}{{ printf "%s_%s" (anchorize .name) .type }}{{ else }}{{ anchorize .name }}{{ end }}{{ end }}{{ end }}];
 
           let payload = {};
           payload.data = {}
           payload.name = "anonymous"
           payload.slugname = "anonymous"
           const date = new Date();
-          const formattedDate = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}-${String(date.getMinutes())}-${String(date. getSeconds())}`;
+          const formattedDate = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
           payload.date = formattedDate
           keywords.forEach(function(item, index) {
             if (item.indexOf("_radio") !== -1 ) {
@@ -61,7 +61,6 @@
           //keywords = keywords.map((item) => item.split('_')[0]);
           //payload.keywords = keywords.splice(1, keywords.length)
           //payload["email"] = SparkMD5.hash(payload["email"]);
-          //console.log(payload)
           fetch("https://publicactiontrigger.azurewebsites.net/api/dispatches/brtrdkeller/digitalinclusion", {
             method: 'POST',
             mode: 'cors',
@@ -72,6 +71,7 @@
             body: JSON.stringify({ event_type: 'interview', client_payload: { data: payload } })
           }).then(function(resp){
             if(resp.ok){
+              console.log(resp)
               alert('{{ i18n "form-alert-success" }}');
               localStorage.setItem("formSuccess", JSON.stringify(true));
               setTimeout(function(){ location.reload(); }, 1000);
