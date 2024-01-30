@@ -89,7 +89,7 @@ form-phone:
 form-message:
   other: Un message ?
 form-completed:
-  other: Le formulaire complété
+  other: Formulaire complété
 form-alert-success:
   other: Nous avons bien enregistré les informations
 form-message-placeholder:
