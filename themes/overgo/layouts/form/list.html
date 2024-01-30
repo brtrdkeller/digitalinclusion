@@ -10,6 +10,7 @@
   <div class="single-container markdown">{{- partialCached "elements/content.html" .Content -}}</div>
   <div id="comment-post">
     <script type="text/javascript">
+        
         const slugify = text =>
           text
             .toString()
@@ -60,7 +61,7 @@
           //keywords = keywords.map((item) => item.split('_')[0]);
           //payload.keywords = keywords.splice(1, keywords.length)
           //payload["email"] = SparkMD5.hash(payload["email"]);
-          console.log(payload)
+          //console.log(payload)
           fetch("https://publicactiontrigger.azurewebsites.net/api/dispatches/brtrdkeller/digitalinclusion", {
             method: 'POST',
             mode: 'cors',
@@ -73,7 +74,7 @@
             if(resp.ok){
               alert('{{ i18n "form-alert-success" }}');
               localStorage.setItem("formSuccess", JSON.stringify(true));
-              console.log(resp)
+              setTimeout(function(){ location.reload(); }, 1000);
             } else if (resp.status == 422){
               resp.text().then(
                 function(msg){
@@ -84,6 +85,7 @@
         }
 
     </script>
+    <div id="form">
     <form>
         <!-- https://github.com/rodenacker/FormSpamPrevention */}} -->
         <input id="comment-slug" name="options[slug]" type="hidden" value="{{ anchorize (lower .Page.Title) }}">
@@ -129,6 +131,16 @@
         {{ end -}}
         <input type="button" value='{{ i18n "form-submit" }}' class="btn right" onclick="comment()" ></input>
     </form>
+    <div class="completed">
+      <h2>{{ i18n "form-completed" }}</h2>
+    </div>
+  </div>
   </div>
 </div>
+<script>
+  if (localStorage.getItem("formSuccess")) {
+    const form = document.getElementById("form");
+    form.classList.add("form-completed");
+  }
+</script>
 {{ end }}

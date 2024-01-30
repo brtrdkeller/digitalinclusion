@@ -74,6 +74,8 @@ form-submit:
   other: Submit
 form-alert-success:
   other: We receive your message with success
+form-completed:
+  other: Form submitted
 location:
   other: "location"
 name:

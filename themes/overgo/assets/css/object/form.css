@@ -11,7 +11,7 @@ body {
   --background-color-section: #fdfdfd;
 }
 
-form {
+form, .form-completed {
   overflow: hidden;
   margin: auto auto 3rem;
   padding: var(--baseline,1.5em) calc(var(--baseline,1.5em) * 2);
@@ -224,6 +224,13 @@ fieldset.form-radio p {
   flex: inherit;
   width: fit-content;
   margin-right: 10px;
+}
+.form-completed form, .completed {
+  display: none;
+}
+
+.form-completed .completed {
+  display: block;
 }
 
 .form-control + .form-control {
