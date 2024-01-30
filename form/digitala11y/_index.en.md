@@ -1,7 +1,7 @@
 ---
 title: Digital Accessibility
 type: form
-description: >-
+description: |-
   I'd like to share some information with you for a survey on digital
   accessibility at HI. 
 
