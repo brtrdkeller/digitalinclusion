@@ -5,6 +5,8 @@ theme:
     - name: Questionnaire
       activities: 
         - name: Choix des questions
+          description: Définir les questions pour un entretien semi-dirigé. A valider ensemble et à traduire en anglais.
+          startdate: 2024-01-08
           duration: 7
           budget:
           charge: 
@@ -13,6 +15,8 @@ theme:
             mars: 0
             avril: 0
         - name: Plateforme de recueil
+          description: Stocker les entretiens afin de pouvoir les consulter et les exploiter. 
+          startdate: 2024-01-15
           duration: 3
           charge: 
             janvier: 7
@@ -20,7 +24,9 @@ theme:
             mars: 0
             avril: 0
         - name: Exploitation
+          description: Faire ressortir les éléments les plus révélateurs
           duration: 3
+          startdate: 2024-03-01
           deadline: 2024-04-01
           charge: 
             janvier: 2
@@ -28,8 +34,10 @@ theme:
             mars: 10
             avril: 0
         - name: Rédaction
+          description: Fournir une analyse des entretiens pour une communcation interne sur les intérêts de développer l'accessibilité numérique
           duration: 3
-          deadline: 01/04/2024
+          startdate: 2024-03-15
+          deadline: 2024-04-01
           charge: 
             janvier: 0
             février: 0
@@ -38,8 +46,10 @@ theme:
     - name: Panel 
       activities:
         - name: Définition du panel
+          description: Lister les personnes pour les entretiens
           duration: 1
-          deadline: 01/02/2024
+          startdate: 2024-01-10
+          deadline: 2024-02-01
           charge: 
               janvier: 7
               février: 2
@@ -55,20 +65,22 @@ theme:
             février: 5
             mars: 5
             avril: 5
-  - name: Offer
+  - name: Offres
     topics:
-    - name: Réflexion
+    - name: Analyse
       activities: 
         - name: Création de schémas
+          description: Forme visuelle pour communication de concept sur la manière dont on doit concevoir l'accessiblité numérique
           duration: 7
           charge: 
             janvier: 10
             février: 5
             mars: 0
             avril: 0
-        - name: Etude marché
+        - name: Etude de marché
           duration: 7
-          deadline: 15/02/2024
+          startdate: 2024-01-15
+          deadline: 2024-02-15
           charge: 
             janvier: 2
             février: 10
@@ -77,6 +89,8 @@ theme:
     - name: Veille
       activities:
         - name: Veille besoin Bailleurs
+          description: Chercher de besoin existant de bailleurs sur l'accessibilité numérique
+          startdate: 2024-02-15
           duration: 3
           charge: 
             janvier: 10
@@ -93,6 +107,8 @@ theme:
             mars: 5
             avril: 5
         - name: Proposition
+          description: Rédaction d'offres en fonction de cas pratiques avec clients réels ou imaginés
+          startdate: "2024-02-25"
           duration: 7
           charge: 
             janvier: 2
@@ -113,16 +129,20 @@ theme:
     - name: Recherche des obligations à l'international
       activities: 
         - name: Veille acteurs LinkedIn/Twitter/Web
+          description: Etablir un fichier d'acteurs du numérique ou de l'accessibilité numérique pour de potentiels entretiens. 
           duration: 5
-          deadline: 15/02/2024
+          startdate: 2024-01-15
+          deadline: 2024-02-15
           charge: 
             janvier: 2
             février: 5
             mars: 0
             avril: 0
         - name: Echange acteurs internationaux
+          description: Sonder les acteurs terrain pour avoir une idée de l'accessibilité numérique en fonction des terrains.
           duration: 5
-          deadline: 15/02/2024
+          startdate: 2024-03-15
+          deadline: 2024-02-15
           charge: 
             janvier: 0
             février: 5
@@ -133,18 +153,21 @@ theme:
     - name: Formation
       activities: 
         - name: Hi Academy
+          decription: Comprendre les Frameworks et manière de travailler actuels de HI, pour analyser le numérique chez HI.
           charge: 
             janvier: 20
             février: 5
             mars: 5
             avril: 0
         - name: Conférence
+          decription: Suivi de conférences en ligne pour alimenter les réflexions sur les métiers de l'accessibilité numérique 
           charge: 
             janvier: 3
             février: 3
             mars: 3
             avril: 3
         - name: Veille
+          description: Recherche d'articles fondamentaux pour soutenir la manière de structurer des offres 
           charge: 
             janvier: 2
             février: 2
@@ -153,18 +176,21 @@ theme:
     - name: Assistance
       activities: 
         - name: Erasmus+ (Health)
+          description: Relation avec Davide, pour diriger les choix stratégiques de HI avec d'autres partanaires, assoir la compétence HI dans le domaine.
           charge: 
             janvier: 2
             février: 1
             mars: 1
             avril: 0
         - name: DSI
+          decription: Expertise pour la relation avec des sous-traitants dans le cadre l'amélioration de l'accessibilité numérique des outils.
           charge: 
             janvier: 2
             février: 2
             mars: 2
             avril: 4
         - name: Other
+          description: Demandes potentielles suite à des discussions ou rencontres. 
           charge: 
             janvier: 0
             février: 2

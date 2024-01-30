@@ -59,7 +59,6 @@
   max-height: 200px;
   text-align: justify;
   word-break: break-word;
-  color: var(--background-color-body, #fff);
 }
 
 .timeline label {
