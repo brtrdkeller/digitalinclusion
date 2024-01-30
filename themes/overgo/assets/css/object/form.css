@@ -222,7 +222,8 @@ fieldset.form-radio p {
 
 .form-radio p {
   flex: inherit;
-  min-width: 120px;
+  width: fit-content;
+  margin-right: 10px;
 }
 
 .form-control + .form-control {
