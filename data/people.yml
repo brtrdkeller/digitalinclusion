@@ -7,8 +7,9 @@
   sector: 3I
   contacted: true
   interview: false
-- name: Ludovic Bourde
+- name: Ludovic Bourbé
   sector: IHM
+  contacted: true
   interview: false
 - name: Julia McGeow
   sector: Social & Inclusion

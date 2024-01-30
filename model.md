@@ -1,4 +1,5 @@
 
+## Modèles de messages d'invitation 
 
 ---
 
@@ -20,5 +21,28 @@ Bonne fin de semaine à toi
 
 Bertrand Keller  
 (Surtout présent Lundi et Jeudi, et potentiellement Mardi et Vendredi)
+
+---
+
+---
+Ludovic,
+
+Il me reste encore quelques heures pour te souhaiter une excellente année.
+Je suis arrivé le 8 janvier au siège à Lyon dans l’équipe Social & Inclusion.
+
+J’ai pour mission de déterminer si l’accessibilité numérique pourrait être une discipline que nous pourrions développer chez HI.
+Particulièrement sous forme d’ATI.
+En 4 mois, je dois faire un panorama interne et externe du sujet pour dégager le « pourquoi » et le « comment ».
+
+Est-ce que tu aurais des préférences pour un entretien ?
+
+Je dois recueillir vos problématiques actuelles sur le sujet, et potentiellement comment tu imagines le futur de ton secteur.
+Etant un expert du numérique, je peux aussi répondre à toutes tes interrogations.
+
+La durée que tu juges nécessaire sera la mienne.
+
+Bonne semaine
+
+Bertrand Keller  
 
 ---

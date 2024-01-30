@@ -6,8 +6,8 @@
     "experience-abroad": "Pouvez vous citer une expérience dans laquelle vous avez été témoin dune personne bloquée et qui vous a donné limpression que cette personne était discriminé ?",
     "experience-other": "Pouvez vous citer une expérience dans laquelle vous avez été témoin dune personne bloquée et qui vous a donné limpression que cette personne était discriminé ?",
     "experience-personnal": "Lorem",
-    "first-block": "Les problèmes, les tantes",
-    "first-win": "Les problèmes, les tantes",
+    "first-block": "Les problèmes, s",
+    "first-win": "Les problèmes, les ntes",
     "first-word": "Cool",
     "idea": "Culture"
   },
