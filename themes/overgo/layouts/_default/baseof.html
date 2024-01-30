@@ -69,7 +69,7 @@
     {{/*- partialCached "elements/head-card.html" . .Permalink -*/}}
     {{- end -}}
   {{ end }}
-  <meta property="og:title" content="{{ block "meta" . }}{{ .Title }}{{ end }}{{ with .Site.Title }} pour {{ . }}{{ end }}">
+  <meta property="og:title" content="{{ block "meta" . }}{{ .Title }}{{ end }}{{ with .Site.Title }} | {{ . }}{{ end }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:locale" content="{{ $.Site.LanguageCode | default "fr" }}">
