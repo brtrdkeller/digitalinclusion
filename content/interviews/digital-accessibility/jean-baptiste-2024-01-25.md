@@ -1,13 +1,30 @@
 ---
-title: Jean Baptiste
-date: 24-01-2024
+{
+  "data": {
+    "countries": "France",
+    "estimated-action-accessibility": "moyenne",
+    "estimated-knowledge-accessibility": "moyenne",
+    "first-block": "",
+    "first-win": "",
+    "first-word": "",
+    "idea": "",
+    "jobtitle": "",
+    "mission-issue-futur": "oui",
+    "mission-issue-present": "oui",
+    "sector": "DSI"
+  },
+  "date": "2024-01-24",
+  "name": "Jean Baptiste Gayet",
+  "slugname": "jean-baptiste-gayet"
+}
 ---
 
-## BeHinclusive
+
+## Présentation BeHinclusive
 
 ### Actions Réalisées
 
- - Définition de l'accesibilité sur les pages Inside
+ - Définition de l'accessibilité sur les pages Inside
  - Ajouts de documents sur Inside
  - Espace d'audits (Teams) & méthodes de suivis
  - Estimation des scores globaux par années
