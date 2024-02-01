@@ -8,7 +8,7 @@
   contacted: true
   interview: false
 - name: Ludovic Bourbé
-  sector: IHM
+  sector: IHA
   contacted: true
   interview: false
 - name: Julia McGeow
@@ -16,6 +16,7 @@
   interview: false
 - name: Jean-Patrick Masquelier
   sector: Bannery
+  contacted: true
   interview: false
 - name: Stacy Zevenbergen
   sector: Social & Inclusion
@@ -35,8 +36,12 @@
   interview: 25/01/2024
 - name: Marie Verrier
   sector: Communication
+  contacted: true
   interview: false
 - name: Caroline Chateau
   sector: Project Manager
+  contacted: true
   interview: false
+- name: Céline Trublin
+  sector: IHA
 #https://hinside.hi.org/intranet/jcms/pl1_2762722/fr/1-2022-organigramme-hi-direction-des-operations-janvier-2023

@@ -52,7 +52,7 @@ form:
           - label: importante
           - label: totale
         help: (Ex. Un processus est en place pour la rédaction, la conception ou le contrôle de conformité)
-      - label: L'accessibilité numérique est-elle un enjeu pour secteur ou vos activités actuelles ?
+      - label: L'accessibilité numérique est-elle un enjeu votre pour secteur ou vos activités actuelles ?
         name: mission-issue-present
         type: radio
         element:

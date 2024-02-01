@@ -1,9 +1,7 @@
 
-## Modèles de messages d'invitation 
+## Modèles de messages d'invitation :: Entretien Social Inclusion - Accessibilité Numérique
 
 ---
-
-Entretien Social Inclusion - Accessibilité Numérique
 
 Florian,
 
