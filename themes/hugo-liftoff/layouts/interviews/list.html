@@ -5,16 +5,6 @@
     <p class="page-header-desc">
       {{- with .Params.Summary -}}
         {{- . -}}
-      {{- else -}}
-        {{- with .Description -}}
-          {{- . -}}
-        {{- else -}}
-          {{- if eq .Data.Plural "series" -}}
-            Posts in the {{ .Title }} series.
-          {{- else -}}
-            Posts about {{ .Title }}.
-          {{- end -}}
-        {{- end -}}
       {{- end -}}
     </p>
   </section>
