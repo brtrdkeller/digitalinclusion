@@ -91,7 +91,7 @@ form:
         placeholder: Train, bring together stakeholders
         help: (The essential first step)
       - label: Of these 3 actions, which do you think is the most fundamental internally?
-        name: idea
+        name: idea-internal
         type: radio
         placeholder: Internal culture, Training, Compliance
         element:
@@ -100,7 +100,7 @@ form:
           - label: Compliance
         help: (For you or your team)
       - label: Of these 3 actions, which do you think is the most fundamental externally?
-        name: idea
+        name: idea-external
         type: radio
         placeholder: Internal culture, Training, Compliance
         element:

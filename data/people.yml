@@ -2,20 +2,20 @@
 - name: Florian Pujol
   sector: 3I
   contacted: true
-  interview: false
+  interview: 2024-02-02
 - name: Pierre Gallien
   sector: 3I
   contacted: true
-  interview: false
+  interview: 2024-02-01
 - name: Ludovic Bourbé
   sector: IHA
   contacted: true
-  interview: false
+  interview: 2024-01-30
 - name: Julia McGeow
   sector: Social & Inclusion
   interview: false
 - name: Jean-Patrick Masquelier
-  sector: Bannery
+  sector: BANEREI
   contacted: true
   interview: false
 - name: Stacy Zevenbergen
@@ -27,8 +27,13 @@
 - name: Isabelle Urseau
   sector: Réadaptation
   interview: false
+- name: Martin Jacobs
+  sector: Réadaptation
+  contacted: true
+  interview: false
 - name: Perrine Benoist
   sector: RVA
+  contacted: true
   interview: false
 - name: Jean-Baptiste Gayet
   sector: DSI
@@ -37,11 +42,18 @@
 - name: Marie Verrier
   sector: Communication
   contacted: true
-  interview: false
+  interview: 2024-02-01
 - name: Caroline Chateau
   sector: Project Manager
   contacted: true
   interview: false
+- name: Brooke
+  sector: Santé Inclusive
+- name: "?"
+  sector: SRSR ?
 - name: Céline Trublin
-  sector: IHA
+  sector: BANEREI
+  contacted: true
+  interview: false
+- name: Reem (Jordanie)
 #https://hinside.hi.org/intranet/jcms/pl1_2762722/fr/1-2022-organigramme-hi-direction-des-operations-janvier-2023

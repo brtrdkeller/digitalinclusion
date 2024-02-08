@@ -14,11 +14,16 @@
     "sector": "DSI"
   },
   "date": "2024-01-24",
-  "name": "Jean Baptiste Gayet",
+  "name": "Jean-Baptiste Gayet",
   "slugname": "jean-baptiste-gayet"
 }
 ---
 
+## A retenir
+
+ - La mise en conformité : à l'arrêt (plus d'auditeur)
+ - Bepoin d'une personne expert pour suivre les évolutions
+ - Dépendant ses choix stratégiques des outils (interne, type CRM) et services numériques
 
 ## Présentation BeHinclusive
 
@@ -61,10 +66,11 @@ Audit en interne, plus d'auditeur, et suivi régulier un peu au doigt mouillé.
  1. Pas de vu sur le travail les personnes locales. 
  1. Si utilisation d'outils gérés par l'équipe sur place (aucune visibilité). 
  1. Si on demande d'évaluer, pas de temps nécessaire, pas vu la charge réelle.
- 1.  A demander (à faire), quels pays ont des équipes et quels sont les nombres de services qu'ils ont déployés.
+ 1. A demander (à faire), quels pays ont des équipes et quels sont les nombres de services qu'ils ont déployés.
  1. Méthodologie de tests (RGAA) sur application ?
 
 ### Différents outils cités
+
  - SI comptable (na-vision). 
  - https://sednove.com/
  - https://silktide.com/

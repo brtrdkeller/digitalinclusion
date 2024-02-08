@@ -61,25 +61,24 @@ Si collègue au Kenya aveugle, il peut pas travailler. Risque.
 ## Armée en acessibilité numérique :
 
 Pas forcément.
-A11Y est mentionnée sur certains sujets pour l'organisation de conférence, mais pas dans en détail.
+A11Y est mentionnée sur certains sujets pour l'organisation de conférence, mais pas en détail.
 
 ## Tes besoins
 
 ### Actuels (Communication, matériels, légal...)
 
-Peut-être occasionnel. mais pas un risque car pas très fréquent.
+Peut-être occasionnel. Mais pas un risque car pas très fréquent.
 
 ### Dans le futurs
 
-Ce qui manque c'est à distance. s'assurer que la plateforme est accessible avec les transcripts.
+Ce qui manque c'est à distance. S'assurer que la plateforme est accessible avec les transcripts.
 D'autres Orga maitrisent déjà, mais pas nous.
 
 Potentiels appels d'offre avec mention accessibilité numérique. Mais pas encore observé.
-
 
 # Un Expert ?
 
   - une expert Software pour le relation en externe. 
 
 Ca le sera demain, mais comme pas d'expertise en interne. On ne vient pas vers nous sur ce sujet.
-Et on fait attention aux prestataires.
+Mais on fait attention aux prestataires.

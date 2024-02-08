@@ -50,6 +50,10 @@ a {
   }
 }
 
+a:not([class]) {
+	text-underline-position: under;
+}
+
 h1,h2,h3,h4,h5,h6 {
   font: normal 125% / 1.4 $title-font-stack;
   font-weight: 800;

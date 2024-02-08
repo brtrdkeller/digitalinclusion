@@ -32,7 +32,8 @@
 
 Mais pas de référent officiel accessibilité pour HI
 
-Be Hinclusive (depuis ans) : 
+Be Hinclusive (depuis ans) :
+
   - inclusion des employés
   - employés en situation du handicap pour un salarié
   - petits pas par de la formation : word et powerpoint (Ideance) & office 365. 
@@ -66,15 +67,13 @@ Viser le double A des critères, nécessité de mettre en place une démarche mi
 
 ### Dans le futurs
 
- - Accessibilité serait un secteur ?
-
-### Pour toi est-ce que l'accès à un matériel (périphérique), peut-être considérer comme faisant partie de la réflexion sur l'accessbilité numérique 
+ - Accessibilité numérique serait un secteur ?
 
 ## Les nécessités
 
 ### Que faudrait-il développer ?
 
-  - Problème dans les choisis technologies dont on dépend
+ - Problème dans les choisis technologies dont on dépend
 
 ### Besoin d'un expert, une compétence en particulier (Pourquoi faire exactement) ?
 
@@ -82,5 +81,5 @@ Viser le double A des critères, nécessité de mettre en place une démarche mi
 
 ### Est-ce que la direction te semble bien prendre en compte ce sujet ?
 
-  - Plans d'actions mise en place : Sont trop compliqués.
+ - Plans d'actions mise en place : sont trop compliqués. Si trop compliqués, on ne sait pas comment réaliser les tâches.
 

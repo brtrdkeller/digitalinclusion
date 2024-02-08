@@ -114,6 +114,10 @@ a {
   color: var(--link-color);
 }
 
+a:not([class]) {
+	text-underline-position: under;
+}
+
 [href]:hover {
   text-decoration: none;
 }

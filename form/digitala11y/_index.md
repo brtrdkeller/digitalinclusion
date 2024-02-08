@@ -84,7 +84,7 @@ form:
         placeholder: Former, réunir les parties prenantes
         help: (Le truc indispensable au démarrage)
       - label: De ces 3 actions, laquelle vous semble la plus fondamentale en interne ?
-        name: idea
+        name: idea-internal
         type: radio
         placeholder: Culture interne, Formation, Conformité
         element:
@@ -93,7 +93,7 @@ form:
           - label: Conformité
         help: (Pour vous ou votre équipe)
       - label: De ces 3 actions, laquelle vous semble la plus fondamentale en externe ?
-        name: idea
+        name: idea-external
         type: radio
         placeholder: Culture interne, Formation, Conformité
         element:
