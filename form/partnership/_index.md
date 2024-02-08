@@ -133,4 +133,18 @@ form:
           - label: moyenne
           - label: importante
           - label: majeure
+  - title: Faire partie d'une liste partenaire Handicap Internationale pour ses missions sur le numérique
+    questions:
+      - label: Seriez vous intéressez pour être partenaire ?
+        name: partner
+        type: radio
+        element:
+          - label: Oui
+          - label: Non
+        help: (Consultance, partenariat sur des missions, expertise sur le terrain...)
+      - label: Votre adresse mail
+        name: email
+        type: email
+        placeholder: georges.dupont@mail.com
+        help: "(Adresse stockée uniquement par l'équipe Social & Inclusion pour nos échanges)"
 ---
