@@ -73,7 +73,7 @@
             if(resp.ok){
               console.log(resp)
               alert('{{ i18n "form-alert-success" }}');
-              localStorage.setItem("formSuccess", JSON.stringify(true));
+              localStorage.setItem("formSuccess{{ anchorize (lower .Page.Title) }}", JSON.stringify(true));
               setTimeout(function(){ location.reload(); }, 1000);
             } else if (resp.status == 422){
               resp.text().then(
@@ -96,13 +96,13 @@
             {{- if eq .type "radio" }}
             <fieldset id="comment-{{ anchorize .name }}_{{ .type }}" class="form-radio">
               {{- $name := .name }}          
-              <legend>{{ .label }}</legend>
+              <legend>{{ htmlUnescape .label | safeHTML }}</legend>
               <div class="flex">
               {{- range .element }}
                 <p>                            
                   <label class="form-control">
                     <input name="fields[{{ anchorize $name }}]" type="radio" value="{{ anchorize .label }}">
-                    {{ .label }}
+                    {{ .label | safeHTML }}
                   </label>
                 </p>
               {{ end -}}
@@ -112,7 +112,7 @@
             {{- else if eq .type "textarea" }}
             <p>
               <label for="comment-{{ anchorize .name }}">
-                {{ .label }}{{ if .required }}<span class="form__required">{{ i18n "form-required" }}</span>{{ end }}
+                {{ .label | safeHTML }}{{ if .required }}<span class="form__required">{{ i18n "form-required" }}</span>{{ end }}
               </label>
               <textarea id="comment-{{ anchorize .name }}" name="fields[{{ anchorize .name }}]" type="{{ .type }}" {{ if .help }}aria-describedby="help-{{ anchorize .help }}"{{ .help }}{{ end }} rows=5 placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }}></textarea>
               {{ if .help }}<span id="help-{{ anchorize .help }}" class="form-help">{{ .help }}</span>{{ end }}
@@ -120,7 +120,7 @@
             {{- else }}
             <p>
               <label for="comment-{{ anchorize .name }}">
-                {{ .label }}{{ if .required }}<span class="form__required">{{ i18n "form-required" }}</span>{{ end }}
+                {{ .label | safeHTML }}{{ if .required }}<span class="form__required">{{ i18n "form-required" }}</span>{{ end }}
               </label>
               <input id="comment-{{ anchorize .name }}" name="fields[{{ anchorize .name }}]" type="{{ .type }}" {{ if .help }}aria-describedby="help-{{ anchorize .help }}"{{ .help }}{{ end }} placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }} />
               {{ if .help }}<span id="help-{{ anchorize .help }}" class="form-help">{{ .help }}</span>{{ end }}
@@ -138,7 +138,7 @@
   </div>
 </div>
 <script>
-  if (localStorage.getItem("formSuccess")) {
+  if (localStorage.getItem("formSuccess{{ anchorize (lower .Page.Title) }}")) {
     const form = document.getElementById("form");
     form.classList.add("form-completed");
   }

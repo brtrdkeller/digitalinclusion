@@ -242,6 +242,7 @@ fieldset.form-radio p {
 }
 
 input[type="radio"] {
+  position: relative;
   /* Add if not using autoprefixer */
   -webkit-appearance: none;
   /* Remove most all native input styles */
@@ -267,21 +268,24 @@ input[type="radio"] {
 
 input[type="radio"]::before {
   display: block;
+  position: absolute;
   content: "";
-  margin-top: 2px;
-  margin-left: 2px;
-  width: 0.65rem;
-  height: 0.65rem;
-  border-radius: 50%;
-  transform: scale(0);
+  transform-origin: top left;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  height: clamp(8px, 26px - 16px, 15px);
+  width: clamp(8px, 26px - 16px, 15px);
+  border-radius: 100%; 
   transition: 120ms transform ease-in-out;
   box-shadow: inset 1em 1em var(--form-control-color);
   /* Windows High Contrast Mode */
   background-color: CanvasText;
+  scale: 0;
 }
 
 input[type="radio"]:checked::before {
-  transform: scale(1);
+  scale: 1;
 }
 
 input[type="radio"]:focus { 

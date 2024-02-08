@@ -41,7 +41,7 @@ form:
           - label: réduite
           - label: moyenne
           - label: importante
-          - label: totale
+          - label: majeure
       - label: Quel est, selon vous, votre prise en compte de l'accessibilité numérique dans vos projets ?
         name: estimated-action-accessibility
         type: radio
@@ -50,7 +50,7 @@ form:
           - label: réduite
           - label: moyenne
           - label: importante
-          - label: totale
+          - label: majeure
         help: (Ex. Un processus est en place pour la rédaction, la conception ou le contrôle de conformité)
       - label: L'accessibilité numérique est-elle un enjeu votre pour secteur ou vos activités actuelles ?
         name: mission-issue-present
