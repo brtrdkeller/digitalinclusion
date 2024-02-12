@@ -1,12 +1,13 @@
 ---
 theme:
-  - name: Internal Survey
+  - name: Enquête interne
     topics:
     - name: Questionnaire
       activities: 
         - name: Choix des questions
           description: Définir les questions pour un entretien semi-dirigé. A valider ensemble et à traduire en anglais.
           startdate: 2024-01-08
+          deadline: 2024-01-20
           duration: 7
           budget:
           charge: 
@@ -17,12 +18,27 @@ theme:
         - name: Plateforme de recueil
           description: Stocker les entretiens afin de pouvoir les consulter et les exploiter. 
           startdate: 2024-01-15
+          deadline: 2024-01-20
           duration: 3
           charge: 
             janvier: 7
             février: 0
             mars: 0
             avril: 0
+    - name: Panel 
+      activities:
+        - name: Définition du panel
+          description: Lister les personnes pour les entretiens
+          duration: 1
+          startdate: 2024-01-10
+          deadline: 2024-02-01
+          charge: 
+              janvier: 7
+              février: 2
+              mars: 0
+              avril: 0
+    - name: Etude
+      activities: 
         - name: Exploitation
           description: Faire ressortir les éléments les plus révélateurs
           duration: 3
@@ -43,28 +59,6 @@ theme:
             février: 0
             mars: 15
             avril: 10
-    - name: Panel 
-      activities:
-        - name: Définition du panel
-          description: Lister les personnes pour les entretiens
-          duration: 1
-          startdate: 2024-01-10
-          deadline: 2024-02-01
-          charge: 
-              janvier: 7
-              février: 2
-              mars: 0
-              avril: 0
-    - name: Equipe
-      activities:
-        - name: Echange
-          duration: 3
-          deadline: "-"
-          charge: 
-            janvier: 5
-            février: 5
-            mars: 5
-            avril: 5
   - name: Offres
     topics:
     - name: Analyse
@@ -72,6 +66,7 @@ theme:
         - name: Création de schémas
           description: Forme visuelle pour communication de concept sur la manière dont on doit concevoir l'accessiblité numérique
           duration: 7
+          deadline: 2024-02-28
           charge: 
             janvier: 10
             février: 5
@@ -91,44 +86,49 @@ theme:
         - name: Veille besoin Bailleurs
           description: Chercher de besoin existant de bailleurs sur l'accessibilité numérique
           startdate: 2024-02-15
+          deadline: 2024-03-15
           duration: 3
           charge: 
             janvier: 10
             février: 10
             mars: 0
             avril: 0
-    - name: Equipe
-      activities:
-        - name: Echange
-          duration: 7
-          charge: 
-            janvier: 5
-            février: 5
-            mars: 5
-            avril: 5
         - name: Proposition
           description: Rédaction d'offres en fonction de cas pratiques avec clients réels ou imaginés
           startdate: "2024-02-25"
           duration: 7
+          deadline: 2024-03-15
           charge: 
             janvier: 2
             février: 20
             mars: 20
             avril: 20
-    - name: Assitance ?
+    - name: Rédaction
       activities:
-        - name: ATI
-          duration: 7
+        - name: Scénario Offres
+          description: Chercher de besoin existant de bailleurs sur l'accessibilité numérique
+          startdate: 2024-02-07
+          deadline: 2024-03-15
+          duration: 5
           charge: 
             janvier: 0
-            février: 0
+            février: 10
             mars: 10
-            avril: 30
-  - name: Benchmark
+            avril: 0
+    - name: Assitance
+      activities:
+        - name: Haïti
+          duration: 1
+          charge: 
+            janvier: 0
+            février: 1
+            mars: 0
+            avril: 0
+  - name: Etude comparative
     topics:
-    - name: Recherche des obligations à l'international
+    - name: Contexte international
       activities: 
-        - name: Veille acteurs LinkedIn/Twitter/Web
+        - name: Acteurs LinkedIn/Twitter/Web
           description: Etablir un fichier d'acteurs du numérique ou de l'accessibilité numérique pour de potentiels entretiens. 
           duration: 5
           startdate: 2024-01-15
@@ -138,7 +138,19 @@ theme:
             février: 5
             mars: 0
             avril: 0
-        - name: Echange acteurs internationaux
+        - name: Concurrence LinkedIn/Twitter/Web
+          description: Etablir un fichier d'acteurs du numérique ou de l'accessibilité numérique pour de potentiels entretiens. 
+          duration: 5
+          startdate: 2024-01-15
+          deadline: 2024-02-15
+          charge: 
+            janvier: 2
+            février: 5
+            mars: 0
+            avril: 0
+    - name: Acteurs internationaux
+      activities: 
+        - name: Echange acteurs
           description: Sonder les acteurs terrain pour avoir une idée de l'accessibilité numérique en fonction des terrains.
           duration: 5
           startdate: 2024-03-15
@@ -182,7 +194,21 @@ theme:
             février: 1
             mars: 1
             avril: 0
-        - name: DSI
+        - name: DSI - Link
+          decription: Expertise pour la relation avec des sous-traitants dans le cadre l'amélioration de l'accessibilité numérique des outils.
+          charge: 
+            janvier: 2
+            février: 2
+            mars: 2
+            avril: 4
+        - name: DSI - HiPeople
+          decription: Expertise pour la relation avec des sous-traitants dans le cadre l'amélioration de l'accessibilité numérique des outils.
+          charge: 
+            janvier: 2
+            février: 2
+            mars: 2
+            avril: 4
+        - name: Mamar - Maroc
           decription: Expertise pour la relation avec des sous-traitants dans le cadre l'amélioration de l'accessibilité numérique des outils.
           charge: 
             janvier: 2

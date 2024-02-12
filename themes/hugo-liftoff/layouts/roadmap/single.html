@@ -187,7 +187,10 @@
               <input class='radio' id='work' name="works" type="radio">
               <div class="flex flex-column">
                 <label for="">{{ .activity }} <small>({{ .topics }} - {{ .theme }})</small></label>
-                <span class="date">{{- with .startdate -}}<time datetime="{{ time.Format "2006-01-02T15:04:05Z07:00" . | safeHTML }}">{{ time.Format "2 Jan 2006" . }}</time>{{ else }}Aucune Date{{ end }}</span>
+                <span class="date">
+                  {{- with .startdate -}}<time datetime="{{ time.Format "2006-01-02T15:04:05Z07:00" . | safeHTML }}">{{ time.Format "2 Jan 2006" . }}</time>{{ else }}Aucune Date{{ end }}
+                  {{- with .deadline -}}<time datetime="{{ time.Format "2006-01-02T15:04:05Z07:00" . | safeHTML }}">{{ time.Format "2 Jan 2006" . }}</time>{{ else }}Aucune Date{{ end }}
+                </span>
                 <span class="circle"></span>
                 <div class="content">
                     {{- with .description -}}
@@ -252,7 +255,7 @@
                     <td style="width:250px"><strong>{{ $nametopics }}</strong></td>
                     <td>{{ $nameactivities }}</td>
                     <td>{{ with $durationactivities }}{{ . }} j{{ else }}-{{- end -}}</td>
-                    <td>{{ with $deadlineactivities }}{{ . }}{{ else }}-{{- end -}}</td>
+                    <td>{{ with $deadlineactivities }}{{ time.Format "2 January 2006" . }}{{ else }}-{{- end -}}</td>
                     {{- range seq 4 }}
                     <td>{{ with (index (index ($.Scratch.Get (printf "roadmap%s" $nametheme)) (string .)) $nameactivities) }}{{ . }}%{{ else }}0{{ end }}</td>
                     {{ end -}}

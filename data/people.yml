@@ -13,6 +13,7 @@
   interview: 2024-01-30
 - name: Julia McGeow
   sector: Social & Inclusion
+  contacted: true
   interview: false
 - name: Jean-Patrick Masquelier
   sector: BANEREI
@@ -20,9 +21,11 @@
   interview: false
 - name: Stacy Zevenbergen
   sector: Social & Inclusion
+  contacted: true
   interview: false
-- name: Alesandra Aresu
+- name: Alessandra Aresu
   sector: Health
+  contacted: true
   interview: false
 - name: Isabelle Urseau
   sector: Réadaptation
@@ -56,4 +59,32 @@
   contacted: true
   interview: false
 - name: Reem (Jordanie)
+- name: Madeline Sahagun
+  sector: Bannerei
+- name: Jennifer M'voumak
+  sector: DRR
+- name: Youri ou Lorraine
+  sector: Gouvernance inclusive (IHA)
+- name: 
+  sector: santé
+- name: Jérôme Rigard (pour interne en HI, quels enjeux, pas ATI)
+  sector: Atlas 
+- name: Maxence Giraud (Interne BeInclusive)
+  sector: Logistique interne et service généraux
+#Terrain:
+- name: Antoine Renard
+  sector: TUM Amérique Latine
+  country: 
+- name: Mar Pozuelo
+  sector: TUM 
+  country: 
+- name: Claire Perrin Oudon
+  sector: TUM 
+  country: 
+- name: Francesca Piatta
+  sector: TUM 
+  country: Afraique ouest
+
+Lewebmaster: Etienne
+
 #https://hinside.hi.org/intranet/jcms/pl1_2762722/fr/1-2022-organigramme-hi-direction-des-operations-janvier-2023

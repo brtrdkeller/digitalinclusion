@@ -94,3 +94,7 @@ Four practices in use were recognized as instrumental in the design and implemen
 https://www.researchgate.net/publication/377919592_Factors_influencing_the_design_and_implementation_of_accessible_e-Government_services_in_South_Africa
 https://se-realiser.com/pratique-reflexive/
 
+
+Factor of success
+
+https://www.researchgate.net/publication/340474442_An_e-Government_Implementation_Framework_A_Developing_Country_Case_Study
