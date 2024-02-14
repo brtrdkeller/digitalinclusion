@@ -12,8 +12,10 @@
         {{ range $key, $value := index (unmarshal (readFile (printf "%s/%s" $path .Name))) "form" }}
         {{ range .questions }}
            {{ if ne .name "name" }}
+           {{ if index $.Params.data .name }}
             <strong>{{ .label }}</strong><br>
             {{ index $.Params.data .name }}<br><br>
+            {{ end }}
             {{ end }}
         {{ end }}
         {{ end }}
