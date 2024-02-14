@@ -19,10 +19,23 @@ J'ai un agenda assez ouvert. N'hésite pas à me proposer un rendez-vous.
 
 Bonne fin de semaine à toi
 
-Bertrand Keller  
+Bertrand Keller 
 (En vacances du 19 au 23 février)
 
 ---
+
+
+I've still got 3 months to do my internal and external overview of the subject of Digital Accessibility to work out the "why" and the "how".
+We are interested in collecting feedback form different people.
+
+How would you like to get together to discuss all these issues?
+
+I have a fairly open agenda. Don't hesitate to suggest a meeting.
+
+Have a good week
+
+Bertrand Keller (in English or French speaking)
+(On vacation from February 19 to 23)
 
 ---
 

@@ -54,55 +54,58 @@
   sector: BANEREI
   contacted: true
   interview: 2024-02-09
-- name: Reem (Jordanie)
-- name: Brooke
+- name: Reem Kahn
+  sector: OPS
+  contacted: true
+  country: Jordany
+- name: Brooke Winterburn
   sector: Santé Inclusive
-  contacted: false
-- name: "?"
+  contacted: true
+- name: Quelqu'un à contacter
   sector: SRSR ?
   contacted: false
 - name: Madeline Sahagun
   sector: Bannerei
-  contacted: false
+  contacted: true
 - name: Jennifer M'Vouama
   sector: DRR
-  contacted: false
+  contacted: true
 - name: Youri Francx
   sector: Gouvernance inclusive (IHA)
-  contacted: false
-- name: Lorraine
-  sector: Gouvernance inclusive (IHA)
-  contacted: false
-- name: 
+  contacted: true
+- name: Quelqu'un à contacter
   sector: santé
   contacted: false
-- name: Jérôme Rigard (pour interne en HI, quels enjeux, pas ATI)
+- name: Jérôme Rigard
   sector: Atlas 
-  contacted: false
+  contacted: true
 - name: Maxence Giraud 
   sector: Logistique interne et service généraux
-  contacted: false
+  contacted: true
 - name: Antoine Renard
   sector: TUM
   country: Amérique Latine
-  contacted: false
-- name: Mar Pozuelo
+  contacted: true
+- name: Mar POZUELO CASTILLO
   sector: TUM 
-  country: 
-  contacted: false
-- name: Claire Perrin Oudon
+  country: Thailand
+  contacted: true
+- name: Claire Perrin-Oudon
   sector: TUM 
-  country: 
-  contacted: false
+  country: Mali
+  contacted: true
 - name: Francesca Piatta
   sector: TUM 
-  country: Afrique ouest
-  contacted: false
-- name: Etienne
+  country: Tunisie
+  contacted: true
+- name: Benoît Epiard (à contacter plus tard)
   sector: Webmaster
   contacted: false
-- name: Antoine
+- name: Antoine ?
   sector: Achat
   contacted: false
+- name: Daniel Chebbahi
+  sector: Achat
+  contacted: true
 
 #https://hinside.hi.org/intranet/jcms/pl1_2762722/fr/1-2022-organigramme-hi-direction-des-operations-janvier-2023
