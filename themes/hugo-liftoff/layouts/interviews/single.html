@@ -5,16 +5,20 @@
   </section>
 </div>
 <section class="generic-single container">
+  <div class="single-container markdown">
+    <h2>Questions dirigées</h2>
     {{ $path := "form/digitala11y" }}
-    {{ range readDir $path }}
-        {{ range $key, $value := index (unmarshal (readFile (printf "%s/%s" $path .Name))) "questions" }}
+    {{ range last 1 (readDir $path) }}
+        {{ range $key, $value := index (unmarshal (readFile (printf "%s/%s" $path .Name))) "form" }}
+        {{ range .questions }}
            {{ if ne .name "name" }}
             <strong>{{ .label }}</strong><br>
             {{ index $.Params.data .name }}<br><br>
             {{ end }}
         {{ end }}
+        {{ end }}
     {{ end }}
-  <div class="single-container markdown">
+    <h2>Questions semi-dirigées</h2>
     {{ .Content }}
   </div>
 </section>

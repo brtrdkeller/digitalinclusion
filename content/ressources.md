@@ -74,4 +74,4 @@ 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
 
 ### Banglasdesh
  1. [National Web Accessibility Guideline](https://msw.portal.gov.bd/sites/default/files/files/msw.portal.gov.bd/page/7e32948a_e1ab_4471_baed_910f872956a7/Draft%20National%20Web%20Accessibility%20Guideline%20%281%29%20%281%29.pdf)
-
+ 2. https://businesspostbd.com/national/bangladesh-adopts-digital-accessibility-guideline

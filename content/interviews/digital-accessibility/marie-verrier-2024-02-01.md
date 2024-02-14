@@ -81,5 +81,5 @@ Viser le double A des critères, nécessité de mettre en place une démarche mi
 
 ### Est-ce que la direction te semble bien prendre en compte ce sujet ?
 
- - Plans d'actions mise en place : sont trop compliqués. Si trop compliqués, on ne sait pas comment réaliser les tâches.
+ - Plans d'actions mise en place : sont trop compliqués. Si trop compliqués, on ne sait pas comment réaliser les tâches.  
 

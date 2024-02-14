@@ -1,11 +1,16 @@
 ---
 - continent:
-  - name: 
+  - name: Asia
   - countries:
       - name: India
         link: 
           - https://www.pmindia.gov.in/en/news_updates/cabinet-approves-signing-of-the-mou-between-the-india-and-south-africa-for-cooperation-in-disability-sector/ 
+          - https://www.newindianexpress.com/nation/2024/Jan/09/ib-ministry-invites-feedback-for-guidelines-on-accessibility-features-to-help-hearing-and-visually-i-2649400.html
+          - https://www.barrierbreak.com/a11y-for-good/
       - name: China
         link:
           - https://www.boia.org/blog/china-digital-accessibility-laws-an-overview
+      - name: Nigéria
+        link:
+          - https://qualitativemagazine.com/
 ---

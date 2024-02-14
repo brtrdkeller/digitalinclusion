@@ -1,29 +1,31 @@
 
 ## Modèles de messages d'invitation :: Entretien Social Inclusion - Accessibilité Numérique
 
+Entretien Social Inclusion - Digital Accessibility
+
 ---
 
-Florian,
+Jennifer,
 
-Je ne sais pas si on s’est déjà vu. Je suis arrivé le 8 janvier au siège à Lyon.
 J’ai pour mission de déterminer si l’accessibilité numérique pourrait être une discipline que nous pourrions développer chez HI.
 Particulièrement sous forme d’ATI.
 
-En 4 mois, je dois faire un panorama interne et externe du sujet.
-En tant que développeur informatique, je suis particulièrement intéressé par la manière dont on pourrait utiliser la Data interne.
+J'ai encore 3 mois pour faire un panorama interne et externe du sujet pour dégager le « pourquoi » et le « comment ».
+
+On m'a vivement conseillé de te contacter. 
 
 Sous quelle forme tu voudrais qu’on se voit pour évoquer tous ces sujets ?
-Personnellement, je ne suis pas contre un rendez-vous en présentiel pour poser les choses plus facilement.
+J'ai un agenda assez ouvert. N'hésite pas à me proposer un rendez-vous.
 
 Bonne fin de semaine à toi
 
 Bertrand Keller  
-(Surtout présent Lundi et Jeudi, et potentiellement Mardi et Vendredi)
+(En vacances du 19 au 23 février)
 
 ---
 
 ---
-Ludovic,
+
 
 Il me reste encore quelques heures pour te souhaiter une excellente année.
 Je suis arrivé le 8 janvier au siège à Lyon dans l’équipe Social & Inclusion.
@@ -44,3 +46,17 @@ Bonne semaine
 Bertrand Keller  
 
 ---
+
+Hello Alessandra,
+
+We would like to understand what would be the needs in term of digital accessibility in each sector.
+How we could improve our consideration of exclusion cause by digital.
+
+That means, knowing what would be your concrete cases nowadays, and estimate what could be the futur in your sector.
+
+It would be a pleasure to have a meeting with you. Look at my agenda, I have time for interview.
+If you please could fill this quick form : https://digitalinclusion.pages.dev/en/digitala11y/
+
+Regards
+
+Bertrand

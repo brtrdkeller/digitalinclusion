@@ -1,6 +1,6 @@
 name: 'Receive Interviews'
 
-## example payload { "event": "comment", "client_payload" : { "data": { "slug": "TEST" , "name": "TEST" , "email": "TEST" ,"comment": TEST }}}
+## example payload { "event": "comment", "client_payload" : { "data": { "slugg": "TEST" , "name": "TEST" , "email": "TEST" ,"comment": TEST }}}
 ## https://jackyzy823.github.io/tech/blog-comment-system-upgrade-2021-en.html
 
 # because we install `https://github.com/apps/public-action-trigger`

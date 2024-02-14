@@ -9,7 +9,7 @@
     </p>
   </section>
   <section>
-    {{ range .RegularPagesRecursive }}
+    {{ range where .RegularPagesRecursive "Title" "ne" "Model"}}
     <div>
         <div class="project-entry-info">
           <h3 class="project-entry-title">

@@ -33,7 +33,7 @@
 - name: Martin Jacobs
   sector: Réadaptation
   contacted: true
-  interview: false
+  interview: 2024-02-12
 - name: Perrine Benoist
   sector: RVA
   contacted: true
@@ -41,7 +41,7 @@
 - name: Jean-Baptiste Gayet
   sector: DSI
   contacted: true
-  interview: 25/01/2024
+  interview: 2024-01-25
 - name: Marie Verrier
   sector: Communication
   contacted: true
@@ -49,42 +49,60 @@
 - name: Caroline Chateau
   sector: Project Manager
   contacted: true
-  interview: false
-- name: Brooke
-  sector: Santé Inclusive
-- name: "?"
-  sector: SRSR ?
+  interview: 2024-02-12
 - name: Céline Trublin
   sector: BANEREI
   contacted: true
-  interview: false
+  interview: 2024-02-09
 - name: Reem (Jordanie)
+- name: Brooke
+  sector: Santé Inclusive
+  contacted: false
+- name: "?"
+  sector: SRSR ?
+  contacted: false
 - name: Madeline Sahagun
   sector: Bannerei
-- name: Jennifer M'voumak
+  contacted: false
+- name: Jennifer M'Vouama
   sector: DRR
-- name: Youri ou Lorraine
+  contacted: false
+- name: Youri Francx
   sector: Gouvernance inclusive (IHA)
+  contacted: false
+- name: Lorraine
+  sector: Gouvernance inclusive (IHA)
+  contacted: false
 - name: 
   sector: santé
+  contacted: false
 - name: Jérôme Rigard (pour interne en HI, quels enjeux, pas ATI)
   sector: Atlas 
-- name: Maxence Giraud (Interne BeInclusive)
+  contacted: false
+- name: Maxence Giraud 
   sector: Logistique interne et service généraux
-#Terrain:
+  contacted: false
 - name: Antoine Renard
-  sector: TUM Amérique Latine
-  country: 
+  sector: TUM
+  country: Amérique Latine
+  contacted: false
 - name: Mar Pozuelo
   sector: TUM 
   country: 
+  contacted: false
 - name: Claire Perrin Oudon
   sector: TUM 
   country: 
+  contacted: false
 - name: Francesca Piatta
   sector: TUM 
   country: Afrique ouest
+  contacted: false
 - name: Etienne
   sector: Webmaster
+  contacted: false
+- name: Antoine
+  sector: Achat
+  contacted: false
 
 #https://hinside.hi.org/intranet/jcms/pl1_2762722/fr/1-2022-organigramme-hi-direction-des-operations-janvier-2023

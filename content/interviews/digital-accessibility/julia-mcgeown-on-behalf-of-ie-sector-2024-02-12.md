@@ -1,7 +1,7 @@
 ---
 {
   "data": {
-    "countries": "All IE countries ( 25 across Africa, Asia, Middle East, and South America)",
+    "countries": "All IE countries (25 across Africa, Asia, Middle East, and South America)",
     "estimated-action-accessibility": "reduced",
     "estimated-knowledge-accessibility": "medium",
     "first-block": "It depends on the context ( e.g. West Africa it could be infrastructure like electricity) but in other places it could be more linked to knowledge about what works and what exists, training, maintenance of devices",
@@ -16,7 +16,7 @@
   },
   "date": "2024-02-12",
   "name": "Julia McGeown on behalf of IE sector",
-  "slug": "digital-accessibility",
+  "slugg": "digital-accessibility",
   "slugname": "julia-mcgeown-on-behalf-of-ie-sector"
 }
 ---

@@ -20,7 +20,7 @@
   },
   "date": "2024-02-08",
   "name": "Goerges Georges",
-  "slug": "stratégie-de-numérisation",
+  "slugg": "stratégie-de-numérisation",
   "slugname": "goerges-georges"
 }
 ---

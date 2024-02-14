@@ -16,7 +16,7 @@
   },
   "date": "2024-02-09",
   "name": "Céline Trublin",
-  "slug": "digital-accessibility",
+  "slugg": "digital-accessibility",
   "slugname": "celine-trublin"
 }
 ---
@@ -56,8 +56,6 @@ Il existe des outils de coaching pour accompagner les personnes pour le dévelop
 
 => On est en retard sur ces sujets.
 
-
-
 Système d'alertes précoces (IRR)
 Réponse aux aléas, système en ligne pour prévenir... 
 Existe déjà (concurrent).
@@ -70,7 +68,7 @@ Job matching : HI a aidé à rendre ces interfaces plus accessibles. Expérience
 
 --- 
 
-On veut capitaliser en interne sur le nuémrique.
+On veut capitaliser en interne sur le numérique.
 
 ---
 
