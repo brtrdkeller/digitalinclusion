@@ -6,7 +6,7 @@
 </div>
 <section class="generic-single container">
   <div class="single-container markdown">
-    <h2>Questions dirigées</h2>
+    
     {{ $path := "form/digitala11y" }}
     {{ range last 1 (readDir $path) }}
         {{ range $key, $value := index (unmarshal (readFile (printf "%s/%s" $path .Name))) "form" }}
