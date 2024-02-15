@@ -24,12 +24,18 @@
 
 ## A retenir
 
-  - Gestion d'un logiciel Open source par HI
-  - Martin a une orientation de gestion d'un applicatif IT *pur*
-  - Il considère l'accessibilité comme un contrainte supplémentaire
-  - L'accessibilité numérique est ignoré en tant que mission HI
-  - Il n'existe actuellement aucun retour terrain 
-  - Serait pour creuser le retour terrain (analyse Data)
+ - Gestion d'un logiciel Open source par HI
+ - Martin a une orientation de gestion d'un applicatif IT *pur*
+ - Il considère l'accessibilité comme un contrainte supplémentaire
+ - L'accessibilité numérique est ignoré en tant que mission HI
+ - Il n'existe actuellement aucun retour terrain 
+ - Serait pour creuser le retour terrain (analyse Data)
+
+### Eléments remarquables
+ 
+ - Pas de retours sur les services déployés [feedback, capitalisation]
+ - Incohérence entre la mission et les engagements par la direction de HI [stratégie]
+ - Manque expertise interne [Expertise]
 
 ## Présentation
 
@@ -81,8 +87,8 @@ Formation, contact avec le public, mais pas forcément technique (A ce que pense
  - Avoir les moyens pour financer les corrections demander par les audits
  - Intéressant d'ajouter des informations de contexte dans les projets (Analyse DATA), pour rehad (Dashboard, télécommunication, dashboard produit développé) : converture internet. 
 
-
 ### Exemple d'activité
+
  - 3D et teleread
  - Patient à distance.
  - Application avec des exercices

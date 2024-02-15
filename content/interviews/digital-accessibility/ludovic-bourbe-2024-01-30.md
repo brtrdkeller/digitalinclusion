@@ -25,6 +25,12 @@
   1. Le niveau d'exigence chez HI doit être élevé, mais ce n'est pas cas (discrimination interne)
   1. Pas de prise en compte de l'accessibilité numérique dans les politiques d'inclusion
 
+### Eléments remarquables
+ 
+ - Pas de retours sur les services déployés [feedback, capitalisation]
+ - Incohérence entre la mission et les engagements par la direction de HI [Stratégie]
+ - Référentiel de maitrise minimal [Knownledge]
+
 ## Accessibilité
 
 ### Peux-tu me définir l'accessibilité numérique ?
@@ -43,7 +49,7 @@ La Belgique présidence de l'union européenne. A11Y serait au coeur de leur pr�
 => Oui, succinte
 
 **Exemple :**
-Onepowerbehind (conférence) : événement accessible.
+Leave no one Behind (conférence) : événement accessible.
 Identifier une plateforme pour permettre de partager des données. 
 On pourrait financer 
 

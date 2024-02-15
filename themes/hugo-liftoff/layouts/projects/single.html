@@ -37,9 +37,22 @@
       {{ end }}
     </div>
   </section>
+  <section>
+    {{ $modules := .Params.modules }}
+    {{ range .Params.offers }}
+      {{ range .modules }}
+        {{ range (where $modules "slug" .) }}
+          <h3>{{ .title }}</h3>
+          {{ range .activities }}
+            {{ .title }}<br>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </section>
+  <hr>
 </div>
 <div class="single-container">
-  <div class="single-feature-img">{{ partial "general/feature-image.html" . }}</div>
   <article class="markdown">
     {{ .Content }}
   </article>

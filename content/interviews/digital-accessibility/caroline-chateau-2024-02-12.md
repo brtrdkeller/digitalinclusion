@@ -20,12 +20,20 @@
   "slugname": "caroline-chateau"
 }
 ---
-## Présentation
+
+
+## A retenir
+
+### Eléments remarquables
+ 
+ - Pas de retours sur les formations Accessibilité Numérique [feedback, capitalisation]
+ - Pas de retours sur les services numériques [feedback, capitalisation]
+ - Image HI [image]
+ - Manque expertise interne [Expertise]
 
 ## Accessibilité numérique
 
-N'importe qui doit avoir acces aux ressources numériques. Ne pas un frein.
-
+N'importe qui doit avoir accès aux ressources numériques. Ne pas être un frein.  
 Un personne dédiée en interne.  
 
 ### Ta Connaissance du processus d'amélioration l'accessibilité numérique ?
@@ -66,7 +74,7 @@ Le référentiel WCAG.
 
 ### Que faudrait-il développer ?
  
- - 
+ - Rien noté
 
 ### Besoin d'un expert, une compétence en particulier (Pourquoi faire exactement) ?
 

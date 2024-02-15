@@ -25,6 +25,11 @@
   - Objectif d'exploiter des données pour usage terrain ou autres
   - Les directions devraient être plus volontaires
   - Autonomie de progression sur ces sujets pour lier le travail des différentes personnes (manque de temps et d'experts)
+
+### Eléments remarquables
+ 
+ - Pas de retours de qualités sur les données terrain [feedback, capitalisation]
+ - Incohérence entre la mission et les engagements par la direction de HI [stratégie]
   
 ## Accessibilité
 

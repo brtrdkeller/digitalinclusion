@@ -4,8 +4,8 @@
     "countries": "France",
     "estimated-action-accessibility": "réduite",
     "estimated-knowledge-accessibility": "réduite",
-    "first-block": "La volonté dinvestissement des acteurs économiques,
-    first-win: Sensibilisation aux enjeux de laccessibilité numérique et du marché potentiel que représentent les personnes handicapées",
+    "first-block": "La volonté d'investissement des acteurs économiques",
+    "first-win": "Sensibilisation aux enjeux de l'accessibilité numérique et du marché potentiel que représentent les personnes handicapées",
     "first-word": "Internet",
     "idea-external": "formation",
     "idea-internal": "formation",
@@ -30,6 +30,13 @@
   - Formation salariés internes, mais pas technique poussée
   - Volonté de capitalisation en interne sur le numérique.
 
+### Eléments remarquables
+ 
+ - Pas de retours sur les manières de travailler sur le terrain [feedback, capitalisation]
+ - Retard Concurrence [concurrent]
+ - Manque expertise interne [Expertise]
+ - Référentiel de maitrise minimal [Knownledge]
+ 
 ## Présentation
 
 6 ans HI. 
@@ -83,7 +90,7 @@ HI a aidé à rendre ces interfaces plus accessibles. Expérience de 2 portails.
 **Analyse de secteur ou analyse du besoin ?**
 => Proposer l'appropriation d'un technologie en interne (identifier un prestataire pour ça, genre outil de coaching).
 
-## Exemple de 
+**Exemple de fonctionnenemt terrain**
 Aux philippines, ils ont géré en autonomie. Les spécialistes sont loin du terrain.
 Avec un prestataire technique fort en accessibilité numérique.
 
@@ -91,13 +98,11 @@ Avec un prestataire technique fort en accessibilité numérique.
 => Plateforme de ressources et d'échange.  
 Qui doit être accessible.
 
-
 #### IDEO 
 *Thème :* donner des idées d'aménagement raisonnable en fonction de type professionnel et un autre truc.
 Créé un outil en interne. 
 Site pas très simple. Site en suspend pour prendre photo (budget).
 Devrait avoir photo avec commentaire de psycho térapheute pour aider des acteurs dans le cas d'emploi de certaines personnes.
-
 
 ### Dans le futurs
 

@@ -70,7 +70,7 @@ form:
           - label: moyenne
           - label: importante
           - label: majeure
-      - label: Selon vous, quel est l'influence de la formation/sensibilisation, en tant que facteur de succès&nbsp;?
+      - label: Selon vous, quel est l'influence de la sensibilisation, en tant que facteur de succès&nbsp;?
         name: influence-awarness
         type: radio
         element:
@@ -107,7 +107,7 @@ form:
           - label: importante
           - label: majeure
       - label: Selon vous, quel est l'influence d'une vision et d'une stratégie claires, en tant que facteur de succès&nbsp;?
-        name:  influence-trategy
+        name: influence-trategy
         type: radio
         element:
           - label: aucune
@@ -116,7 +116,7 @@ form:
           - label: importante
           - label: majeure
       - label: Selon vous, quel est l'influence de la formation, en tant que facteur de succès&nbsp;?
-        name:  influence-formation
+        name: influence-formation
         type: radio
         element:
           - label: aucune
@@ -125,7 +125,7 @@ form:
           - label: importante
           - label: majeure
       - label: Selon vous, quel est l'influence de la capacité de participation des citoyens, en tant que facteur de succès&nbsp;?
-        name:  influence-empowerment
+        name: influence-empowerment
         type: radio
         element:
           - label: aucune

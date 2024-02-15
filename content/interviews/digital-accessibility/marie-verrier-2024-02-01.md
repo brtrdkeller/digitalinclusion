@@ -26,6 +26,12 @@
   - Problème de choix stratégiques des outils internes
   - L'accessibilité devrait être présenté de manière pratique
 
+### Eléments remarquables
+ 
+ - Incohérence entre la mission et les engagements par la direction de HI [stratégie]
+ - Recrutement sur le terrain [Emploi]
+ - Manque expertise interne [Expertise]
+
 ## Présentation
 
 2 ans chez HI, 2016. Référente accessibilité, pour la communication. Mais pas de référente officiellement accessibilité pour HI
@@ -71,11 +77,11 @@ Viser le double A des critères, nécessité de mettre en place une démarche mi
 
 ### Que faudrait-il développer ?
 
- - compétence en stratégie logicielle, choix outils dont on dépend
+ - Compétence en stratégie logicielle, choix outils dont on dépend
 
 ### Besoin d'un expert, une compétence en particulier (Pourquoi faire exactement) ?
 
-  - Oui, pour coordonner worldwild - compréhension des enjeux - adpatation pour s'y faire.
+ - Oui, pour coordonner worldwild - compréhension des enjeux - adpatation pour s'y faire.
 
 ### Est-ce que la direction te semble bien prendre en compte ce sujet ?
 

@@ -26,6 +26,11 @@
   - Possibilité formation les personnes terrains, pour outils internes et collectes éventuelles
   - Personnel terrain non technique.
 
+### Eléments remarquables
+ 
+ - Pas de retours sur l'utilisation outils sur le terrain [feedback, capitalisation]
+ - Formation des staffs non techniques [compétence]
+
 ## Accessibilité
 
 Formation En 2017.

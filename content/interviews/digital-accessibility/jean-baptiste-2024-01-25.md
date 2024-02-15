@@ -25,6 +25,12 @@
  - Bepoin d'une personne expert pour suivre les évolutions
  - Dépendant ses choix stratégiques des outils (interne, type CRM) et services numériques
 
+### Eléments remarquables
+ 
+ - Pas de retours sur les services déployés [feedback, capitalisation]
+ - Formation des staffs techniques [compétence]
+ - Manque expertise interne [Expertise]
+
 ## Présentation BeHinclusive
 
 ### Actions Réalisées

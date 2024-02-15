@@ -10,6 +10,13 @@
   </section>
   <section>
     {{ range where .RegularPagesRecursive "Title" "ne" "Model"}}
+     {{ range .Params.data }}
+      
+     {{ end }}
+    {{ end }}
+  </section>
+  <section>
+    {{ range (sort (where .RegularPagesRecursive "Title" "ne" "Model") "Params.date" "asc") }}
     <div>
         <div class="project-entry-info">
           <h3 class="project-entry-title">
@@ -17,7 +24,7 @@
             <sup>{{ partial "general/label-drafts.html" . }}</sup>
             {{ if ne .Params.data.sector "" }}- <small>{{ .Params.data.sector }}</small>{{ end }}
           </h3>
-          {{ with .Params.date }}<time></time>{{ time.Format "2 Jan 2006" . | safeHTML }}</time>{{ end }}
+          {{ with .Params.date }}<time>{{ time.Format "2 Jan 2006" . | safeHTML }}</time>{{ end }}
           <div class="project-list-meta">
             {{ with .Params.techstack }}
             {{ range . }}
@@ -26,10 +33,8 @@
             {{ end }}
           </div>
           <p class="project-list-summary">
-            {{- with .Params.Summary -}}
-              {{ . }}
-            {{- else -}}
-              {{- .Description -}}
+            {{- if .Params.data -}}
+              A faire : {{ index .Params.data "first-win" }}
             {{- end -}}
           </p>
         </div>

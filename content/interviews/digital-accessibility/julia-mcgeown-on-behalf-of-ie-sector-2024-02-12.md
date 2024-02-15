@@ -20,3 +20,22 @@
   "slugname": "julia-mcgeown-on-behalf-of-ie-sector"
 }
 ---
+
+**1. Your definition of Digital Accessibility**
+
+
+**2. Do you know some legal framework defining the process for improving digital accessibility?**
+
+**3. Can you identify the potential risks of not taking accessibility into account (for a digital service, in general, for HI's image...)?**
+
+**4. Do you feel you have all the resources needed to implement a digital accessibility improvement initiative?**
+
+**5. What are your immediate needs in terms of digital accessibility (communication, materials, legal, financial, management support, etc.)?**
+
+**6. What would be your future needs in terms of digital accessibility (Innovation, ATI, recruitment,...)**
+
+**7. What would you need to develop in HI to ensure that your mission discriminates as little as possible through the existence of digital interfaces?**
+
+**8. What do you think of HI's approach to digital accessibility in-house and in the field?**
+
+**9. Do you think an in-house expert would be needed, or a particular skill (why exactly)?**
