@@ -15,7 +15,9 @@
           <h3 class="project-entry-title">
             <a href="{{ .Permalink }}">{{ with .Title }}{{ . }}{{ else }}{{ .Params.name }}{{ end }}</a>
             <sup>{{ partial "general/label-drafts.html" . }}</sup>
+            {{ if ne .Params.data.sector "" }}- <small>{{ .Params.data.sector }}</small>{{ end }}
           </h3>
+          {{ with .Params.date }}<time></time>{{ time.Format "2 Jan 2006" . | safeHTML }}</time>{{ end }}
           <div class="project-list-meta">
             {{ with .Params.techstack }}
             {{ range . }}
@@ -30,7 +32,6 @@
               {{- .Description -}}
             {{- end -}}
           </p>
-          <hr>
         </div>
       </div>
     {{ end }}

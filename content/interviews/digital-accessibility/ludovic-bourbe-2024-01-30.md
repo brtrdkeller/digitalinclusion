@@ -51,17 +51,17 @@ On pourrait financer
 
 Certainement. On peut vendre des compétences A11Y, mais si on est exemplaire (Ce que je ne pense pas).
 
-La DSI penserait être exemplaire sur le sujet de l'accessibilité numérique, BeInclusive.
+La DSI prétend être exemplaire sur le sujet de l'accessibilité numérique, BeInclusive.
 Je devais donner un avis sur l'accessibilité numérique, on m'a répondu que c'était accessible.
 Or, je pense que c'est pas accessible
 
-Si collègue au Kenya aveugle, il peut pas travailler. Risque. 
+Un collègue au Kenya est aveugle, il peut pas travailler. Risque. 
 => Prendre contact avec lui
 
 ## Armée en acessibilité numérique :
 
 Pas forcément.
-A11Y est mentionnée sur certains sujets pour l'organisation de conférence, mais pas en détail.
+A11Y est mentionnée sur certains sujets pour l'organisation de conférence (appel d'offre), mais pas en détail.
 
 ## Tes besoins
 
@@ -69,7 +69,7 @@ A11Y est mentionnée sur certains sujets pour l'organisation de conférence, mai
 
 Peut-être occasionnel. Mais pas un risque car pas très fréquent.
 
-### Dans le futurs
+### Dans le futur
 
 Ce qui manque c'est à distance. S'assurer que la plateforme est accessible avec les transcripts.
 D'autres Orga maitrisent déjà, mais pas nous.

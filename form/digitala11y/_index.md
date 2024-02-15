@@ -21,7 +21,7 @@ form:
         type: text
         placeholder: Nom du secteur
         help: "(Donnez le nom du secteur)"
-      - label: Quelle fonction occupez-vous à HI?
+      - label: Quelle fonction occupez-vous à HI ?
         name: jobtitle
         type: text
         placeholder: Nom de la fonction

@@ -28,17 +28,15 @@
 
 ## Présentation
 
-2 ans chez HI, 2016. Référente accessibilité, pour la communication
-
-Mais pas de référent officiel accessibilité pour HI
+2 ans chez HI, 2016. Référente accessibilité, pour la communication. Mais pas de référente officiellement accessibilité pour HI
 
 Be Hinclusive (depuis ans) :
 
-  - inclusion des employés
-  - employés en situation du handicap pour un salarié
+  - inclusion des employés ;
+  - employés en situation du handicap pour un salarié ;
   - petits pas par de la formation : word et powerpoint (Ideance) & office 365. 
 
-Avec Cécile. Surtout siège, composante francophone.
+Avec Cécile. Surtout siège, avec composante francophone.
 
 ## Accessibilité
 
@@ -48,32 +46,32 @@ Viser le double A des critères, nécessité de mettre en place une démarche mi
 
 ### Quels sont les "risques" que tu identifies (pour un service numérique, global, pour l'image de HI) ?
 
- - En interne, auprès des collaborateurs
- - Freins pour l'embauche des personnes en internes
- - En externe, image auprès des partenaires, pour la non prise en compte de l'accessibilité numérique
+ - En interne, auprès des collaborateurs ;
+ - freins pour l'embauche des personnes en internes ;
+ - en externe, image auprès des partenaires, pour la non prise en compte de l'accessibilité numérique.
 
 ### Suffisament armée en accessibilité numérique ?
 
- - Formation en interne obligatoire
- - Plus de référents Handicap, sentiment de solitude.
- - Tests réguliers
+ - Formation en interne obligatoire ;
+ - plus de référents Handicap, sentiment de solitude ;
+ - tests réguliers.
 
 ## Tes besoins en accessibilité
 
 ### Actuels (Communication, matériels, légal...)
 
- - Mettre au point des sessions sur le terrain (problèmes de turnover, plutôt intelocuteur com...) 
+ - Mettre au point des sessions sur le terrain (problèmes de turnover, plutôt intelocuteur com...) ; 
  - Documents actuels ne sont pas au niveau. 
 
 ### Dans le futurs
 
- - Accessibilité numérique serait un secteur ?
+ - Accessibilité numérique pourrait-elle devenir un secteur ?
 
 ## Les nécessités
 
 ### Que faudrait-il développer ?
 
- - Problème dans les choisis technologies dont on dépend
+ - compétence en stratégie logicielle, choix outils dont on dépend
 
 ### Besoin d'un expert, une compétence en particulier (Pourquoi faire exactement) ?
 

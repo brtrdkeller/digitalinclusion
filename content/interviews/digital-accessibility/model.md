@@ -15,8 +15,10 @@ title: Model
 **6. Quelles seraient tes besoins futurs en accessibilité numériques (Innovation, ATI, recrutement,...)**
 
 **7. Que faudrait-il développer chez HI pour garantir que ta mission discrimine le moins possible par l'existence d'interfaces numériques ?**
- 
-**8. Penses-tu qu'un expert interne serait nécessaire, ou une compétence en particulier (Pourquoi faire exactement) ?**
+
+**8. Que penses-tu de la prise en compte de l'accessibilité numérique en interne et sur le terrain par HI ?**
+
+**9. Penses-tu qu'un expert interne serait nécessaire, ou une compétence en particulier (Pourquoi faire exactement) ?**
 
 ---
 
@@ -34,4 +36,6 @@ title: Model
 
 **7. What would you need to develop in HI to ensure that your mission discriminates as little as possible through the existence of digital interfaces?**
 
-**8. Do you think an in-house expert would be needed, or a particular skill (why exactly)?**
+**8. What do you think of HI's approach to digital accessibility in-house and in the field?**
+
+**9. Do you think an in-house expert would be needed, or a particular skill (why exactly)?**

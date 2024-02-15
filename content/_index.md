@@ -1,5 +1,5 @@
 ---
-title: Empowering people with accessibility inclusion
+title: Digital Accessibility Inclusion
 subtitle: 
 seo_title:
 

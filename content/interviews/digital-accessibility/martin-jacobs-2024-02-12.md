@@ -12,7 +12,8 @@
     "jobtitle": "Rehabilitation and Innovation Policy and Development Officer",
     "mission-issue-futur": "yes",
     "mission-issue-present": "yes",
-    "sector": "Rehabilitation"
+    "sector": "Rehabilitation",
+    "successfactor": [financier]
   },
   "date": "2024-02-12",
   "name": "Martin Jacobs",
@@ -21,49 +22,44 @@
 }
 ---
 
+## A retenir
+
+  - Gestion d'un logiciel Open source par HI
+  - Martin a une orientation de gestion d'un applicatif IT *pur*
+  - Il considère l'accessibilité comme un contrainte supplémentaire
+  - L'accessibilité numérique est ignoré en tant que mission HI
+  - Il n'existe actuellement aucun retour terrain 
+  - Serait pour creuser le retour terrain (analyse Data)
+
 ## Présentation
 
-Kiné avec une formation en santé publique.
-Policy and dévelopement officer.
-Avec une forte 
+Kiné avec une formation en santé publique
 
-Open Telereahab : Vietnam,...
-
-Le dépolyer et chercher des fonds pour le déployer
-
-Bien public numérique ?
+Charger du suivi de *OpenTeleRehab* (Vietnam)
+Le déployer et chercher des fonds pour le déployer
+Création d'un Bien public numérique ?
 
 ## Accessibilité
 
 Pour notre produit on a suivi le WCAG. Je connais les spécifications techniques initiales.
-L'accessibilit a un coût, et aussi un impact sur la navigation.
-J'ai participé à un rapport. 
+Pour moi l'accessibilité a un coût, et aussi un impact sur la navigation. J'ai participé à le réalisation d'un rapport sur l'audit de OpenTeleRehab. 
 
+https://hidsi.atlassian.net/wiki/spaces/OpenTeleRehab/pages/8880361/WCAG+Compliance+Report
 
 ### Ta Connaissance du processus d'amélioration l'accessibilité numérique ?
 
-Non
+ - Non
 
 ### Quels sont les "risques" que tu identifies (pour un service numérique, global, pour l'image de HI) ?
 
- - Pas de risque, peu de services pour le moment. 3D, mais pas de numérique.
- - Accessibilité permet d'avoir accès au service complet.
-
+ - Pas de risque, peu de services pour le moment.
+ - Accessibilité permet d'avoir accès au service complet par certains public 
 
 ### Suffisament armée en accessibilité numérique ?
 
  - Pas d'expertise, elle a juste été ajouté dans l'appel d'offre.
- - Non,  
-
-
-Est-ce qu'il faudrait formé tout le monde à l'accessibilité numérique ?
-Moi, oui, je devrais être plus formée. Mais, il doit y avoir plusieurs niveau de compétence :
-Formation, contact avec le public, mais pas forcément technique (A ce que pense Martin).
-
 
 ### Activités
-
-https://hidsi.atlassian.net/wiki/spaces/OpenTeleRehab/pages/8880361/WCAG+Compliance+Report
 
 ## Tes besoins en accessibilité
 
@@ -71,38 +67,38 @@ https://hidsi.atlassian.net/wiki/spaces/OpenTeleRehab/pages/8880361/WCAG+Complia
  - Formation, sur le cadre légal
  - Un support en interne (surtout question de coût) ?
 
-Logique de production.
+*Est-ce qu'il faudrait formé tout le monde à l'accessibilité numérique ?*
+Moi, oui, je devrais être plus formée. Mais, il doit y avoir plusieurs niveau de compétence :
+Formation, contact avec le public, mais pas forcément technique (A ce que pense Martin).
 
 ### Actuels (Communication, matériels, légal...)
 
 ### Dans le futurs
 
  - Pas de besoin dans le futur
- - Tests utilisateurs seraient vraiment intéresant
+ - Tests utilisateurs seraient vraiment intéresants
  - Avoir Retours terrains
  - Avoir les moyens pour financer les corrections demander par les audits
- - Intéressant d'ajouter des informations de contexte dans les projets, pour rehad (Dashborad, telcommincation, dashboradr produit deve) : converture internet. 
+ - Intéressant d'ajouter des informations de contexte dans les projets (Analyse DATA), pour rehad (Dashboard, télécommunication, dashboard produit développé) : converture internet. 
 
 
-3D et teleread
-Patient à distance.
-Application avec des exercices
-Appliction de rendez-vous
-Vision conférence
-Questionnaire.
-
+### Exemple d'activité
+ - 3D et teleread
+ - Patient à distance.
+ - Application avec des exercices
+ - Appliction de rendez-vous
+ - Vision conférence
+ - Questionnaire.
 
 ## Les nécessités
 
 ### Que faudrait-il développer ?
  
- - 
+ - ?
 
 ### Besoin d'un expert, une compétence en particulier (Pourquoi faire exactement) ?
 
- - 
+ - Sûrement
 
-
-Green Team A lyon.
 
  
