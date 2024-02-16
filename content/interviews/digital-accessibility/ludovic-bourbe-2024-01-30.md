@@ -82,9 +82,9 @@ D'autres Orga maitrisent déjà, mais pas nous.
 
 Potentiels appels d'offre avec mention accessibilité numérique. Mais pas encore observé.
 
-# Un Expert ?
+## Un Expert ?
 
-  - une expert Software pour le relation en externe. 
+  - Une expert Software pour le relation en externe. 
 
 Ca le sera demain, mais comme pas d'expertise en interne. On ne vient pas vers nous sur ce sujet.
 Mais on fait attention aux prestataires.

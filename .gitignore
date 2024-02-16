@@ -1,6 +1,6 @@
 # Hugo
 public
-resources
+/resources/
 _vendor
 go.sum
 .hugo_build.lock

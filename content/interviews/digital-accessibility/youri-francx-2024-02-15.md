@@ -31,37 +31,14 @@
  - Manque expertise interne [Expertise]
  - Référentiel de maitrise minimal [Knownledge]
 
-## Quelques données
 
-A intégrer dans la page publication direction
-Rupture de parcours = barrière (environnement jour sur le périmètre fonctionnel)
-Refaire le schéma avec le numérique
-Envrionement crée le handicpa c'est pas soit.
-
- > Ceux qui ont le plus de barrière ne participent à la définition de ce qui bloque.
-
-A définir avec les équipes terrains. Mieux avec What'sapp  (problème protaction de données) que teams.
-Pourquoi tel outil plutôt qu'un autre.
-
-Comment utiliser ?
-
-Le formulaire en lien est la plus utilisé par Hi pour le retour de données terrain.
-Peu de réponse terrain sanss se poser de question sur le terrain. Pas de feedback.
-Et seulement ceux qui ont des réseaux.
-
-=> Donc omet le principe de la participation.
-On devrait prendre en compte l'expérience utilisateur (chercher nourriture qu'est-ce qu'il se passe).
-
-Heidi Winecka : référente accessibilité numérique Ou hackon
-Projet Wish (reproduction) : formation sur les outils numérique (Marie Ange)
-
-## Pésentation
+## Présentation
 
 Former les personnes (staff et bénéficiaires) à l'humanitaire et je perds des personnes.
 Ils ont bloqués pour la participation
 Ils ne peuvent pas se faire engager par les ONG car ils ne peuvent pas accéder aux formations
 
- - LIfe for the world CBM font des essais.
+ - Life for the world, CBM font des essais.
  - Unicef est assez bon avec une bonne réflexion
  - Leave no one Behind : Engagement consultant (UN) formation accessibilité numérique.
 
@@ -84,6 +61,28 @@ J'ai des barrières, dans mon travail. Car surle terain, j'ai aps accès aux out
 J'utilise une méthode détournée. Essai avec équipe informatique siège.
 
 Devrait construire une base de données pratique pour utilisation d'outils 
+
+A intégrer dans la page publication direction
+Rupture de parcours = barrière (environnement jour sur le périmètre fonctionnel)
+Refaire le schéma avec le numérique
+Envrionement crée le handicpa c'est pas soit.
+
+ > Ceux qui ont le plus de barrière ne participent à la définition de ce qui bloque.
+
+A définir avec les équipes terrains. Mieux avec What'sapp  (problème protaction de données) que teams.
+Pourquoi tel outil plutôt qu'un autre.
+
+Comment utiliser ?
+
+Le formulaire en lien est la plus utilisé par Hi pour le retour de données terrain.
+Peu de réponse terrain sanss se poser de question sur le terrain. Pas de feedback.
+Et seulement ceux qui ont des réseaux.
+
+=> Donc omet le principe de la participation.
+On devrait prendre en compte l'expérience utilisateur (chercher nourriture qu'est-ce qu'il se passe).
+
+Heidi Winecka : référente accessibilité numérique Ou hackon
+Projet Wish (reproduction) : formation sur les outils numérique (Marie Ange)
 
 **1. Ta définition de l'Accessibilité numérique**
 
