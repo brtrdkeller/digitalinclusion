@@ -17,6 +17,7 @@
   </section>
   <section>
     {{ range (sort (where .RegularPagesRecursive "Title" "ne" "Model") "Params.date" "asc") }}
+    {{ if in .Permalink "digital-accessibility" }}
     <div>
         <div class="project-entry-info">
           <h3 class="project-entry-title">
@@ -32,13 +33,14 @@
             {{ end }}
             {{ end }}
           </div>
+          {{- if (index .Params.data "first-win") -}}
           <p class="project-list-summary">
-            {{- if .Params.data -}}
-              A faire : {{ index .Params.data "first-win" }}
-            {{- end -}}
+            <strong>Première Pierre :</strong> {{ index .Params.data "first-win" }}
           </p>
+          {{- end -}}
         </div>
       </div>
+    {{ end }}
     {{ end }}
   </section>
 </div>

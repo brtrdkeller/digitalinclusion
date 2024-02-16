@@ -24,6 +24,11 @@ theme = 'hugo-liftoff'
     name = "People"
     url = "/people/"
     weight = 1
+[[menus.main]]
+    identifier = "resources"
+    name = "Resources"
+    url = "/resources/"
+    weight = 1
 
 [languages]
   [languages.fr]
