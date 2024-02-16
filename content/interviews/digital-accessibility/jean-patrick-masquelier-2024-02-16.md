@@ -4,7 +4,7 @@
     "countries": "Luxembourg",
     "estimated-action-accessibility": "réduite",
     "estimated-knowledge-accessibility": "réduite",
-    "first-block": "les connaissances et contraintes techniques (matériel, usage, etc.)",
+    "first-block": "Les connaissances et contraintes techniques (matériel, usage, etc.)",
     "first-win": "Sensibiliser, former, proposer des solutions adaptées",
     "first-word": "digitalisation",
     "idea-external": "formation",

@@ -5,7 +5,7 @@
     "estimated-action-accessibility": "réduite",
     "estimated-knowledge-accessibility": "réduite",
     "first-block": "La multiplicité des vecteurs",
-    "first-win": "sensibilisation des équipes",
+    "first-win": "Sensibilisation des équipes",
     "first-word": "Digital multiplicite",
     "idea": "conformité",
     "jobtitle": "Manager de service",

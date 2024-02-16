@@ -21,7 +21,7 @@ modules:
     slug: a11y-discover-1
     activities:
       - title: Introduction à l'Accessibilité Numérique
-        short: Introduction ?
+        short: Introduction
       - title: Mettre en évidence l'importance de la communication inclusive pour atteindre un public diversifié 
         short: Mise en situation
       - title: Introduction aux Normes et Réglementations en Matière d'Accessibilité 
@@ -100,14 +100,21 @@ modules:
         short: Identifier les problèmes d'organisation de contenu
         duration: 0.25
       - title: Identifier les problèmes technique page
-        short: 
+        short: Identifier les problèmes
         duration: 0.25
-        #ajouter le truc d'élie
+
 
 
 offers: 
     - title: Offre 1
-      modules: [a11y-discover-1]
+      price: 10 000€
+      modules: [a11y-discover-1, a11y-discover-communication-1]
+    - title: Offre 2
+      price: 30 000€
+      modules: [a11y-discover-1, a11y-discover-communication-1, a11y-discover-communication-2]
+    - title: Offre 3
+      price: 60 000€
+      modules: [a11y-discover-1, a11y-workshop-1,  a11y-workshop-2]
 ---
 
 Cette page va vous présenter les offres potentielles sur le marché des ATI (Assistance Technique Inclusion).

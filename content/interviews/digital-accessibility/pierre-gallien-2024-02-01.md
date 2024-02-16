@@ -7,7 +7,7 @@
     "first-block": "Charge de travail suplémentaire, maitrise concept et technique",
     "first-win": "Règles partagées",
     "first-word": "Réalité de travail",
-    "idea": "formation",
+    "idea": "Formation",
     "jobtitle": "Directeur",
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
