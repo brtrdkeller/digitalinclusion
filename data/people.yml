@@ -22,7 +22,7 @@
 - name: Stacy Zevenbergen
   sector: Social & Inclusion
   contacted: true
-  interview: false
+  interview: 2024-02-16
 - name: Alessandra Aresu
   sector: Health
   contacted: true
@@ -58,6 +58,7 @@
   sector: OPS
   contacted: true
   country: Jordany
+  interview: 2024-02-26
 - name: Brooke Winterburn
   sector: Santé Inclusive
   contacted: true
@@ -70,9 +71,11 @@
 - name: Jennifer M'Vouama
   sector: DRR
   contacted: true
+  interview: 2024-02-28
 - name: Youri Francx
   sector: Gouvernance inclusive (IHA)
   contacted: true
+  interview: 2024-02-15
 - name: Quelqu'un à contacter
   sector: santé
   contacted: false
