@@ -27,7 +27,7 @@
  
  - Pas de retours sur les services déployés [feedback, capitalisation]
  - Incohérence entre la mission et les engagements par la direction de HI [stratégie]
- - Recrutement sur le terrain [Emploi]
+ - Identification/Validation des experts terrain [Emploi]
  - Manque expertise interne [Expertise]
  - Référentiel de maitrise minimal [Knownledge]
 
@@ -42,21 +42,16 @@ Brussels office on Social Inclusion
 Social worker open a case, Question about life => risk, with an action plan. 
 Follower digitals with survey CTO
 
-Limited comments, 
-
-Primerio
-
 Je ne peux pas avoir la main sur Survey CTO, et ce n'est pas adapté
 
-Wolrd Bank Digital case.
-Tunisia : 
+Wolrd Bank Digital case, Tunisia : 
   1. Social worker to find services, map Need to be accessible. Portail. I have to check for actual needs.
   2. Social registry, ainfo manager system. Link social security number with other service. HI don't work on it.
 
-Unicef : 
- 1. Mada + Sierra Leone : tbalet ti put information for district leel and national level. (National Working Group)
+Unicef (Madagascar + Sierra Leone) : 
+ 1. Tablet to put information for district leel and national level. (National Working Group)
  
-=> more and more in different countries Same as 
+=> more and more in different countries.
 
 
 ## Question
@@ -67,7 +62,7 @@ If you service is accessible has a certification. Option ti put voice, and image
 
 **2. Connais-tu le cadre légal définissant le processus d'amélioration l'accessibilité numérique ?**
 
- - 
+ - Non
 
 **3. Identifies-tu des risques potentiels à ne pas prendre en compte l'accessibilité (pour un service numérique, en général, pour l'image de HI...) ?**
  
@@ -76,16 +71,13 @@ If you service is accessible has a certification. Option ti put voice, and image
  - Excluding workorce, they can't do their work : Paiement, register  (Combodgia), don't part of the database
  - Be sure who we are employ
 
-3I, ne veut pas aller plus loin.
-
 **4. Estime-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
 
- - You don't have it
+ - 3I, ne veut pas aller plus loin. You don't have it
 
 **5. Quelles seraient tes besoins immédiats en accessibilité numériques (Communication, matériels, légal, financiers, soutien direction...)**
  
  - Mininum basics skills for advising (me or better expert for technical) 
- - 
 
 Document those so many sector. 
 
@@ -99,7 +91,7 @@ Pierre Gallien, so much service.
 Try to work on that, and invest, innovate on that.
 Many specialist,
 
- - It could be assement Multi sketeholder. Everything is developp is check.
+ - It could be assement Multi skaeteholder. Everything is developp is check.
  We have a report ti say waht is'nt working.
 
  National Working Group Rwanda, JIZ social  
@@ -114,6 +106,4 @@ Many specialist,
 
  - Oui, for expertise the world bank 
 
-Mauvaise données remontent au Cros.
-
-National Censor. Rescencement. 
+Mauvaise données remontent à Pascal Cros. National Censor. Rescencement. 
