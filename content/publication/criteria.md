@@ -54,6 +54,10 @@ End-to-end testing, also known as E2E testing, is a way to make sure that applic
 
 Source : https://www.smashingmagazine.com/2024/02/guide-designing-older-adults/
 
+### Checklist Design Accessible
+
+https://design-accessible.fr/checklist
+
 ## Outils
 
  1. https://github.com/mbusigin/yaml-runner

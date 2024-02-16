@@ -4,6 +4,7 @@ resources
 _vendor
 go.sum
 .hugo_build.lock
+.frontmatter
 
 # OS file systems
 .DS_Store
@@ -11,5 +12,4 @@ go.sum
 # Editors
 .vscode
 
-themes/frago/
 assets/css/base/main.css

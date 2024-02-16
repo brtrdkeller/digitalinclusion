@@ -41,10 +41,18 @@
     {{ $modules := .Params.modules }}
     {{ range .Params.offers }}
       {{ range .modules }}
+      {{ range $modules }}
+      <h3>{{ .title }}</h3>
+      <ul>
+      {{ range .activities }}
+        <li>{{ .short }}{{ with .duration }} - {{ . }}{{ end }}</li>
+      {{ end }}
+    </ul>
+    {{ end }}
         {{ range (where $modules "slug" .) }}
           <h3>{{ .title }}</h3>
           {{ range .activities }}
-            {{ .title }}<br>
+            
           {{ end }}
         {{ end }}
       {{ end }}
