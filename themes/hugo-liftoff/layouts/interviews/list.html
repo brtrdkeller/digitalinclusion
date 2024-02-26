@@ -15,15 +15,30 @@
      {{ end }}
     {{ end }}
   </section>
-  <section>
+  <section class="list-interview">
     {{ range (sort (where .RegularPagesRecursive "Title" "ne" "Model") "Params.date" "asc") }}
     {{ if in .Permalink "digital-accessibility" }}
-    <div>
+    <style>
+      .list-interview {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+      }
+      .list-interview > div {
+        border-radius: 8px;
+        border: 1px solid #888;
+        box-shadow: 1px 1px 8px rgba(0,0,0,0.1);
+      }
+      .project-entry-info {
+        border: none;
+      }
+    </style>
+    <div class="enlarge-link">
         <div class="project-entry-info">
           <h3 class="project-entry-title">
             <a href="{{ .Permalink }}">{{ with .Title }}{{ . }}{{ else }}{{ .Params.name }}{{ end }}</a>
             <sup>{{ partial "general/label-drafts.html" . }}</sup>
-            {{ if ne .Params.data.sector "" }}- <small>{{ .Params.data.sector }}</small>{{ end }}
+            {{ if ne .Params.data.sector "" }}<br><small>{{ .Params.data.sector }}</small>{{ end }}
           </h3>
           {{ with .Params.date }}<time>{{ time.Format "2 Jan 2006" . | safeHTML }}</time>{{ end }}
           <div class="project-list-meta">
@@ -35,7 +50,7 @@
           </div>
           {{- if (index .Params.data "first-win") -}}
           <p class="project-list-summary">
-            <strong>Première Pierre :</strong> {{ index .Params.data "first-win" }}
+           {{ index .Params.data "first-win" }}
           </p>
           {{- end -}}
         </div>

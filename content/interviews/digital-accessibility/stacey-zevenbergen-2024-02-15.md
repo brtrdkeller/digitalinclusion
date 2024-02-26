@@ -16,7 +16,7 @@
   },
   "date": "2024-02-15",
   "name": "Stacey Zevenbergen",
-  "slug": "digital-accessibility",
+  "slugg": "digital-accessibility",
   "slugname": "stacey-zevenbergen"
 }
 ---
@@ -70,7 +70,7 @@ This is : if you service is accessible has a certification. Option that put voic
  
  - Employed in HI
  - We need expertise from outside
- - Excluding workorce, they can't do their work : Paiement, register(Cambodgia), don't part of the database
+ - Excluding workorce, they can't do their work : Paiement, register (Cambodgia), don't part of the database
  - Be sure who we are employing
 
 **4. Estime-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
