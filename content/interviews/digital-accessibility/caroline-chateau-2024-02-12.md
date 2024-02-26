@@ -26,8 +26,8 @@
 
 ### Eléments remarquables
  
- - Pas de retours sur les formations Accessibilité Numérique [feedback, capitalisation]
- - Pas de retours sur les services numériques [feedback, capitalisation]
+ - Pas de retours sur les formations Accessibilité Numérique [Feedback, Capitalisation]
+ - Pas de retours sur les services numériques [Feedback, Capitalisation]
  - Image HI [image]
  - Manque expertise interne [Expertise]
 

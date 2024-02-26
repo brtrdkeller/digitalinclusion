@@ -28,7 +28,7 @@
 
 ### Eléments remarquables
  
- - Pas de retours sur l'utilisation outils sur le terrain [feedback, capitalisation]
+ - Pas de retours sur l'utilisation outils sur le terrain [Feedback, Capitalisation]
  - Formation des staffs non techniques [compétence]
 
 ## Accessibilité

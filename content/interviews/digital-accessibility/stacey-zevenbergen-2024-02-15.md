@@ -25,8 +25,8 @@
 
 ### Eléments remarquables
  
- - Pas de retours sur les services déployés [feedback, capitalisation]
- - Incohérence entre la mission et les engagements par la direction de HI [stratégie]
+ - Pas de retours sur les services déployés [Feedback, Capitalisation]
+ - Incohérence entre la mission et les engagements par la direction de HI [Strategy]
  - Identification/Validation des experts terrain [Emploi]
  - Manque expertise interne [Expertise]
  - Référentiel de maitrise minimal [Knownledge]
@@ -35,21 +35,23 @@
 
 Brussels office on Social Inclusion
 
- 1. Social work : Capacity, digital compoennt
- 2. Social protection System
+ 1. Social work : Capacity, digital component
+ 2. Social Protection System
  3. Culture Activities
 
-Social worker open a case, Question about life => risk, with an action plan. 
+Social workers open a case, Question about life => risk, with an action plan. 
 Follower digitals with survey CTO
 
 Je ne peux pas avoir la main sur Survey CTO, et ce n'est pas adapté
 
-Wolrd Bank Digital case, Tunisia : 
-  1. Social worker to find services, map Need to be accessible. Portail. I have to check for actual needs.
-  2. Social registry, ainfo manager system. Link social security number with other service. HI don't work on it.
+**World Bank Digital case (Tunisia) :** 
 
-Unicef (Madagascar + Sierra Leone) : 
- 1. Tablet to put information for district leel and national level. (National Working Group)
+  1. Social worker to find services, map need to be accessible. Portail. I have to check for actual needs.
+  2. Social registry, info manager system. Link social security number with other service. HI don't work on it.
+
+**Unicef (Madagascar + Sierra Leone) :**
+
+ 1. Tablet to put information for district level and national level. (National Working Group)
  
 => more and more in different countries.
 
@@ -58,7 +60,7 @@ Unicef (Madagascar + Sierra Leone) :
 
 **1. Ta définition de l'Accessibilité numérique**
 
-If you service is accessible has a certification. Option ti put voice, and image accessible for disable.
+This is : if you service is accessible has a certification. Option that put voice, and image accessible for disable persons.
 
 **2. Connais-tu le cadre légal définissant le processus d'amélioration l'accessibilité numérique ?**
 
@@ -67,9 +69,9 @@ If you service is accessible has a certification. Option ti put voice, and image
 **3. Identifies-tu des risques potentiels à ne pas prendre en compte l'accessibilité (pour un service numérique, en général, pour l'image de HI...) ?**
  
  - Employed in HI
- - We need expertise form outside
- - Excluding workorce, they can't do their work : Paiement, register  (Combodgia), don't part of the database
- - Be sure who we are employ
+ - We need expertise from outside
+ - Excluding workorce, they can't do their work : Paiement, register(Cambodgia), don't part of the database
+ - Be sure who we are employing
 
 **4. Estime-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
 
@@ -78,24 +80,23 @@ If you service is accessible has a certification. Option ti put voice, and image
 **5. Quelles seraient tes besoins immédiats en accessibilité numériques (Communication, matériels, légal, financiers, soutien direction...)**
  
  - Mininum basics skills for advising (me or better expert for technical) 
+ - Document those so many sectors. 
 
-Document those so many sector. 
-
-jean christophe Durand
+Speaks about : Jean-Christophe Durand
 
 **6. Quelles seraient tes besoins futurs en accessibilité numériques (Innovation, ATI, recrutement,...)**
 
 **7. Que faudrait-il développer chez HI pour garantir que ta mission discrimine le moins possible par l'existence d'interfaces numériques ?**
 
-Pierre Gallien, so much service. 
-Try to work on that, and invest, innovate on that.
-Many specialist,
 
- - It could be assement Multi skaeteholder. Everything is developp is check.
- We have a report ti say waht is'nt working.
+ - 31, could try to work on that, and invest, innovate on that. And having many specialists.
+ - It could be assessment Multi-Skateholder. Everything is developp is check (Association de plusieurs partenaires pour le contrôle des services numériques).
+ - We have a report it say what isn't working (avoir un retour sur ce qui ne fonctionne pas).
 
- National Working Group Rwanda, JIZ social  
- Mélanie. Maube another Actor.
+**Example of projects:**
+
+ - National Working Group Rwanda, JIZ social  
+ - Mélanie. Maybe another Actor.
 
 
 **8. Que penses-tu de la prise en compte de l'accessibilité numérique en interne et sur le terrain par HI ?**

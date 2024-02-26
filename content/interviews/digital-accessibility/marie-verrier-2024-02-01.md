@@ -28,7 +28,7 @@
 
 ### Eléments remarquables
  
- - Incohérence entre la mission et les engagements par la direction de HI [stratégie]
+ - Incohérence entre la mission et les engagements par la direction de HI [Strategy]
  - Recrutement sur le terrain [Emploi]
  - Manque expertise interne [Expertise]
 

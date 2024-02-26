@@ -32,7 +32,7 @@
 
 ### Eléments remarquables
  
- - Pas de retours sur les manières de travailler sur le terrain [feedback, capitalisation]
+ - Pas de retours sur les manières de travailler sur le terrain [Feedback, Capitalisation]
  - Retard Concurrence [concurrent]
  - Manque expertise interne [Expertise]
  - Référentiel de maitrise minimal [Knownledge]

@@ -28,8 +28,8 @@
 
 ### Eléments remarquables
  
- - Pas de retours de qualités sur les données terrain [feedback, capitalisation]
- - Incohérence entre la mission et les engagements par la direction de HI [stratégie]
+ - Pas de retours de qualités sur les données terrain [Feedback, Capitalisation]
+ - Incohérence entre la mission et les engagements par la direction de HI [Strategy]
   
 ## Accessibilité
 

@@ -27,7 +27,7 @@
 
 ### Eléments remarquables
  
- - Pas de retours sur les services déployés [feedback, capitalisation]
+ - Pas de retours sur les services déployés [Feedback, Capitalisation]
  - Incohérence entre la mission et les engagements par la direction de HI [Stratégie]
  - Référentiel de maitrise minimal [Knownledge]
 

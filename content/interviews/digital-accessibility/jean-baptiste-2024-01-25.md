@@ -27,7 +27,7 @@
 
 ### Eléments remarquables
  
- - Pas de retours sur les services déployés [feedback, capitalisation]
+ - Pas de retours sur les services déployés [Feedback, Capitalisation]
  - Formation des staffs techniques [compétence]
  - Manque expertise interne [Expertise]
 
