@@ -10,9 +10,14 @@
     "idea-external": "training",
     "idea-internal": "training",
     "jobtitle": "Social Development & Social Protection Global Specialist",
-    "mission-issue-futur": "yes",
-    "mission-issue-present": "yes",
-    "sector": "Social Inclusion"
+    "mission-issue-futur": "oui",
+    "mission-issue-present": "oui",
+    "sector": "Social Inclusion",
+    "successfactors": [],
+    "developfactors": [],
+    "issues": [Consistency,Employement,Expertise,Knownledge],
+    "accountability": "non",
+    "needexpert": "oui"
   },
   "date": "2024-02-15",
   "name": "Stacey Zevenbergen",
@@ -26,8 +31,8 @@
 ### Eléments remarquables
  
  - Pas de retours sur les services déployés [Feedback, Capitalisation]
- - Incohérence entre la mission et les engagements par la direction de HI [Strategy]
- - Identification/Validation des experts terrain [Emploi]
+ - Incohérence entre la mission et les engagements par la direction de HI [Consistency]
+ - Identification/Validation des experts terrain [Employement]
  - Manque expertise interne [Expertise]
  - Référentiel de maitrise minimal [Knownledge]
 

@@ -39,7 +39,7 @@
   </section>
   <div class="single-container">
     <article class="markdown">
-      {{ .Content }}
+      {{ partialCached "content.html" .Content .Content }}
     </article>
   </div>
   <br><br>

@@ -5,7 +5,7 @@
   </section>
 </div>
 <div class="contact">
-  <div class="single-container markdown">{{ .Content }}</div>
+  <div class="single-container markdown">{{ partialCached "content.html" .Content .Content }}</div>
   <div id="comment-post">
     <h3>Leave a comment</h3>
     <p>Note : Your comment will not be displayed until a Github PullRequest have been merged.</p>

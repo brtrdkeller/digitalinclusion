@@ -6,7 +6,7 @@
 </div>
 <section class="generic-single">
   <div class="single-container{{ if eq .Title "Roadmap"}} large{{ end }} markdown">
-    {{ .Content }}
+    {{ partialCached "content.html" .Content .Content }}
     <style>
       /*
 /// Timeline
@@ -20,7 +20,7 @@
 
 @media only screen and (min-width: 600px) {
   .timeline {
-    margin: 50px 0 8rem 120px;
+    margin: 50px 0 8rem 150px;
     padding-left: 30px;
     list-style: none;
     border-left: 8px solid #94f69e;
@@ -42,8 +42,9 @@
 
 @media only screen and (min-width: 600px) {
   .timeline .date {
+    font-family: "Futura", "Century Gothic";
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: -258px;
     width: 200px;
     margin-top: -10px;
@@ -65,6 +66,12 @@
   border: 5px solid var(--color-grey-verylight);
   border-radius: 50%;
   background: #48b379;
+}
+
+.timeline .work {
+  display: flex;
+  align-items: center;
+  min-height: 80px;
 }
 
 .timeline .content p {
@@ -103,13 +110,12 @@
   .timeline label {
     z-index: 100;
     top: 20px;
-    transform: translateX(42px);
+    transform: translateX(22px);
   }
 
   .timeline .content {
     position: relative;
     margin-right: 20px;
-    padding: 0 20px 0;
   }
 
   .timeline .content:before,
@@ -189,7 +195,7 @@
                 <label for="">{{ .activity }} <small>({{ .topics }} - {{ .theme }})</small></label>
                 <span class="date">
                   {{- with .startdate -}}<time datetime="{{ time.Format "2006-01-02T15:04:05Z07:00" . | safeHTML }}">{{ time.Format "2 Jan 2006" . }}</time>{{ else }}Aucune Date{{ end }}
-                  {{- with .deadline -}}<time datetime="{{ time.Format "2006-01-02T15:04:05Z07:00" . | safeHTML }}">{{ time.Format "2 Jan 2006" . }}</time>{{ else }}Aucune Date{{ end }}
+                  <br>to {{  with .deadline -}}<time datetime="{{ time.Format "2006-01-02T15:04:05Z07:00" . | safeHTML }}">{{ time.Format "2 Jan 2006" . }}</time>{{ else }}Aucune Date{{ end }}
                 </span>
                 <span class="circle"></span>
                 <div class="content">

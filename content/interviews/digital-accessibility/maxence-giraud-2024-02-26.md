@@ -12,7 +12,12 @@
     "jobtitle": "directeur",
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
-    "sector": "Logistique"
+    "sector": "Logistique",
+    "successfactors": [],
+    "developfactors": [],
+    "issues": [Consistency,Employement,Expertise],
+    "accountability": "non",
+    "needexpert": "oui"
   },
   "date": "2024-02-26",
   "name": "Maxence Giraud",
@@ -54,7 +59,7 @@ Non
 
 **4. Estime-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
 
- - Comme, je ne sais pas ce qu'il fudrait développer, je ne sais pas de quoi j'aurai besoin.
+ - Comme, je ne sais pas ce qu'il faudrait développer, je ne sais pas de quoi j'aurai besoin.
 
 **5. Quelles seraient tes besoins immédiats en accessibilité numériques (Communication, matériels, légal, financiers, soutien direction...)**
 

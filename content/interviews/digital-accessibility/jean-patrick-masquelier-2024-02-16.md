@@ -12,7 +12,12 @@
     "jobtitle": "Manager unité technique",
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
-    "sector": "Inclusion économique"
+    "sector": "Economic Inclusion",
+    "successfactors": [],
+    "developfactors": [],
+    "issues": [],
+    "accountability": "non",
+    "needexpert": "oui"
   },
   "date": "2024-02-16",
   "name": "Jean-Patrick Masquelier",

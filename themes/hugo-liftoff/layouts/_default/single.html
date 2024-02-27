@@ -6,7 +6,7 @@
 </div>
 <section class="generic-single">
   <div class="single-container{{ if eq .Title "Roadmap"}} large{{ end }} markdown">
-    {{ .Content }}
+    {{ partialCached "content.html" .Content .Content }}
   </div>
 </section>
 {{- end -}}

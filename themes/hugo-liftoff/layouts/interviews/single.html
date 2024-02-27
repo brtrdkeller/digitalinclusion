@@ -20,7 +20,7 @@
         {{ end }}
     {{ end }}
     <h2>Questions semi-dirigées</h2>
-    {{ .Content }}
+    {{ partialCached "content.html" .Content .Content }}
   </div>
 </section>
 {{ end }}

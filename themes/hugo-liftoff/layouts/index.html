@@ -47,6 +47,6 @@
     </div>
   </section>
   {{/*  Shortcodes from page content  */}}
-  {{ .Content }}
+  {{ partialCached "content.html" .Content .Content }}
 </div>
 {{ end }}

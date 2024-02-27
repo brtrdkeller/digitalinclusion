@@ -12,7 +12,12 @@
     "jobtitle": "Global Specialist",
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
-    "sector": "Economic Inclusion"
+    "sector": "Economic Inclusion",
+    "successfactors": [],
+    "developfactors": [],
+    "issues": [Expertise,Competition,Knownledge],
+    "accountability": "non",
+    "needexpert": "oui"
   },
   "date": "2024-02-09",
   "name": "Céline Trublin",

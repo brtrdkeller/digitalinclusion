@@ -11,10 +11,16 @@
     "jobtitle": "Responsable de communication interne et institutionnelle",
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
-    "sector": ""
+    "sector": "",
+    "successfactors": [],
+    "developfactors": [],
+    "issues": [Knownledge,Employement,Expertise],
+    "accountability": "non",
+    "needexpert": "oui"
   },
   "date": "2024-02-01",
   "name": "Marie Verrier",
+  "slugg": "digital-accessibility",
   "slugname": "marie-verrier"
 }
 ---
@@ -28,7 +34,7 @@
 
 ### Eléments remarquables
  
- - Incohérence entre la mission et les engagements par la direction de HI [Strategy]
+ - Incohérence entre la mission et les engagements par la direction de HI [Consistency]
  - Recrutement sur le terrain [Emploi]
  - Manque expertise interne [Expertise]
 
@@ -85,5 +91,5 @@ Viser le double A des critères, nécessité de mettre en place une démarche mi
 
 ### Est-ce que la direction te semble bien prendre en compte ce sujet ?
 
- - Plans d'actions mise en place : sont trop compliqués. Si trop compliqués, on ne sait pas comment réaliser les tâches.  
+ - Plans d'action mise en place : sont trop compliqués. Si trop compliqués, on ne sait pas comment réaliser les tâches.  
 

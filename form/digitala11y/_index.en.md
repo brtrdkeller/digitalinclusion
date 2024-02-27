@@ -56,15 +56,15 @@ form:
         name: mission-issue-present
         type: radio
         element:
-          - label: "yes"
-          - label: "no"
+          - label: "oui"
+          - label: "non"
         help: (Ex. Requests on the subject, legal constraints,...)
       - label: Will digital accessibility be a major issue in your future activities?
         name: mission-issue-futur
         type: radio
         element:
-          - label: "yes"
-          - label: "no"
+          - label: "oui"
+          - label: "non"
         help: (e.g. Obligation of donors for offers)
   - title: Digital Experiences (Quick personal feedback)
     questions:

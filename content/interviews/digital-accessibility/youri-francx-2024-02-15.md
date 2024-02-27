@@ -12,7 +12,12 @@
     "jobtitle": "Global Specialist",
     "mission-issue-futur": "non",
     "mission-issue-present": "non",
-    "sector": "Inclusive Humanitarian Action"
+    "sector": "Inclusive Humanitarian Action",
+    "successfactors": [],
+    "developfactors": [],
+    "issues": [Consistency,Employement,Expertise,Knownledge],
+    "accountability": "non",
+    "needexpert": "oui"
   },
   "date": "2024-02-15",
   "name": "Youri Francx",
@@ -26,7 +31,7 @@
 ### Eléments remarquables
  
  - Pas de retours sur les services déployés [Feedback, Capitalisation]
- - Incohérence entre la mission et les engagements par la direction de HI [Strategy]
+ - Incohérence entre la mission et les engagements par la direction de HI [Consistency]
  - Recrutement sur le terrain [Emploi]
  - Manque expertise interne [Expertise]
  - Référentiel de maitrise minimal [Knownledge]

@@ -2,6 +2,20 @@
 title: Model
 ---
 
+## Facteurs de succès
+
+ 1. financement
+ 1. compréhension des lois
+ 1. sensibilisation
+ 1. soutien et de l'implication des dirigeants
+ 1. niveau et qualité d'équipement des utilisateurs
+ 1. modèle de prise de décision par l'ensemble des parties prenantes
+ 1. une vision et d'une stratégie claires
+ 1. formation
+ 1. capacité de participation des bénéficiaires
+
+## Questions
+
 **1. Ta définition de l'Accessibilité numérique**
 
 **2. Connais-tu le cadre légal définissant le processus d'amélioration l'accessibilité numérique ?**

@@ -51,7 +51,7 @@ modules:
   - title: Audit 
     slug: a11y-audit-diag-1
     activities:
-      - title: Evaluer l'accessibilité numérique d'un échantillon de pages du site web avec  réalisation de tests utilisateurs
+      - title: Evaluer l'accessibilité numérique d'un échantillon de pages du site web avec réalisation de tests utilisateurs
         short: Audit
         duration: 4
       - title: Rédaction d'un rapport d’accessibilité numérique avec les recommandations pour améliorer la conformité aux normes d'accessibilité
@@ -102,8 +102,6 @@ modules:
       - title: Identifier les problèmes technique page
         short: Identifier les problèmes
         duration: 0.25
-
-
 
 offers: 
     - title: Offre 1

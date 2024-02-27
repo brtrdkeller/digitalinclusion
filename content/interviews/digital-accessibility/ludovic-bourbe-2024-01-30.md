@@ -11,10 +11,16 @@
     "jobtitle": "Manager de service",
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
-    "sector": "Inclusive Governance And Humanitarian Action"
+    "sector": "Inclusive Governance And Humanitarian Action",
+    "successfactors": [],
+    "developfactors": [],
+    "issues": [Expertise,Knownledge],
+    "accountability": "non",
+    "needexpert": "oui"
   },
   "date": "2024-01-30",
   "name": "Ludovic Bourbé",
+  "slugg": "digital-accessibility",
   "slugname": "ludovic-bourbe"
 }
 ---

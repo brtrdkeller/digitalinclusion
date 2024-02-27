@@ -4,7 +4,7 @@
   <section class="page-header--c">
     <h1 class="page-header-title">{{ .Title }}</h1>
     {{ .Params.description | markdownify }}
-    {{ .Content }}
+    {{ partialCached "content.html" .Content .Content }}
   </section>
 </div>
 {{ end }}

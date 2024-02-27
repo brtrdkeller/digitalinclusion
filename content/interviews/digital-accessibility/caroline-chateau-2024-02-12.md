@@ -12,7 +12,12 @@
     "jobtitle": "Responsable diversité inclusion",
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
-    "sector": ""
+    "sector": "",
+    "successfactors": [],
+    "developfactors": [],
+    "issues": [Feedback,Notoriety,Expertise],
+    "accountability": "no",
+    "needexpert": "oui"
   },
   "date": "2024-02-12",
   "name": "Caroline Chateau",
@@ -28,7 +33,7 @@
  
  - Pas de retours sur les formations Accessibilité Numérique [Feedback, Capitalisation]
  - Pas de retours sur les services numériques [Feedback, Capitalisation]
- - Image HI [image]
+ - Image HI [Notoriety]
  - Manque expertise interne [Expertise]
 
 ## Accessibilité numérique

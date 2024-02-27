@@ -759,7 +759,7 @@ function Sa11y() {
 
         //Error: Never set user-scalable to 0.
         var userScalable = $("meta").attr("user-scalable");
-        if (userScalable == "no" || userScalable == "0" || $("meta[content~='user-scalable=no']").length > 0) {
+        if (userScalable == "non" || userScalable == "0" || $("meta[content~='user-scalable=no']").length > 0) {
             this.noErrors = false;
             $('#sa11y-container').after("<div class='sa11y-error-message'>" + ErrorIcon + "<br> Remove <span class='sa11y-bold'>user-scalable=&quot;no&quot;</span> paramater from the meta element to allow zooming. This can be very problematic for people with low vision!</div>");
         }

@@ -3,7 +3,7 @@
   "data": {
     "countries": "",
     "estimated-action-accessibility": "réduite",
-    "estimated-knowledge-accessibility": "",
+    "estimated-knowledge-accessibility": "moyenne",
     "first-block": "",
     "first-win": "",
     "first-word": "",
@@ -11,10 +11,16 @@
     "jobtitle": "",
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
-    "sector": "3I"
+    "sector": "3I",
+    "successfactors": [financial],
+    "developfactors": [],
+    "issues": [Knownledge,Feedback],
+    "accountability": "non",
+    "needexpert": "oui"
   },
   "date": "2024-02-03",
   "name": "Florian Pujol",
+  "slugg": "digital-accessibility",
   "slugname": "florian-pujol"
 }
 ---

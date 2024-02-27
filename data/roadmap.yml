@@ -50,7 +50,7 @@ theme:
             mars: 10
             avril: 0
         - name: Rédaction
-          description: Fournir une analyse des entretiens pour une communcation interne sur les intérêts de développer l'accessibilité numérique
+          description: Fournir une analyse des entretiens pour une communication interne sur les intérêts de développer l'accessibilité numérique
           duration: 3
           startdate: 2024-03-15
           deadline: 2024-04-01

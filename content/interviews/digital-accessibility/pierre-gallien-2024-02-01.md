@@ -11,10 +11,16 @@
     "jobtitle": "Directeur",
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
-    "sector": "3I"
+    "sector": "3I",
+    "successfactors": [],
+    "developfactors": [],
+    "issues": [Consistency,Employement,Expertise,Knownledge],
+    "accountability": "non",
+    "needexpert": "oui"
   },
   "date": "2024-02-01",
   "name": "Pierre Gallien",
+  "slugg": "digital-accessibility",
   "slugname": "pierre-gallien"
 }
 ---
@@ -29,7 +35,7 @@
 ### Eléments remarquables
  
  - Pas de retours de qualités sur les données terrain [Feedback, Capitalisation]
- - Incohérence entre la mission et les engagements par la direction de HI [Strategy]
+ - Incohérence entre la mission et les engagements par la direction de HI [Consistency]
   
 ## Accessibilité
 

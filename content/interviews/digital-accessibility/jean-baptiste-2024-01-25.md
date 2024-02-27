@@ -11,10 +11,16 @@
     "jobtitle": "",
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
-    "sector": "DSI"
+    "sector": "DSI",
+    "successfactors": [],
+    "developfactors": [],
+    "issues": [],
+    "accountability": "non",
+    "needexpert": "oui"
   },
   "date": "2024-01-24",
   "name": "Jean-Baptiste Gayet",
+  "slugg": "digital-accessibility",
   "slugname": "jean-baptiste-gayet"
 }
 ---

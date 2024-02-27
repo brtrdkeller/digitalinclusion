@@ -10,10 +10,14 @@
     "idea-external": "compliance",
     "idea-internal": "training",
     "jobtitle": "Rehabilitation and Innovation Policy and Development Officer",
-    "mission-issue-futur": "yes",
-    "mission-issue-present": "yes",
+    "mission-issue-futur": "oui",
+    "mission-issue-present": "oui",
     "sector": "Rehabilitation",
-    "successfactor": [financier]
+    "successfactors": [Financial],
+    "developfactors": [],
+    "issues": [Feedback],
+    "accountability": "non",
+    "needexpert": "oui"
   },
   "date": "2024-02-12",
   "name": "Martin Jacobs",
@@ -34,7 +38,7 @@
 ### Eléments remarquables
  
  - Pas de retours sur les services déployés [Feedback, Capitalisation]
- - Incohérence entre la mission et les engagements par la direction de HI [Strategy]
+ - Incohérence entre la mission et les engagements par la direction de HI [Consistency]
  - Manque expertise interne [Expertise]
 
 ## Présentation
