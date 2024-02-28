@@ -50,7 +50,7 @@
                   payload[item] = document.getElementById("comment-"+item).value.trim();
                 }
                 else if (item == "name") {
-                  payload[item] = document.getElementById("comment-"+item).value.trim();
+                  payload[item] = document.getElementById("comment-"+item).value.trim().replace("'", '’');
                   payload.slugname = slugify(document.getElementById("comment-"+item).value.trim());
                 }
                 else {
