@@ -2,16 +2,19 @@
 title: Ressources
 ---
 
-
 ## Main idea
+
 https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1137&context=ecis2004
 
 > We provided a new perspective on the digital divide by showing that the real problem that has to be addressed, concerns the divide between the sociocentric approach of human scale development, and the technocentric approach of providing ICT and access to it.
 
 ## Tools
+
  1. https://github.com/atelierPartage/wasc/tree/main
 
+
 ## Digital Divide
+
  1. https://en.wikipedia.org/wiki/Digital_divide_by_continent,_area_and_country
  1. https://von.gov.ng/un-chief-calls-for-digital-accessibility-for-plwd/
  1. https://utilitiesone.com/the-digital-divide-and-its-influence-on-accessibility-for-people-with-disabilities
