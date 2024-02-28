@@ -18,6 +18,7 @@ https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1137&context=ecis2004
  1. https://en.wikipedia.org/wiki/Digital_divide_by_continent,_area_and_country
  1. https://von.gov.ng/un-chief-calls-for-digital-accessibility-for-plwd/
  1. https://utilitiesone.com/the-digital-divide-and-its-influence-on-accessibility-for-people-with-disabilities
+ 1. https://www.youtube.com/watch?v=nQq_gZiZ-jg
 
 
 ## Ressources

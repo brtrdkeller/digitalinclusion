@@ -1,24 +1,29 @@
 ---
 {
-  "data": {
-    "countries": "France",
-    "estimated-action-accessibility": "majeure",
-    "estimated-knowledge-accessibility": "importante",
-    "first-block": "Ressources humaines internes HI, coopération des éditeurs de logiciels",
-    "first-win": "Recenser les points focaux et les former",
-    "first-word": "Digitalisation",
-    "idea-external": "conformité",
-    "idea-internal": "culture-interne",
-    "jobtitle": "Chef de projet",
-    "mission-issue-futur": "oui",
-    "mission-issue-present": "oui",
-    "sector": "Système d'Information"
-  },
-  "date": "2024-01-24",
-  "name": "Jean-Baptiste GAYET",
-  "slug": "digital-accessibility",
-  "slugname": "jean-baptiste-gayet"
-}
+    "data": {
+      "countries": "France",
+      "estimated-action-accessibility": "majeure",
+      "estimated-knowledge-accessibility": "importante",
+      "first-block": "Ressources humaines internes HI,  coopération des éditeurs de logiciels",
+      "first-win": "Recenser les points focaux et les former",
+      "first-word": "Digitalisation",
+      "idea-external": "conformité",
+      "idea-internal": "culture-interne",
+      "jobtitle": "Chef de projet",
+      "mission-issue-futur": "oui",
+      "mission-issue-present": "oui",
+      "sector": "Système d'Information",
+      "successfactors": [],
+      "developfactors": [],
+      "issues": [],
+      "accountability": "non",
+      "needexpert": "oui"
+    },
+    "date": "2024-02-28",
+    "name": "Jean-Baptiste GAYET",
+    "slug": "digital-accessibility",
+    "slugname": "jean-baptiste-gayet"
+  }
 ---
 
 ## A retenir

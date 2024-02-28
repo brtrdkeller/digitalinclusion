@@ -1,5 +1,5 @@
-{{ $pages := . }}
-{{ $pagesstats := where $pages "Params.data.needexpert" "ne" "" }}
+{{- $pages := . }}
+{{- $pagesstats := where $pages "Params.data.needexpert" "ne" "" }}
 <section class="list list-stats">
     <div>
         <span>{{ div (mul 100 (len (where $pagesstats "Params.data.mission-issue-present" "eq" "oui"))) (len $pagesstats) }}%</span>

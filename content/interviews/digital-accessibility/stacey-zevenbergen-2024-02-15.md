@@ -7,8 +7,8 @@
     "first-block": "Specialized staff or knowledge",
     "first-win": "Basic training and checklist",
     "first-word": "Service mapping and Information Management System",
-    "idea-external": "training",
-    "idea-internal": "training",
+    "idea-external": "formation",
+    "idea-internal": "formation",
     "jobtitle": "Social Development & Social Protection Global Specialist",
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
@@ -95,7 +95,7 @@ Speaks about : Jean-Christophe Durand
 
 
  - 31, could try to work on that, and invest, innovate on that. And having many specialists.
- - It could be assessment Multi-Skateholder. Everything is developp is check (Association de plusieurs partenaires pour le contrôle des services numériques).
+ - It could be assessment Multi-Stakeholder. Everything is developp is check (Association de plusieurs partenaires pour le contrôle des services numériques).
  - We have a report it say what isn't working (avoir un retour sur ce qui ne fonctionne pas).
 
 **Example of projects:**

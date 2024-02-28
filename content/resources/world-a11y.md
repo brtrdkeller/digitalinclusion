@@ -4,6 +4,7 @@ title: World of A11Y
 
 ## United Nations
 
+
 ### Innovation
 
   1. [Expression of Interest 2021 - Digital Access and Inclusion of People with Disabilities](https://www.unhcr.org/innovation/wp-content/uploads/2021/03/Digital-Access-and-Inclusion-of-People-with-Disabilities.pdf)
@@ -69,9 +70,11 @@ title: World of A11Y
   1. [Unión Latinoamericana de Ciegos](http://www.ulacdigital.org/es/nosotros/quienes-somos)
 
 ### Equateur
+
  1. [Riadis](https://www.riadis.org/)
 
 ### Columbia
+
  1. https://gobiernodigital.mintic.gov.co/692/w3-search.html
 
 ### Brazil
@@ -80,11 +83,18 @@ title: World of A11Y
 ## Asia
 
 ### China
+
  1. https://www.boia.org/blog/china-digital-accessibility-laws-an-overview
 
 ### India 
+
  1. https://techmoreitsolutions.com/
 
+### Philippine
+ 
+ 1. https://opengovasia.com/digitalisation-to-boost-disaster-resilience-in-the-philippines/
+
 ### Banglasdesh
+
  1. [National Web Accessibility Guideline](https://msw.portal.gov.bd/sites/default/files/files/msw.portal.gov.bd/page/7e32948a_e1ab_4471_baed_910f872956a7/Draft%20National%20Web%20Accessibility%20Guideline%20%281%29%20%281%29.pdf)
  2. https://businesspostbd.com/national/bangladesh-adopts-digital-accessibility-guideline

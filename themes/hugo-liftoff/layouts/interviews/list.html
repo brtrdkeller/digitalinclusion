@@ -12,9 +12,9 @@
   {{ $pagesstats := where $pages "Params.data.needexpert" "ne" "" }}
   <h2>Statistiques générales</h2>
   {{ partial "interviews/generalstats.html" $pages }}
-  <br><hr><br>
   <h2>Répartition des sujets clefs</h2>
   {{ partial "interviews/topicsstats.html" $pages }}
+  <h2>Liste de personnes interviewées</h2>
   <section class="list list-interview">
     {{ range (sort $pages  "Params.date" "desc") }}
     {{ if in .Permalink "digital-accessibility" }}
