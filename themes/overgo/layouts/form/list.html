@@ -54,7 +54,7 @@
                   payload.slugname = slugify(document.getElementById("comment-"+item).value.trim());
                 }
                 else {
-                  payload.data[item] = document.getElementById("comment-"+item).value.trim(); 
+                  payload.data[item] = document.getElementById("comment-"+item).value.trim().replace("'", '’'); 
                 } 
               }
           });

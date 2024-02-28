@@ -2,25 +2,21 @@
 {
   "data": {
     "countries": "France",
-    "estimated-action-accessibility": "moyenne",
-    "estimated-knowledge-accessibility": "moyenne",
-    "first-block": "",
-    "first-win": "",
-    "first-word": "",
-    "idea": "",
-    "jobtitle": "",
+    "estimated-action-accessibility": "majeure",
+    "estimated-knowledge-accessibility": "importante",
+    "first-block": "Ressources humaines internes HI, coopération des éditeurs de logiciels",
+    "first-win": "Recenser les points focaux et les former",
+    "first-word": "Digitalisation",
+    "idea-external": "conformité",
+    "idea-internal": "culture-interne",
+    "jobtitle": "Chef de projet",
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
-    "sector": "DSI",
-    "successfactors": [],
-    "developfactors": [],
-    "issues": [],
-    "accountability": "non",
-    "needexpert": "oui"
+    "sector": "Système d'Information"
   },
   "date": "2024-01-24",
-  "name": "Jean-Baptiste Gayet",
-  "slugg": "digital-accessibility",
+  "name": "Jean-Baptiste GAYET",
+  "slug": "digital-accessibility",
   "slugname": "jean-baptiste-gayet"
 }
 ---
