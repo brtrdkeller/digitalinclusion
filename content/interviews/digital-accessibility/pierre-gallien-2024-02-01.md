@@ -14,7 +14,7 @@
     "sector": "3I",
     "successfactors": [],
     "developfactors": [],
-    "issues": [Consistency,Employement,Expertise,Knownledge],
+    "issues": [Consistency,Employement,Expertise,Knowledge],
     "accountability": "non",
     "needexpert": "oui"
   },

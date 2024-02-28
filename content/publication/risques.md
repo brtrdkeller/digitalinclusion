@@ -1,10 +1,10 @@
 ---
-title:
+title: Risques
 ---
 
 Lister les risques principaux.
 
-Risques détecté :
+Risques détectés :
  - Maturité insuffisante
  - Non détection du handicap par le numérique (rupture de mission)
 

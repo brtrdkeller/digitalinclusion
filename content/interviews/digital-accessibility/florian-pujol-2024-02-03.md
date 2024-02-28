@@ -14,7 +14,7 @@
     "sector": "3I",
     "successfactors": [financial],
     "developfactors": [],
-    "issues": [Knownledge,Feedback],
+    "issues": [Knowledge,Feedback],
     "accountability": "non",
     "needexpert": "oui"
   },

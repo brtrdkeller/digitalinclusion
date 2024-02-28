@@ -1,65 +1,6 @@
 {{ define "main" -}}
 <div class="container">
-  <style>
-    .list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 1.5rem;
-    }
-    .list.list-stats {
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-    .list-interview > div {
-      min-height: 250px;
-      border-radius: 8px;
-      border: 2px solid #888;
-      box-shadow: 1px 1px 8px rgba(0,0,0,0.1);
-    }
-    .list-interview > div:hover {
-      border-color: #222;
-      box-shadow: 1px 1px 8px rgba(0,0,0,0.2);
-      background-color: rgba(162, 147, 201, 0.05);
-    }
-    .list-stats > div {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 1em;
-      font-size: 90%;
-      color: #fff;
-      background: #39165c;
-      font-family: "TT Norms Pro", Arial;
-    }
-    .list-stats > div > span {
-      width: 100%;
-      text-align: center;
-      font-size: 3em;
-      font-weight: 800;
-    }
-    .project-entry-info {
-      border: none;
-    }
-    .chart {
-      margin: 1rem auto 3.5rem;
-      max-width: 900px;
-    }
-  </style>
   {{ $pages := where (where .RegularPagesRecursive "Params.slugg" "eq" "digital-accessibility") "Title" "ne" "Model" }}
-  {{ $.Scratch.Set "array" slice }}
-  {{ range $pages }}
-    {{ $.Scratch.Add "array" .Params.data.issues }}
-  {{ end }}
-  <hr>
-  {{ range (uniq ($.Scratch.Get "array")) }}
-    {{ $.Scratch.Set (printf "%s" .) 0 }}
-  {{ end }}
-  {{ range (uniq ($.Scratch.Get "array")) }}
-    {{ $label :=  . }}
-    {{ range $pages }}
-      {{ $.Scratch.Add (printf "%s" $label) (cond (in .Params.data.issues $label) 1 0) }}
-    {{ end }}
-  {{ end }}
   <section class="page-header">
     <h1 class="page-header-title">{{ .Title }} - {{ len $pages }}</h1>
     <p class="page-header-desc">
@@ -70,63 +11,10 @@
   </section>
   {{ $pagesstats := where $pages "Params.data.needexpert" "ne" "" }}
   <h2>Statistiques générales</h2>
-  <p>
-    Le panel de personnes interrogées donne des résultats très homogènes. Les statisques suivantes permettent de noter si l'accessibilité numérique est un sujet ou non pour HI.<br>
-    Ce pendant, elles ne disent ni le pourquoi, ni le comment, ni le pour qui. L'analyse des interviews va permettre de mieux le déterminer.
-  </p>
-  <section class="list list-stats">
-    <div>
-      <span>{{ div (mul 100 (len (where $pagesstats "Params.data.mission-issue-present" "eq" "oui"))) (len $pagesstats) }}%</span>
-      Besoin Présent A11Y
-    </div>
-    <div>
-      <span>{{ div (mul 100 (len (where $pagesstats "Params.data.mission-issue-futur" "eq" "oui"))) (len $pagesstats) }}%</span>
-      Besoin Futur A11Y
-    </div>
-    <div>
-      <span>{{ div (mul 100 (len (where $pagesstats "Params.data.accountability" "eq" "oui"))) (len $pagesstats) }}%</span>
-      Considération Interne A11Y
-    </div>
-    <div>
-      <span>{{ div (mul 100 (len (where $pagesstats "Params.data.needexpert" "eq" "oui"))) (len $pagesstats) }}%</span>
-      Besoin Expert A11Y
-    </div>
-  </section>
+  {{ partial "interviews/generalstats.html" $pages }}
   <br><hr><br>
-  <h2>Répartition des risques clefs</h2>
-  <p>
-    Les interlocuteurs ont essayé de pointer des risques majeurs ou points focals sur lesquels s'attarder. Le graphique suivant liste ces points avec leur occurence d'apparition sur toutes les interviews.<br>
-    Il conviendra de mieux préciser les termes généraux recensés, ci-dessous. Exemple : l'<i>emploi</i> peut concerner le staff HI, comme l'emploi des personnes dans des programmes HI ; <i>expertise</i> peut concerner un expert confirmé, comme le besoin d'une meilleure expertise interne.
-  </p>
-  <div class="chart">
-    <canvas id="myChart"></canvas>
-  </div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  
-  <script>
-    const ctx = document.getElementById('myChart');
-  
-    new Chart(ctx, {
-      type: 'polarArea',
-      data: {
-        labels: [{{ range (uniq ($.Scratch.Get "array")) }}{{ . }},{{ end }}],
-        datasets: [{
-          label: '# of Votes',
-          data: [{{ range (uniq ($.Scratch.Get "array")) }}{{ $.Scratch.Get (printf "%s" .) }},{{ end }}],
-          borderWidth: 1
-        }]
-      },
-      options: {
-        scales: {
-          y: {
-            beginAtZero: true
-          }
-        }
-      }
-    });
-  </script>
-  
+  <h2>Répartition des sujets clefs</h2>
+  {{ partial "interviews/topicsstats.html" $pages }}
   <section class="list list-interview">
     {{ range (sort $pages  "Params.date" "desc") }}
     {{ if in .Permalink "digital-accessibility" }}

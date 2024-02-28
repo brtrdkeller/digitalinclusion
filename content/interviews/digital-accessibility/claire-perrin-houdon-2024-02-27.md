@@ -15,12 +15,12 @@
     "sector": "Socio eco inclusion",
     "successfactors": [],
     "developfactors": [],
-    "issues": [Competition,Employement,Expertise,Knownledge,Financial],
+    "issues": [Competition,Employement,Expertise,Knowledge,Financial],
     "accountability": "non"
   },
   "date": "2024-02-27",
   "name": "Claire Perin-Houdon",
-  "slug": "digital-accessibility",
+  "slugg": "digital-accessibility",
   "slugname": "claire"
 }
 ---

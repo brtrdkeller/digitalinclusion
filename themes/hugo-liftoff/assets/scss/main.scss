@@ -13,7 +13,6 @@
 // 3. Base stuff
 @import
   'base/base',
-  'base/fonts',
   'base/typography',
   'base/helpers';
 
@@ -70,4 +69,54 @@ h2 {
   outline-color: inherit;
   outline-width: 2px;
   z-index: 1;
+}
+
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.list.list-stats {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.list-interview > div {
+  min-height: 250px;
+  border-radius: 8px;
+  border: 2px solid #888;
+  box-shadow: 1px 1px 8px rgba(0,0,0,0.1);
+}
+
+.list-interview > div:hover {
+  border-color: #222;
+  box-shadow: 1px 1px 8px rgba(0,0,0,0.2);
+  background-color: rgba(162, 147, 201, 0.05);
+}
+
+.list-stats > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  font-size: 90%;
+  color: #fff;
+  background: #39165c;
+  font-family: "TT Norms Pro", Arial;
+}
+
+.list-stats > div > span {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 800;
+}
+.project-entry-info {
+  border: none;
+}
+.chart {
+  margin: 1rem auto 3.5rem;
+  max-width: 600px;
 }

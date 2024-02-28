@@ -14,7 +14,7 @@
     "sector": "",
     "successfactors": [],
     "developfactors": [],
-    "issues": [Knownledge,Employement,Expertise],
+    "issues": [Knowledge,Employement,Expertise],
     "accountability": "non",
     "needexpert": "oui"
   },

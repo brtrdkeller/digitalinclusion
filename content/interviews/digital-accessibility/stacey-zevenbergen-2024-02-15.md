@@ -15,7 +15,7 @@
     "sector": "Social Inclusion",
     "successfactors": [],
     "developfactors": [],
-    "issues": [Consistency,Employement,Expertise,Knownledge],
+    "issues": [Consistency,Employement,Expertise,Knowledge],
     "accountability": "non",
     "needexpert": "oui"
   },
@@ -34,7 +34,7 @@
  - Incohérence entre la mission et les engagements par la direction de HI [Consistency]
  - Identification/Validation des experts terrain [Employement]
  - Manque expertise interne [Expertise]
- - Référentiel de maitrise minimal [Knownledge]
+ - Référentiel de maitrise minimal [Knowledge]
 
 ## Présentation
 

@@ -14,7 +14,7 @@
     "sector": "Inclusive Governance And Humanitarian Action",
     "successfactors": [],
     "developfactors": [],
-    "issues": [Expertise,Knownledge],
+    "issues": [Expertise,Knowledge],
     "accountability": "non",
     "needexpert": "oui"
   },
@@ -35,7 +35,7 @@
  
  - Pas de retours sur les services déployés [Feedback, Capitalisation]
  - Incohérence entre la mission et les engagements par la direction de HI [Stratégie]
- - Référentiel de maitrise minimal [Knownledge]
+ - Référentiel de maitrise minimal [Knowledge]
 
 ## Accessibilité
 

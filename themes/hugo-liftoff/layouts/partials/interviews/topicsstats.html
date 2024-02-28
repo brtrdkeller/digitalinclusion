@@ -1,0 +1,45 @@
+{{ $s := newScratch }}
+{{ $s.Set "array" slice }}
+{{ $pages := . }}
+  {{ range $pages }}
+    {{ $s.Add "array" .Params.data.issues }}
+  {{ end }}
+  <hr>
+  {{ range (uniq ($s.Get "array")) }}
+    {{ $s.Set (printf "%s" .) 0 }}
+  {{ end }}
+  {{ range (uniq ($s.Get "array")) }}
+    {{ $label :=  . }}
+    {{ range $pages }}
+      {{ $s.Add (printf "%s" $label) (cond (in .Params.data.issues $label) 1 0) }}
+    {{ end }}
+  {{ end }}
+
+  <div class="chart">
+    <canvas id="myChart"></canvas>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+  <script>
+    const ctx = document.getElementById('myChart');
+  
+    new Chart(ctx, {
+      type: 'polarArea',
+      data: {
+        labels: [{{ range (uniq ($s.Get "array")) }}{{ . }},{{ end }}],
+        datasets: [{
+          label: '# of Votes',
+          data: [{{ range (uniq ($s.Get "array")) }}{{ $s.Get (printf "%s" .) }},{{ end }}],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  </script>
