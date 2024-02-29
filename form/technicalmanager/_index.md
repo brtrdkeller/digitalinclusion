@@ -47,6 +47,7 @@ form:
         element:
           - label: Oui
           - label: Non
+        help: "(Une demande partanire, un besoin bailleur, un blocage dans un projet...)"
       - label: Si oui, dans quel secteur ?
         name: mission-issue-sector
         type: text
@@ -58,6 +59,7 @@ form:
         element:
           - label: Oui
           - label: Non
+        help: "(En dehors de formation classique... au niveau des méthodes de travail par exemple)"
       - label: Quels sont les principaux freins/obstacles pour développer l’accessibilité digitale sur votre programme ?
         name: mission-block
         type: textarea
