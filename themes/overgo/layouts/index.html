@@ -5,6 +5,13 @@
     <h1 class="page-header-title">{{ .Title }}</h1>
     {{ .Params.description | markdownify }}
     {{ partialCached "content.html" .Content .Content }}
+    {{ if (.Site.IsServer) }}
+    <ul>
+    {{ range .Pages }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
+    </ul>
+    {{ end }}
   </section>
 </div>
 {{ end }}

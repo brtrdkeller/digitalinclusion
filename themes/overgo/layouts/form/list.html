@@ -26,7 +26,7 @@
             return;
           }
 
-          let keywords = ["slug" {{- range .Params.form }}{{ range .questions }}, {{- if eq .type "radio" }}{{ printf "%s_%s" (anchorize .name) .type }}{{ else }}{{ anchorize .name }}{{ end }}{{ end }}{{ end }}];
+          let keywords = ["slugpath" {{- range .Params.form }}{{ range .questions }}, {{- if eq .type "radio" }}{{ printf "%s_%s" (anchorize .name) .type }}{{ else }}{{ anchorize .name }}{{ end }}{{ end }}{{ end }}];
 
           let payload = {};
           payload.data = {}
@@ -46,7 +46,7 @@
                 }
               }
               else {
-                if (item == "slug"){
+                if (item == "slugpath"){
                   payload[item] = document.getElementById("comment-"+item).value.trim();
                 }
                 else if (item == "name") {
@@ -88,7 +88,7 @@
     <div id="form">
     <form>
         <!-- https://github.com/rodenacker/FormSpamPrevention */}} -->
-        <input id="comment-slug" name="options[slug]" type="hidden" value="{{ anchorize (lower .Page.Title) }}">
+        <input id="comment-slugpath" name="options[slugpath]" type="hidden" value="{{ anchorize (lower .Page.Title) }}">
         {{- range .Params.form }}
         <fieldset>
         <legend>{{ .title }}</legend>

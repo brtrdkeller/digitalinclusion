@@ -23,36 +23,36 @@ jobs:
           echo "_id=$(uuidgen)" >> $GITHUB_OUTPUT
           echo "date=$(date +%s)" >> $GITHUB_OUTPUT
           echo "name=${{ github.event.client_payload.data.name }}" >> $GITHUB_OUTPUT
-          echo "slug=${{ github.event.client_payload.data.slug }}" >> $GITHUB_OUTPUT
+          echo "slugpath=${{ github.event.client_payload.data.slugpath }}" >> $GITHUB_OUTPUT
 
       - name: Validate required fields
         run: |
-          if [[ -z "${{ steps.preprocess.outputs.slug }}" ]];
+          if [[ -z "${{ steps.preprocess.outputs.slugpath }}" ]];
           then
             exit 1;
           fi
 
-          if [[ ! $(realpath -m content/interviews/${{ steps.preprocess.outputs.slug }}) =~ ^$(realpath -m content/interviews/).* ]];
+          if [[ ! $(realpath -m content/interviews/${{ steps.preprocess.outputs.slugpath }}) =~ ^$(realpath -m content/interviews/).* ]];
           then
             exit 1;
           fi
       - name: Create interviews data file
         run: |
-          mkdir -p content/interviews/${{ steps.preprocess.outputs.slug}}
-          echo -e '---\n${{ toJSON(github.event.client_payload.data) }}\n---' >  content/interviews/${{ steps.preprocess.outputs.slug}}/${{ github.event.client_payload.data.slugname }}-${{ github.event.client_payload.data.date }}.md
+          mkdir -p content/interviews/${{ steps.preprocess.outputs.slugpath}}
+          echo -e '---\n${{ toJSON(github.event.client_payload.data) }}\n---' >  content/interviews/${{ steps.preprocess.outputs.slugpath}}/${{ github.event.client_payload.data.slugname }}-${{ github.event.client_payload.data.date }}.md
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: "${{ steps.preprocess.outputs.name }} interviews on ${{ steps.preprocess.outputs.slug }} via apps/public-action-trigger"
+          commit-message: "${{ steps.preprocess.outputs.name }} interviews on ${{ steps.preprocess.outputs.slugpath }} via apps/public-action-trigger"
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
           base: master
           branch: interviews-${{ steps.preprocess.outputs._id }}
           delete-branch: true
-          title: "Interviews of ${{ steps.preprocess.outputs.name }} on ${{ steps.preprocess.outputs.slug }}"
+          title: "Interviews of ${{ steps.preprocess.outputs.name }} on ${{ steps.preprocess.outputs.slugpath }}"
           body: |
-            Interviews on **${{ steps.preprocess.outputs.slug }}**:
+            Interviews on **${{ steps.preprocess.outputs.slugpath }}**:
 
             **${{ steps.preprocess.outputs.interviews }}**
           draft: false
