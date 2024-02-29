@@ -21,7 +21,7 @@
   },
   "date": "2024-02-12",
   "name": "Martin Jacobs",
-  "slugg": "digital-accessibility",
+  "slugpath": "digital-accessibility",
   "slugname": "martin-jacobs"
 }
 ---

@@ -61,6 +61,7 @@
           //keywords = keywords.map((item) => item.split('_')[0]);
           //payload.keywords = keywords.splice(1, keywords.length)
           //payload["email"] = SparkMD5.hash(payload["email"]);
+          console.log(payload)
           fetch("https://publicactiontrigger.azurewebsites.net/api/dispatches/brtrdkeller/digitalinclusion", {
             method: 'POST',
             mode: 'cors',

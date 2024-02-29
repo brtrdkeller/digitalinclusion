@@ -21,7 +21,7 @@
   },
   "date": "2024-02-12",
   "name": "Julia McGeown on behalf of IE sector",
-  "slugg": "digital-accessibility",
+  "slugpath": "digital-accessibility",
   "slugname": "julia-mcgeown"
 }
 ---

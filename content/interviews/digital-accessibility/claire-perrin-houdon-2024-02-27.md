@@ -20,7 +20,7 @@
   },
   "date": "2024-02-27",
   "name": "Claire Perin-Houdon",
-  "slugg": "digital-accessibility",
+  "slugpath": "digital-accessibility",
   "slugname": "claire"
 }
 ---

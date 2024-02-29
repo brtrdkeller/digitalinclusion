@@ -21,7 +21,7 @@
   },
   "date": "2024-02-26",
   "name": "Maxence Giraud",
-  "slugg": "digital-accessibility",
+  "slugpath": "digital-accessibility",
   "slugname": "maxence-giraud"
 }
 ---

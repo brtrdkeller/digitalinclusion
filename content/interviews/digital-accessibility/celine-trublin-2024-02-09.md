@@ -21,7 +21,7 @@
   },
   "date": "2024-02-09",
   "name": "Céline Trublin",
-  "slugg": "digital-accessibility",
+  "slugpath": "digital-accessibility",
   "slugname": "celine-trublin"
 }
 ---

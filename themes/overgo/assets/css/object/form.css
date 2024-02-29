@@ -50,6 +50,7 @@ legend {
 fieldset fieldset legend {
   margin: 0;
   font-size: 1.3em;
+  min-height: calc(var(--baseline,1.5em) * 1.5);
 }
 
 .form__required {

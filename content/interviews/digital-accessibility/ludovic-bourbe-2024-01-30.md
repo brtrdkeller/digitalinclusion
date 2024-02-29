@@ -21,7 +21,7 @@
   },
   "date": "2024-01-30",
   "name": "Ludovic Bourbé",
-  "slugg": "digital-accessibility",
+  "slugpath": "digital-accessibility",
   "slugname": "ludovic-bourbe"
 }
 ---

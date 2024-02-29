@@ -21,7 +21,7 @@
   },
   "date": "2024-02-15",
   "name": "Youri Francx",
-  "slugg": "digital-accessibility",
+  "slugpath": "digital-accessibility",
   "slugname": "youri-francx"
 }
 ---

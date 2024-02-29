@@ -21,7 +21,7 @@
   },
   "date": "2024-02-15",
   "name": "Stacey Zevenbergen",
-  "slugg": "digital-accessibility",
+  "slugpath": "digital-accessibility",
   "slugname": "stacey-zevenbergen"
 }
 ---

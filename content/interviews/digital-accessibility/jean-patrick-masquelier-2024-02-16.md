@@ -21,7 +21,7 @@
   },
   "date": "2024-02-16",
   "name": "Jean-Patrick Masquelier",
-  "slugg": "digital-accessibility",
+  "slugpath": "digital-accessibility",
   "slugname": "jean-patrick-masquelier"
 }
 ---

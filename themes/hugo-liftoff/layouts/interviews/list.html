@@ -1,6 +1,6 @@
 {{ define "main" -}}
 <div class="container">
-  {{ $pages := where (where .RegularPagesRecursive "Params.slugg" "eq" "digital-accessibility") "Title" "ne" "Model" }}
+  {{ $pages := where (where .RegularPagesRecursive "Params.slugpath" "eq" "digital-accessibility") "Title" "ne" "Model" }}
   <section class="page-header">
     <h1 class="page-header-title">{{ .Title }} - {{ len $pages }}</h1>
     <p class="page-header-desc">

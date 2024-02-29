@@ -21,7 +21,7 @@
   },
   "date": "2024-02-03",
   "name": "Florian Pujol",
-  "slugg": "digital-accessibility",
+  "slugpath": "digital-accessibility",
   "slugname": "florian-pujol"
 }
 ---

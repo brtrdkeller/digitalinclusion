@@ -21,7 +21,7 @@
   },
   "date": "2024-02-12",
   "name": "Caroline Chateau",
-  "slugg": "digital-accessibility",
+  "slugpath": "digital-accessibility",
   "slugname": "caroline-chateau"
 }
 ---

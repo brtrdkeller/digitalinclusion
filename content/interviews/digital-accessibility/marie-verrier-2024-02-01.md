@@ -21,7 +21,7 @@
   },
   "date": "2024-02-01",
   "name": "Marie Verrier",
-  "slugg": "digital-accessibility",
+  "slugpath": "digital-accessibility",
   "slugname": "marie-verrier"
 }
 ---

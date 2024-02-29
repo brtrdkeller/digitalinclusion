@@ -21,7 +21,7 @@
   },
   "date": "2024-02-01",
   "name": "Pierre Gallien",
-  "slugg": "digital-accessibility",
+  "slugpath": "digital-accessibility",
   "slugname": "pierre-gallien"
 }
 ---
