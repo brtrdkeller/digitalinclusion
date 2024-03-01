@@ -61,7 +61,7 @@
                   }
                 }
                 else {
-                  payload.data[item] = document.getElementById("comment-"+item).value.trim().replace("'", '’'); 
+                  payload.data[item] = document.getElementById("comment-"+item).value.trim().replace("'", '’').replace('"', ' '); 
                 } 
               }
           });
