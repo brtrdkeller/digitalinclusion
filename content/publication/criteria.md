@@ -1,14 +1,21 @@
-
+---
+title: Analyses des critères à retenir
+---
 
 End-to-end testing, also known as E2E testing, is a way to make sure that applications behave as expected…. This type of testing approach starts from the end user’s perspective and simulates a real-world scenario.
 
 ### Critère réduits Opquast
 
 ### 20 critères de Brajnik
+
 1.1.1, 1.2.3, 1.3.1, 1.3.2, 1.3.3, 1.4.1, 1.4.3, 1.4.4, 2.1.1, 2.2.2, 2.4.1, 2.4.3, 2.4.4, 2.4.5, 2.4.10, 3.1.5, 3.2.1, 3.2.2, 3.3.2, 4.1.2
 
 ### 20 critères de Brajnik
+
 1.1.1, 1.2.2, 1.2.3, 1.3.1, 1.3.2, 1.3.3, 1.4.1, 2.1.1, 2.1.2, 2.2.1, 2.2.2, 2.3.1, 2.4.1, 2.4.2, 2.4.3, 2.4.4, 3.1.1, 3.2.1, 3.2.2, 3.3.2, 4.1.1, 4.1.2
+
+
+### Score de certitude de certains critères WCAG
 
 | Critères | Score  |  Garde  |
 |----------|--------|---------|

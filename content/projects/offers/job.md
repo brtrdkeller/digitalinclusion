@@ -1,20 +1,8 @@
 ---
-title: Offers
-seo_title: 
-summary: 
+title: Offre 2
+summary: Monté en compétence
 description: 
-slug: offers
 author: Bertrand Keller
-
-feature_image: website.jpg
-feature_image_alt: Website
-
-project types: 
-    - ATI
-
-techstack:
-    - Accessibility
-    - Learning
 
 modules:
   - title: Sensibilisation à l’accessibilité numérique 
@@ -99,62 +87,21 @@ modules:
         short: Révison des trames PowerPoint
       - title: Révision du contenu des publication sur les réseaux sociaux 
         short: Révision du contenu des publication sur les réseaux sociaux 
-  - title: Atelier de Design Thinking 
-    slug: a11y-workshop-1
-    activities:
-      - title: Immersion de groupe
-        short: Immersion de groupe
-        duration: 0.5
-      - title: Mise en situation dans différents contextes
-        short: Mise en situation contexte
-        duration: 0.5
-      - title: Définition des secteurs d'action
-        short: Définition des secteurs d'action
-        duration: 0.5
-      - title: Gouvernance
-        short: Gouvernance
-        duration: 0.5
-      - title: Rédaction d'actions
-        short: Rédaction d'actions
-        duration: 0.5
-  - title: Atelier de co-création
-    slug: a11y-workshop-2
-    activities:
-      - title: Définition des publics, prises en compte de la diversité
-        short: Définition des publics
-        duration: 0.25
-      - title: Définition des indicateurs
-        short: Définition des indicateurs
-        duration: 0.25
-      - title: Analyse des processus métier, mise en question de la mission de l'organisme
-        short: Analyse des processus métier
-        duration: 0.25
-      - title: Construction des compétences, lister les compétences essentielles à la réalisation de la mission
-        short: Construction des compétences 
-        duration: 0.25
-      - title: Rédaction de cadres applicatifs généraux
-        short: Rédaction de cadres applicatifs généraux
-        duration: 0.5
-  - title: Atelier référentiel de survie
-    slug: a11y-workshop-1
-    activities:
-      - title: Identifier les problèmes d'organisation de contenu
-        short: Identifier les problèmes d'organisation de contenu
-        duration: 0.25
-      - title: Identifier les problèmes technique page
-        short: Identifier les problèmes
-        duration: 0.25
 
 offers: 
     - title: Pack 1
       price: 10 000€
-      modules: [a11y-discover-1, a11y-discover-communication-1,a11y-audit-diag-1]
+      modules: [a11y-workshop-1]
     - title: Pack 2
       price: 30 000€
-      modules: [a11y-discover-1,a11y-discover-2, a11y-discover-communication-1, a11y-discover-communication-2,a11y-audit-diag-1,a11y-audit-diag-2]
+      modules: [a11y-workshop-1,a11y-workshop-2]
     - title: Pack 3
       price: 60 000€
-      modules: [a11y-discover-1,a11y-discover-2,a11y-discover-3, a11y-discover-communication-1, a11y-discover-communication-2, a11y-discover-communication-3,  a11y-audit-diag-1,a11y-audit-diag-2,a11y-audit-diag-3]
+      modules: [a11y-workshop-1,a11y-workshop-2,a11y-workshop-3]
 ---
 
-Cette page va vous présenter les offres potentielles sur le marché des ATI (Assistance Technique Inclusion).
+## Présentation
+
+Offre est orientée parcours. Chaque métier doit développer ses compétences propres en fonction de ses besoins.
+
+Graphistes, concepteurs, rédacteurs, développeurs... les besoins ne sont pas les mêmes. On partira donc sur des formations spécifiques à chaque métier. 

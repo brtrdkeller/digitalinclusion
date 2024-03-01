@@ -25,7 +25,7 @@
     </p>
   </section>
   <section>
-    {{ with .RegularPagesRecursive }}
+    {{ with .Pages }}
       <div class="project-list">
         {{ range . }}
           {{ partial "projects/project-entry.html" . }}
