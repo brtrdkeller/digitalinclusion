@@ -15,7 +15,7 @@
     "sector": "Reduction des Risques de Catastrophes et Adaptation au Changement Climatique",
     "successfactors": [Financial],
     "developfactors": [],
-    "issues": [],
+    "issues": [Reflexion],
     "accountability": "non",
     "needexpert": "oui"
   },

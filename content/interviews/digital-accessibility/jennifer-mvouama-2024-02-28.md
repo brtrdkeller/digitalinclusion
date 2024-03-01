@@ -48,10 +48,10 @@ Ex :
 
 **1. Ta définition de l'Accessibilité numérique**
 
-*J
+*Jennifer 
 Design inclusif, pour que la navigation soit disponible pour les personne en situation de handicap. Application, site webs,...
 
-*V
+*Valentina
 Informations disponible par le numérique soient lisibles et compréhensibles par des personnes en situation de handicap.
 
 
@@ -66,7 +66,7 @@ Informations disponible par le numérique soient lisibles et compréhensibles pa
  - Système alerte géré par l'Etat,...  très rare qu'une ONG le fasse, seulement du conseil. 
  - Actions précoces, avant le pic de la crise, avec le numérique et virement d'argent.
  - Spécifique au contexte => du coup innovation
- - rsique de ne pas répondre à des programmes (financement)
+ - risque de ne pas répondre à des programmes (financement)
 
 **4. Estime-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
 
@@ -78,7 +78,7 @@ Informations disponible par le numérique soient lisibles et compréhensibles pa
  - Appui institutionnel
  - Appétance des équipes (Mais on a déjà du mal).
  - Une note de cadrage qui présente le champ des possibles pour imaginer ce qui est possible de faire (pour aller vers les moyens)
- - Clarifier des priorités pour se concentrer. Se concentre sur 2. Etat des lieux. 
+ - Clarifier des priorités pour se concentrer. Se concentre sur 2 priorité avant tout. Etat des lieux. 
  - Comprendre ce qu'il se passe dans les pays (contexte)
  - Opportunité 
 
@@ -86,21 +86,20 @@ Informations disponible par le numérique soient lisibles et compréhensibles pa
 
  - Il faudrait étudier les besoins en fonction des contextes (ex. Anglais, programme condition climatique).
  - Aussi Madagascar
- - Expertise en DDR numérique (rêve) : accompagner les programmes 
- - Plus Partenariat pourla partie Data
+ - Expertise numérique au sein de la DRR  (rêve) : accompagner les programmes 
+ - Plus un Partenariat pourla partie Data
  - Du temps 
  - Capacité à développer le côté Durabilité
  - Sensibilitation Réalité Virtuelle (sensibilisation)
 
-Une année un fond de proof of concept HI. Pour une application aux philippines pour mettre en lien des personnes entraide catastrophes. 
+Une année un fond pour proof of concept HI. Pour une application aux philippines pour mettre en lien des personnes pour l'entraide catastrophes. 
 Retenu pour Violence Armée.
 
-Fond pour développer des outils dans le domaine de l'anticipation. La 3I pas armée pour la projection DATA (facteur de blocage).
-
+Fond pour développer des outils dans le domaine de l'anticipation. La 3I pas armée pour la projection DATA (facteur de blocage) pour développer le sujet.
 
 **7. Que faudrait-il développer chez HI pour garantir que ta mission discrimine le moins possible par l'existence d'interfaces numériques ?**
 
- - Les bailleurs, exigent qu'on fournisse pour la lutte terrosiste, la liste des bénéficiaires. (prise en compte des bénéficiaires en particuliers).
+ - Les bailleurs exigent qu'on fournisse pour la lutte terroriste : la liste des bénéficiaires. (prise en compte des bénéficiaires en particuliers). Mais on ne le fait. Ce sujet es
  - 
 
 **8. Que penses-tu de la prise en compte de l'accessibilité numérique en interne et sur le terrain par HI ?**

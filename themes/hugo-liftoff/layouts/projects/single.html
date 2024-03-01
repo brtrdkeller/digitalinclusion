@@ -47,14 +47,15 @@
   <br><br>
   {{ if eq .Title "Offers" }}
   <section>
-    {{ $offers  := .Params.offers }}
-    {{ $modules := .Params.modules }}
+    {{ $offers    := .Params.offers }}
+    {{ $modules   := .Params.modules }}
+    {{ $prevtitle := "" }}
     {{ $color   := slice "starter" "essential" "professional" }}
     <table>
       <thead>
         <tr>
           <th>
-            <div>
+            <div class="hide">
               Nos offres
               <div class="svg-wrapper">
                 <svg viewBox="0 0 24 24">
@@ -83,13 +84,42 @@
       </thead> 
       <tbody>
           {{ range $modules }}
+            {{ $title := .title }}
             {{ range .activities }}
+              {{ $short := .short }}
+              {{ range $id, $values := $offers }}
+              {{ $.Scratch.Set (printf "short%s" $short) slice }}
+              {{ $.Scratch.Set (printf "title%s" $title) slice }}
+              {{ range .modules }}
+                {{ range (where $modules "slug" .) }}
+                  {{ range .activities }}
+                    {{ if eq $short .short }}
+                      {{ $.Scratch.Add (printf "title%s" $title) $title }}
+                      {{ $.Scratch.Add (printf "short%s" $short) .short }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+              {{ end }}
+            {{ end }}
+            {{ range $id, $value := .activities }}
+            {{ if and (eq $id 0) (ne $title $prevtitle) }}
+            {{ if gt (len ($.Scratch.Get (printf "title%s" $title)) ) 0  }}
+            <tr class="subheader">
+              <td colspan="3">{{ $title }}</td>
+            </tr>
+            {{ $prevtitle = $title }}
+            {{ end }}
+            {{ end }}
+            {{ if gt (len ($.Scratch.Get (printf "short%s" .short))) 0  }}
               <tr>
                 {{ $short := .short }}
-                <td>{{ .short }}</td>
+                <td>
+                    {{ .short }}
+                </td>
                 {{ range $id, $values := $offers }}
                 <td>
-                  {{ $notincluded := "false" }}
+                {{ $notincluded := "false" }}
                 {{ range .modules }}
                 {{ range  (where $modules "slug" .) }}
                   {{ range .activities }}
@@ -100,18 +130,17 @@
                     {{ $notincluded = true }}
                     {{ end }}
                   {{ end }}
-                  
                 {{ end }}
-                
                 {{ end }}
                 {{ if eq $notincluded "false" }}
                   <svg class="not-included" viewBox="0 0 24 24">
                     <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.151 17.943l-4.143-4.102-4.117 4.159-1.833-1.833 4.104-4.157-4.162-4.119 1.833-1.833 4.155 4.102 4.106-4.16 1.849 1.849-4.1 4.141 4.157 4.104-1.849 1.849z"></path>
                   </svg>
                   {{ end }}
-              </td>
+                </td>
                 {{ end }}
               </tr>
+              {{ end }}
             {{ end }}
           {{ end }}
       </tbody>
@@ -123,7 +152,7 @@
   :root {
     --white: white;
     --gray: #999;
-    --lightgray: whitesmoke;
+    --lightgray: lightgrey;
     --darkgreen: #2a9d8f;
     --popular: #ffdd40;
     --starter: #f73859;
@@ -225,13 +254,21 @@
   
   table th,
   table td {
-    width: 25%;
-    min-width: 150px;
+    min-width: 15%;
     background: none;
     padding: 0;
     border: none;
     line-height: 1.5; 
     color: #000;
+  }
+
+  table th:first-child,
+  table td:first-child { 
+    min-width: 55%;
+  }
+
+  table .subheader {
+    background: #efefef;
   }
   
   table th:nth-child(1) {

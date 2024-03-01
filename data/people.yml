@@ -18,7 +18,7 @@
 - name: Jean-Patrick Masquelier
   sector: BANEREI
   contacted: true
-  interview: false
+  interview: 2024-02-29
 - name: Stacey Zevenbergen
   sector: Social & Inclusion
   contacted: true
@@ -90,7 +90,7 @@
   sector: TUM
   country: Amérique Latine
   contacted: true
-- name:   magali vidot
+- name:  magali vidot
 - name:  sophie pecours
 - name: Mar POZUELO CASTILLO
   sector: TUM 
@@ -100,6 +100,7 @@
   sector: TUM 
   country: Mali
   contacted: true
+  interview: 2024-02-27
 - name: Francesca Piatta
   sector: TUM 
   country: Tunisie
@@ -113,5 +114,6 @@
 - name: Daniel Chebbahi
   sector: Achat
   contacted: true
+  interview: 2024-03-05
 
 #https://hinside.hi.org/intranet/jcms/pl1_2762722/fr/1-2022-organigramme-hi-direction-des-operations-janvier-2023
