@@ -26,7 +26,7 @@
             return;
           }
 
-          let keywords = ["slugpath" {{- range .Params.form }}{{ range .questions }}, {{- if eq .type "radio" }}{{ printf "%s_%s" (anchorize .name) .type }}{{ else }}{{ anchorize .name }}{{ end }}{{ end }}{{ end }}];
+          let keywords = ["slugpath" {{- range .Params.form }}{{ range .questions }}, {{- $name := (cond (eq .name "") .label .name) -}}{{- if eq .type "radio" }}{{ printf "%s_%s" (anchorize $name) .type }}{{ else }}{{ anchorize $name }}{{ end }}{{ end }}{{ end }}];
 
           let payload = {};
           payload.data = {}
@@ -50,8 +50,16 @@
                   payload[item] = document.getElementById("comment-"+item).value.trim();
                 }
                 else if (item == "name") {
-                  payload[item] = document.getElementById("comment-"+item).value.trim().replace("'", '’');
-                  payload.slugname = slugify(document.getElementById("comment-"+item).value.trim());
+                  const betterDate = `${date.getMinutes()}-${String(date.getSeconds() + 1).padStart(2, '0')}`;
+                  console.log(betterDate)
+                  if (document.getElementById("comment-"+item).value.trim() == "") {
+                    payload[item] = betterDate;
+                    payload.slugname = betterDate;
+                  }
+                  else {
+                    payload[item] = document.getElementById("comment-"+item).value.trim().replace("'", '’');
+                    payload.slugname = slugify(document.getElementById("comment-"+item).value.trim());
+                  }
                 }
                 else {
                   payload.data[item] = document.getElementById("comment-"+item).value.trim().replace("'", '’'); 
@@ -94,7 +102,7 @@
         <fieldset>
         <legend>{{ .title }}</legend>
           {{- range .questions }}
-          {{- $name := (cond (eq .name "") "toto" .name) }}
+          {{- $name := (cond (eq .name "") .label .name) }}
             {{- if eq .type "radio" }}
             <fieldset id="comment-{{ anchorize $name }}_{{ .type }}" class="form-radio">          
               <legend>{{ htmlUnescape .label | safeHTML }}</legend>
@@ -112,7 +120,7 @@
             </fieldset>
             {{- else if eq .type "textarea" }}
             <p>
-              <label for="comment-{{ anchorize $name }}">{{ $name }}ss
+              <label for="comment-{{ anchorize $name }}">
                 {{ .label | safeHTML }}{{ if .required }}<span class="form__required">{{ i18n "form-required" }}</span>{{ end }}
               </label>
               <textarea id="comment-{{ anchorize $name }}" name="fields[{{ anchorize $name }}]" type="{{ .type }}" {{ if .help }}aria-describedby="help-{{ anchorize .help }}"{{ .help }}{{ end }} rows=5 placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }}></textarea>
@@ -138,10 +146,12 @@
   </div>
   </div>
 </div>
+{{ if ne .Params.shot "repeat" }}
 <script>
   if (localStorage.getItem("formSuccess{{ anchorize (lower .Page.Title) }}")) {
     const form = document.getElementById("form");
     form.classList.add("form-completed");
   }
 </script>
+{{ end }}
 {{ end }}
