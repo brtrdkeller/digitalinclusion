@@ -50,8 +50,7 @@
                   payload[item] = document.getElementById("comment-"+item).value.trim();
                 }
                 else if (item == "name") {
-                  const betterDate = `${date.getMinutes()}-${String(date.getSeconds() + 1).padStart(2, '0')}`;
-                  console.log(betterDate)
+                  const betterDate = `${date.getHours()}-${date.getMinutes()}-${String(date.getSeconds() + 1).padStart(2, '0')}`;
                   if (document.getElementById("comment-"+item).value.trim() == "") {
                     payload[item] = betterDate;
                     payload.slugname = betterDate;
@@ -69,7 +68,7 @@
           //keywords = keywords.map((item) => item.split('_')[0]);
           //payload.keywords = keywords.splice(1, keywords.length)
           //payload["email"] = SparkMD5.hash(payload["email"]);
-          console.log(payload)
+          //console.log(payload)
           fetch("https://publicactiontrigger.azurewebsites.net/api/dispatches/brtrdkeller/digitalinclusion", {
             method: 'POST',
             mode: 'cors',
@@ -80,7 +79,7 @@
             body: JSON.stringify({ event_type: 'interview', client_payload: { data: payload } })
           }).then(function(resp){
             if(resp.ok){
-              console.log(resp)
+              //console.log(resp)
               alert('{{ i18n "form-alert-success" }}');
               localStorage.setItem("formSuccess{{ anchorize (lower .Page.Title) }}", JSON.stringify(true));
               setTimeout(function(){ location.reload(); }, 1000);
