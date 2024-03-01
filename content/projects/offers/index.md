@@ -146,13 +146,13 @@ modules:
         duration: 0.25
 
 offers: 
-    - title: Offre 1
+    - title: Pack 1
       price: 10 000€
       modules: [a11y-discover-1, a11y-discover-communication-1,a11y-audit-diag-1]
-    - title: Offre 2
+    - title: Pack 2
       price: 30 000€
       modules: [a11y-discover-1,a11y-discover-2, a11y-discover-communication-1, a11y-discover-communication-2,a11y-audit-diag-1,a11y-audit-diag-2]
-    - title: Offre 3
+    - title: Pack 3
       price: 60 000€
       modules: [a11y-discover-1,a11y-discover-2,a11y-discover-3, a11y-discover-communication-1, a11y-discover-communication-2, a11y-discover-communication-3,  a11y-audit-diag-1,a11y-audit-diag-2,a11y-audit-diag-3]
 ---
