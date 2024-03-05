@@ -13,11 +13,13 @@
   {{ if not $num }}
     {{ $num = 6 }}
   {{ end }}
-  {{ $projects := where site.RegularPages "Section" "projects" | first $num }}
+  {{ $projects := where site.Pages "Section" "projects" | first $num }}
   {{ with $projects }}
     <div class="project-list">
       {{- range . }}
+      {{ if (and (eq (len (split (path.Dir .Path) "/")) 2) (eq (path.BaseName .Path) "_index")) }} 
         {{ partial "projects/project-entry.html" . }}
+        {{ end }}
       {{ end }}
     </div>
   {{ else }}

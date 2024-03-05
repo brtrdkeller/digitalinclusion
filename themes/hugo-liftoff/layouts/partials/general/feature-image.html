@@ -1,4 +1,4 @@
-{{ $images := $.Resources.ByType "image" -}}
+{{ $images := union (.Parent.Resources.ByType "image") ($.Resources.ByType "image") -}}
 {{ $custom_file := .Params.feature_image }}
 {{ $custom_image := $images.GetMatch $custom_file }}
 {{ $feature_image := $images.GetMatch "*feature*" -}}
@@ -15,5 +15,5 @@
      srcset="{{ $img_src }} 480w, {{ $img_src }} 800w"
      sizes="(max-width: 600px) 480px, 800px"
      src="{{ $img_src }}"
-     {{ with $.Params.feature_image_alt }}alt="{{ . }}"{{ else }}alt="Feature image"{{ end }}>
+     {{ with $.Params.feature_image_alt }}alt="{{ . }}"{{ else }}alt=""{{ end }}>
 {{ end }}

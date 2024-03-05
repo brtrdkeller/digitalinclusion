@@ -13,7 +13,7 @@
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
     "sector": "Economic Inclusion",
-    "successfactors": [Partiticipation, ensibilisation],
+    "successfactors": [Participation, ensibilisation],
     "developfactors": [],
     "issues": [Consistency, Reflexion],
     "accountability": "non",

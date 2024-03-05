@@ -1,0 +1,176 @@
+- title: Sensibilisation à l’accessibilité numérique 
+  slug: a11y-discover-1
+  activities:
+    - title: Introduction à l’Accessibilité Numérique
+      short: Introduction à l’Accessibilité Numérique
+    - title: Introduction aux Normes et Réglementations en Matière d’Accessibilité 
+      short: Normes et réglementation
+    - title: Bonnes Pratiques d’Accessibilité numérique
+      short: Bonnes Pratiques d’Accessibilité numérique
+- title: Sensibilisation à l’accessibilité numérique 
+  slug: a11y-discover-2
+  activities:
+    - title: Mettre en évidence l’importance de la communication inclusive pour atteindre un public diversifié 
+      short: Communication inclusive
+- title: Sensibilisation à l’accessibilité numérique 
+  slug: a11y-discover-3
+  activities:
+    - title: Présenter des techniques pour rendre les contenus écrits accessibles
+      short: Rendre les contenus inclusifs
+    - title: Former aux politiques inclusives au sein d’une organisation 
+      short: Politiques inclusives
+- title: Formation à la communication écrite accessible et inclusive
+  slug: a11y-discover-communication-2
+  activities:
+    - title: Accessibilité des documents Word
+      short: Documents Word
+    - title: Accessibilité des présentations Power Point
+      short: Documents Power Point
+- title: Formation à la communication écrite accessible et inclusive
+  slug: a11y-discover-communication-3
+  activities:
+    - title: Accessibilité des publications sur les différents réseaux sociaux 
+      short: Publications sur les réseaux sociaux 
+    - title: Analyse d’exemples de documents Word, Power Point et une  publication sur les réseaux sociaux
+      short: Diagnostique de documents
+- title: Introduction aux Normes et Réglementations en Matière d’Accessibilité 
+  slug: a11y-discover-norms-1
+  activities:
+    - title: Introduire et expliquer les differentes normes et reglementations dans le domaine de l’accessibilité numérique. 
+      short: Introduction
+    - title: Adapter selon la loi/norme  qui s’applique dans le pays d’intervention.
+      short: Adaptation Démarche
+- title: Formation à la communication écrite accessible et inclusives
+  slug: a11y-use-communication-1
+  activities:
+    - title: Accessibilité des documents Word
+      short: Documents Wordsss
+    - title: Accessibilité des présentations Power Point
+      short: Présentations PowerPoint
+    - title: Accessibilité des publications sur les différents réseaux sociaux 
+      short: Réseaux sociaux
+    - title: Analyse d’exemples de documents Word, Power Point et une publication sur les réseaux sociaux
+      short: Parcours de publication Omni-Canal
+- title: Audit 
+  slug: a11y-audit-diag-1
+  activities:
+    - title: Evaluer l’accessibilité numérique d’un échantillon de pages du site web avec réalisation de tests utilisateurs
+      short: Audit Sites Web (RGAA - WCAG)
+      duration: 4
+    - title: Rédaction d’un rapport d’accessibilité numérique avec les recommandations pour améliorer la conformité aux normes d’accessibilité
+      short: Rapport de Recommandations
+      duration: 1
+- title: Audit 
+  slug: a11y-audit-diag-2
+  activities:
+    - title: Prioriser les actions correctives en fonction des niveaux d’impact sur l’accessibilité
+      short: Planifier les actions correctives
+      duration: 4
+- title: Audit 
+  slug: a11y-audit-diag-3 
+  activities:
+    - title: Révision des trames word
+      short: Révision des trames word/PowerPoint/réseaux sociaux 
+    - title: Evaluer l’état actuel de l’accessibilité numérique d’une application mobile
+      short: Audit Application (RGAA - WCAG)
+      duration: 4
+    - title: Accompagnement à la mise en accessibilité des outils numériques
+      short: Accompagnement à la mise en accessibilité 
+- title: Cadre Social
+  slug: a11y-framework-1
+  activities:
+    - title: Politique de l’emploi
+      short: Politique de l’emploi
+      duration: 0.5
+    - title: Mission de l’organisme
+      short: Mission de l’organisme
+      duration: 0.5
+    - title: Réflexion sur la gouvernance
+      short: Réflexion sur la gouvernance
+      duration: 0.5
+- title: Cadre métiers
+  slug: a11y-workshop-2
+  activities:
+    - title: Définition des publics, prises en compte de la diversité
+      short: Définition des publics
+      duration: 0.25
+    - title: Définition des indicateurs
+      short: Définition des indicateurs
+      duration: 0.25
+    - title: Analyse des processus métier, mise en question de la mission de l’organisme
+      short: Analyse des processus métier
+      duration: 0.25
+    - title: Construction des compétences, lister les compétences essentielles à la réalisation de la mission
+      short: Construction des compétences 
+      duration: 0.25
+    - title: Rédaction de cadres applicatifs généraux
+      short: Rédaction de cadres applicatifs généraux
+      duration: 0.5
+- title: Cadre technique
+  slug: a11y-workshop-3
+  activities:
+    - title: Inventaire général
+      short: Inventaire général
+    - title: Identifier les problèmes d’organisation de contenu
+      short: Identifier les problèmes d’organisation de contenu
+      duration: 0.25
+    - title: Identifier les problèmes technique page
+      short: Identifier les problèmes
+      duration: 0.25
+- title: Audit Interne sur l’accessibilité numérique 
+  slug: a11y-analysis-1
+  activities:
+    - title: Entretiens individuels des directions
+      short: Entretiens individuels des directions
+- title: Audit Interne sur l’accessibilité numérique 
+  slug: a11y-analysis-2
+  activities:
+    - title: Questionnaires métiers pour les salariés
+      short: Questionnaires métiers pour les salariés
+- title: Audit Interne sur l’accessibilité numérique 
+  slug: a11y-analysis-3
+  activities:
+    - title: Rapport complet de maturité
+      short: Rapport complet de maturité
+- title: Atelier Méthodologiques
+  slug: a11y-prospection-1
+  activities:
+    - title: Inventaires des irritants
+      short: Inventaires des irritants
+    - title: Réflexion captation des avis des utilisateurs
+      short: Réflexion captation des avis des utilisateurs
+- title: Atelier Méthodologiques
+  slug: a11y-prospection-2
+  activities:
+    - title: Outils méthologologiques (Sondages, observatoires...)
+      short: Outils méthologologiques (Sondages, observatoires...)
+- title: Atelier Méthodologiques
+  slug: a11y-prospection-3
+  activities:
+    - title: Outils méthologologiques (Animation comités usagers)
+      short: Outils méthologologiques (Animation comités usagers)
+- title: Atelier Techniques (Parc de sites)
+  slug: a11y-technique-1
+  activities:
+    - title: Sensibilisation à la conformité 
+      short: Sensibilisation à la conformité
+    - title: Audit Flash sur un site interne
+      short: Audit Flash sur plusieurs site interne
+- title: Atelier Techniques (Parc de sites)
+  slug: a11y-technique-2
+  activities:
+    - title: Contrainte légale - Processus d'amélioration
+      short: Contrainte légale - Processus d'amélioration
+    - title: Principe de l'audit de conformité
+      short: Principe de l'audit de conformité
+- title: Atelier Techniques (Parc de sites)
+  slug: a11y-technique-3
+  activities:
+    - title: Formation référent accessibilité
+      short: Formation référent accessibilité
+    - title: Outils méthologologiques (suivi de la conformité)
+      short: Outils méthologologiques (suivi de la conformité)
+    - title: Jours d'accompagnement pour le suivi de conformité
+      short: Jours d'accompagnement pour le suivi de conformité
+
+# (portefeuille d’irritants, amélioration et extension des dispositifs la captation des avis des utilisateurs du système d’information du ministère) et l’offre de service (outils, méthodes : sondages, observatoires, « recherche utilisateur », comités usagers, compétences de design, bibliothèque de composants déclinant le DSFR au ministère…) 

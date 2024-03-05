@@ -1,4 +1,70 @@
 {{ define "main" }}
+<style>
+  .list-indicators {
+    margin-bottom: 3em;
+    padding: 1rem;
+    background: rgb(209, 237, 245);
+  }
+  .list-indicators p {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+  .list-indicators p > * {
+    flex: 1;
+  }
+  .list-indicators span {
+    flex: 0.5;
+    min-width: 300px;
+  }
+  /*for meter track*/
+  meter,
+  meter::-webkit-meter-bar {
+      /*to remove the default background property */
+      background: none; 
+      width: 300px;
+      height: 35px;
+      border-radius: 4px;
+      overflow: hidden;
+      background-color: rgb(226, 226, 226);
+      border: 1px solid #999;
+      box-shadow: 0 5px 5px -5px rgba(0,0,0,0.1) inset;
+  }
+  
+  /*for meter bar*/
+  meter::-webkit-meter-optimum-value {
+      background: none; 
+      background-color: rgb(86, 73, 198);
+      background-color: rebeccapurple;
+  }
+  :-moz-meter-optimum::-moz-meter-bar {
+      background: none; 
+      background-color: rgb(86, 73, 198);
+      background-color: rebeccapurple;
+  }
+  
+  
+  meter::-webkit-meter-suboptimum-value{
+      background: none; 
+      background-color: rebeccapurple;
+  }
+  :-moz-meter-sub-optimum::-moz-meter-bar{
+      background: none; 
+      background-color: rebeccapurple;
+  }
+  
+  
+  meter::-webkit-meter-even-less-good-value{
+      background: none; 
+      background-color: rgb(153, 51, 65);
+      background-color: rebeccapurple;
+  }
+  :-moz-meter-sub-sub-optimum::-moz-meter-bar{
+      background: none;
+      background-color: rgb(153, 51, 65);
+      background-color: rebeccapurple;
+  }
+</style>
 <div class="container">
   <section class="page-header">
     <div class="">
@@ -36,20 +102,24 @@
         </div>
       {{ end }}
     </div>
+    <h2>Indicateurs de succès/risques</h3>
+      <div class="list-indicators">
+      {{ range $key, $value := .Params.scores }}
+        <p>
+          <span>{{ index ($.Site.Data.scores) $key }}</span> 
+          <meter value="{{ . }}" min="0" max="5" low="2" high="4" optimum ="5" ></meter>
+        </p>
+      {{ end }}
+      </div>
+      <hr>
   </section>
-  <div class="single-container">
-    <article class="markdown">
-      {{ partialCached "content.html" .Content .Content }}
-    </article>
-    <br>
-    <hr>
-  </div>
-  <br><br>
   
+    
+
 {{ if in .Permalink "ts/offers" }}
   <section>
     {{ $offers    := .Params.offers }}
-    {{ $modules   := .Params.modules }}
+    {{ $modules   := .Site.Data.offers }}
     {{ $prevtitle := "" }}
     {{ $color   := slice "starter" "essential" "professional" }}
     <table>
@@ -68,7 +138,7 @@
           {{ range $offers }}
           <th>
             <div class="heading">{{ .title }}</div>
-            <div class="info">
+            <div class="info hide">
               <div class="price monthly">
                 <div class="amount">{{ .price }}</div>
               </div>
@@ -77,24 +147,23 @@
                 <div class="billing-msg">billed annually</div>
                 <button type="button hide">Get started</button>
               </div>
-              
             </div>
           </th>
           {{ end }}
         </tr>
       </thead> 
       <tbody>
-          {{ range $modules }}
-            {{ $title := .title }}
-            {{ range .activities }}
-              {{ $short := .short }}
-              {{ range $id, $values := $offers }}
-              {{ $.Scratch.Set (printf "short%s" $short) slice }}
-              {{ $.Scratch.Set (printf "title%s" $title) slice }}
-              {{ range .modules }}
-                {{ range (where $modules "slug" .) }}
-                  {{ range .activities }}
-                    {{ if eq $short .short }}
+          {{- range $modules }}
+            {{- $title := .title }}
+            {{- range .activities }}
+              {{- $short := .short }}
+              {{- range $id, $values := $offers }}
+              {{- $.Scratch.Set (printf "short%s" $short) slice }}
+              {{- $.Scratch.Set (printf "title%s" $title) slice }}
+              {{- range .modules }}
+                {{- range (where $modules "slug" .) }}
+                  {{- range .activities }}
+                    {{- if eq $short .short }}
                       {{ $.Scratch.Add (printf "title%s" $title) $title }}
                       {{ $.Scratch.Add (printf "short%s" $short) .short }}
                     {{ end }}
@@ -103,9 +172,9 @@
               {{ end }}
               {{ end }}
             {{ end }}
-            {{ range $id, $value := .activities }}
-            {{ if and (eq $id 0) (ne $title $prevtitle) }}
-            {{ if gt (len ($.Scratch.Get (printf "title%s" $title)) ) 0  }}
+            {{- range $id, $value := .activities }}
+            {{- if and (eq $id 0) (ne $title $prevtitle) }}
+            {{- if gt (len ($.Scratch.Get (printf "title%s" $title)) ) 0  }}
             <tr class="subheader">
               <td colspan="3">{{ $title }}</td>
             </tr>
@@ -150,6 +219,11 @@
     </table>
   </section>
   {{ end }}
+</div>
+<div class="single-container">
+  <article class="markdown">
+    {{ partialCached "content.html" .Content .Content }}
+  </article>
 </div>
 <style>
   :root {
@@ -249,6 +323,7 @@
   
   table {
     width: 100%;
+    margin-block: 6rem;
   }
   
   table tr {
@@ -393,8 +468,8 @@
     padding: 10px;
   }
 
+  color: #555;
   table td span {
-    color: #555;
   }
   
   table td:not(:first-child) {
