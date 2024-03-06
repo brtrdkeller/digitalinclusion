@@ -14,6 +14,7 @@ title: Model
  1. formation
  1. capacité de participation des bénéficiaires
 
+
 ## Questions
 
 **1. Ta définition de l'Accessibilité numérique**
