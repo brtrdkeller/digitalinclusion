@@ -26,6 +26,17 @@
 }
 ---
 
+## A retenir
+
+ - Trop grande complexité d'outils
+ - Pas de cohérence entre les différents métiers
+ - Rupture de parcours pour ls bénéficiaires qui doivent utiliser nos outils 
+
+### Eléments remarquables
+
+ - Incohérence entre la mission et les engagements par la direction de HI [Consistency]
+ - Manque expertise interne [Expertise]
+ - Concurrence sur le terrain [Competition]
 
 ## Facteurs de succès
 

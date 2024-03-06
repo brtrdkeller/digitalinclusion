@@ -40,12 +40,6 @@ Il s'agira de construire ensemble les constextes à partir de méthodes/indicate
 
 Enfin, on va appliquer un filtre d'audit technique des outils numérique, selon les constraintes légales actuelles. Mais sans forcément proposer une activité d'audit expert. L'idée est de développer une responsabilité individuelle afin de décrypter le langage lié à la prise en compte de l'accessibilité (numérique)
 
-A décliner les avantages, risques, ou besoin, ex (curseurs) :
- - Expert technique :: Modérée
- - Concurrence emploi :: Faible
- - Pertinence marché :: Forte
- - Légitimité HI :: Forte
- - Participation des parties prenantes :: Forte
 
 ### Rappels des Facteurs de succès 
 

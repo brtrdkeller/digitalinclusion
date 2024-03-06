@@ -1,23 +1,59 @@
 {{ define "main" }}
+<style>
+  .list-unstyled {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: "";
+  }
+  .list-inline > li {
+    display: inline-block;
+  }
+  .nav-transverse {
+    display: block;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+  .nav-transverse li:not(:last-child):after {
+    content: "-";
+    display: inline-block;
+  }
+</style>
 <div class="container">
+  {{ $pages := where (where .Parent.RegularPagesRecursive "Params.slugpath" "eq" "digital-accessibility") "Title" "ne" "Model" }}
   <section class="page-header--c">
+    <nav class="nav-transverse">
+      <strong>Menu interviews :</strong>
+      {{ $title := cond (ne .Params.name "") .Params.name .Title }}
+      <ul class="list-unstyled list-inline">
+      {{ range $pages }}
+      <li>
+        {{ $name := cond (ne .Params.name "") .Params.name .Title }}
+        {{ if ne $title $name }}<a href="{{ .Permalink }}">{{ end }}
+          {{ $name }}
+        {{ if ne $title $name }}</a>{{ end }}
+      </li>
+    {{ end }}
+    </ul>
+    </nav>
     <h1 class="page-header-title">{{ with .Title }}{{ . }}{{ else }}{{ .Params.name }}{{ end }}</h1>
   </section>
 </div>
 <section class="generic-single container">
   <div class="single-container markdown">
-    {{ $path := "form/digitala11y" }}
+    {{- $path := "form/digitala11y" }}
+    {{- $questions := slice "countries" "estimated-action-accessibility" "estimated-knowledge-accessibility" "first-block" "first-win" "first-word" "idea-external" "idea-internal" "jobtitle" "mission-issue-futur" "mission-issue-present" "sector" "successfactors" "developfactors" "issues" "accountability" "needexpert" -}}
+    {{- $questions := slice "countries" "jobtitle" "first-block" "first-win" "first-word" -}}
     {{ range last 1 (readDir $path) }}
-        {{ range $key, $value := index (unmarshal (readFile (printf "%s/%s" $path .Name))) "form" }}
-        {{ range .questions }}
-           {{ if ne .name "name" }}
-           {{ if index $.Params.data .name }}
+        {{- range $key, $value := index (unmarshal (readFile (printf "%s/%s" $path .Name))) "form" }}
+        {{- range where .questions "name" "in" $questions }}
+          {{- if ne .name "name" }}
+          {{- if index $.Params.data .name }}
             <strong>{{ .label }}</strong><br>
             {{ index $.Params.data .name }}<br><br>
-            {{ end }}
-            {{ end }}
-        {{ end }}
-        {{ end }}
+          {{- end }}
+          {{- end }}
+        {{- end }}
+        {{- end }}
     {{ end }}
     <h2>Questions semi-dirigées</h2>
     {{ partialCached "content.html" .Content .Content }}

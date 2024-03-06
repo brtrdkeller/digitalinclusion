@@ -15,7 +15,7 @@
     "sector": "Logistique",
     "successfactors": [],
     "developfactors": [],
-    "issues": [Consistency,Employement,Expertise],
+    "issues": [Consistency,Employement,Expertise,Participation],
     "accountability": "non",
     "needexpert": "oui"
   },
@@ -26,6 +26,17 @@
 }
 ---
 
+
+## A retenir
+
+ - Besoin implication des utilisateurs (si pas de remonté terrain, on fait pas)
+ - Beosin sur les chaiers des charges
+
+### Eléments remarquables
+
+ - Incohérence entre la mission et les engagements par la direction de HI [Consistency]
+ - Manque expertise interne [Expertise]
+ - Manque d'implication parties prenantes [Participation]
 
 **La logistique :**
 

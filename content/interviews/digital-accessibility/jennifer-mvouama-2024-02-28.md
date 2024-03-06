@@ -13,7 +13,7 @@
     "mission-issue-futur": "oui",
     "mission-issue-present": "non",
     "sector": "Réduction des risques de catastrophe et adaptation au changement climatique",
-    "successfactors": [Strategy],
+    "successfactors": [Strategy,Financement,Time],
     "developfactors": [],
     "issues": [Strategy],
     "accountability": "non",
@@ -25,6 +25,18 @@
   "slugname": "jennifer-mvouama"
 }
 ---
+
+## A retenir
+
+ - Forte demande pour la prévention des risques
+ - On ne fait pas, mais on doit conseiller
+ - Risques de ne pas récupérer des subventions sur les sujets du numériques
+ - Manque de temps
+
+### Eléments remarquables
+
+ - Incohérence entre la mission et les engagements par la direction de HI [Consistency]
+ - Manque expertise interne [Expertise]
 
 ## Présentations
 
@@ -48,12 +60,11 @@ Ex :
 
 **1. Ta définition de l'Accessibilité numérique**
 
-*Jennifer 
+*Jennifer* : 
 Design inclusif, pour que la navigation soit disponible pour les personne en situation de handicap. Application, site webs,...
 
-*Valentina
+*Valentina* :
 Informations disponible par le numérique soient lisibles et compréhensibles par des personnes en situation de handicap.
-
 
 **2. Connais-tu le cadre légal définissant le processus d'amélioration l'accessibilité numérique ?**
 
@@ -87,7 +98,7 @@ Informations disponible par le numérique soient lisibles et compréhensibles pa
  - Il faudrait étudier les besoins en fonction des contextes (ex. Anglais, programme condition climatique).
  - Aussi Madagascar
  - Expertise numérique au sein de la DRR  (rêve) : accompagner les programmes 
- - Plus un Partenariat pourla partie Data
+ - Plus un Partenariat pour la partie Data
  - Du temps 
  - Capacité à développer le côté Durabilité
  - Sensibilitation Réalité Virtuelle (sensibilisation)

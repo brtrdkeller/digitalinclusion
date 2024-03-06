@@ -166,6 +166,28 @@ https://sheknowsseo.co/blog-accessibility-checklist/
  *  Use list elements for listed content (i.e., a numbered or bullet point list block in WordPress)
 
 
+### Color for blind people
+
+<https://www.smashingmagazine.com/2024/02/designing-for-colorblindness/>
+
+**Do :**
+
+✅ Red-/green deficiencies are more common in men.
+✅ Use blue if you want users to perceive color as you do.
+✅ Use any 2 colors as long as they vary by lightness.
+✅ Colorblind users can tell red and green apart.
+✅ Colorblind users can’t tell dark green and brown apart.
+✅ Colorblind users can’t tell red and brown apart.
+✅ The safest color palette is to mix blue with orange or red.
+
+**Don't do :**
+
+🚫 Don’t mix red, green and brown together.
+🚫 Don’t mix pink, turquoise and grey together.
+🚫 Don’t mix purple and blue together.
+🚫 Don’t use green and pink if you use red and blue.
+🚫 Don’t mix green with orange, red, or blue of the same lightness.
+
 ## Outils
 
  1. https://github.com/mbusigin/yaml-runner

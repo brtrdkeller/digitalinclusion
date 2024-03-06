@@ -35,9 +35,3 @@ A aucun moment n'est posée la question de la maturité de chaque métiers spéc
 
 Ce type d'offre s'adresse le plus souvent des structures ayant une culture **Informatique forte**.
 
-A décliner les avantages, risques, ou besoin, ex (curseurs) :
- - Expert techniques :: Forte
- - Concurrence emploi :: Forte
- - Pertinence marché :: Faible
- - Légitimité HI :: Faible
- - Participation des parties prenantes :: moyenne

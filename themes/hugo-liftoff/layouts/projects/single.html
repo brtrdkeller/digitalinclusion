@@ -64,9 +64,35 @@
       background-color: rgb(153, 51, 65);
       background-color: rebeccapurple;
   }
+  .list-unstyled {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: "";
+  }
+  .list-inline > li {
+    display: inline-block;
+  }
+  .nav-transverse {
+    display: flex;
+    gap: 0;
+    margin-bottom: 1rem;
+  }
 </style>
 <div class="container">
   <section class="page-header">
+    <nav class="nav-transverse">
+      {{ $title := .Title }}
+      Menu des offres :&nbsp;
+      <ul class="list-unstyled list-inline">
+      {{ range .Parent.Pages }}
+      <li>
+        {{ if ne $title .Title }}<a href="{{ .Permalink }}">{{ end }}
+          {{ .Title }}
+        {{ if ne $title .Title }}</a>{{ end }}
+      </li>
+    {{ end }}
+    </ul>
+    </nav>
     <div class="">
       <h1 class="page-header-title">
         {{- .Title -}}
@@ -102,7 +128,11 @@
         </div>
       {{ end }}
     </div>
-    <h2>Indicateurs de succès/risques</h3>
+    {{ $.Scratch.Set "scores" 0 }}
+    {{ range .Params.scores }}
+      {{ $.Scratch.Add "scores" . }}
+    {{ end }}
+    <h2>Indicateurs de succès/risques - {{ $.Scratch.Get "scores" }}/{{ mul (int (len .Params.scores)) 5 }}</h3>
       <div class="list-indicators">
       {{ range $key, $value := .Params.scores }}
         <p>
@@ -112,9 +142,7 @@
       {{ end }}
       </div>
       <hr>
-  </section>
-  
-    
+    </section>
 
 {{ if in .Permalink "ts/offers" }}
   <section>

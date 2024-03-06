@@ -13,7 +13,7 @@
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
     "sector": "Economic Inclusion",
-    "successfactors": [Participation, ensibilisation],
+    "successfactors": [Participation, sensibilisation],
     "developfactors": [],
     "issues": [Consistency, Reflexion],
     "accountability": "non",
@@ -26,17 +26,22 @@
 }
 ---
 
-## Facteurs de succès
 
- 1. financement
- 1. compréhension des lois
- 1. sensibilisation
- 1. soutien et de l'implication des dirigeants
- 1. niveau et qualité d'équipement des utilisateurs
- 1. modèle de prise de décision par l'ensemble des parties prenantes
- 1. une vision et d'une stratégie claires
- 1. formation
- 1. capacité de participation des bénéficiaires
+
+## A retenir
+
+ - Besoin de veille concurrentielle
+ - Besoin formation de base à la maîtrise du numérique
+ - Besoin d'un meilleur contrôle terrain
+ - Besoin implication OPH
+ - Besoin d'innovation (plutôt sur les méthodes)
+
+### Eléments remarquables
+
+ - Incohérence entre la mission et les engagements par la direction de HI [Consistency]
+ - Manque expertise interne [Expertise]
+ - Manque d'implication parties prenantes [Participation]
+ - Recrutement sur le terrain [Emploi]
 
 ## Questions
 
@@ -76,7 +81,7 @@ Pertinent d'aller dans ce sens, pour être à la pointe.
 **5. Quelles seraient tes besoins immédiats en accessibilité numériques (Communication, matériels, légal, financiers, soutien direction...)**
 
  - Formation de base sur les enjeux globaux (dans différents contextes :: pays, accès...)
- - Du temps (mapping qui existent qui pourrait être utiliser)
+ - Du temps (mapping de ce qui existe qui pourrait être utiliser)
  - Une veille de secteur
 
 **6. Quelles seraient tes besoins futurs en accessibilité numériques (Innovation, ATI, recrutement,...)**
@@ -86,7 +91,7 @@ Pertinent d'aller dans ce sens, pour être à la pointe.
 
 **7. Que faudrait-il développer chez HI pour garantir que ta mission discrimine le moins possible par l'existence d'interfaces numériques ?**
 
- - Avoir une attitude réflextive sur l'insertion du numérique
+ - Avoir une attitude réflective sur l'insertion du numérique dasn les processus
  - L'implication des OPH dans les processus de validation des besoins
  - Améliorer le regard sur la reproduction de biais, et poser la question de l'innovation
  - Avoir un pôle d'expérimentation 

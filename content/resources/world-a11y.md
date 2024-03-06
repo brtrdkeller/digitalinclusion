@@ -65,6 +65,10 @@ title: World of A11Y
  1. https://www.adie.sn/
  1. https://senegalservices.sn/
 
+### Guinée
+
+ 1. https://twitter.com/BabenSoro
+
 ## South America
 
   1. [Unión Latinoamericana de Ciegos](http://www.ulacdigital.org/es/nosotros/quienes-somos)
@@ -78,6 +82,7 @@ title: World of A11Y
  1. https://gobiernodigital.mintic.gov.co/692/w3-search.html
 
 ### Brazil
+
 1. https://www.youtube.com/watch?v=ya_pCmB4fl0
 
 ## Asia

@@ -34,9 +34,3 @@ Dans un premier temps, il convient de proposer un état des lieux sur la prise e
 Ensuite, on va mettre se faire se rencontrer les différents "secteurs", pour qu'ils définissent ensemble des nouveaux processus (on construit les indicateurs). 
 Enfin, on va proposer une formation à l'accessibilité numérique de manière générale (mélangeant les publics, avec les personnes plus motivées), et on construit les indicateurs techniques de ganrantit de la prise en compte de l'accessibilité numérique dans les process.
 
-A décliner les avantages, risques, ou besoin, ex (curseurs) :
- - Expert techniques :: Forte
- - Concurrence emploi :: Modéré
- - Pertinence marché :: Modéré
- - Légitimité HI :: Modéré
- - Participation des parties prenantes :: Modéré
