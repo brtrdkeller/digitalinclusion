@@ -23,6 +23,6 @@
     Les interlocuteurs ont essayé de pointer des risques majeurs ou points focals sur lesquels s'attarder. Le graphique suivant liste ces points avec leur occurence d'apparition sur toutes les interviews.<br>
     Il conviendra de mieux préciser les termes généraux recensés, ci-dessous. Exemple : l'<i>emploi</i> peut concerner le staff HI, comme l'emploi des personnes dans des programmes HI ; <i>expertise</i> peut concerner un expert confirmé, comme le besoin d'une meilleure expertise interne.
   </p>
-  {{ partial "interviews/topicsstats.html" $pages }}
+  {{ partial "interviews/topicsstats.html" (dict "context" . "pages" $pages) }}
 </div>
 {{ end }}
