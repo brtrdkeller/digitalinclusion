@@ -1,5 +1,5 @@
 ---
-title: Ressources
+title: Ressources pour l'accessibilité
 ---
 
 ## Main idea
@@ -11,6 +11,8 @@ https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1137&context=ecis2004
 ## Tools
 
  1. https://github.com/atelierPartage/wasc/tree/main
+ 1. https://disic.github.io/guides-documents_bureautiques_accessibles/html/
+ 1. https://lesbases.anct.gouv.fr/ressources/webinaire-redecouvrir-les-outils-de-pix-pour-la-mediation-numerique
 
 
 ## Digital Divide

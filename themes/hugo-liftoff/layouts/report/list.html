@@ -2,13 +2,14 @@
 <div class="container">
     {{ $pages := where (where (.GetPage "interviews").RegularPagesRecursive "Params.slugpath" "eq" "digital-accessibility") "Title" "ne" "Model" }}
   <section class="page-header">
-    <h1 class="page-header-title">{{ .Title }} - {{ len $pages }}</h1>
+    <h1 class="page-header-title">{{ .Title }}</h1>
     <p class="page-header-desc">
       {{- with .Params.Summary -}}
         {{- . -}}
       {{- end -}}
     </p>
   </section>
+  {{ partialCached "content.html" .Content .Content }}
   {{ $pagesstats := where $pages "Params.data.needexpert" "ne" "" }}
   <h2>Statistiques générales</h2>
   <p>

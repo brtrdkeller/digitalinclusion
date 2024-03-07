@@ -114,11 +114,64 @@ h2 {
   font-size: 3em;
   font-weight: 800;
 }
+
 .project-entry-info {
   border: none;
 }
+
 .chart {
   display: grid;
-  margin: 1rem auto 3.5rem;
-  max-width: 600px;
+  margin: 1rem auto 3.5rem; 
+}
+
+.list.chart {
+  gap: 3rem; 
+}
+
+.list-unstyled {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: "";
+}
+.list-inline > li {
+  display: inline-block;
+}
+.nav-transverse {
+  display: block;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+.nav-transverse li:not(:last-child):after {
+  content: "-";
+  display: inline-block;
+}
+
+/*
+/// Table of content
+*/
+
+[id] {
+  scroll-margin-top: 3ex;
+}
+
+
+.tableofcontents {
+  margin: var(--baseline,1.5em) 0 calc(var(--baseline,1.5em) * 2);
+  padding: 0 var(--baseline,1.5em) var(--baseline,1.5em);
+  color: var(--text-color);
+  border: 1px solid #dedede;
+  background: rgb(226, 239, 244);
+}
+
+.tableofcontents ul, .tableofcontents ol {
+  margin: var(--baseline,1.5em) 0 0;
+  padding-left: var(--baseline,1.5em);
+}
+
+.tableofcontents a {
+  color: var(--text-color);
+}
+
+.tableofcontents a {
+  font-weight: 700;
 }

@@ -64,25 +64,12 @@
       background-color: rgb(153, 51, 65);
       background-color: rebeccapurple;
   }
-  .list-unstyled {
-    margin: 0;
-    padding-left: 0;
-    list-style-type: "";
-  }
-  .list-inline > li {
-    display: inline-block;
-  }
-  .nav-transverse {
-    display: flex;
-    gap: 0;
-    margin-bottom: 1rem;
-  }
 </style>
 <div class="container">
   <section class="page-header">
     <nav class="nav-transverse">
       {{ $title := .Title }}
-      Menu des offres :&nbsp;
+      Menu :&nbsp;
       <ul class="list-unstyled list-inline">
       {{ range .Parent.Pages }}
       <li>
@@ -132,6 +119,7 @@
     {{ range .Params.scores }}
       {{ $.Scratch.Add "scores" . }}
     {{ end }}
+    {{ if .Params.scores }}
     <h2>Indicateurs de succès/risques - {{ $.Scratch.Get "scores" }}/{{ mul (int (len .Params.scores)) 5 }}</h3>
       <div class="list-indicators">
       {{ range $key, $value := .Params.scores }}
@@ -142,7 +130,9 @@
       {{ end }}
       </div>
       <hr>
+      {{ end }}
     </section>
+
 
 {{ if in .Permalink "ts/offers" }}
   <section>
@@ -251,6 +241,52 @@
 <div class="single-container">
   <article class="markdown">
     {{ partialCached "content.html" .Content .Content }}
+    {{ with .Params.competitors }}
+      <h2>Liste de concurrents</h2>
+      {{ range . }}
+      <h3>{{ .name }}</h3>
+        {{ range .countries }}
+          <h4>{{ .name }}</h4>
+          <ul>
+          {{ range .competitor  }}
+            <li>{{ .name }} - <a href="{{ .url }}">{{ .url }}</a></li>
+          {{ end }}
+          </ul>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{ with .Params.conference }}
+      <h2>Liste de conférences</h2>
+      {{ range . }}
+      <h3>{{ .name }}</h3>
+      <ul>
+      {{ range .urls }}
+        <li><a href="{{ . }}">{{ . }}</a></li>
+      {{ end }}
+      </ul>
+      {{ end }}
+    {{ end }}
+    
+
+    {{ with .Params.persons }}
+      <h2>Liste de personnes</h2>
+      {{ range . }}
+      <h3>{{ .name }}</h3>
+      {{ if or .email .company .country}}
+      <p>
+        {{ with .email }}  <strong>Email :</strong> {{ . }}<br>{{ end }}
+        {{ with .company }}<strong>Entreprise :</strong> {{ . }}<br>{{ end }}
+        {{ with .country }}<strong>Pays :</strong> {{ . }}<br>{{ end }}
+      </p>
+      {{ end }}
+      <ul>
+      {{ range .urls }}
+        <li><a href="{{ . }}">{{ . }}</a></li>
+      {{ end }}
+      </ul>
+      {{ end }}
+    {{ end }}
   </article>
 </div>
 <style>

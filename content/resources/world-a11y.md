@@ -16,6 +16,10 @@ title: World of A11Y
 
 ## Other NGO
 
+### Red Cross
+
+  1. [La nécessité de mettre en place une « Convention de Genève sur le numérique » ](https://blog.economie-numerique.net/2022/09/14/la-necessite-de-mettre-en-place-une-convention-de-geneve-sur-le-numerique/)
+  1. [Les menaces numériques dans les conflits armés : ce qui nous échappe et comment y remédier](https://blogs.icrc.org/law-and-policy/fr/2023/10/02/menaces-numeriques-dans-les-conflits-armes/) 
 
 ### UNICEF
 
@@ -87,6 +91,9 @@ title: World of A11Y
 
 ## Asia
 
+ 1. https://opengovasia.com/?s=accessibility
+ 1. https://www.educlaas.com/
+
 ### China
 
  1. https://www.boia.org/blog/china-digital-accessibility-laws-an-overview
@@ -103,3 +110,19 @@ title: World of A11Y
 
  1. [National Web Accessibility Guideline](https://msw.portal.gov.bd/sites/default/files/files/msw.portal.gov.bd/page/7e32948a_e1ab_4471_baed_910f872956a7/Draft%20National%20Web%20Accessibility%20Guideline%20%281%29%20%281%29.pdf)
  2. https://businesspostbd.com/national/bangladesh-adopts-digital-accessibility-guideline
+
+### Vietnam
+
+ 1. https://en.vietnamplus.vn/digital-transformation-in-health-care-irreversible-trend/280053.vnp
+ 1. https://www.upu.int/en/Newsletter/Interview-Building-inclusive-digital-society-in-Viet-Nam
+ 1. https://www.linkedin.com/pulse/vietnams-digitalization-push-aims-empower-msmes-e-commerce-santosh-g-f8phc/
+
+### Thaïland
+
+ 1. https://www.onde.go.th/view/1/%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%AD%E0%B8%B5%E0%B8%A2%E0%B8%94%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7/%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%E0%B8%97%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%94/2283/TH-TH
+ 1. https://www2.fundsforngos.org/latest-funds-for-ngos/uk-thailand-digital-innovation-grant/
+ 1. https://www.depa.or.th/en/thailand-digital-valley
+
+### Malaysie
+
+ 1. https://selangorjournal.my/2024/02/ministry-allocates-rm1-7-mln-to-help-rural-entrepreneurs-to-master-digitalisation/

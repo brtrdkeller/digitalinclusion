@@ -1,8 +1,9 @@
 .project-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   flex-wrap: wrap;
-  align-items: flex-start;
   gap: 2rem 1rem;
+  align-items: stretch;
 
   & > * {
     flex: 1 1 350px;

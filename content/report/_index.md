@@ -2,7 +2,8 @@
 title: Rapport
 ---
 
-1. Wordwild
+
+## 1. Wordwild
 
 Risque d'exclusion
 
@@ -10,10 +11,10 @@ Enjeux :
  - Technique
  - entrainement des salariés
 
-2. Niveau de connaissance de HI.
+## 2. Niveau de connaissance de HI.
 
-3. Au regard des projets
+## 3. Au regard des projets
 
 Ex. Enjeux d'exclusion avec accès aux services publiques
 
-4. HI comme employeur
+## 4. HI comme employeur

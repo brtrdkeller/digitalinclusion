@@ -1,5 +1,9 @@
 ---
-title: Research
+title: Papiers de recherche
+description: |-
+    Liste de papiers parlant d'accessibilité numérique
+
+
 articles:
   - name: "Enhancing Sustainability through Accessible Health Platforms: A Scoping Review"
     topic: Sustainability

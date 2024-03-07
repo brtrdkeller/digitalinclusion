@@ -4,7 +4,7 @@ title: Analyses des critères à retenir
 
 End-to-end testing, also known as E2E testing, is a way to make sure that applications behave as expected…. This type of testing approach starts from the end user’s perspective and simulates a real-world scenario.
 
-### Critère réduits Opquast
+### Critères réduits Opquast
 
 ### 20 critères de Brajnik
 
@@ -45,6 +45,7 @@ End-to-end testing, also known as E2E testing, is a way to make sure that applic
 |4.1.2     |     18 |         |
 
 #### Numéro des critères Opquast
+
 3,15,67,69,74,77,78,85,90,98,105,112,113,116,119,120,131,132,135,143,151,160,161,163,177,189,192,198,216,219,220
 
 ### Critères de Vitaly Friedman
@@ -63,9 +64,7 @@ Source : https://www.smashingmagazine.com/2024/02/guide-designing-older-adults/
 
 ### Checklist Design Accessible
 
-https://design-accessible.fr/checklist
-
-###
+Lien : https://design-accessible.fr/checklist
 
 1. CAPTCHA - images présentant un texte utilisé pour vérifier que vous êtes un utilisateur humain
 1. Les éléments interactifs tels que les menus, les onglets et les boîtes de dialogue ne se comportent pas comme prévu.
@@ -172,21 +171,21 @@ https://sheknowsseo.co/blog-accessibility-checklist/
 
 **Do :**
 
-✅ Red-/green deficiencies are more common in men.
-✅ Use blue if you want users to perceive color as you do.
-✅ Use any 2 colors as long as they vary by lightness.
-✅ Colorblind users can tell red and green apart.
-✅ Colorblind users can’t tell dark green and brown apart.
-✅ Colorblind users can’t tell red and brown apart.
-✅ The safest color palette is to mix blue with orange or red.
+✅ Red-/green deficiencies are more common in men.  
+✅ Use blue if you want users to perceive color as you do.  
+✅ Use any 2 colors as long as they vary by lightness.  
+✅ Colorblind users can tell red and green apart.  
+✅ Colorblind users can’t tell dark green and brown apart.  
+✅ Colorblind users can’t tell red and brown apart.  
+✅ The safest color palette is to mix blue with orange or red.  
 
 **Don't do :**
 
-🚫 Don’t mix red, green and brown together.
-🚫 Don’t mix pink, turquoise and grey together.
-🚫 Don’t mix purple and blue together.
-🚫 Don’t use green and pink if you use red and blue.
-🚫 Don’t mix green with orange, red, or blue of the same lightness.
+🚫 Don’t mix red, green and brown together.  
+🚫 Don’t mix pink, turquoise and grey together.  
+🚫 Don’t mix purple and blue together.  
+🚫 Don’t use green and pink if you use red and blue.  
+🚫 Don’t mix green with orange, red, or blue of the same lightness.  
 
 ## Outils
 
