@@ -2,8 +2,8 @@
 {
   "data": {
     "countries": "Belgium - global SoW",
-    "estimated-action-accessibility": "medium",
-    "estimated-knowledge-accessibility": "medium",
+    "estimated-action-accessibility": "moyenne",
+    "estimated-knowledge-accessibility": "moyenne",
     "first-block": "Ressources",
     "first-win": "Design",
     "first-word": "WCAG",

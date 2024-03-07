@@ -13,7 +13,7 @@
   <h2>Statistiques générales</h2>
   {{ partial "interviews/generalstats.html" $pages }}
   <h2>Répartition des sujets clefs</h2>
-  {{ partial "interviews/topicsstats.html" $pages }}
+  {{ partial "interviews/topicsstats.html" (dict "context" . "pages" $pages) }}
   <h2>Liste de personnes interviewées</h2>
   <section class="list list-interview">
     {{ range (sort $pages  "Params.date" "desc") }}

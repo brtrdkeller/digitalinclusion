@@ -2,8 +2,8 @@
 {
   "data": {
     "countries": "Tunisia, Jordan, Madagascar, Nepal, Mozambique, Uganda, Rwanda, Kenya, DR Congo, Lao PDR",
-    "estimated-action-accessibility": "medium",
-    "estimated-knowledge-accessibility": "important",
+    "estimated-action-accessibility": "moyenne",
+    "estimated-knowledge-accessibility": "importante",
     "first-block": "Specialized staff or knowledge",
     "first-win": "Basic training and checklist",
     "first-word": "Service mapping and Information Management System",

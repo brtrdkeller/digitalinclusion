@@ -2,8 +2,8 @@
 {
   "data": {
     "countries": "All IE countries (25 across Africa, Asia, Middle East, and South America)",
-    "estimated-action-accessibility": "reduced",
-    "estimated-knowledge-accessibility": "medium",
+    "estimated-action-accessibility": "réduite",
+    "estimated-knowledge-accessibility": "moyenne",
     "first-block": "It depends on the context (e.g. West Africa it could be infrastructure like electricity) but in other places it could be more linked to knowledge about what works and what exists, training, maintenance of devices",
     "first-win": "Awareness raising and training.",
     "first-word": "technology,ICT",

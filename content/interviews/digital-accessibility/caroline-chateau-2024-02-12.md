@@ -3,7 +3,7 @@
   "data": {
     "countries": "",
     "estimated-action-accessibility": "importante",
-    "estimated-knowledge-accessibility": "",
+    "estimated-knowledge-accessibility": "moyenne",
     "first-block": "Stratégie logicielle",
     "first-win": "Sensibilisation",
     "first-word": "Accessibilité",

@@ -1,48 +1,81 @@
-{{ $s := newScratch }}
-{{ $s.Set "issues" slice }}
-{{ $s.Set "idea-internal" slice }}
-{{ $s.Set "idea-external" slice }}
-{{ $pages := . }}
-  {{ range $pages }}
-    {{ $s.Add "issues" .Params.data.issues }}
-    {{ $s.Add "idea-internal" (index .Params.data "idea-internal") }}
-    {{ $s.Add "idea-external" (index .Params.data "idea-external") }}
-  {{ end }}
-  {{ range (uniq ($s.Get "issues")) }}
-    {{ $s.Set (printf "%s" .) 0 }}
-  {{ end }}
-  {{ range (uniq ($s.Get "idea-internal")) }}
-    {{ $s.Set (printf "int%s" .) 0 }}
-  {{ end }}
-  {{ range (uniq ($s.Get "idea-external")) }}
-    {{ $s.Set (printf "ext%s" .) 0 }}
-  {{ end }}
-  {{ range (uniq ($s.Get "idea-internal")) }}
-    {{ $label :=  . }}
-    {{ range $pages }}
-      {{ $s.Add (printf "int%s" $label) (cond (in (index .Params.data "idea-internal") $label) 1 0) }}
-      {{ $s.Add (printf "ext%s" $label) (cond (in (index .Params.data "idea-external") $label) 1 0) }}
-    {{ end }}
-  {{ end }}
-  {{ range (uniq ($s.Get "issues")) }}
-    {{ $label :=  . }}
-    {{ range $pages }}
-      {{ $s.Add (printf "%s" $label) (cond (in .Params.data.issues $label) 1 0) }}
-    {{ end }}
-  {{ end }}
+{{- $s := newScratch -}}
+{{- $pages := .pages }}
+{{- $ := .context }}
+{{- $s.Set "issues" slice -}}
+{{- $s.Set "idea-internal" slice -}}
+{{- $s.Set "idea-external" slice -}}
+{{- $s.Set "estimated-action"    slice -}}
+{{- $s.Set "estimated-knowledge" slice -}}
+{{- $knowledge := slice "aucune" "réduite" "moyenne" "importante" "majeure" -}}
+  {{- range $pages -}}
+    {{- $s.Add "issues" .Params.data.issues -}}
+    {{- $s.Add "idea-internal" (index .Params.data "idea-internal") -}}
+    {{- $s.Add "idea-external" (index .Params.data "idea-external") -}}
+    {{- $s.Add "estimated-action" (index .Params.data "estimated-action-accessibility") -}}
+    {{- $s.Add "estimated-knowledge" (index .Params.data "estimated-knowledge-accessibility") -}}
+  {{- end -}}
+  {{- range (uniq ($s.Get "issues")) -}}
+    {{- $s.Set (printf "%s" .) 0 -}}
+  {{- end -}}
+  {{- range (uniq ($s.Get "idea-internal")) -}}
+    {{- $s.Set (printf "int%s" .) 0 -}}
+  {{- end -}}
+  {{- range (uniq ($s.Get "idea-external")) -}}
+    {{- $s.Set (printf "ext%s" .) 0 -}}
+  {{- end -}}
+  {{- range (uniq ($s.Get "estimated-action")) -}}
+    {{- $s.Set (printf "action%s" .) 0 -}}
+  {{- end -}}
+  {{- range (uniq ($s.Get "estimated-knowledge")) -}}
+    {{- $s.Set (printf "knowledge%s" .) 0 -}}
+  {{- end -}}
+  {{- range (uniq ($s.Get "idea-internal")) -}}
+    {{- $label :=  . -}}
+    {{- range $pages -}}
+      {{- $s.Add (printf "int%s" $label) (cond (in (index .Params.data "idea-internal") $label) 1 0) -}}
+      {{- $s.Add (printf "ext%s" $label) (cond (in (index .Params.data "idea-external") $label) 1 0) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- range $knowledge -}}
+    {{- $label :=  . -}}
+    {{- range $pages -}}
+      {{- $s.Add (printf "action%s" $label) (cond (in (index .Params.data "estimated-action-accessibility") $label) 1 0) -}}
+      {{- $s.Add (printf "knowledge%s" $label) (cond (in (index .Params.data "estimated-knowledge-accessibility") $label) 1 0) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- range (uniq ($s.Get "issues")) -}}
+    {{- $label :=  . -}}
+    {{- range $pages -}}
+      {{ $s.Add (printf "%s" $label) (cond (in .Params.data.issues $label) 1 0) -}}
+    {{- end -}}
+  {{- end -}}
   
-  {{ $ideainternal  := (uniq (sort ($s.Get "idea-internal"))) }}
-  {{ $ideaextternal := (uniq (sort ($s.Get "idea-external"))) }}
-
+  {{- $ideainternal       := (uniq (sort ($s.Get "idea-internal"))) -}}
+  {{- $ideaextternal      := (uniq (sort ($s.Get "idea-external"))) -}}
+  {{- $estimatedaction    := (uniq (sort ($s.Get "estimated-action"))) -}}
+  {{- $estimatedknowledge := (uniq (sort ($s.Get "estimated-knowledge"))) -}}
+  <style>
+    .m0 {
+      margin: 0;
+    }
+  </style>
   <div class="chart list">
-    <div>
-      <canvas id="myChart"></canvas>
-    </div>
-    <div>
-      <canvas id="horizontal-stacker-bar-chart"></canvas>
+    <div class="flex">
+      <canvas id="myChart" class="chart-small"></canvas>
     </div>
   </div>
-  
+  <h2 class="m0">Une idée de l'accessibilité pour les interviewés</h2>
+  <div class="chart list">
+    <div>
+      <h3>A mettre en place en priorité</h3>
+      <canvas id="horizontal-stacker-bar-chart"></canvas>
+    </div>
+    <div>
+      <h3>Mon rapport à l'accessibilité</h3>
+      <canvas id="horizontal-stacker-bar-charte"></canvas>
+    </div>
+  </div>
+  {{ $color := slice "#003f5c" "#a05195" "#f95d6a" "#ff7c43" "#ffa600" }}
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   
   <script>
@@ -51,20 +84,20 @@
     new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: [{{ range (uniq ($s.Get "issues")) }}{{ . }},{{ end }}],
+        labels: [{{ range (uniq ($s.Get "issues")) -}}{{- if (index ($.Site.Data.scores) (lower .)) -}}{{ (index ($.Site.Data.scores) (lower .)) }}{{ else }}{{ . }}{{ end -}},{{ end -}}],
         datasets: [{
-          label: 'Sujets notables',
-          data: [{{ range (uniq ($s.Get "issues")) }}{{ $s.Get (printf "%s" .) }},{{ end }}],
+          label: '',
+          backgroundColor: "{{ index $color 1 }}",
+          data: [{{ range (uniq ($s.Get "issues")) -}}{{ $s.Get (printf "%s" .) -}},{{ end -}}],
           borderWidth: 1
         }]
       },
       options: {
         title: {
-          display: true,
+          display: false,
           text: 'Eléments clefs'
         },
         scales: {
-          
           y: {
             beginAtZero: true
           }
@@ -79,19 +112,40 @@
         type: 'bar',
         data: {
             labels: ["Interne", "Externe"],
-            datasets: [{
-                label: '{{ humanize (index $ideaextternal 0) }}',
-                backgroundColor: "#FB3569",
-                data: [{{ ($s.Get (printf "int%s" (index $ideainternal 0))) }},{{ ($s.Get (printf "ext%s" (index $ideaextternal 0))) }}],
-            }, {
-                label: '{{ humanize (index $ideaextternal 1) }}',
-                backgroundColor: "#FCDDB0",
-                data: [{{ ($s.Get (printf "int%s" (index $ideainternal 1))) }},{{ ($s.Get (printf "ext%s" (index $ideaextternal 1))) }}]
-            }, {
-                label: '{{ humanize (index $ideaextternal 2) }}',
-                backgroundColor: "#82CD47",
-                data: [{{ ($s.Get (printf "int%s" (index $ideainternal 2))) }},{{ ($s.Get (printf "ext%s" (index $ideaextternal 2))) }}]
-            }],
+            datasets: [{{ range seq 3 }}{
+              label: '{{ humanize (index $ideaextternal (sub . 1)) -}}',
+              backgroundColor: "{{ index $color (sub . 1) }}",
+              data: [{{ ($s.Get (printf "int%s" (index $ideainternal (sub . 1)))) -}},{{ ($s.Get (printf "ext%s" (index $ideaextternal (sub . 1)))) -}}],
+          }{{ if ne . (len $knowledge) }},{{ end }}
+          {{ end }}],
+        },
+        options: {
+            scales: {
+                x: {
+                    stacked: true,
+                },
+                y: {
+                    stacked: true
+                }
+            },
+            indexAxis: 'x',
+            responsive: true
+        }
+    });		
+  </script>
+
+  <script>
+    var ctx3 = document.getElementById("horizontal-stacker-bar-charte");
+    new Chart(ctx3, {
+        type: 'bar',
+        data: {
+            labels: ["Niveau estimé","Prise en compte projet"],
+            datasets: [{{ range seq (len $knowledge) }}{
+                label: '{{ humanize (index $knowledge (sub . 1)) -}}',
+                backgroundColor: "{{ index $color (sub . 1) }}",
+                data: [{{ ($s.Get (printf "knowledge%s" (index $knowledge (sub . 1)))) }},{{ ($s.Get (printf "action%s" (index $knowledge (sub . 1)))) }}],
+            }{{ if ne . (len $knowledge) }},{{ end }}
+            {{ end }}],
         },
         options: {
             scales: {
