@@ -62,9 +62,6 @@
 - name: Brooke Winterburn
   sector: Santé Inclusive
   contacted: true
-- name: Quelqu'un à contacter
-  sector: SRSR ?
-  contacted: false
 - name: Madeline Sahagun
   sector: Bannerei
   contacted: true
@@ -76,9 +73,6 @@
   sector: Gouvernance inclusive (IHA)
   contacted: true
   interview: 2024-02-15
-- name: Quelqu'un à contacter
-  sector: santé
-  contacted: false
 - name: Jérôme Rigard
   sector: Atlas 
   contacted: true
@@ -91,8 +85,10 @@
   country: Amérique Latine
   contacted: true
   interview: 2024-03-14
-- name: magali vidot
-- name: sophie pecours
+- name: Magali Vidau
+  contacted: true
+- name: Sophie Pecours
+  contacted: true
 - name: Mar POZUELO CASTILLO
   sector: TUM 
   country: Thailand
@@ -109,7 +105,7 @@
   contacted: true
 - name: Benoît Epiard (à contacter plus tard)
   sector: Webmaster
-  contacted: false
+  contacted: true
 - name: Daniel Chebbahi
   sector: Achat
   contacted: true
