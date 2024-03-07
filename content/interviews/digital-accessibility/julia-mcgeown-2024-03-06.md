@@ -19,7 +19,7 @@
     "accountability": "oui",
     "needexpert": "oui"
   },
-  "date": "2024-03-24",
+  "date": "2024-03-06",
   "name": "Julia McGeown on behalf of IE sector",
   "slugpath": "digital-accessibility",
   "slugname": "julia-mcgeown"

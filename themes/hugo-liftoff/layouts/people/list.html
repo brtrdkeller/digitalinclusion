@@ -1,7 +1,7 @@
 {{ define "main" -}}
 <div class="container">
   <section class="page-header">
-    <h1 class="page-header-title">{{ .Title }}</h1>
+    <h1 class="page-header-title">{{ .Title }} - {{ with .Site.Data.people }}<small>{{ len (.) }}{{ end }} dans la liste</small></h1>
     <p class="page-header-desc">
       {{- with .Params.Summary -}}
         {{- . -}}
@@ -13,22 +13,22 @@
     </p>
   </section>
   <section>
-    <h3>Interviewé(s)</h3>
-    {{ range (sort .Site.Data.people "interview" "desc") }}
-    {{ if .interview }}
-    <div>
-        {{ with .name }}{{ . }}{{ end }}{{ with .sector }} - <strong>{{ . }}</strong>{{ end }}<br>
-        Interviewé :{{ with .interview }} {{ . }}{{ else }} ❌<br>Contacté : {{ with .contacted }} ✔️{{ else }} ❌{{ end }}{{ end }}
-        <hr>
-    </div>
-    {{ end }}
-    {{ end }}
     <h3>Contactés ou non</h3>
     {{ range (sort .Site.Data.people "contacted" "desc") }}
     {{ if .interview }}
     {{ else }}
     <div>
         {{ with .name }}{{ . }}{{ end }}{{ with .sector }} - <strong>{{ . }}</strong> {{ end }} {{ with .contacted }} ✔️{{ else }} ❌{{ end }}<br>
+        <hr>
+    </div>
+    {{ end }}
+    {{ end }}
+    <h3>Interviewé(s)</h3>
+    {{ range (sort .Site.Data.people "interview" "desc") }}
+    {{ if .interview }}
+    <div>
+        {{ with .name }}{{ . }}{{ end }}{{ with .sector }} - <strong>{{ . }}</strong>{{ end }}<br>
+        Interviewé :{{ with .interview }} {{ . }}{{ else }} ❌<br>Contacté : {{ with .contacted }} ✔️{{ else }} ❌{{ end }}{{ end }}
         <hr>
     </div>
     {{ end }}

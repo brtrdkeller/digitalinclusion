@@ -28,6 +28,13 @@ persons:
   - name: Alain Vagner
     email: alain.vagner@sip.etat.lu
     company: 
+  - name: George Siso 
+    job: Business Development Manager
+    company: inABLE 
+    mail: George@inable.org 
+    tel: 0711-328-577
+  - name: Thierry Rayna
+    mail: thierry.rayna@polytechnique.edu
   - name: 
     urls:
       - https://www.researchgate.net/publication/375655006_Enhancing_Sustainability_through_Accessible_Health_Platforms_A_Scoping_Review

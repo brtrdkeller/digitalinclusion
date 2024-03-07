@@ -53,7 +53,7 @@
       data: {
         labels: [{{ range (uniq ($s.Get "issues")) }}{{ . }},{{ end }}],
         datasets: [{
-          label: ' Occurences',
+          label: 'Sujets notables',
           data: [{{ range (uniq ($s.Get "issues")) }}{{ $s.Get (printf "%s" .) }},{{ end }}],
           borderWidth: 1
         }]

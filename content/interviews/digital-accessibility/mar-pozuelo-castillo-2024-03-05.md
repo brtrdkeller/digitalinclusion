@@ -19,7 +19,7 @@
     "accountability": "",
     "needexpert": ""
   },
-  "date": "2024-03-06",
+  "date": "2024-03-05",
   "name": "Mar Pozuelo-Castillo",
   "slugpath": "digital-accessibility",
   "slugname": "mar-pozuelo-castillo"

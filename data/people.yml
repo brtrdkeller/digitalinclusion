@@ -14,7 +14,7 @@
 - name: Julia McGeow
   sector: Social & Inclusion
   contacted: true
-  interview: false
+  interview: 2024-03-06
 - name: Jean-Patrick Masquelier
   sector: BANEREI
   contacted: true
@@ -37,7 +37,7 @@
 - name: Perrine Benoist
   sector: RVA
   contacted: true
-  interview: false
+  interview: 2024-03-11
 - name: Jean-Baptiste Gayet
   sector: DSI
   contacted: true
@@ -90,12 +90,14 @@
   sector: TUM
   country: Amérique Latine
   contacted: true
-- name:  magali vidot
-- name:  sophie pecours
+  interview: 2024-03-14
+- name: magali vidot
+- name: sophie pecours
 - name: Mar POZUELO CASTILLO
   sector: TUM 
   country: Thailand
   contacted: true
+  interview: 2024-03-05
 - name: Claire Perrin-Oudon
   sector: TUM 
   country: Mali
@@ -107,9 +109,6 @@
   contacted: true
 - name: Benoît Epiard (à contacter plus tard)
   sector: Webmaster
-  contacted: false
-- name: Antoine ?
-  sector: Achat
   contacted: false
 - name: Daniel Chebbahi
   sector: Achat
