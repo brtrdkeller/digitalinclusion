@@ -67,7 +67,7 @@
   <h2 class="m0">Une idée de l'accessibilité pour les interviewés</h2>
   <div class="chart list">
     <div>
-      <h3>A mettre en place en priorité</h3>
+      <h3>Quoi mettre en place en priorité</h3>
       <canvas id="horizontal-stacker-bar-chart"></canvas>
     </div>
     <div>
@@ -111,7 +111,7 @@
     new Chart(ctx2, {
         type: 'bar',
         data: {
-            labels: ["Interne", "Externe"],
+            labels: ["En Interne", "En Externe"],
             datasets: [{{ range seq 3 }}{
               label: '{{ humanize (index $ideaextternal (sub . 1)) -}}',
               backgroundColor: "{{ index $color (sub . 1) }}",
@@ -139,7 +139,7 @@
     new Chart(ctx3, {
         type: 'bar',
         data: {
-            labels: ["Niveau estimé","Prise en compte projet"],
+            labels: ["Mon Niveau estimé","Ma Prise en compte projet"],
             datasets: [{{ range seq (len $knowledge) }}{
                 label: '{{ humanize (index $knowledge (sub . 1)) -}}',
                 backgroundColor: "{{ index $color (sub . 1) }}",

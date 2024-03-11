@@ -25,6 +25,7 @@
     </p>
   </section>
   <section>
+    {{ partialCached "content.html" .Content .Content }}
     {{ with .Pages }}
       <div class="project-list">
         {{ range . }}
