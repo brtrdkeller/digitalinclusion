@@ -23,7 +23,7 @@
     <div {{ with .part }} data-body-style="background: #222; color: #fff;"{{ end }}>
         {{ with .part }}<h1>{{ . | safeHTML}}</h1>{{ end }}
         {{ with .title }}<h2>{{ replace . " " "&nbsp;" | safeHTML }}</h2>{{ end }}
-        {{ with .image }}{{ if in . ".svg" }}{{ readFile (printf "./static/presentation/%s" .) | safeHTML }}{{ else }}<img src="/presentation/{{ . }}" alt="">{{ end }}{{ end }}
+        {{ with .image }}{{ if in . ".svg" }}{{ readFile (printf "./static/presentation/%s" .) | safeHTML }}{{ else }}<img src="{{ $.Site.BaseURL | default "/" }}presentation/{{ . }}" alt="">{{ end }}{{ end }}
         {{ with .texte }}{{ . | markdownify | safeHTML }}{{ end }}
     </div>
     {{ end }}
