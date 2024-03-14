@@ -135,24 +135,21 @@ td {
 }
 
 blockquote {
-  background: var(--color-contrast-lower);
-  border-left: 10px solid var(--color-contrast-low);
-  margin: 1.5em 10px;
-  padding: 0.7em 10px;
-  quotes: "\201C" "\201D";
+  background: rgb(234, 245, 249);
+  padding: 0.5em 1.5rem;
+  margin: 1em auto 3em;
+  max-width: 80vw;
+  border: solid 2px rebeccapurple;
+  box-shadow: 13px 13px 0 0 white,
+              15px 15px 0 0 rebeccapurple,
+              15px 11px 0 0 rebeccapurple,
+              11px 15px 0 0 rebeccapurple;
+}
 
-  p {
-    display: inline;
-  }
-
-  &::before {
-    color: var(--color-contrast-low);
-    content: open-quote;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
-  }
+blockquote p {
+  font-size: 110%;
+  font-weight: 600;
+  line-height: 1.4;
 }
 
 pre {

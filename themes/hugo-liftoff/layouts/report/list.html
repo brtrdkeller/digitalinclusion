@@ -1,6 +1,6 @@
 {{ define "main" -}}
 <div class="container">
-    {{ $pages := where (where (.GetPage "interviews").RegularPagesRecursive "Params.slugpath" "eq" "digital-accessibility") "Title" "ne" "Model" }}
+  {{ $pages := where (where (.GetPage "interviews").RegularPagesRecursive "Params.slugpath" "eq" "digital-accessibility") "Title" "ne" "Model" }}
   <section class="page-header">
     <h1 class="page-header-title">{{ .Title }}</h1>
     <p class="page-header-desc">
@@ -9,7 +9,48 @@
       {{- end -}}
     </p>
   </section>
-  {{ partialCached "content.html" .Content .Content }}
+  <section>
+    {{ $.Scratch.Set "menu" slice }}
+    {{ range (.Paginate .RegularPagesRecursive).Pages }}
+      {{- if (eq .Parent.Type "report") }}
+        {{ $.Scratch.Add "menu" .Title }}
+      {{ end }}
+    {{ end }}
+    {{ if gt (len ($.Scratch.Get "menu")) 0 }}
+    <div class="tableofcontents">
+      <ol>
+        {{ range ($.Scratch.Get "menu") }}
+          <li><a href="#{{ anchorize . }}">{{ . }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+    {{ range $id, $value := (.Paginate .RegularPagesRecursive).Pages }}
+      {{- if (eq .Parent.Type "report") }}
+        <h2 id="{{ anchorize .Title }}">
+          {{ add $id 1 }} - {{ .Title }}
+          <a href="#{{ anchorize .Title | safeURL }}">
+            <svg role="img" aria-labelledby="{{ anchorize . | safeURL }}-IconTitle" fill="var(--color-primary)" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+              <title id="{{ anchorize . | safeURL }}-IconTitle">Link to this heading</title>
+              <path d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+            </svg>
+          </a>
+        </h2>
+        {{ partialCached "content.html" .Content .Content }}
+        <br>
+        <hr>
+        <br>
+      {{- else }}
+        {{ partial "posts/post-entry.html" . }}
+        <div class="post-entry-divider"></div>
+      {{ end }}
+    {{ else }}
+      {{ partial "general/fallback-text.html" . }}
+    {{ end }}
+    {{ template "_internal/pagination.html" . }}
+  </section>
+
   {{ $pagesstats := where $pages "Params.data.needexpert" "ne" "" }}
   <h2>Statistiques générales</h2>
   <p>

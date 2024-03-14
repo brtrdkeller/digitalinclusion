@@ -1,6 +1,6 @@
 ---
-title: Risques
-weight: 3
+title: Risques de non prise en compte
+weight: 10
 ---
 
 Lister les risques principaux.
