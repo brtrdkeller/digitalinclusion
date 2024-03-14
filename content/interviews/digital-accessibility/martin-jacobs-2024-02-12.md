@@ -4,6 +4,7 @@
     "countries": "Belgium - global SoW",
     "estimated-action-accessibility": "moyenne",
     "estimated-knowledge-accessibility": "moyenne",
+    "real-knowledge-accessibility": "réduite",
     "first-block": "Ressources",
     "first-win": "Design",
     "first-word": "WCAG",
@@ -15,7 +16,7 @@
     "sector": "Rehabilitation",
     "successfactors": [Financial],
     "developfactors": [],
-    "issues": [Feedback],
+    "issues": [Feedback,Capitalisation,Consistency,Expertise],
     "accountability": "non",
     "needexpert": "oui"
   },

@@ -4,6 +4,7 @@
     "countries": "Tunisia, Jordan, Madagascar, Nepal, Mozambique, Uganda, Rwanda, Kenya, DR Congo, Lao PDR",
     "estimated-action-accessibility": "moyenne",
     "estimated-knowledge-accessibility": "importante",
+    "real-knowledge-accessibility": "réduite",
     "first-block": "Specialized staff or knowledge",
     "first-win": "Basic training and checklist",
     "first-word": "Service mapping and Information Management System",
@@ -15,7 +16,7 @@
     "sector": "Social Inclusion",
     "successfactors": [],
     "developfactors": [],
-    "issues": [Consistency,Employement,Expertise,Knowledge],
+    "issues": [Consistency,Recruitment,Employment,Expertise,Knowledge,Feedback,Capitalisation],
     "accountability": "non",
     "needexpert": "oui"
   },
@@ -32,7 +33,7 @@
  
  - Pas de retours sur les services déployés [Feedback, Capitalisation]
  - Incohérence entre la mission et les engagements par la direction de HI [Consistency]
- - Identification/Validation des experts terrain [Employement]
+ - Identification/Validation des experts terrain [Employment]
  - Manque expertise interne [Expertise]
  - Référentiel de maitrise minimal [Knowledge]
 

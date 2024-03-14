@@ -1,6 +1,7 @@
 ---
 title: Présentation
 type: presentation
+sitemapExclude: true
 slides:
     - part: Quoi comprendre du numérique&nbsp;?
     - title: 1. L'éthique ?

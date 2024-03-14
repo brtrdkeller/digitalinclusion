@@ -4,6 +4,7 @@
     "countries": "Ouganda, Kenya, Rwanda, Mozambique, RCA, Madagascar, Sud Soudan, Ethiopie, Somalie, Somaliland",
     "estimated-action-accessibility": "réduite",
     "estimated-knowledge-accessibility": "importante",
+    "real-knowledge-accessibility": "réduite",
     "first-block": "Le temps disponible et les très faibles compétences des équipes",
     "first-win": "Établir des critères minimaux",
     "first-word": "Digital",
@@ -15,7 +16,7 @@
     "sector": "Inclusive Humanitarian Action",
     "successfactors": [],
     "developfactors": [],
-    "issues": [Consistency,Employement,Expertise,Knowledge],
+    "issues": [Consistency,Recruitment,Expertise,Knowledge,Feedback, Capitalisation],
     "accountability": "non",
     "needexpert": "oui"
   },

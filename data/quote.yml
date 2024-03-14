@@ -1,2 +1,23 @@
-## "If accessibility isn't considered as part of your inclusion efforts, then that inclusion is merely empty words written in inaccessible ink."
-## Jamie Shields
+
+- author: Jamie Shields
+  citation: |-
+    "If accessibility isn't considered as part of your inclusion efforts, then that inclusion is merely empty words written in inaccessible ink."
+- author: Brian DeConinck
+  citation: |-
+    It’s a lot cheaper to fix a problem when it’s spotted on a whiteboard than when it’s spotted in production.
+- author: Anna Cook, M.S.
+  citation: |-
+    Most product teams think accessibility is so expensive is that they don't address accessibility needs early in their product creation cycle. 
+    As I've noted in many other contexts, the cost of accessibility increases when teams are forced to make bug fixes in designs and code that are already in production. 
+- author: Hidde de Vries
+  citation: |-
+    A focus on trying to find a “fix” or “solution” for accessibility constitutes a misunderstanding of what accessibility is about.
+- author: Adrian Rosellli
+  citation: |-
+    Accessibility is about people. (…) When we target output versus outcomes, we are failing our friends, our family, our community, and our future selves. We are excluding fellow humans while we try to absolve ourselves of responsibility. (…)
+- author: Heydon 
+  citation: |-
+    Not everything needs to be accessible. Some things shouldn’t exist at all (like a useless interface component).
+- author: Heydon
+  citation: |-
+    Disabled people aren’t just disabled and not all their interests are disability related. 

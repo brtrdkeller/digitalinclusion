@@ -4,6 +4,7 @@
     "countries": "Amériques latine, Afrique, Asie, Palestine",
     "estimated-action-accessibility": "réduite",
     "estimated-knowledge-accessibility": "moyenne",
+    "real-knowledge-accessibility": "aucune",
     "first-block": "Ressources RH et financières",
     "first-win": "Renforcement des connaissances interne (wébinaire interne, note de cadrage)",
     "first-word": "Application",
@@ -13,9 +14,9 @@
     "mission-issue-futur": "oui",
     "mission-issue-present": "non",
     "sector": "Réduction des risques de catastrophe et adaptation au changement climatique",
-    "successfactors": [Strategy,Financement,Time],
+    "successfactors": [Strategy,Financial],
     "developfactors": [],
-    "issues": [Strategy],
+    "issues": [Strategy,Financial,Time,Consistency,Expertise],
     "accountability": "non",
     "needexpert": "oui"
   },
@@ -41,7 +42,7 @@
 ## Présentations
 
 Spécialts Risk de catastrophes - Protection des risques
-Policy and developpement officer - Business develpper, veille bailleurs.
+Policy and developpement officer - Business developer, veille bailleurs.
 (coalition, forum, valorisation des messages,...)
 Appuie terrain.
 
@@ -74,10 +75,10 @@ Informations disponible par le numérique soient lisibles et compréhensibles pa
 
  - Pays dans lesquelles, il n'y a pas de prise en compte. Téléphonie mobile est très développé dans les pays du sud. Sahel quasi tout le monde à un téléphone.
  - Initiative en Amérique Latine (Réduction Risques de catastrophes), se veut accessible et inclusif
- - Système alerte géré par l'Etat,...  très rare qu'une ONG le fasse, seulement du conseil. 
+ - Système alerte géré par l'Etat,... très rare qu'une ONG le fasse, seulement du conseil. 
  - Actions précoces, avant le pic de la crise, avec le numérique et virement d'argent.
  - Spécifique au contexte => du coup innovation
- - risque de ne pas répondre à des programmes (financement)
+ - Risque de ne pas répondre à des programmes (financement)
 
 **4. Estime-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
 
@@ -89,7 +90,7 @@ Informations disponible par le numérique soient lisibles et compréhensibles pa
  - Appui institutionnel
  - Appétance des équipes (Mais on a déjà du mal).
  - Une note de cadrage qui présente le champ des possibles pour imaginer ce qui est possible de faire (pour aller vers les moyens)
- - Clarifier des priorités pour se concentrer. Se concentre sur 2 priorité avant tout. Etat des lieux. 
+ - Clarifier des priorités pour se concentrer. Se concentre sur 2 priorités avant tout. Etat des lieux. 
  - Comprendre ce qu'il se passe dans les pays (contexte)
  - Opportunité 
 
@@ -111,12 +112,11 @@ Fond pour développer des outils dans le domaine de l'anticipation. La 3I pas ar
 **7. Que faudrait-il développer chez HI pour garantir que ta mission discrimine le moins possible par l'existence d'interfaces numériques ?**
 
  - Les bailleurs exigent qu'on fournisse pour la lutte terroriste : la liste des bénéficiaires. (prise en compte des bénéficiaires en particuliers). Mais on ne le fait. Ce sujet es
- - 
 
 **8. Que penses-tu de la prise en compte de l'accessibilité numérique en interne et sur le terrain par HI ?**
 
- - Pas allé très loin dans la digitalisation.
+ - Pas très loin dans la digitalisation.
 
 **9. Penses-tu qu'un expert interne serait nécessaire, ou une compétence en particulier (Pourquoi faire exactement) ?**
 
- - Une personne capable de travailler 
+ - Oui

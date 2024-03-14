@@ -4,6 +4,7 @@
     "countries": "ASIE",
     "estimated-action-accessibility": "réduite",
     "estimated-knowledge-accessibility": "moyenne",
+    "real-knowledge-accessibility": "aucune",
     "first-block": "Prise de conscience",
     "first-win": "Prise de conscience",
     "first-word": "Nombre",
@@ -13,9 +14,9 @@
     "mission-issue-futur": "non",
     "mission-issue-present": "non",
     "sector": "Logistique",
-    "successfactors": [],
+    "successfactors": [Participation],
     "developfactors": [],
-    "issues": [Employement,Feedback,Financial,Complexity],
+    "issues": [Employment,Feedback,Financial,Complexity],
     "accountability": "non",
     "needexpert": "non"
   },
@@ -30,7 +31,7 @@
 
  - Trop grande complexité d'outils
  - Pas de cohérence entre les différents métiers
- - Rupture de parcours pour ls bénéficiaires qui doivent utiliser nos outils 
+ - Rupture de parcours pour les bénéficiaires qui doivent utiliser nos outils 
 
 ### Eléments remarquables
 

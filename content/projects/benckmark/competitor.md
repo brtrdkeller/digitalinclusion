@@ -12,6 +12,8 @@ competitors:
             url: https://www.urd.org
             link: 
               - https://www.urd.org/fr/thematique/nouvelles-technologies/
+              - https://www.urd.org/fr/revue_humanitaires/organisation-et-gouvernance-dans-lere-de-lhumanitaire-numerique/
+              - http://www.urd.org/wp-content/uploads/2018/08/URD_HEM_13_FR.pdf
       - name: Suisse
         competitor:
           - name: EnableMe
@@ -21,6 +23,8 @@ competitors:
           - name: Drosos 
             url: https://drosos.org/ 
 ---
+
+
 
 * Est-ce qu'on besoin du numérique ?
 * C'est innovant et attirant, dur d'avoir un discours sur la mesure ?

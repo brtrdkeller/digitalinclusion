@@ -4,6 +4,7 @@
     "countries": "Luxembourg",
     "estimated-action-accessibility": "réduite",
     "estimated-knowledge-accessibility": "réduite",
+    "real-knowledge-accessibility": "aucune",
     "first-block": "Les connaissances et contraintes techniques (matériel, usage, etc.)",
     "first-win": "Sensibiliser, former, proposer des solutions adaptées",
     "first-word": "digitalisation",
@@ -13,9 +14,9 @@
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
     "sector": "Economic Inclusion",
-    "successfactors": [Participation, sensibilisation],
+    "successfactors": [Participation, Sensibilisation],
     "developfactors": [],
-    "issues": [Consistency, Reflexion],
+    "issues": [Consistency, Reflexion, Time],
     "accountability": "non",
     "needexpert": "oui"
   },
@@ -56,7 +57,7 @@ Agence de l'emploi, outils didactiques, applications numériques, télémedecine
 
 **1. Ta définition de l'Accessibilité numérique**
 
-Permettre aux personne qui sont exclude manière globale accès au numérique. Le handicap est une porte d'entrée : visuel.
+Permettre aux personnes qui sont exclues manière globale accès au numérique. Le handicap est une porte d'entrée : visuel.
 Au delà de ça des personnes n'ont pas accès à des services (dématérialisation). Ca peut faciliter, une oppotunité dans certains cas.
 
 Pas de connaissance sur les besoins techniques. Rendre des documents accessibles m'a été appris chez HI.

@@ -4,6 +4,7 @@
     "countries": "Mashriq (Iraq, Palestine, Liban, Jordanie , Egypt)",
     "estimated-action-accessibility": "réduite",
     "estimated-knowledge-accessibility": "réduite",
+    "real-knowledge-accessibility": "aucune",
     "first-block": "Les connaissances",
     "first-win": "Information sur ce que cela couvre et guidance",
     "first-word": "Ordinateur",
@@ -15,7 +16,7 @@
     "sector": "Socio eco inclusion",
     "successfactors": [],
     "developfactors": [],
-    "issues": [Competition,Employement,Expertise,Knowledge,Financial],
+    "issues": [Competition,Recruitment,Expertise,Knowledge,Financial],
     "accountability": "non"
   },
   "date": "2024-02-27",

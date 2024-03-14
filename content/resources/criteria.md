@@ -4,6 +4,11 @@ title: Analyses des critères à retenir
 
 End-to-end testing, also known as E2E testing, is a way to make sure that applications behave as expected…. This type of testing approach starts from the end user’s perspective and simulates a real-world scenario.
 
+
+## Contextes
+
+https://webaim.org/projects/screenreadersurvey10/
+
 ### Critères réduits Opquast
 
 ### 20 critères de Brajnik
@@ -83,87 +88,6 @@ Lien : https://design-accessible.fr/checklist
 
 https://sheknowsseo.co/blog-accessibility-checklist/
 
-**Site Wide:**
-
- * Loads quickly
- * Disable timed sessions (i.e., logged out after 1 minute)
- * Allow right clicking, copying, and highlighting text
- * Allow users to zoom into text. Don’t disable “viewport zoom”
- * Use ARIA landmarks (included automatically with Gutenberg blocks)
- * Users can navigate site with just a keyboard
- * Mobile responsive – both horizontally and vertically on mobile
- * Allow third-party content to access the site, like screen readers
- * Use correct semantic HTML elements for structure (i.e., “H1” for title, “H3” for headers) and elements (i.e., navigation, header, footer). Automatically done in WordPress.
- * Avoid mouse-only interactions, like “hover to display”
- * Use “lang” attribute to set the language of the site, so screen readers can accurately pronounce words (mine is set in Rankmath)
- * Multiple ways for users to navigate the site (navigation, HTML sitemap, search bar)
- * Use a simple, straightforward layout
- * Keep navigation consistent across the site to avoid user confusion
- * For large navigation sections that fill the whole first contentful paint, offer a “skip to content” link/button
- * Leave space between interactive elements so users can easily click the right one
-
-**Colours:**
-
- * Ensure high contrast between all colours, especially text vs. background and link vs. background
- * Check content is readable in inverted and high contrast colour settings
-
-**Text:**
-
- * Font size 18px+
- * 1.2 em line spacing minimum
- * Plain, easy to read font
- * Test that content is readable at 200% enlarged
- * Use left-aligned text for easier reading
- * Content is written at a 5th-8th grade level. Check with Hemingway
- * Define abbreviations and acronyms when first used
- * Provide text in text format, not images
-
-**Headers:**
-
- * Unique H1 (your title) for every page/post
- * Use clear, descriptive headings to break up text
- * Use a logical descending order for headings (i.e., H1, H2, H3, H4, H2, H3, H4)
-
-**Links:**
-
- * Use 2 ways of showing links: colour + text decoration, like an underline
- * Check that links are discoverable in greyscale
- * Show that a link opens in a new tab. Link Whisper has a setting for this under “Advanced”.
- * Use descriptive anchor text, or explain before the link, so users know where they’re going when they click
-
-**Images:**
-
- * Every image has alt text
- * Alt text should describe the visual of the image AND its purpose/relevance on the page
- * Provide text alternative for images of data, such as infographics (as caption or alt text)
- * Include any text on images in the alt text and/or caption
-
-**Videos / Audio:**
-
- * Ensure videos don’t autoplay
- * Ensure no audio autoplays
- * Have captions
- * Have transcripts
- * Allow users to adjust speed (speed up and slow down)
- * Remove seizure triggers, like strobe effects and flashing
- * Provide written instructions, not just visual or audio
- * Avoid videos with no descriptive voice over or explanatory text a screen reader can see
- * Make content easy to hear (loud + clear). iMovie can do this for free.
- * Ensure content is pause-able, even if it’s a background video
- * Sign language option available (especially if live and in person)
- * Low or no background audio
-
-**Dynamic Content:**
-
- *  Forms need an error message specifically telling users what inputs to fix
- *  Clear input labels on forms (i.e., Name, Email)
- *  Buttons large enough on mobile to read and click
- *  Clickable targets/elements are at least 44 x 44px
- *  Pop-ups have a clear way to be closed
- *  Caption tables to help users understand the table’s purpose/message
- *  Use clear headers within tables
- *  Use list elements for listed content (i.e., a numbered or bullet point list block in WordPress)
-
 
 ### Color for blind people
 
@@ -186,6 +110,19 @@ https://sheknowsseo.co/blog-accessibility-checklist/
 🚫 Don’t mix purple and blue together.  
 🚫 Don’t use green and pink if you use red and blue.  
 🚫 Don’t mix green with orange, red, or blue of the same lightness.  
+
+
+### Mobile accessibility
+
+https://www.smashingmagazine.com/2024/02/mobile-accessibility-barriers-assistive-technology-users/#inclusive-design-approaches-for-mobile
+
+ 1. Do research with users to understand how their assistive technology works and what challenges they have with your existing app.
+ 1. Create designs for accessibility features such as font scaling and state and focus indicators.
+ 1. Revise designs and get feedback from users that can be applied in development.
+ 1. Annotate design files for accessibility based on user feedback and best practices.
+ 1. Create a new build and use automated testing tools to find barriers.
+ 1. Do manual QA testing on the new build using your phone’s accessibility settings.
+ 1. Release a private build and test with users again before the production release.
 
 ## Outils
 

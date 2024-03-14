@@ -4,6 +4,7 @@
     "countries": "France",
     "estimated-action-accessibility": "réduite",
     "estimated-knowledge-accessibility": "réduite",
+    "real-knowledge-accessibility": "aucune",
     "first-block": "La volonté d'investissement des acteurs économiques",
     "first-win": "Sensibilisation aux enjeux de l'accessibilité numérique et du marché potentiel que représentent les personnes handicapées",
     "first-word": "Internet",
@@ -15,7 +16,7 @@
     "sector": "Economic Inclusion",
     "successfactors": [],
     "developfactors": [],
-    "issues": [Expertise,Competition,Knowledge],
+    "issues": [Expertise,Competition,Knowledge,Capitalisation,Employment],
     "accountability": "non",
     "needexpert": "oui"
   },
@@ -38,7 +39,7 @@
 ### Eléments remarquables
  
  - Pas de retours sur les manières de travailler sur le terrain [Feedback, Capitalisation]
- - Retard Concurrence [concurrent]
+ - Retard Concurrence [Concurrent]
  - Manque expertise interne [Expertise]
  - Référentiel de maitrise minimal [Knowledge]
  

@@ -4,6 +4,7 @@
     "countries": "France",
     "estimated-action-accessibility": "importante",
     "estimated-knowledge-accessibility": "importante",
+    "real-knowledge-accessibility": "importante",
     "first-block": "Formation, les connaissances",
     "first-win": "Formation",
     "first-word": "Pour tous et toutes",
@@ -15,7 +16,7 @@
     "sector": "",
     "successfactors": [],
     "developfactors": [],
-    "issues": [Knowledge,Employement,Expertise],
+    "issues": [Knowledge,Recruitment,Expertise,Consistency],
     "accountability": "non",
     "needexpert": "oui"
   },

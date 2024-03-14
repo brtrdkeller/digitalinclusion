@@ -4,6 +4,7 @@
     "countries": "",
     "estimated-action-accessibility": "réduite",
     "estimated-knowledge-accessibility": "moyenne",
+    "real-knowledge-accessibility": "moyenne",
     "first-block": "",
     "first-win": "",
     "first-word": "",
@@ -13,7 +14,7 @@
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
     "sector": "3I",
-    "successfactors": [financial],
+    "successfactors": [Financial],
     "developfactors": [],
     "issues": [Knowledge,Feedback],
     "accountability": "non",
@@ -88,6 +89,7 @@ Gitlab est utilisé, par la 3I avec Atlas (indice de vulnéraribilité), à trav
 ## Tes besoins en accessibilité
 
 **Collecte données terrain spécifique accessibilité numérique ?**
+
 Si collecter pas de soucis, mais si colecter plus, il faut les moyens. Demande des ressources.
 
 ### Actuels (Communication, matériels, légal...)

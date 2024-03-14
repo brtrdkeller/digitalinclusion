@@ -4,6 +4,7 @@
     "countries": "Belgique",
     "estimated-action-accessibility": "réduite",
     "estimated-knowledge-accessibility": "réduite",
+    "real-knowledge-accessibility": "aucune",
     "first-block": "La multiplicité des vecteurs",
     "first-win": "Sensibilisation des équipes",
     "first-word": "Digital multiplicite",
@@ -15,7 +16,7 @@
     "sector": "Inclusive Governance And Humanitarian Action",
     "successfactors": [],
     "developfactors": [],
-    "issues": [Expertise,Knowledge],
+    "issues": [Expertise,Knowledge,Strategy,Feedback,Capitalisation,Consistency],
     "accountability": "non",
     "needexpert": "oui"
   },

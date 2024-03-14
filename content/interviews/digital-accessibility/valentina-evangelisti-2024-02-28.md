@@ -4,6 +4,7 @@
     "countries": "Globale (Belgique)",
     "estimated-action-accessibility": "réduite",
     "estimated-knowledge-accessibility": "réduite",
+    "real-knowledge-accessibility": "aucune",
     "first-block": "Compétence internes, Budget",
     "first-win": "Accessibilité des Systèmes Alerte Précoce et des messages d'alerte",
     "first-word": "Ssmartphone",
@@ -15,7 +16,7 @@
     "sector": "Reduction des Risques de Catastrophes et Adaptation au Changement Climatique",
     "successfactors": [Financial],
     "developfactors": [],
-    "issues": [Reflexion],
+    "issues": [Strategy,Financial,Time,Consistency,Expertise],
     "accountability": "non",
     "needexpert": "oui"
   },

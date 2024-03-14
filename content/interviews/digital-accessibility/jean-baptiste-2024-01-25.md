@@ -4,6 +4,7 @@
       "countries": "France",
       "estimated-action-accessibility": "majeure",
       "estimated-knowledge-accessibility": "importante",
+      "real-knowledge-accessibility": "moyenne",
       "first-block": "Ressources humaines internes HI,  coopération des éditeurs de logiciels",
       "first-win": "Recenser les points focaux et les former",
       "first-word": "Digitalisation",

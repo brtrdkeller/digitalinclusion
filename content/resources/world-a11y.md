@@ -2,8 +2,16 @@
 title: World of A11Y
 ---
 
+## Sectors
+
+ 1. https://meryl.net/deaf-telehealth-accessibility/
+
 ## United Nations
 
+
+### E-Govrnment
+
+ 1. https://publicadministration.un.org/egovkb/en-us/Reports/UN-E-Government-Survey-2022
 
 ### Innovation
 
@@ -15,6 +23,8 @@ title: World of A11Y
   1. [3 ways to foster societies where everyone is included](https://www.un.org/en/desa/3-ways-foster-societies-where-everyone-included)
 
 ## Other NGO
+
+ 1. https://www.radiofrance.fr/franceinter/podcasts/le-monde-a-l-envers/les-donnees-numeriques-de-l-humanitaire-une-arme-cachee-et-redoutable-2366987
 
 ### Red Cross
 
@@ -39,6 +49,12 @@ title: World of A11Y
 ### Close the gap
  
  1. https://www.close-the-gap.org/who-we-are/mission
+
+
+### ITforLife
+
+ 1. https://www.it4life.org/en/
+ &; https://pfongue.org/IMG/pdf/2001_presentation_it4life_-_pfongue.pdf
 
 ### GSMA
  
@@ -116,6 +132,7 @@ title: World of A11Y
  1. https://en.vietnamplus.vn/digital-transformation-in-health-care-irreversible-trend/280053.vnp
  1. https://www.upu.int/en/Newsletter/Interview-Building-inclusive-digital-society-in-Viet-Nam
  1. https://www.linkedin.com/pulse/vietnams-digitalization-push-aims-empower-msmes-e-commerce-santosh-g-f8phc/
+ 1. https://vietnam.opendevelopmentmekong.net/topics/vietnam-digital-transformation-agenda/
 
 ### Thaïland
 
