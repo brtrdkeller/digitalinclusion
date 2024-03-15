@@ -56,20 +56,20 @@
                     payload.slugname = betterDate;
                   }
                   else {
-                    payload[item] = document.getElementById("comment-"+item).value.trim().replace("'", '’').replace("(", '\(').replace(")", '\)');
+                    payload[item] = document.getElementById("comment-"+item).value.trim().replaceAll("'", '’').replaceAll("(", '\(').replaceAll(")", '\)');
                     payload.slugname = slugify(document.getElementById("comment-"+item).value.trim());
                   }
                 }
                 else {
-                  payload.data[item] = document.getElementById("comment-"+item).value.trim().replace("'", '’').replace("(", '\(').replace(")", '\)').replace('"', ' '); 
+                  payload.data[item] = document.getElementById("comment-"+item).value.trim().replaceAll("'", '’').replaceAll("(", '\(').replaceAll(")", '\)').replaceAll('"', ' '); 
                 } 
               }
           });
           //keywords = keywords.map((item) => item.split('_')[0]);
           //payload.keywords = keywords.splice(1, keywords.length)
           //payload["email"] = SparkMD5.hash(payload["email"]);
-          //console.log(payload)
-          fetch("https://publicactiontrigger.azurewebsites.net/api/dispatches/brtrdkeller/digitalinclusion", {
+          console.log(payload)
+          fetch("https://publicactiontrigger.azurewebsites.net/api/ispatches/brtrdkeller/digitalinclusion", {
             method: 'POST',
             mode: 'cors',
             credentials: 'omit',
