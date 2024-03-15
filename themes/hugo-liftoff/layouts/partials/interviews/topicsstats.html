@@ -129,7 +129,7 @@
       <canvas id="successfactor"></canvas>
     </div>
     <div>
-      <h3>Facteurs de developpement ?</h3>
+      <h3>Facteurs de développement ?</h3>
       <canvas id="developfactor"></canvas>
     </div>
   </div>
@@ -176,28 +176,36 @@
   </script>
 
   <script>
+
+    
     const ctxsf = document.getElementById('successfactor');
   
     new Chart(ctxsf, {
       type: 'pie',
       data: {
-        labels: [{{ range $id, $value := $successfactor -}}{{ $value := index (last 1 (split . "-")) 0 }}{{ if ne $id 0 }},{{ end }}{{- if (index ($.Site.Data.scores) (lower $value)) -}}{{ (index ($.Site.Data.scores) (lower $value)) }}{{ else }}{{ $value }}{{ end -}}{{ end -}}],
+        labels: [{{ range $id, $value := first 4  $successfactor -}}{{ $value := index (last 1 (split . "-")) 0 }}{{ if ne $id 0 }},{{ end }}{{- if (index ($.Site.Data.scores) (lower $value)) -}}{{ (index ($.Site.Data.scores) (lower $value)) }}{{ else }}{{ $value }}{{ end -}}{{ end -}}],
         datasets: [{
           label: 'Fréquence',
-          backgroundColor: "{{ index $color 1 }}",
-          data: [{{ range $id, $value := $successfactor -}}{{ if ne $id 0 }},{{ end }}{{ index (split . "-") 0 -}}{{ end -}}],
+          backgroundColor: [{{ range $id, $value := first 4 $successfactor -}}{{ if ne $id 0 }},{{ end }}"{{ index $color $id }}"{{ end}}],
+          data: [{{ range $id, $value := first 4 $successfactor -}}{{ if ne $id 0 }},{{ end }}{{ index (split . "-") 0 -}}{{ end -}}],
           borderWidth: 1
         }]
       },
       options: {
+        plugins: {
+          datalabels: {
+            display: true,
+            align: 'bottom',
+            backgroundColor: '#ccc',
+            borderRadius: 3,
+            font: {
+              size: 18,
+            },
+          },
+        },
         title: {
           display: false,
           text: 'Eléments clefs'
-        },
-        scales: {
-          y: {
-            beginAtZero: true
-          }
         }
       }
     });
@@ -212,7 +220,7 @@
         labels: [{{ range $id, $value := first 4 $developfactor -}}{{ $value := index (last 1 (split . "-")) 0 }}{{ if ne $id 0 }},{{ end }}{{- if (index ($.Site.Data.scores) (lower $value)) -}}{{ (index ($.Site.Data.scores) (lower $value)) }}{{ else }}{{ $value }}{{ end -}}{{ end -}}],
         datasets: [{
           label: 'Fréquence',
-          backgroundColor: [{{ range $id, $value := first 4 $developfactor -}}{{ if ne $id 0 }},{{ end }}"{{ index $color $id }}"{{ end}}],
+          backgroundColor: [{{ range $id, $value := last 4 $developfactor -}}{{ if ne $id 0 }},{{ end }}"{{ index $color $id }}"{{ end}}],
           data: [{{ range $id, $value := first 4 $developfactor -}}{{ if ne $id 0 }},{{ end }}{{ index (split . "-") 0 -}}{{ end -}}],
           borderWidth: 1
         }]
@@ -221,11 +229,6 @@
         title: {
           display: false,
           text: 'Eléments clefs'
-        },
-        scales: {
-          y: {
-            beginAtZero: true
-          }
         }
       }
     });
