@@ -56,12 +56,12 @@
                     payload.slugname = betterDate;
                   }
                   else {
-                    payload[item] = document.getElementById("comment-"+item).value.trim().replace("'", '’');
+                    payload[item] = document.getElementById("comment-"+item).value.trim().replace("'", '’').replace("(", '\(').replace(")", '\)');
                     payload.slugname = slugify(document.getElementById("comment-"+item).value.trim());
                   }
                 }
                 else {
-                  payload.data[item] = document.getElementById("comment-"+item).value.trim().replace("'", '’').replace('"', ' '); 
+                  payload.data[item] = document.getElementById("comment-"+item).value.trim().replace("'", '’').replace("(", '\(').replace(")", '\)').replace('"', ' '); 
                 } 
               }
           });
