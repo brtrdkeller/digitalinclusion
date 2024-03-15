@@ -22,7 +22,7 @@
 <section class="generic-single container">
   <div class="single-container markdown">
     {{ if in .Permalink "ethiopy"}}
-      {{- $path := "form/atiethiopy" }}
+      {{- $path := "form/ATIethiopy" }}
       {{- $questions := slice "countries" "estimated-action-accessibility" "estimated-knowledge-accessibility" "first-block" "first-win" "first-word" "idea-external" "idea-internal" "jobtitle" "mission-issue-futur" "mission-issue-present" "sector" "successfactors" "developfactors" "issues" "accountability" "needexpert" -}}
       {{- $questions := slice "countries" "jobtitle" "first-block" "first-win" "first-word" -}}
       {{ range last 1 (readDir $path) }}
