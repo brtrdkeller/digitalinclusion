@@ -15,7 +15,7 @@
     "mission-issue-present": "non",
     "sector": "Logistique",
     "successfactors": [Participation],
-    "developfactors": [],
+    "developfactors": [experimentation],
     "issues": [Employment,Feedback,Financial,Complexity],
     "accountability": "non",
     "needexpert": "non"

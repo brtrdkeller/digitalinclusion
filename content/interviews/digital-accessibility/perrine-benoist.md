@@ -2,8 +2,8 @@
 {
 "data": {
     "countries": "",
-    "estimated-action-accessibility": "",
-    "estimated-knowledge-accessibility": "",
+    "estimated-action-accessibility": "réduite",
+    "estimated-knowledge-accessibility": "réduite",
     "real-knowledge-accessibility": "aucune",
     "first-block": "",
     "first-win": "",
@@ -15,7 +15,7 @@
     "mission-issue-present": "oui",
     "sector": "",
     "successfactors": [Participation],
-    "developfactors": [],
+    "developfactors": [Participation],
     "issues": [Notoriety,Strategy,Consistency],
     "accountability": "no",
     "needexpert": "oui"
@@ -83,7 +83,7 @@ Gaza : lead de la réponse, on est parfois les seuls, On devrait gérer comme si
 **7. Que faudrait-il développer chez HI pour garantir que ta mission discrimine le moins possible par l'existence d'interfaces numériques ?**
 
  - Changer les processus de travail. Et être en capacité de changer les choses en interne. 
- => Traduire ce qui se passe sur le terrain. Snesibiliser un opérateur pays, pour pas qu'il dise : mais ça c'est pas important (genre le handicap c'est pas important).
+ => Traduire ce qui se passe sur le terrain. Sensibiliser un opérateur pays, pour pas qu'il dise : mais ça c'est pas important (genre le handicap c'est pas important).
  - On devrait avoir un commexe de politiques inclusions avec dedans une diversité de membres (métier).
  - + avoir une compétence technique.
 

@@ -14,8 +14,8 @@
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
     "sector": "Social Inclusion",
-    "successfactors": [],
-    "developfactors": [],
+    "successfactors": [Participation,Beneficiary],
+    "developfactors": [Feedback,Financial,Innovation],
     "issues": [Consistency,Recruitment,Employment,Expertise,Knowledge,Feedback,Capitalisation],
     "accountability": "non",
     "needexpert": "oui"
@@ -93,7 +93,6 @@ Speaks about : Jean-Christophe Durand
 **6. Quelles seraient tes besoins futurs en accessibilité numériques (Innovation, ATI, recrutement,...)**
 
 **7. Que faudrait-il développer chez HI pour garantir que ta mission discrimine le moins possible par l'existence d'interfaces numériques ?**
-
 
  - 31, could try to work on that, and invest, innovate on that. And having many specialists.
  - It could be assessment Multi-Stakeholder. Everything is developp is check (Association de plusieurs partenaires pour le contrôle des services numériques).

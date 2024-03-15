@@ -14,7 +14,7 @@
     "mission-issue-futur": "non",
     "mission-issue-present": "non",
     "sector": "Inclusive Humanitarian Action",
-    "successfactors": [],
+    "successfactors": [Formation,Beneficiary],
     "developfactors": [],
     "issues": [Consistency,Recruitment,Expertise,Knowledge,Feedback, Capitalisation],
     "accountability": "non",

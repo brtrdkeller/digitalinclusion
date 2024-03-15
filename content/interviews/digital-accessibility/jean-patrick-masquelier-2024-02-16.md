@@ -15,7 +15,7 @@
     "mission-issue-present": "oui",
     "sector": "Economic Inclusion",
     "successfactors": [Participation, Sensibilisation],
-    "developfactors": [],
+    "developfactors": [Innovation],
     "issues": [Consistency, Reflexion, Time],
     "accountability": "non",
     "needexpert": "oui"

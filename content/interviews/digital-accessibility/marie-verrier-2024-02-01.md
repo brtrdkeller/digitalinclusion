@@ -14,8 +14,8 @@
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
     "sector": "",
-    "successfactors": [],
-    "developfactors": [],
+    "successfactors": [Formation],
+    "developfactors": [Strategy],
     "issues": [Knowledge,Recruitment,Expertise,Consistency],
     "accountability": "non",
     "needexpert": "oui"

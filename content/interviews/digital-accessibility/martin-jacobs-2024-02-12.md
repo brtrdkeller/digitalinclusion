@@ -15,7 +15,7 @@
     "mission-issue-present": "oui",
     "sector": "Rehabilitation",
     "successfactors": [Financial],
-    "developfactors": [],
+    "developfactors": [Expertise],
     "issues": [Feedback,Capitalisation,Consistency,Expertise],
     "accountability": "non",
     "needexpert": "oui"

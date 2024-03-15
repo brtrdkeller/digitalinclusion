@@ -15,7 +15,7 @@
     "mission-issue-present": "oui",
     "sector": "Logistique",
     "successfactors": [Participation],
-    "developfactors": [],
+    "developfactors": [Strategy],
     "issues": [Consistency,Employment,Expertise,Participation,Feedback],
     "accountability": "non",
     "needexpert": "oui"

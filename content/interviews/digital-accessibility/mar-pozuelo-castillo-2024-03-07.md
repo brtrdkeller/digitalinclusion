@@ -14,8 +14,8 @@
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
     "sector": "livelihood",
-    "successfactors": [Strategy],
-    "developfactors": [],
+    "successfactors": [Strategy,Formation],
+    "developfactors": [Innovation,Participation],
     "issues": [Consistency, Expertise, Competition, Strategy],
     "accountability": "",
     "needexpert": ""

@@ -15,7 +15,7 @@
     "mission-issue-present": "oui",
     "sector": "3I",
     "successfactors": [Participation],
-    "developfactors": [],
+    "developfactors": [Leading],
     "issues": [Consistency,Employment,Expertise,Knowledge],
     "accountability": "non",
     "needexpert": "oui"

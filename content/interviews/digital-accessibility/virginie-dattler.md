@@ -2,14 +2,14 @@
 {
 "data": {
     "countries": "",
-    "estimated-action-accessibility": "",
-    "estimated-knowledge-accessibility": "",
+    "estimated-action-accessibility": "réduite",
+    "estimated-knowledge-accessibility": "réduite",
     "real-knowledge-accessibility": "aucune",
     "first-block": "",
     "first-win": "",
     "first-word": "",
-    "idea-external": "",
-    "idea-internal": "",
+    "idea-external": "formation",
+    "idea-internal": "formation",
     "jobtitle": "",
     "mission-issue-futur": "",
     "mission-issue-present": "",

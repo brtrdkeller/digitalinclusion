@@ -14,8 +14,8 @@
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
     "sector": "Socio eco inclusion",
-    "successfactors": [],
-    "developfactors": [],
+    "successfactors": [Formation],
+    "developfactors": [Strategy],
     "issues": [Competition,Recruitment,Expertise,Knowledge,Financial],
     "accountability": "non"
   },

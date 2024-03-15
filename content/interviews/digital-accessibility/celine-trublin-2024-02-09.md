@@ -14,7 +14,7 @@
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
     "sector": "Economic Inclusion",
-    "successfactors": [],
+    "successfactors": [Formation],
     "developfactors": [],
     "issues": [Expertise,Competition,Knowledge,Capitalisation,Employment],
     "accountability": "non",
@@ -84,6 +84,7 @@ Inclusion économique : Approche pour accompagner les individus, mais aussi tous
 Très peu d'ATI,... On va s'intéresser à renforcer des acteurs locaux.
 
 #### Système d'alertes précoces (IRR)
+
 Réponse aux aléas, système en ligne pour prévenir... 
 Existe déjà (concurrent).
 
@@ -115,12 +116,14 @@ Devrait avoir photo avec commentaire de psycho térapheute pour aider des acteur
 > Mieux sensibiliser aux activités d'autres secteurs. Mais sur des choses précises concrète.
 
 #### Stratégie ATI.
+
 On pourrait former les acteurs. Pour que les programmes puissent se reposer sur des acteurs présent sur le terrain.
 Et que HI puissent y faire appel.
 
 HI serait experts des experts terrains.
 
-#### Formation professionnelles : outils numériques.  
+#### Formation professionnelles : outils numériques.
+  
 Travailler avec des grosses structures de la formation professionnel. Soutenir ces acteurs (sans faire leur travail). Plutôt les assister.
 
 #### Bailleur 

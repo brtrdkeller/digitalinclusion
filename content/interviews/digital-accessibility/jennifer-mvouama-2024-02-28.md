@@ -15,7 +15,7 @@
     "mission-issue-present": "non",
     "sector": "Réduction des risques de catastrophe et adaptation au changement climatique",
     "successfactors": [Strategy,Financial],
-    "developfactors": [],
+    "developfactors": [Innovation],
     "issues": [Strategy,Financial,Time,Consistency,Expertise],
     "accountability": "non",
     "needexpert": "oui"
@@ -111,7 +111,7 @@ Fond pour développer des outils dans le domaine de l'anticipation. La 3I pas ar
 
 **7. Que faudrait-il développer chez HI pour garantir que ta mission discrimine le moins possible par l'existence d'interfaces numériques ?**
 
- - Les bailleurs exigent qu'on fournisse pour la lutte terroriste : la liste des bénéficiaires. (prise en compte des bénéficiaires en particuliers). Mais on ne le fait. Ce sujet es
+ - Les bailleurs exigent qu'on fournisse pour la lutte terroriste : la liste des bénéficiaires. (prise en compte des bénéficiaires en particuliers). Mais on ne le fait pas.
 
 **8. Que penses-tu de la prise en compte de l'accessibilité numérique en interne et sur le terrain par HI ?**
 
