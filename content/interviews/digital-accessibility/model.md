@@ -23,7 +23,7 @@ title: Model
 
 **3. Identifies-tu des risques potentiels à ne pas prendre en compte l'accessibilité (pour un service numérique, en général, pour l'image de HI...) ?**
 
-**4. Estime-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
+**4. Estimes-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
 
 **5. Quelles seraient tes besoins immédiats en accessibilité numériques (Communication, matériels, légal, financiers, soutien direction...)**
 

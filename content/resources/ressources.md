@@ -22,6 +22,8 @@ https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1137&context=ecis2004
  1. https://utilitiesone.com/the-digital-divide-and-its-influence-on-accessibility-for-people-with-disabilities
  1. https://www.youtube.com/watch?v=nQq_gZiZ-jg
 
+## IA
+  1. https://www.nature.com/articles/d41586-024-00639-y
 
 ## Ressources
 
@@ -38,3 +40,4 @@ https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1137&context=ecis2004
  1. https://www.weforum.org/press/2023/09/edison-alliance-expands-to-close-global-digital-gap/
  1. https://www.youtube.com/watch?v=qnrDMVmPaa4
  1. https://www.peatworks.org/spotlighting-accessibility-in-the-new-nist-ai-risk-management-framework/
+ 1. https://dev.to/steady5063/the-ultimate-mobile-accessibility-resource-guide-53gh

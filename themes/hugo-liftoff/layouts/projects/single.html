@@ -133,7 +133,6 @@
       {{ end }}
     </section>
 
-
 {{ if in .Permalink "ts/offers" }}
   <section>
     {{ $offers    := .Params.offers }}
@@ -241,17 +240,31 @@
 <div class="single-container">
   <article class="markdown">
     {{ partialCached "content.html" .Content .Content }}
-    {{ with .Params.competitors }}
-      <h2>Liste de concurrents</h2>
+    {{ with .Params.articles }}
+    <h2>Liste de articles</h2>
       {{ range . }}
       <h3>{{ .name }}</h3>
+      <p><strong>{{ .topic }}</strong>{{ if .url }} / <a href="{{ .url }}" title="Accéder à l'article {{ .name }}">Accéder à l'article</a>{{ end }}</p>
+      {{ .description | markdownify }}
+      {{ end }}    
+    {{ end }}
+    {{ with .Params.competitors }}
+      {{ range . }}
+      <h2>{{ .name }}</h2>
         {{ range .countries }}
-          <h4>{{ .name }}</h4>
-          <ul>
+          <h3>{{ .name }}</h3>
           {{ range .competitor  }}
-            <li>{{ .name }} - <a href="{{ .url }}">{{ .url }}</a></li>
+          <h4>{{ .name }} <small>- <a href="{{ .url }}">{{ .url }}</a></small></h4>
+            {{ with .links }}
+            <p>Liens notables :</p>
+            <ul>
+              {{ range .  }}
+                <li><small><a href="{{ . }}">{{ . }}</a></small></li>
+              {{ end }}
+            </ul>
+            {{ end }}
           {{ end }}
-          </ul>
+          
         {{ end }}
       {{ end }}
     {{ end }}

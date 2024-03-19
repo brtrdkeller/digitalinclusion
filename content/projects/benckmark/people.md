@@ -1,7 +1,7 @@
 ---
 title: Personnes
 description: |-
-    Page listant des personnes considérés comme des spécialistes de l'accessibilité.
+    Page listant des personnes considérées comme des spécialistes de l'accessibilité.
     Ils pourraient être l'objet d'interviews ou de questions pour avoir une meilleure vision sur les terrains.
 
 persons:
@@ -17,10 +17,10 @@ persons:
     contacted: false
     interview: false
   - name: Bill Curtis-Davidson
-    company: https://www.peatworks.org
+    company: Peatworks
     twitter: https://twitter.com/BCurtisDavidson
   - name: Aqeel Qureshi
-    company: techbility.com
+    company: Techbility
     country: Japon
     twitter: https://twitter.com/Aqeel_Qureshi
   - name: Makoto Ueki

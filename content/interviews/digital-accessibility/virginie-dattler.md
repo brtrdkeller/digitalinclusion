@@ -47,7 +47,7 @@ Comment se comporter face au travail.
 
  Notorié <-> Mission <-> Développement 
 
-**4. Estime-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
+**4. Estimes-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
 
  - Non, mais j'ai l'habitude sur mes compétences
 

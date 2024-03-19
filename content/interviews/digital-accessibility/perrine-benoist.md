@@ -55,7 +55,7 @@ Gaza : lead de la réponse, on est parfois les seuls, On devrait gérer comme si
  - Pas de référent sur le genre.
  - Prévalance de besoin devrait être exponentiel, pour que ce soit moins coûteux.
 
-**4. Estime-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
+**4. Estimes-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
 
  - Je ne connais rien, pas de connaissance
  - Pas de vision

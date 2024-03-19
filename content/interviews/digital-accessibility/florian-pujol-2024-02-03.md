@@ -4,7 +4,7 @@
     "countries": "",
     "estimated-action-accessibility": "réduite",
     "estimated-knowledge-accessibility": "moyenne",
-    "real-knowledge-accessibility": "moyenne",
+    "real-knowledge-accessibility": "réduite",
     "first-block": "",
     "first-win": "",
     "first-word": "",
@@ -15,7 +15,7 @@
     "mission-issue-present": "oui",
     "sector": "3I",
     "successfactors": [Financial],
-    "developfactors": [],
+    "developfactors": [Beneficiary],
     "issues": [Knowledge,Feedback],
     "accountability": "non",
     "needexpert": "oui"

@@ -15,8 +15,8 @@
     "mission-issue-present": "non",
     "sector": "Logistique",
     "successfactors": [Participation],
-    "developfactors": [experimentation],
-    "issues": [Employment,Feedback,Financial,Complexity],
+    "developfactors": [Experimentation],
+    "issues": [Employment,Feedback,Financial,Complexity,Experimentation],
     "accountability": "non",
     "needexpert": "non"
   },
@@ -59,7 +59,7 @@
  - En externe (petites org handicapé OPH), pas de formation pour avoir des outils adaptés. On a rien à leur proposer (étude, référencement, formation, rehab...). On peut pas les aider à créer des activité propre ou génératrice de revenus. Si une asso est en mode d'équipement, on peut pas les aider. 
  - On délègue les achats aux partenaires. On essaye de les outiller (qui a acheter quoi... outils de suivi pour la preuve de l'achat). Preuve d'achat.  
 
-**4. Estime-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
+**4. Estimes-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
  
  -  Non, numérique est trop diverse.
 

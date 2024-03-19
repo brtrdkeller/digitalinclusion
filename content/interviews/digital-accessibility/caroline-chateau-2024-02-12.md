@@ -15,8 +15,8 @@
     "mission-issue-present": "oui",
     "sector": "",
     "successfactors": [Formation],
-    "developfactors": [],
-    "issues": [Feedback,Notoriety,Expertise,Financial],
+    "developfactors": [Expertise,Innovation],
+    "issues": [Feedback,Notoriety,Expertise,Financial,Formation,Recruitment],
     "accountability": "no",
     "needexpert": "oui"
   },
@@ -70,17 +70,17 @@ Le référentiel WCAG.
 ### Dans le futurs
 
 - Manque de remonté du terrain sur ce qui n'est pas accessible.
-- Avoir des discussions stratégiques organismes
-- Formation en interne sur le test, serait possible.
-- Diversité des personnes (emploi).
-- Un coté proactif, pour identifier des besoins internes, et terrain.
-- A11Y, angle mort par sa techniticité. Et sa complexité.
+
 
 ## Les nécessités
 
 ### Que faudrait-il développer ?
  
- - Rien noté
+- Avoir des discussions stratégiques organismes
+- Formation en interne sur le test, serait possible.
+- Diversité des personnes (emploi).
+- Un coté proactif, pour identifier des besoins internes, et terrain.
+- A11Y, angle mort par sa techniticité. Et sa complexité.
 
 ### Besoin d'un expert, une compétence en particulier (Pourquoi faire exactement) ?
 

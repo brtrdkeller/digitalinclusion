@@ -17,7 +17,8 @@
     "successfactors": [Formation],
     "developfactors": [Strategy],
     "issues": [Competition,Recruitment,Expertise,Knowledge,Financial],
-    "accountability": "non"
+    "accountability": "non",
+    "needexpert": "oui"
   },
   "date": "2024-02-27",
   "name": "Claire Perin-Houdon",
@@ -77,7 +78,7 @@ Exemples :
   7. Mécanisme de plainte, on doit donner la possibilité de porter plainte auprès de HI.
 
 
-**4. Estime-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
+**4. Estimes-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
 
  - Démuni face à l'enjeu.
 

@@ -15,8 +15,8 @@
     "mission-issue-present": "oui",
     "sector": "Economic Inclusion",
     "successfactors": [Formation],
-    "developfactors": [],
-    "issues": [Expertise,Competition,Knowledge,Capitalisation,Employment],
+    "developfactors": [Capitalisation,Experimentation],
+    "issues": [Expertise,Competition,Knowledge,Capitalisation,Employment,Experimentation],
     "accountability": "non",
     "needexpert": "oui"
   },

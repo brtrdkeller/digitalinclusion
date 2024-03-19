@@ -10,10 +10,14 @@ competitors:
         competitor:
           - name: Groupe URD
             url: https://www.urd.org
-            link: 
+            links: 
               - https://www.urd.org/fr/thematique/nouvelles-technologies/
               - https://www.urd.org/fr/revue_humanitaires/organisation-et-gouvernance-dans-lere-de-lhumanitaire-numerique/
               - http://www.urd.org/wp-content/uploads/2018/08/URD_HEM_13_FR.pdf
+          - name: ITFORLIFE (Sénégal)
+            url: https://www.it4life.org/
+            links: 
+             -  https://pfongue.org/IMG/pdf/2001_presentation_it4life_-_pfongue.pdf
       - name: Suisse
         competitor:
           - name: EnableMe
@@ -22,40 +26,50 @@ competitors:
             url: https://www.fondationbotnar.org/
           - name: Drosos 
             url: https://drosos.org/ 
+          - name: International Disability Alliance 
+            url: https://www.internationaldisabilityalliance.org/
+          - name: Addax Oryx
+            url: https://addax-oryx-foundation.org/en/contact
+            links: 
+              - https://addax-oryx-foundation.org/en/projects/building-literacy-and-bridging-the-digital-divide
+              - https://addax-oryx-foundation.org/en/projects/education-through-technology
+      - name: Belgique
+        competitor:
+          - name: Close the Gap (Kenya)
+            url: https://www.close-the-gap.org/
+      - name: Allemagne
+        competitor:
+          - name: CBM (Christian Blind Mission)
+            url: https://www.cbm.org/
+            links: 
+              - https://www.cbm.org/fileadmin/user_upload/Publications/CBM-Digital-Accessibility-Toolkit.pdf
+      - name: "Royaume-Uni"
+        competitor:
+          - name: Sight Savers
+            url: https://www.sightsavers.org/
+            links: 
+              - https://www.sightsavers.org/programmes/digital-health/
+              - https://www.sightsavers.org/disability-inclusion-working-group/2019/03/accessibility-workshop/
+              - https://www.sightsavers.org/blogs/2023/07/why-you-should-sign-the-feminist-accessibility-protocol/
+      - name: "Italie"
+        competitor:
+          - name: Fonds de développement agricole (FIDA)
+            url: https://www.ifad.org/
+            links: 
+              - https://www.ifad.org/fr/prime-africa?p_l_back_url=%2Ffr%2Fsearch%3Fq%3Ddigital
+              - 
+  - name: Amérique du nord
+    countries:
+      - name: "Etats-Unis"
+        competitor:
+          - name: Food for Hungry
+            url: https://www.fh.org/
+            links: 
+              - https://www.fh.org/blog/bridging-the-digital-divide-fh-and-partners-launch-edulabs/
+
+            
 ---
 
-
-
-* Est-ce qu'on besoin du numérique ?
-* C'est innovant et attirant, dur d'avoir un discours sur la mesure ?
-* Choisir le plus basique, le simple et moins de fonctionnalité... moins ça marche.
-* Qui est pas fait pour les geeks. 
-
-* Le numerique est sexiste et mascilisnisme qui joue sur la perpétuation.
-
-
-* Avoir un débat de société a avoir. Car elle comporte des risques en accessibilité. 
-(Je n'avais accès au site SNCF). 
-
-1. Moyen de s'assurer que ça marche. c'est de le rendre obligatoire : protection des données (RGPD).
-1. Les formations sont du bullshit. 2 présentations sur impact du numérique est le matériel et pas compris
-   Pour être efficace. 
-1. Ce qui peut nuir c'est le discours neocoloniale. Pour etre pris au sérieux. 
-   Je ferai une interview : On a des études en France... qui converge pour lister les impacts du numérique.
-   Est-ce que vous voyez des décalages et avez vous des besoins d'étude supplémentaire ?
-   Réparer le mal réalisé. Rétablir un équilibre.
-1. Milieux radicaux parlent de la "dispersion" de matériel (argent perdu de renouveller le matériel).
-1. Puis dire qu'il faut réfléchir sur la durabilité
- 
-
-Comment on fait un inventaire de matériels ?
-Faire l'étude, ACV du territoire. Un peu technique avec un petit peu de formation. 
-
-Indice de dispersion matériel.
-
-Empreinte va dépendre d'un inventaire. 
-
-Facteur de succès : vision 
  
 
 

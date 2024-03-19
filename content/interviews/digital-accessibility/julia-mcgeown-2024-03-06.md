@@ -15,13 +15,13 @@
     "mission-issue-present": "oui",
     "sector": "Inclusive Education",
     "successfactors": [Participation],
-    "developfactors": [Research],
-    "issues": [],
+    "developfactors": [Experimentation,Innovation],
+    "issues": [Feedback,Innovation,Experimentation,Formation],
     "accountability": "oui",
     "needexpert": "oui"
   },
   "date": "2024-03-06",
-  "name": "Julia McGeown on behalf of IE sector",
+  "name": "Julia McGeown",
   "slugpath": "digital-accessibility",
   "slugname": "julia-mcgeown"
 }
@@ -98,7 +98,7 @@ We don't konw what we don't know
  - We are growing on Headtech (link not the same thing than accessibility)
  - There is a movement in learning domain
  - We are more that on our target. 
- - What are n education sector
+ - What are in education sector
  - Connection with the team TIBET (inclusion economique) Mozambique
  - Synergy between this sector
  - Learn from the project we got (mastercard fundation)

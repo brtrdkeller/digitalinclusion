@@ -16,7 +16,7 @@
     "sector": "livelihood",
     "successfactors": [Strategy,Formation],
     "developfactors": [Innovation,Participation],
-    "issues": [Consistency, Expertise, Competition, Strategy],
+    "issues": [Consistency, Expertise, Competition, Strategy,Time],
     "accountability": "",
     "needexpert": ""
   },
@@ -58,7 +58,7 @@ Car la question se pose énormément et pour les ATI.
 
  - Accessibilité physique concerne les bâtiments, l'accessibilité numérique concerne le nuémrique. Par rapport à certains types de handicap (sourds). La technologie vient en appui, on sait faire facilement, mais accessibilité numérique, les OPD ne se penchent pas sur cette question.
 
- Dernière ATI rien dans les rapports sur cette question de numérique.
+ Ex. Dernière ATI rien dans les rapports sur cette question de numérique.
 
 **2. Connais-tu le cadre légal définissant le processus d'amélioration l'accessibilité numérique ?**
 
@@ -81,10 +81,10 @@ Car la question se pose énormément et pour les ATI.
 
 - Moi même j'ai du mal, et avec l'âge on est paumé. 
 
-- Les fonctionnaires ne sont pas disponibles et les OPD n'arrivent pas à suivre. Assement avec un seul OPD, le nuémrique passe à la trappe.
+- Les fonctionnaires ne sont pas disponibles et les OPD n'arrivent pas à suivre. Assement avec un seul OPD, le numérique passe à la trappe.
  
 
-**4. Estime-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
+**4. Estimes-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
 
  - Non, On devrait avoir un spécialiste accessibilité.
    J'ai plaidoyé pour avoir un spécialiste accessibilité. 

@@ -106,7 +106,7 @@
   
   {{- $issues             := sort ($s.Get "MapIssue") "value" "desc" -}}
   {{- $developfactor      := sort ($s.Get "Mapdevelopfactor") "value" "desc" -}}
-  {{- $successfactor   := sort ($s.Get "Mapsuccessfactor") "value" "desc" -}}
+  {{- $successfactor      := sort ($s.Get "Mapsuccessfactor") "value" "desc" -}}
   {{- $ideainternal       := (uniq (sort ($s.Get "idea-internal"))) -}}
   {{- $ideaextternal      := (uniq (sort ($s.Get "idea-external"))) -}}
   {{- $estimatedaction    := (uniq (sort ($s.Get "estimated-action"))) -}}
@@ -125,11 +125,11 @@
   <h2 class="m0">Des idées pour lancer la machine</h2>
   <div class="chart list">
     <div>
-      <h3>Facteurs de succès ?</h3>
+      <h3>Facteurs de succès (A court terme) ?<br><small>Des choses qu'on fait déjà, qu'on devrait faire mieux</small></h3>
       <canvas id="successfactor"></canvas>
     </div>
     <div>
-      <h3>Facteurs de développement ?</h3>
+      <h3>Facteurs de développement (Au long terme) ?<br><small>Des choses qu'on fait mal ou qu'on ne fait pas.</small></h3>
       <canvas id="developfactor"></canvas>
     </div>
   </div>
@@ -144,7 +144,7 @@
       <canvas id="horizontal-stacker-bar-charte"></canvas>
     </div>
   </div>
-  {{ $color := slice "#003f5c" "#a05195" "#f95d6a" "#ff7c43" "#ffa600" "#003f5c" "#a05195" "#f95d6a" "#ff7c43" "#ffa600" }}
+  {{ $color := slice "#003f5c" "#a05195" "#f95d6a" "#ff7c43" "#ffa600" "#00d29c" "#00a1a3" "#006e8c" }} 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   
   <script>
@@ -155,7 +155,7 @@
       data: {
         labels: [{{ range $id, $value := $issues -}}{{ $value := index (last 1 (split . "-")) 0 }}{{ if ne $id 0 }},{{ end }}{{- if (index ($.Site.Data.scores) (lower $value)) -}}{{ (index ($.Site.Data.scores) (lower $value)) }}{{ else }}{{ $value }}{{ end -}}{{ end -}}],
         datasets: [{
-          label: 'Fréquence',
+          label: 'Nombre de citation',
           backgroundColor: "{{ index $color 1 }}",
           data: [{{ range $id, $value := $issues -}}{{ if ne $id 0 }},{{ end }}{{ index (split . "-") 0 -}}{{ end -}}],
           borderWidth: 1
@@ -186,7 +186,7 @@
         labels: [{{ range $id, $value := first 4  $successfactor -}}{{ $value := index (last 1 (split . "-")) 0 }}{{ if ne $id 0 }},{{ end }}{{- if (index ($.Site.Data.scores) (lower $value)) -}}{{ (index ($.Site.Data.scores) (lower $value)) }}{{ else }}{{ $value }}{{ end -}}{{ end -}}],
         datasets: [{
           label: 'Fréquence',
-          backgroundColor: [{{ range $id, $value := first 4 $successfactor -}}{{ if ne $id 0 }},{{ end }}"{{ index $color $id }}"{{ end}}],
+          backgroundColor: [{{ range $id, $value := $successfactor -}}{{ if ne $id 0 }},{{ end }}"{{ index $color $id }}"{{ end}}],
           data: [{{ range $id, $value := first 4 $successfactor -}}{{ if ne $id 0 }},{{ end }}{{ index (split . "-") 0 -}}{{ end -}}],
           borderWidth: 1
         }]
@@ -220,7 +220,7 @@
         labels: [{{ range $id, $value := first 4 $developfactor -}}{{ $value := index (last 1 (split . "-")) 0 }}{{ if ne $id 0 }},{{ end }}{{- if (index ($.Site.Data.scores) (lower $value)) -}}{{ (index ($.Site.Data.scores) (lower $value)) }}{{ else }}{{ $value }}{{ end -}}{{ end -}}],
         datasets: [{
           label: 'Fréquence',
-          backgroundColor: [{{ range $id, $value := last 4 $developfactor -}}{{ if ne $id 0 }},{{ end }}"{{ index $color $id }}"{{ end}}],
+          backgroundColor: [{{ range $id, $value := $developfactor -}}{{ if ne $id 0 }},{{ end }}"{{ index $color $id }}"{{ end}}],
           data: [{{ range $id, $value := first 4 $developfactor -}}{{ if ne $id 0 }},{{ end }}{{ index (split . "-") 0 -}}{{ end -}}],
           borderWidth: 1
         }]
@@ -267,7 +267,7 @@
     new Chart(ctx3, {
         type: 'bar',
         data: {
-            labels: ["Mon Niveau estimé - {{ (div (mul ($s.Get "knowledge-count") 100) (mul (len $pages) 4)) }}%","Mon niveau réel - {{ (div (mul ($s.Get "action-count") 100) (mul (len $pages) 4)) }}%"],
+            labels: ["Mon niveau estimé - {{ (div (mul ($s.Get "knowledge-count") 100) (mul (len $pages) 4)) }}%","Mon niveau réel - {{ (div (mul ($s.Get "action-count") 100) (mul (len $pages) 4)) }}%"],
             datasets: [{{ range seq (len $knowledge) }}{
                 label: '{{ humanize (index $knowledge (sub . 1)) -}}',
                 backgroundColor: "{{ index $color (sub . 1) }}",

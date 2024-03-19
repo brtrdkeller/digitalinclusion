@@ -69,7 +69,7 @@ Non
  - Si les outils sont dirigés vers nos bénéficiaires (risques), nos outils sont pas suffisants (j'en développe que pour les personnes de HI). (Les Partenaires demandent aux bénéficiaires d'utiliser leurs propres outils...)
  - Ajouter du matériel non adaptée
 
-**4. Estime-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
+**4. Estimes-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
 
  - Comme, je ne sais pas ce qu'il faudrait développer, je ne sais pas de quoi j'aurai besoin.
 

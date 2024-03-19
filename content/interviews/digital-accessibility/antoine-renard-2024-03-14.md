@@ -15,8 +15,8 @@
     "mission-issue-present": "oui",
     "sector": "NA",
     "successfactors": [Participation],
-    "developfactors": [Emulation],
-    "issues": [Time,Notoriety,consistency,Recruitment,Experimentation,Innovation,Strategy],
+    "developfactors": [Emulation,Innovation,Experimentation],
+    "issues": [Time,Notoriety,Consistency,Recruitment,Experimentation,Innovation,Strategy],
     "accountability": "non",
     "needexpert": "oui"
   },
@@ -72,7 +72,7 @@ CDPD, doit contenir quelque chose. Accréditation, WCAG avec les AAA.
  - Lié à l'image ? Reste une niche et on est peu conscient du souci.
  - On risque d'exclure des personnes (interne et externe :: staff et bénéficiaires)
 
-**4. Estime-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
+**4. Estimes-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
 
  - Oui, on a des ressources au niveau du programme. 
  - On a Enesto à Cuba, et Luciana en Bolivie (bureautique)

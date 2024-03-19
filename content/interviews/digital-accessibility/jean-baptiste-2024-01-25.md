@@ -14,8 +14,8 @@
       "mission-issue-futur": "oui",
       "mission-issue-present": "oui",
       "sector": "Système d'Information",
-      "successfactors": [],
-      "developfactors": [],
+      "successfactors": [Beneficiary],
+      "developfactors": [Formation],
       "issues": [Time,Formation],
       "accountability": "non",
       "needexpert": "oui"

@@ -79,7 +79,7 @@ This is : if you service is accessible has a certification. Option that put voic
  - Excluding workorce, they can't do their work : Paiement, register (Cambodgia), don't part of the database
  - Be sure who we are employing
 
-**4. Estime-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
+**4. Estimes-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
 
  - 3I, ne veut pas aller plus loin. You don't have it
 

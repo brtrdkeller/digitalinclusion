@@ -8,8 +8,7 @@ title: World of A11Y
 
 ## United Nations
 
-
-### E-Govrnment
+### E-Government
 
  1. https://publicadministration.un.org/egovkb/en-us/Reports/UN-E-Government-Survey-2022
 
@@ -35,26 +34,6 @@ title: World of A11Y
 
   1. [Primero - outil de questionnaires](https://www.primero.org/)
 
-### Sight Savers
-
-  1. [https://www.sightsavers.org/programmes/digital-health/](Digital health: how technology is used to fight disease)
-  1. [Sightsavers hosts accessibility workshop to promote inclusive design](https://www.sightsavers.org/disability-inclusion-working-group/2019/03/accessibility-workshop/)
-  1. [First anger, then action: why you should sign the Feminist Accessibility Protocol](https://www.sightsavers.org/blogs/2023/07/why-you-should-sign-the-feminist-accessibility-protocol/)
-
-### Addax Oryx
- 
- 1. https://addax-oryx-foundation.org/en/projects/building-literacy-and-bridging-the-digital-divide
- 1. https://addax-oryx-foundation.org/en/projects/education-through-technology
-
-### Close the gap
- 
- 1. https://www.close-the-gap.org/who-we-are/mission
-
-
-### ITforLife
-
- 1. https://www.it4life.org/en/
- &; https://pfongue.org/IMG/pdf/2001_presentation_it4life_-_pfongue.pdf
 
 ### GSMA
  

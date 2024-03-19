@@ -108,7 +108,7 @@ Projet Wish (reproduction) : formation sur les outils numérique (Marie Ange)
  - Système d'alerte en ligne (Ouganda), bénéficiaire (Whistle Blowing) passe par mail, donc un staff HI. Porter plainte contre HI. Peu de langues. Pas de compréhension.
  - Organisation à 2 vitesses
 
-**4. Estime-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
+**4. Estimes-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
 
  - Non
 

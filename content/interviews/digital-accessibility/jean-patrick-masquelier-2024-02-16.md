@@ -75,7 +75,7 @@ Il faudrait de la compétence.
 
 Pertinent d'aller dans ce sens, pour être à la pointe. 
 
-**4. Estime-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
+**4. Estimes-tu avoir toutes les ressources nécessaires pour mettre en oeuvre une démarche d'amélioration de l'accessibilité numérique ?**
 
  - Non
 

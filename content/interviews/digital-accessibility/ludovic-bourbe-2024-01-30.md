@@ -14,9 +14,9 @@
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
     "sector": "Inclusive Governance And Humanitarian Action",
-    "successfactors": [],
-    "developfactors": [],
-    "issues": [Expertise,Knowledge,Strategy,Feedback,Capitalisation,Consistency],
+    "successfactors": [Strategy],
+    "developfactors": [Strategy],
+    "issues": [Expertise,Knowledge,Strategy,Feedback,Capitalisation,Consistency,Competition],
     "accountability": "non",
     "needexpert": "oui"
   },
