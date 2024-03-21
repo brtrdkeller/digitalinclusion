@@ -108,10 +108,16 @@ blockquote {
               11px 15px 0 0 rebeccapurple;
 }
 
-blockquote p {
-  font-size: clamp(2.44rem, 2.38vw, 3.81rem);
-  line-height: 1.4;
-}
+  blockquote p {
+    font-size: clamp(2.44rem, 2.38vw, 3.81rem);
+    line-height: 1.4;
+  }
+
+  p + ul,
+  p + ol {
+    font-size: 60%;
+    margin-top: 1em;
+  }
 
   ul.notes-list {
     display: inline-block;

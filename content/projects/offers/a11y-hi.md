@@ -4,7 +4,7 @@ type: presentation
 sitemapExclude: true
 slides:
     - part: Accessibilité numérique & HI ?
-    - title: 1. C’est quoi ?
+    - title: C’est quoi ?
     - image: montee-competence-init.svg
     - image: montee-competence-ideal.svg
     - image: montee-competence.svg
@@ -21,6 +21,11 @@ slides:
     - part: Accessibilité dans le monde humanitaire
     - title: Systèmes d’alerte en Ukraine
     - title: Digital Inclusion par la Finance au Kenya
-    - part: Accessibilité dans le monde humanitaire
+    - part: Et Handicap International ?
+    - texte: |-
+        **Risques :**
+         1. Perte de sens
+         1. Déclassement
+         1. Financement
     
 ---

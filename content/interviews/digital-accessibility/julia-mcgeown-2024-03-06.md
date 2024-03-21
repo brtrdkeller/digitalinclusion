@@ -16,7 +16,7 @@
     "sector": "Inclusive Education",
     "successfactors": [Participation],
     "developfactors": [Experimentation,Innovation],
-    "issues": [Feedback,Innovation,Experimentation,Formation],
+    "issues": [Feedback,Innovation,Experimentation,Knowledge],
     "accountability": "oui",
     "needexpert": "oui"
   },

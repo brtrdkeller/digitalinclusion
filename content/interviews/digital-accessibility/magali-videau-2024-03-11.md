@@ -4,8 +4,8 @@
     "countries": "Maghreb, Afrique de l’Ouest, Centrale et de l'EST & MASHREQ",
     "estimated-action-accessibility": aucune,
     "estimated-knowledge-accessibility": réduite,
-    "real-knowledge-accessibility": "réduite",
-    "first-block": "Méconnaissance, non prise en compte du virage technologique / stereotypes selon lesquels on pense que les populations avec lesquelles on travaillent n’utilisent pas les outils numériques, n'est pas priorisé",
+    "real-knowledge-accessibility": "aucune",
+    "first-block": "Méconnaissance, non prise en compte du virage technologique / stéréotypes selon lesquels on pense que les populations, avec lesquelles on travaille, n’utilisent pas les outils numériques, n’est pas priorisé",
     "first-win": "Sensibilisation, Plan d’action et Formation",
     "first-word": "Futur",
     "idea-external": "formation",
@@ -14,11 +14,11 @@
     "mission-issue-futur": "oui",
     "mission-issue-present": "oui",
     "sector": "Protection",
-    "successfactors": [],
-    "developfactors": [],
-    "issues": [],
-    "accountability": "",
-    "needexpert": ""
+    "successfactors": [Strategy],
+    "developfactors": [Reflexion],
+    "issues": [Time,Recruitment,Consistency,Reflexion],
+    "accountability": "non",
+    "needexpert": "oui"
   },
   "date": "2024-03-11",
   "name": "Magali Videau",
@@ -29,21 +29,11 @@
 
 ## Facteurs de succès
 
- 1. financement
- 2. compréhension des lois
- 3. sensibilisation
- 4. soutien et de l'implication des dirigeants
- 5. niveau et qualité d'équipement des utilisateurs
- 6. modèle de prise de décision par l'ensemble des parties prenantes
- 7. une vision et d'une stratégie claires
- 8. formation
- 9. capacité de participation des bénéficiaires
-
 7. une vision et d'une stratégie claires
 1. financement
 3. sensibilisation (alphabétisation)
 
-POur créer une affiche sur la sensibilisation, on devrait questionner les personnes.
+Pour créer une affiche sur la sensibilisation, on devrait questionner les personnes.
 Sous traité, et pas de temps.
 
 ## Présentation
@@ -88,7 +78,7 @@ Sous traité, et pas de temps.
  - Avoir du temps [Time]
  - Manque de guidance
 
-Je reçois des contenus du terrain pour révision. On ne sait pas dire ce qui est accessble.
+Ex. Je reçois des contenus du terrain pour révision. On ne sait pas dire ce qui est accessble.
 On devrait diversifier les formats.
 
 **6. Quelles seraient tes besoins futurs en accessibilité numériques (Innovation, ATI, recrutement,...)**
@@ -107,7 +97,7 @@ On devrait diversifier les formats.
  - Remettre en cause les silos, car on a pas de vision sur le chemin de l'accessibilité numérique.
  - Revoir le processus général des projets pour gérer les modalités de création de contenu.
     ex. Si pas d'ordinateurs, envoyer des informations en avance
- - Nous pousser à changer les pratiques pas la présence.
+ - Nous pousser à changer les pratiques par la présence de diversité en interne.
  - IHA pourrait faire de la sensibilisation bailleurs.
 
 **8. Que penses-tu de la prise en compte de l'accessibilité numérique en interne et sur le terrain par HI ?**

@@ -16,7 +16,7 @@
       "sector": "Système d'Information",
       "successfactors": [Beneficiary],
       "developfactors": [Formation],
-      "issues": [Time,Formation],
+      "issues": [Time,knowledge],
       "accountability": "non",
       "needexpert": "oui"
     },

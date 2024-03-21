@@ -16,7 +16,7 @@
     "sector": "",
     "successfactors": [Formation],
     "developfactors": [Expertise,Innovation],
-    "issues": [Feedback,Notoriety,Expertise,Financial,Formation,Recruitment],
+    "issues": [Feedback,Notoriety,Expertise,Financial,Knowledge,Recruitment],
     "accountability": "no",
     "needexpert": "oui"
   },
@@ -26,6 +26,21 @@
   "slugname": "caroline-chateau"
 }
 ---
+
+L’accessibilité et l’inclusion,
+l’affaire de tous !
+ATI
+Réduisez les situations de handicap, favoriser
+la participation sociale de façon concrète, en vous
+concentrant sur la mise en accessibilité de votre
+environnement local circonscrit.
+Nos spécialistes en accessibilité du cadre bâti
+vous accompagne tout au long du processus
+d’aide au changement.
+© J-J. Bernard/HI
+NOTRE APPUI-CONSEIL
+POUR CHEMINER AVEC VOUS VERS L’INCLUSION
+ADVISING YOU ON YOUR INCLUSION JOURNEY
 
 
 ## A retenir
