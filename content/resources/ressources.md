@@ -25,6 +25,15 @@ https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1137&context=ecis2004
 ## IA
   1. https://www.nature.com/articles/d41586-024-00639-y
 
+## Guides
+
+ 1.[What is Inclusive Design, and How Does it Relate to Accessibility? – Part 1](https://uxmag.com/articles/what-is-inclusive-design-and-how-does-it-relate-to-accessibility-part-1)
+ 1. [Best Practices for Inclusive Design – Part 2](https://uxmag.com/articles/best-practices-for-inclusive-design-part-2)
+
+## Indicateurs
+
+ 1. https://goingdigital.oecd.org/countries/aus
+
 ## Ressources
 
  1. https://www.goodthingsfoundation.org/insights/disability-and-the-digital-divide/  
@@ -41,3 +50,4 @@ https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1137&context=ecis2004
  1. https://www.youtube.com/watch?v=qnrDMVmPaa4
  1. https://www.peatworks.org/spotlighting-accessibility-in-the-new-nist-ai-risk-management-framework/
  1. https://dev.to/steady5063/the-ultimate-mobile-accessibility-resource-guide-53gh
+ 1. https://www.nourrituresterrestres.fr/p/68-vivre-avec-un-smartphone-obsolete

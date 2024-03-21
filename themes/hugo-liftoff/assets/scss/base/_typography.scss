@@ -29,3 +29,7 @@
   color: var(--color-contrast-medium);
   @include font-size('md');
 }
+
+.title-color {
+  color: var(--color-primary);
+}

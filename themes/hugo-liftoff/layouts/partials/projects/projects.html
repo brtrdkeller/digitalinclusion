@@ -16,19 +16,41 @@
         {{- else -}}
           {{- if eq .Kind "term" -}}
             {{- .Title }} projects
-          {{- else -}}
-            {{- .Title -}}
           {{- end }}
-            I've worked on.
         {{- end -}}
       {{- end -}}
     </p>
   </section>
   <section>
     {{ partialCached "content.html" .Content .Content }}
+    {{ if in .Permalink "ts/offers" }}
+    {{ with .Pages }}
+      {{ range (where (where . ".Params.sitemapExclude" "ne" "true" ) "Params.genre" "eq" "page") }}
+      <h2>{{ .Title }}</h2>
+      {{ partialCached "content.html" .Content .Content }}
+      
+      <img style="width: 48%" src="{{ (.Parent.Resources.GetMatch "montee-competence-init.png").Permalink }}">
+      <img style="width: 48%" src="{{ (.Parent.Resources.GetMatch "montee-competence-ideal.png").Permalink }}">
+      <img style="width: 48%" src="{{ (.Parent.Resources.GetMatch "montee-competence.png").Permalink }}">
+      <img style="width: 48%" src="{{ (.Parent.Resources.GetMatch "montee-competence-real.png").Permalink }}">
+
+      {{ end }}
+      {{ range  $id, $value := ($.Site.GetPage "workshops").Sections }}
+        <h3 class="title-color">{{ add $id 1 }} - {{ .Title }}</h3>
+        <p>{{ .Params.description }}</p>
+        <div class="project-list">
+        {{ range .RegularPages }}
+          {{ partial "projects/project-entry.html" . }}
+        {{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
+    <hr>
+    <h2>Exemples de différentes offres</h2>
+    {{ end }}
     {{ with .Pages }}
       <div class="project-list">
-        {{ range . }}
+        {{ range where . "Params.genre" "ne" "page" }}
           {{ partial "projects/project-entry.html" . }}
         {{ end }}
       </div>

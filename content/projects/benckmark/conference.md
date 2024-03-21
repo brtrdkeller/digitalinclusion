@@ -14,4 +14,9 @@ conference:
   - name: swoogo
     urls: 
       - https://cunysps.swoogo.com/accesscon22/agenda
+  - name: California State University, Northridge 
+    urls:
+      - https://www.csun.edu
+      - https://www.csun.edu/cod/conference/sessions/
+      - https://docs.google.com/spreadsheets/d/1yBCYJ6flHW_KSYfBX1wNBRhGx9bxZ993_PoYaFrUAvE/edit#gid=80757841
 ---

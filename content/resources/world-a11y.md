@@ -30,10 +30,6 @@ title: World of A11Y
   1. [La nécessité de mettre en place une « Convention de Genève sur le numérique » ](https://blog.economie-numerique.net/2022/09/14/la-necessite-de-mettre-en-place-une-convention-de-geneve-sur-le-numerique/)
   1. [Les menaces numériques dans les conflits armés : ce qui nous échappe et comment y remédier](https://blogs.icrc.org/law-and-policy/fr/2023/10/02/menaces-numeriques-dans-les-conflits-armes/) 
 
-### UNICEF
-
-  1. [Primero - outil de questionnaires](https://www.primero.org/)
-
 
 ### GSMA
  

@@ -18,12 +18,29 @@
 </head>
 
 <body class="light">
-    {{ $path := path.Dir .Path }}
+    {{ $path := "" }}
+    {{ with .File }}
+        {{ $path = path.Dir .Path }}
+    {{ else }}
+        {{ $path = path.Dir .Path }}
+    {{ end }}
     {{ range .Params.slides }}
-    <div {{ with .part }} data-body-style="background: #222; color: #fff;"{{ end }}>
+    <div {{ with .part }} data-body-style="background: #164791; color: #fff;"{{ end }}>
         {{ with .part }}<h1>{{ replace . " ?" "&nbsp;?" | safeHTML}}</h1>{{ end }}
         {{ with .title }}<h2>{{ replace . " " "&nbsp;" | safeHTML }}</h2>{{ end }}
-        {{ with .image }}{{ if in . ".svg" }}{{ readFile (printf "./static/presentation/%s" .) | safeHTML }}{{ else }}<img src="{{ $.Site.BaseURL | default "/" }}presentation/{{ . }}" alt="">{{ end }}{{ end }}
+        {{ with .image }}
+            {{ $collection := union ($.Parent.Resources.ByType "image") ($.Resources.ByType "image") -}}
+            {{ $image := ($collection.GetMatch (printf "{**/,*}%s" .)) }}
+            {{ if $image }}
+                {{ if in . ".svg" }}
+                    {{ readFile (printf "./content/%s/%s" $path $image) | safeHTML }}
+                {{ else }}
+                    <img src="{{ $image.Permalink }}" alt="">
+                {{ end }}
+            {{ else }}
+            <h2>Image missing or wrong name</h2>
+            {{ end }}
+        {{ end }}
         {{ with .texte }}{{ . | markdownify | safeHTML }}{{ end }}
     </div>
     {{ end }}

@@ -19,7 +19,7 @@
     {{- range $id, $value := $paginator.Pages -}}
       <article class="flex flex-reverse align-items section-line">
         {{- $path := "" }}
-        {{- with .File }}{{ $path = .Path }}{{ end }}
+        {{- with .File }}{{ $path = .Path }}{{ else }}{{ $path := path.Dir .Path }}{{ end }}
         <section class="padding-block">
           <h2 class="title-main"><a href="{{ .Permalink }}">{{ if .Title }}{{ .Title }}{{ else }}{{ $sectionTitle }} {{ replace (path.Base $path) (path.Ext $path) "" }}{{ end }}</a></h2>
           {{- if or .Date ($.Scratch.Get "hassection") -}}

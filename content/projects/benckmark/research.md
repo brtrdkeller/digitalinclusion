@@ -104,10 +104,19 @@ articles:
   - name: "An e-Government Implementation Framework: A Developing Country Case Study"
     topic: Facteurs de succès
     description: |- 
-      les gouvernements des pays en développement sont toujours confrontés à des défis en matière de transformation en raison d'une myriade d'obstacles, notamment le manque d'interopérabilité de l'administration en ligne, le manque de ressources et le manque d'engagement de la part de la direction.
+      Les gouvernements des pays en développement sont toujours confrontés à des défis en matière de transformation en raison d'une myriade d'obstacles, notamment le manque d'interopérabilité de l'administration en ligne, le manque de ressources et le manque d'engagement de la part de la direction.
       
       L'objectif de cette étude est donc de définir un cadre de mise en œuvre de l'e-gouvernement pour les pays en développement. Les 12 facteurs critiques de succès identifiés pour les pays en développement ont été mis en correspondance avec les variables de la théorie de la diffusion de l'innovation (DOI) afin de créer le cadre de mise en œuvre proposé. 
     url: https://www.researchgate.net/publication/340474442_An_e-Government_Implementation_Framework_A_Developing_Country_Case_Study
+  - name: "Disability digital divide: survey of accessibility of eHealth services as perceived by people with and without impairment"
+    topic: eHealth
+    description: |- 
+      Les résultats confirment l'existence d'une fracture numérique en matière de santé en ligne. Les personnes souffrant de déficiences ne forment pas un groupe homogène, mais diffèrent quant aux difficultés perçues en matière d'eHealth. 
+      
+      Sur la base d'un sous-groupement ciblé des déficiences, nous avons montré que les personnes souffrant de troubles de la communication, du langage et du calcul, ainsi que de déficiences intellectuelles, déclarent utiliser le moins possible la santé en ligne et éprouver le plus de difficultés à l'utiliser. 
+      
+      Ces résultats peuvent guider la recherche future dans la création d'une santé en ligne accessible à tous, y compris aux personnes ayant les difficultés les plus importantes. 
+    url: https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-023-15094-z
 ---
 
     

@@ -71,7 +71,7 @@
       {{ $title := .Title }}
       Menu :&nbsp;
       <ul class="list-unstyled list-inline">
-      {{ range .Parent.Pages }}
+      {{ range where .Parent.Pages "Params.genre" "ne" "page" }}
       <li>
         {{ if ne $title .Title }}<a href="{{ .Permalink }}">{{ end }}
           {{ .Title }}
@@ -134,11 +134,12 @@
     </section>
 
 {{ if in .Permalink "ts/offers" }}
+{{ $offers    := .Params.offers }}
+{{ $modules   := .Site.Data.offers }}
+{{ $prevtitle := "" }}
+{{ $color   := slice "starter" "essential" "professional" }}
+{{ if $offers }}
   <section>
-    {{ $offers    := .Params.offers }}
-    {{ $modules   := .Site.Data.offers }}
-    {{ $prevtitle := "" }}
-    {{ $color   := slice "starter" "essential" "professional" }}
     <table>
       <thead>
         <tr>
@@ -235,6 +236,7 @@
       </tbody>
     </table>
   </section>
+  {{ end }}
   {{ end }}
 </div>
 <div class="single-container">

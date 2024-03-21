@@ -4,6 +4,14 @@ description: |-
     Quelles ONG parlent du numérique ? Quelles ONG ont réalisées de projets touchant de près ou de loin l'accessibilité numérique.
 
 competitors:
+  - name: International
+    countries:
+      - name: ONU
+        competitor:
+          - name: Unicef
+            url: https://www.unicef.org
+            links: 
+              - https://www.primero.org/
   - name: Europe
     countries:
       - name: France
@@ -18,6 +26,10 @@ competitors:
             url: https://www.it4life.org/
             links: 
              -  https://pfongue.org/IMG/pdf/2001_presentation_it4life_-_pfongue.pdf
+          - name: Fondation Gramen - Crédit Agricole
+            url: https://www.gca-foundation.org
+            links: 
+             -  https://www.gca-foundation.org/assistance-technique/
       - name: Suisse
         competitor:
           - name: EnableMe
@@ -37,6 +49,12 @@ competitors:
         competitor:
           - name: Close the Gap (Kenya)
             url: https://www.close-the-gap.org/
+      - name: Luxembourg
+        competitor:
+          - name: ADA (Appui au développement autonome)
+            url: ADA (Appui au développement autonome)
+            links:
+              - https://www.ada-microfinance.org/sites/default/files/2023-11/69-OIK-2023-Agrievolve.pdf
       - name: Allemagne
         competitor:
           - name: CBM (Christian Blind Mission)
@@ -55,6 +73,10 @@ competitors:
         competitor:
           - name: Fonds de développement agricole (FIDA)
             url: https://www.ifad.org/
+            links: 
+              - https://www.ifad.org/fr/prime-africa?p_l_back_url=%2Ffr%2Fsearch%3Fq%3Ddigital
+          - name: Facility for Remittances
+            url: https://www.ffremittances.org/
             links: 
               - https://www.ifad.org/fr/prime-africa?p_l_back_url=%2Ffr%2Fsearch%3Fq%3Ddigital
               - 
