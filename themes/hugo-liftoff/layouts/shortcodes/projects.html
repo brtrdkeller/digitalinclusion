@@ -17,8 +17,13 @@
   {{ with $projects }}
     <div class="project-list">
       {{- range . }}
+      {{ . }}
       {{- $path := "" }}
-      {{- with .File }}{{ $path = .Path }}{{ end }}
+      {{- with .File }}
+        {{ $path = .Path }}
+        {{ else }}{{ $path := .Path }}
+      {{ end }}
+      {{ $path }}
       {{ if (and (eq (len (split (path.Dir $path) "/")) 2) (eq (path.BaseName $path) "_index")) }} 
         {{ partial "projects/project-entry.html" . }}
         {{ end }}

@@ -20,7 +20,7 @@
     "accountability": "non",
     "needexpert": "oui"
   },
-  "date": "2024-03-11",
+  "date": "2024-03-21",
   "name": "Magali Videau",
   "slugname": "magali-videau",
   "slugpath": "digital-accessibility"

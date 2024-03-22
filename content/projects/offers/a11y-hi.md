@@ -15,12 +15,15 @@ slides:
     - title: Conception<br>de parcours<br>utilisateurs !
     - title: Avec les utilisateurs
     - texte: Les Lunettes de&nbsp;l’accessibilité
-    - image: amenagement-sans-obstacle(2).svg
+    - image: amenagement-sans-obstacle.svg
     - image: alphabetisation.svg
     - image: montee-competence-real.svg
     - part: Accessibilité dans le monde humanitaire
-    - title: Systèmes d’alerte en Ukraine
     - title: Digital Inclusion par la Finance au Kenya
+    - image: Intervention-Handicap-now.svg
+    - image: Intervention-Handicap-futur.svg
+    - title: Systèmes d’alerte en Ukraine
+    - image: dispositif-alerte.svg
     - part: Et Handicap International ?
     - texte: |-
         **Risques :**

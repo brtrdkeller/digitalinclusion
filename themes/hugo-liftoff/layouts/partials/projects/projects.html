@@ -29,10 +29,7 @@
       <h2>{{ .Title }}</h2>
       {{ partialCached "content.html" .Content .Content }}
       
-      <img style="width: 48%" src="{{ (.Parent.Resources.GetMatch "montee-competence-init.png").Permalink }}">
-      <img style="width: 48%" src="{{ (.Parent.Resources.GetMatch "montee-competence-ideal.png").Permalink }}">
-      <img style="width: 48%" src="{{ (.Parent.Resources.GetMatch "montee-competence.png").Permalink }}">
-      <img style="width: 48%" src="{{ (.Parent.Resources.GetMatch "montee-competence-real.png").Permalink }}">
+      <img style="width: 98%" src="{{ (.Parent.Resources.GetMatch "montee-competence-real.png").Permalink }}">
 
       {{ end }}
       {{ range  $id, $value := ($.Site.GetPage "workshops").Sections }}
