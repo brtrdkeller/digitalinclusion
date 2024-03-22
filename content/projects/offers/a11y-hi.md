@@ -1,17 +1,16 @@
 ---
-title: Accessibilité nNumérique & HI ?
+title: Accessibilité Numérique & HI ?
 type: presentation
 sitemapExclude: true
 slides:
-    - part: Accessibilité numérique & HI ?
-    - title: C’est quoi ?
+    - part: Le&nbsp;Numérique C’est quoi ?
     - image: montee-competence-init.svg
     - image: montee-competence-ideal.svg
     - image: montee-competence.svg
     - title: Un Outil Technique 
     - title: Matériel
     - title: Se maîtrise par l’usage
-    - part: Accessibilité ?
+    - part: l'Accessibilité<br>C’est quoi ?
     - title: Conception<br>de parcours<br>utilisateurs !
     - title: Avec les utilisateurs
     - texte: Les Lunettes de&nbsp;l’accessibilité
@@ -30,5 +29,12 @@ slides:
          1. Perte de sens
          1. Déclassement
          1. Financement
+    - texte: |-
+         **Opportunités :**
+         1. Travail Transverse
+         1. Projets Pilotes
+         1. Compétences par l'expérience
+         1. Prescription sur l'inclusion
+         1. Production de bases contextuelles
     
 ---

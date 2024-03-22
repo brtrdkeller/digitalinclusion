@@ -14,6 +14,7 @@
     <link rel="preload" href="{{ $.Site.BaseURL | default "/" }}css/fonts.css" as="style">
     <link rel="stylesheet" href="{{ $.Site.BaseURL | default "/" }}css/fonts.css" media="print" onload="this.media='all'" />
     <link rel="stylesheet" href="{{ $.Site.BaseURL | default "/" }}css/simple.css">
+    <link rel="preload" href="{{ $.Site.BaseURL | default "/" }}js/bigSlide.js" as="script" />
     <script src="{{ $.Site.BaseURL | default "/" }}js/bigSlide.js"></script>
 </head>
 
@@ -24,6 +25,9 @@
     {{ else }}
         {{ $path = path.Dir .Path }}
     {{ end }}
+    <div data-body-style="background: #222; color: #fff;">
+        {{ .Title }}
+    </div>
     {{ range .Params.slides }}
     <div {{ with .part }} data-body-style="background: #164791; color: #fff;"{{ end }}>
         {{ with .part }}<h1>{{ replace . " ?" "&nbsp;?" | safeHTML}}</h1>{{ end }}
