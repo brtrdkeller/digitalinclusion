@@ -11,11 +11,15 @@
     <title>{{ .Title }}</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    <link rel="preload" href="{{ $.Site.BaseURL | default "/" }}css/fonts.css" as="style">
-    <link rel="stylesheet" href="{{ $.Site.BaseURL | default "/" }}css/fonts.css" media="print" onload="this.media='all'" />
-    <link rel="stylesheet" href="{{ $.Site.BaseURL | default "/" }}css/simple.css">
     <link rel="preload" href="{{ $.Site.BaseURL | default "/" }}js/bigSlide.js" as="script" />
     <script src="{{ $.Site.BaseURL | default "/" }}js/bigSlide.js"></script>
+    <link rel="preload" href="{{ $.Site.BaseURL | default "/" }}css/fonts.css" as="style">
+    <link rel="stylesheet" href="{{ $.Site.BaseURL | default "/" }}css/fonts.css"/>
+    <link rel="stylesheet" href="{{ $.Site.BaseURL | default "/" }}css/simple.css">
+    <script type="module">
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
 </head>
 
 <body class="light">
@@ -28,8 +32,11 @@
     <div data-body-style="background: #222; color: #fff;">
         {{ .Title }}
     </div>
-    {{ range .Params.slides }}
+    {{ $slides := .Params.slides }}
+    {{ range $key, $value := $slides }}
     <div {{ with .part }} data-body-style="background: #164791; color: #fff;"{{ end }}>
+        <p class="slide-number"><span class="invisible">Slide numéro</span> {{ add $key 1 }}/{{ (len $slides) }}</p>
+        <span class="progress" style="width: {{ div (mul (add $key 1) 100) (len $slides) }}%;"></span>
         {{ with .part }}<h1>{{ replace . " ?" "&nbsp;?" | safeHTML}}</h1>{{ end }}
         {{ with .title }}<h2>{{ replace . " " "&nbsp;" | safeHTML }}</h2>{{ end }}
         {{ with .image }}

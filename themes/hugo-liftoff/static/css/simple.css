@@ -98,14 +98,14 @@ body {
 
 svg {
     max-width: 95dvw;
-    max-height: 95dvh;
+    max-height: 80dvh;
 }
 
 blockquote {
   background: white;
   padding: 3.5rem;
   margin: 50px auto;
-  width: 80vw;
+  width: min(1000px,80vw);
   border: solid 2px rebeccapurple;
   box-shadow: 13px 13px 0 0 white,
               15px 15px 0 0 rebeccapurple,
@@ -126,6 +126,15 @@ blockquote {
   p + ol {
     font-size: 60%;
     margin-top: 1em;
+  }
+
+  blockquote p strong:last-of-type {
+    background: lime;
+    background-color: #ededed;
+    margin-top: 10px;
+    padding: 1px 10px 10px;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
   }
 
   ul.notes-list {
@@ -166,7 +175,7 @@ blockquote {
     align-items: center;
   }
   
-  .layout img {
+  img {
     object-fit: contain;
     width: 100%;
     height: 100%;
@@ -178,3 +187,51 @@ blockquote {
     width: 100%;
   }
   
+  body:not([class*="mode"]) {
+    overflow-y: visible;
+  }
+
+  body:not([class*="mode"]) > div {
+    display: flex;
+    align-items: center;
+    height: 100dvh;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3em;
+    position: relative;
+  }
+
+  body:not([class*="mode"]) h1,
+  body:not([class*="mode"]) h2,
+  body:not([class*="mode"]) h3,
+  body:not([class*="mode"]) p {
+    max-width: 90%;
+    word-wrap: anywhere;
+  }
+
+  body[class*="mode"] .slide-number {
+    font-size: 2rem;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+  }
+
+  .invisible {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    border: 0;
+  }
+
+  body[class*="mode"] .progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    height: 20px;
+    background-color: rebeccapurple;
+  }

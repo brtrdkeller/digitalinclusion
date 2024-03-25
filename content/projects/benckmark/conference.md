@@ -14,6 +14,10 @@ conference:
   - name: swoogo
     urls: 
       - https://cunysps.swoogo.com/accesscon22/agenda
+  - name: ICT4D Conference
+    urls:
+      - https://www.ict4dconference.org/2024ghana/
+      - https://ict4dconference.dryfta.com/16953849811/program-schedulebut
   - name: California State University, Northridge 
     urls:
       - https://www.csun.edu
