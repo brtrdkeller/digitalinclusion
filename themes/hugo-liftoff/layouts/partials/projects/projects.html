@@ -26,18 +26,19 @@
     {{ if in .Permalink "ts/offers" }}
     {{ with .Pages }}
       {{ range (where (where . ".Params.sitemapExclude" "ne" "true" ) "Params.genre" "eq" "page") }}
+      <div class="container--sm section-offers">
       <h2>{{ .Title }}</h2>
       {{ partialCached "content.html" .Content .Content }}
-      
-      <img style="width: 98%" src="{{ (.Parent.Resources.GetMatch "montee-competence-real.png").Permalink }}">
-
+      <img style="width: 28%" src="{{ (.Parent.Resources.GetMatch "montee-competence-real.png").Permalink }}">
       {{ end }}
+      </div>
+      <h2>Offre détaillée</h2>
       {{ range  $id, $value := ($.Site.GetPage "workshops").Sections }}
-        <h3 class="title-color">{{ add $id 1 }} - {{ .Title }}</h3>
-        <p>{{ .Params.description }}</p>
-        <div class="project-list">
-        {{ range .RegularPages }}
-          {{ partial "projects/project-entry.html" . }}
+        <h3 class="title-color{{ if gt ($id) 0 }} title-separator{{ end }}">{{ add $id 1 }} - {{ .Title }}</h3>
+        <p>{{ .Params.description | markdownify }}</p>
+        <div class="project-list offers">
+        {{ range $key, $value := .RegularPages }}
+          {{ partial "projects/project-offers.html" (dict "context" . "id" $id "key" $key) }}
         {{ end }}
         </div>
       {{ end }}
@@ -47,7 +48,7 @@
     {{ end }}
     {{ with .Pages }}
       <div class="project-list">
-        {{ range where . "Params.genre" "ne" "page" }}
+        {{ range where (where . ".Params.sitemapExclude" "ne" "true" ) "Params.genre" "ne" "page" }}
           {{ partial "projects/project-entry.html" . }}
         {{ end }}
       </div>

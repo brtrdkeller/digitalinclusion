@@ -33,3 +33,12 @@
 .title-color {
   color: var(--color-primary);
 }
+
+.title-separator:before {
+  display: block;
+  margin-bottom: 1rem;
+  content: "";
+  height: 2px;
+  width: 50px;
+  background-color: #555;
+}

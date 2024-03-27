@@ -1,5 +1,5 @@
 ---
-title: Etude de la législation spécifique
+title: Atelier de Design Thinking
 sorte: Etude
 description: "Organiser une scéance de travail super cool, super top"
 persons: 2

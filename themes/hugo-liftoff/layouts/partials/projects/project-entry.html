@@ -1,4 +1,5 @@
 <div class="project-entry">
+  {{- if .Params.feature_image -}}
   <div class="project-entry-img">
     {{ partial "general/feature-image.html" . }}
     {{ with .Param "project types" }}
@@ -9,6 +10,7 @@
     </div>
     {{ end }}
   </div>
+  {{ end -}}
   <div class="project-entry-info">
     <h3 class="project-entry-title">
       <a href="{{ .Permalink }}">{{ .Title }}</a>

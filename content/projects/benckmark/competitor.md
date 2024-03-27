@@ -110,9 +110,15 @@ competitors:
             url: https://kijijiyeetu.co.ke/
           - name: Qhala
             url: https://qhala.com/about
+  - name: Asie
+    countries:
+      - name: "KeJaponnya"
+        competitor: 
+          - name: KDDI
+            url: https://www.kddi.com/english/
+            links:
+              - https://news.kddi.com/kddi/corporate/english/newsrelease/2021/10/27/5520.html
 ---
-
- 
 
 
 

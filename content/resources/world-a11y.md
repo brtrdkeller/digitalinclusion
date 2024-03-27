@@ -21,6 +21,11 @@ title: World of A11Y
 
   1. [3 ways to foster societies where everyone is included](https://www.un.org/en/desa/3-ways-foster-societies-where-everyone-included)
 
+### FAO
+
+ 1. [Digital Village Readiness Assessment Tool](https://www.fao.org/digital-villages-initiative/asia-pacific/tools/en)
+ 1. [Innovative business models for small farmer inclusion](https://www.fao.org/3/cb0700en/CB0700EN.pdf)
+
 ## Other NGO
 
  1. https://www.radiofrance.fr/franceinter/podcasts/le-monde-a-l-envers/les-donnees-numeriques-de-l-humanitaire-une-arme-cachee-et-redoutable-2366987
@@ -29,7 +34,6 @@ title: World of A11Y
 
   1. [La nécessité de mettre en place une « Convention de Genève sur le numérique » ](https://blog.economie-numerique.net/2022/09/14/la-necessite-de-mettre-en-place-une-convention-de-geneve-sur-le-numerique/)
   1. [Les menaces numériques dans les conflits armés : ce qui nous échappe et comment y remédier](https://blogs.icrc.org/law-and-policy/fr/2023/10/02/menaces-numeriques-dans-les-conflits-armes/) 
-
 
 ### GSMA
  

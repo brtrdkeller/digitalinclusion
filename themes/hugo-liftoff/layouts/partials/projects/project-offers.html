@@ -1,0 +1,35 @@
+{{ $ctx := .context }}
+<div class="project-entry offers enlarge-link">
+    {{- if $ctx.Params.feature_image -}}
+    <div class="project-entry-img">
+        {{ partial "general/feature-image.html" . }}
+        {{ with $ctx.Param "project types" }}
+        <div class="project-entry-type">
+        {{ range first 1 . }}
+            <a href="{{ "project-types" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
+        {{ end }}
+        </div>
+        {{ end }}
+    </div>
+    {{ end -}}
+    <div class="project-entry-info">
+      <h4 class="project-entry-title">
+        <a href="{{ $ctx.Permalink }}">{{ $ctx.Title }}</a>
+        <sup>{{ partial "general/label-drafts.html" $ctx }}</sup>
+        <p class="crit">#{{ add .id 1 }}.{{ add .key 1 }}</p>
+      </h4>
+      {{- with $ctx.Params.sorte -}}
+        <p><strong>{{ . }}</strong></p>
+      {{- end -}}
+      <div class="project-list-summary">
+        {{- with $ctx.Description -}}
+          {{ . | markdownify }}
+        {{- end -}}
+      </div>
+      <div class="project-list-footer">
+      {{- if and $ctx.Params.persons $ctx.Params.days -}}
+        <p><strong>{{ $ctx.Params.persons }} personnes pendant {{ $ctx.Params.days }} jours</strong></p>
+      {{- end -}}
+     </div>
+    </div>
+  </div>
