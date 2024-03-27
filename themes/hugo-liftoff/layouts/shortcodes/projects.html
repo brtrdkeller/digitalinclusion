@@ -17,7 +17,6 @@
   {{ with $projects }}
     <div class="project-list">
       {{- range . }}
-      {{ . }}
       {{- $path := "" }}
       {{- with .File }}
         {{ $path = .Path }}
