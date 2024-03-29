@@ -1,0 +1,58 @@
+        criterion: 
+      - name:   
+        description: |- 
+          Présence d'éléments du style dans le html de la page.
+        criterion: 
+      - name:   
+        description: |- 
+          l'image de fond n'est plus visible.
+        criterion: 
+      - name:   
+        description: |- 
+          Présence d'éléments ">"  qui ne sont pas autorises. 
+        criterion: 
+      - name:   
+        description: |- 
+          Perte d'information et le contenu n'est pas accessible.
+        criterion: 
+      - name:   
+        description: |- 
+          Les popups et les popins ne sont pas accessibles au clavier.
+        criterion: 
+      - name:   
+        description: |- 
+          L'accès au profil, les popups et les popins ne sont pas accessibles au clavier.
+        criterion: 
+      - name:   
+        description: |- 
+          Présence d'un <label> qui n'est pas correctement associé par "id" a son champ, par contre le "aria-label", il faut supprimer le <label> et garder le  "aria-label".
+        criterion: 
+      - name:   
+        description: |- 
+          "Un groupe de cases à cocher ou de boutons radio n'est pas inclus dans un <fieldset>.
+          Un <fieldset> fournit un regroupement visuel et structurel d'éléments de formulaire connexes. Il est généralement nécessaire pour les groupes de cases à cocher ou de boutons radio où une description de niveau supérieur (appelée légende) est nécessaire pour comprendre la fonction des cases à cocher ou des boutons radio. La description ne sera identifiée par un lecteur d'écran que si elle est fournie dans une légende du champ.
+          Déterminez si le regroupement des cases à cocher ou des boutons radio a ou a besoin d'un texte qui explique le but du regroupement des cases à cocher ou des boutons radio.Si c'est le cas, marquez le groupe dans un fieldset et placez la description du groupe dans un élément <legend>."
+        criterion: 
+      - name:   
+        description: |- 
+          Présence d'un menu de navigation et d'un moteur de recherche.
+        criterion: 
+      - name:   
+        description: |- 
+          Les zones de regroupement de contenus (zones d’en-tête, de navigation principale, de contenu principal, de pied de page et de moteur de recherche) ne sont pas tous indiqués dans le code. Absence des liens d'accès rapide (visible à la prise de focus lors d’une tabulation) et d'évitement (précédant directement la zone dans l’ordre du code source ) pour soit accéder au contenu principal  <main> ou soit évitée. 
+        criterion: 
+      - name:   
+        description: |- 
+          Absence de liens d'accès rapide et d'évitement.
+        criterion: 
+      - name:   
+        description: |- 
+          L'ordre de tabulation n'est pas respecté.
+        criterion: 
+      - name:   
+        description: |- 
+          Les fenêtres modales.
+        criterion: 
+      - name:   
+        description: |- 
+          Le contenu de la page ne s'adapte pas avec la plupart des interfaces.

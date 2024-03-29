@@ -23,12 +23,18 @@ https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1137&context=ecis2004
  1. https://www.youtube.com/watch?v=nQq_gZiZ-jg
 
 ## IA
+
   1. https://www.nature.com/articles/d41586-024-00639-y
 
 ## Guides
 
- 1.[What is Inclusive Design, and How Does it Relate to Accessibility? – Part 1](https://uxmag.com/articles/what-is-inclusive-design-and-how-does-it-relate-to-accessibility-part-1)
+ 1. [What is Inclusive Design, and How Does it Relate to Accessibility? – Part 1](https://uxmag.com/articles/what-is-inclusive-design-and-how-does-it-relate-to-accessibility-part-1)
  1. [Best Practices for Inclusive Design – Part 2](https://uxmag.com/articles/best-practices-for-inclusive-design-part-2)
+ 1. [March 2024 Accessible Events Guide](https://media.licdn.com/dms/document/media/D561FAQGpPllwxglKIw/feedshare-document-pdf-analyzed/0/1711446535749?e=1712188800&v=beta&t=SgXJ8sNbdw9Yvridp5tOhpI6sLg9Igzj_wM8cXUQ5no)
+
+## A reprendre
+
+ 1. [https://webaccessibilitysurvey.com/survey-results/](https://webaccessibilitysurvey.com/survey-results/)
 
 ## Indicateurs
 
@@ -36,6 +42,8 @@ https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1137&context=ecis2004
 
 ## Ressources
 
+ 1. [Creating Inclusive Digital Spaces: Web Accessibility for Deaf Users](https://www.accessi.org/blog/web-accessibility-for-deaf-users/)
+ 1. [EUROPEITUPublications International Telecommunication Union Europe ICT accessibility assessment for the Europe region](https://www.itu.int/en/ITU-D/Regional-Presence/Europe/Documents/Events/2020/AE20/event/D-PHCB-ICT_ACCESS_EUR.01-2021-PDF-E.pdf)
  1. https://www.goodthingsfoundation.org/insights/disability-and-the-digital-divide/  
  1. https://www.goodthingsfoundation.org/insights/health-and-wellbeing-alliance-accessibility-and-inclusion-guidance/
  1. https://github.com/Tanaguru/Map-of-Web-Accessibility-Laws-Policies/blob/master/South%20America/Brazil.mdown

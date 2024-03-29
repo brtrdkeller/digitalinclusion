@@ -78,6 +78,13 @@ hr:before {
   margin: 0 0 0 -3px;
 }
 
+.b-all {
+  overflow: hidden;
+  margin: 1em 0;
+  padding-bottom: 1em;
+  border: 1px solid #666;
+}
+
 .b-bottom {
   overflow: hidden;
   margin: 1em 0;
@@ -89,10 +96,17 @@ hr:before {
   margin: 0;
 }
 
+.p-all {
+  padding: 1em;
+}
+
 .crit {
   position: absolute;
-  top: 0;
-  right: 1em;
+  top: -1.1em;
+  left: -0.2em;
+  background: #222;
+  color: #fff;
+  padding: 0 0.5em;
 }
 
 .enlarge-link {
@@ -116,11 +130,29 @@ hr:before {
   z-index: 1;
 }
 
+.grid-card {
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+  gap: 1em;
+  font-size: 40%;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+}
+
+.grid-card > * {
+  flex: 1;
+}
 
 .list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
+}
+
+.gap-null {
+  gap: 0;
 }
 
 .list.list-stats {

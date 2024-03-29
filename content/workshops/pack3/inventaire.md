@@ -7,4 +7,5 @@ description: |-
     Ils serviront à faciliter les décisions stratégiques.
 persons: 2
 days: 4
+pack: 1
 ---

@@ -53,6 +53,12 @@ https://webaim.org/projects/screenreadersurvey10/
 
 3,15,67,69,74,77,78,85,90,98,105,112,113,116,119,120,131,132,135,143,151,160,161,163,177,189,192,198,216,219,220
 
+### Critère sur l'authentification
+
+ 1. [How to test 3.3.8 Accessible Authentication](https://www.tpgi.com/how-to-test-3-3-8-accessible-authentication-minimum/)
+
+ Le critère de réussite 3.3.8 Authentification accessible (minimum) concerne les tests de fonctions cognitives utilisés pour authentifier les utilisateurs. Lorsque de tels tests sont utilisés, une méthode d'authentification alternative doit être fournie (qui ne repose pas sur un test des fonctions cognitives), ou un mécanisme doit être mis en place pour aider les utilisateurs à le compléter.
+
 ### Critères de Vitaly Friedman
 
 1. Évitez les messages qui disparaissent : laissez les utilisateurs les fermer.

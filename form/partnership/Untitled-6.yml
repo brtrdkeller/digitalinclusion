@@ -1,0 +1,70 @@
+- pages:
+  - name: Page
+    blocks:
+    - name: Page
+      errors:  
+      - name: Alt manquants sur les images
+        criterion: 1.1
+        description: |-
+          Passe sur les occurrences relevées,[emplacements récurrents dans l’applis]
+          **Commentaire :** Authentification, le lofo n'est pas le bon (Adequasys)
+        delivery:  1
+      - name: Présence de tableaux de mise en forme
+        criterion: 5.3
+        description: |-
+          Un tableau déjà enlevé dans l’écran des absences
+          Modification à faire sur les tri dans entêtes de tableau
+        delivery:  1 
+      - name: Doctype obsolète
+        criterion: 7.1
+        description: Passage en Doctype HTML5 globalement
+        delivery:  1
+        checked: true
+      - name: Notifications non accessibles par les lecteurs d’écrans
+        criterion: 7.4
+        description: Ajout de la visibilité sur les messages de notification
+        delivery:  1
+      - name: Titre de page non explicite
+        criterion: 8.6
+        description: Ajout du libellé du lien dans le titre de la page
+        delivery:  1
+      - name: Manque de titre sur les iframes
+        criterion: 2.1, 2.2
+        description: Ajout titre sur iframe principale, et etude pour autres iframes au cas par cas
+        delivery:  1
+      - name: Liens non explicites
+        criterion: 6.1
+        description: Ajout de libellés explicites dans les liens des widgets
+        delivery:  1
+      - name: Intitulé manquant dans certains boutons dropdown
+        criterion: 11.9
+        description: Adaptation du composant
+        delivery:  1
+      - name: Contraste insuffisant
+        criterion: 3.2, 3.3
+        description: Validation avec nouvelle charte graphique, + revue des contrastes des textes principaux
+        delivery:  2
+      - name: Navigation au clavier
+        criterion: 7.3
+        description: Reprise de la navigation dans le menu
+        delivery:  2
+      - name: HTML invalide
+        criterion: 8.2, 9.3
+        description: Reprise des zones de navigation principales
+        delivery:  2
+      - name: Incohérence des niveaux de titre
+        criterion: 9.1
+        description: Amélioration progressive
+        delivery:  2
+      - name: Zone de contenu non identifié
+        criterion: 9.2, 12.6, 12.7
+        description: Mise en place des identifications sur les zones principales
+        delivery:  2
+      - name: Zoom bloqué
+        criterion: 10.4
+        description: Adaptation directive de comportement
+        delivery:  2
+      - name: Liens sans intitulé dans l’organigramme
+        criterion: 6.2
+        description: Revue de la liste déroulante d’options
+        delivery:  1

@@ -1,5 +1,14 @@
 {{ $ctx := .context }}
-<div class="project-entry offers enlarge-link">
+<div class="project-entry offers enlarge-link {{ if .style }}small{{ end }}">
+  {{ if .style }}
+  <div class="project-entry-info">
+    <h4 class="project-entry-title">
+      <a href="{{ $ctx.Permalink }}">{{ $ctx.Title }}</a>
+      <sup>{{ partial "general/label-drafts.html" $ctx }}</sup>
+    </h4>
+    <p class="crit">#{{ $ctx.Parent.Params.level }}.{{ add .key 1 }}</p>
+  </div>
+  {{ else }}
     {{- if $ctx.Params.feature_image -}}
     <div class="project-entry-img">
         {{ partial "general/feature-image.html" . }}
@@ -16,8 +25,8 @@
       <h4 class="project-entry-title">
         <a href="{{ $ctx.Permalink }}">{{ $ctx.Title }}</a>
         <sup>{{ partial "general/label-drafts.html" $ctx }}</sup>
-        <p class="crit">#{{ add .id 1 }}.{{ add .key 1 }}</p>
       </h4>
+      <p class="crit">#{{ $ctx.Parent.Params.level }}.{{ add .key 1 }}</p>
       {{- with $ctx.Params.sorte -}}
         <p><strong>{{ . }}</strong></p>
       {{- end -}}
@@ -27,9 +36,17 @@
         {{- end -}}
       </div>
       <div class="project-list-footer">
-      {{- if and $ctx.Params.persons $ctx.Params.days -}}
-        <p><strong>{{ $ctx.Params.persons }} personnes pendant {{ $ctx.Params.days }} jours</strong></p>
-      {{- end -}}
-     </div>
+        {{- with $ctx.Params.skills -}}
+          <p class="m0">
+            {{ range . }}
+              #{{ . }}
+            {{ end }}
+          </p>
+        {{- end -}}
+        {{- if and $ctx.Params.persons $ctx.Params.days -}}
+          <p class="m0"><strong>{{ $ctx.Params.persons }} personnes pendant {{ $ctx.Params.days }} jours</strong></p>
+        {{- end -}}
+      </div>
     </div>
+    {{ end }}
   </div>

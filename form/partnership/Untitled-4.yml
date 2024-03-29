@@ -1,0 +1,335 @@
+- pages:
+  - name: Authentification
+    blocks:
+    - name: Page
+      errors:
+      - name: Contraste
+        description: |-
+         30 éléments avec un très faible contraste entre les couleurs du texte et du fond. 
+         Un contraste adéquat du texte est nécessaire pour tous les utilisateurs, en particulier les utilisateurs malvoyants.
+        criterion: 3.2
+      - name: Scripts
+        description: |- 
+          Le bouton choix de la langue n'est pas vocalisé par NVDA
+        criterion: 7.1
+        delivery: Jalios
+      - name: Script contrôlables
+        description: |- 
+          La clavier n'a pas accès au bouton choix de la langue.
+        criterion: 7.3
+        delivery: Jalios
+      - name: Structure
+        description: |- 
+          La page doit contenir une région : header, main, footer et s’assure que chaque contenu est localisé dans une région spécifique.
+        criterion: 9.2
+      - name: Label
+        description: |- 
+          Absence d'étiquette pour des éléments de formulaire, corrigez au moins un (1) de ces problèmes :
+          L’attribut aria-label n’existe pas ou est vide
+          L’attribut aria-labelledby n’existe pas, fait référence à des éléments qui n’existent pas ou à des éléments vides ou non visibles
+          L’élément de formulaire n’a pas de <label> implicite (imbriqué)
+          L’élément de formulaire n’a pas de <label> explicite
+          L’élément n’a pas d’attribut title ou l’attribut title est vide.
+        criterion: 11.1
+      - name: Controle Saisie
+        description: |- 
+          Absence de l’attribut aria-required= "true" ou required pour indiquer que le champs de formulaire est obligatoire et une indication de champ obligatoire visible et permet d’identifier nommément le champ concerné préalablement à la validation du formulaire ex. : * (étoile)
+        criterion: 11.10
+        delivery: Jalios
+      - name: Controle Saisie Pertinent
+        description: |- 
+          Absence de suggestions pour le texte incorrect.
+        criterion: 11.11
+        delivery: Jalios
+  - name: Accueil
+    blocks:
+    - name: Page
+      errors:
+      - name: Alternatives textuelles
+        description: Plus de 10 images sans `alt`. Image avec `title` et sans `alt`.
+        criterion: 1.1
+      - name: Alternatives textuelles décoration
+        description: Les images de décoration et icônes n'ont pas d'attribut "alt" vide.
+        criterion: 1.2
+      - name: Alternatives textuelles pertinence
+        description: Le logo de la fédération Handicap International et ne pas celui de Jalios.
+        criterion: 1.3
+      - name: Contraste
+        description: |-
+         30 éléments avec un très faible contraste entre les couleurs du texte et du fond. 
+         Un contraste adéquat du texte est nécessaire pour tous les utilisateurs, en particulier les utilisateurs malvoyants.
+        criterion: 3.2
+      - name: Constraste éléments
+        description: |- 
+          Le contraste de la bordure du champ de recherche calculé à 2.85 au lieu de 3. 
+          Le petit coeur bleu de la topbar a un contraste de 2.63 au lieu de 3 minimum
+        criterion: 3.3
+      - name: Constraste éléments
+        description: |- 
+          Un tableau de mise en forme ne possède pas le `role='presentation'`. 
+          Suggestion : supprimer le tableau et faire la mise en forme avec CSS. Cette solution est préférable car elle corrigé également le critère 12.8
+        criterion: 5.3
+      - name: Liens
+        description: |- 
+          5 liens sans un texte perceptible.
+        criterion: 6.2
+      - name: Scripts
+        description: |- 
+          Présence des `role` WAI-ARIA qui nécessitent des enfants: `menu` -> `menuitem`
+        criterion: 7.1
+        delivery: Jalios
+      - name: Script contrôlables
+        description: |- 
+          La popin qui s'affiche au survol/focus des titres doit pouvoir être fermée avec la touche `echap`
+        criterion: 7.3
+        delivery: Jalios
+      - name: Code source
+        description: |- 
+          15 erreurs HTML à corriger. Tester la page avec https://validator.w3.org/nu/
+        criterion: 8.2
+      - name: Balises présentation
+        description: |- 
+          Les titres de panel devraient être dans des balises <h2> Mettre les éléments du footer dans une balise <p>
+        criterion: 8.9
+      - name: Titres hiérarchie
+        description: |- 
+          L’utilisation des titres inappropriée, on ne trouve pas de titre h1, alors qu’il faut un seul titre h1 par page web. 
+          La hiérarchie des titres n’est pas conforme. 
+          Des titres vides ne sont pas autorisés. Les titres doivent être déclarés dans un ordre h1 ; titre principal, h2 puis sous-titre h3, pas de saut de titre h3 -> h5.  
+          Les titres ne doivent pas être utilisés à des fins de présentation.
+        criterion: 9.1
+      - name: Structure
+        description: |- 
+          La page doit contenir une région : header, nav, main, footer et s’assure que chaque contenu est localisé dans une région spécifique.
+        criterion: 9.2
+        checked: true
+      - name: Feuilles de styles
+        description: |- 
+          Présence d'éléments du style dans le html de la page.
+        criterion: 10.1
+        checked: true
+      - name: Contenu visible
+        description: |- 
+          l'image de fond n'est plus visible.
+        criterion: 10.2
+        checked: true
+      - name: Information par la forme
+        description: |- 
+          Présence d'éléments ">"  qui ne sont pas autorises. 
+        criterion: 10.9
+      - name: Petits écrans
+        description: |- 
+          Perte d'information et le contenu n'est pas accessible.
+        criterion: 10.11
+      - name: Eléments controlables
+        description: |- 
+          Les popups et les popins ne sont pas accessibles au clavier.
+        criterion: 10.13
+        delivery: Jalios
+      - name: Eléments controlables clavier
+        description: |- 
+          L'accès au profil, les popups et les popins ne sont pas accessibles au clavier.
+        criterion: 10.14
+        delivery: Jalios
+      - name: Etiquette pertinente  
+        description: |- 
+          Présence d'un <label> qui n'est pas correctement associé par "id" a son champ, par contre le "aria-label", il faut supprimer le <label> et garder le  "aria-label".
+        criterion: 11.2
+        checked: true
+      - name: Champs regroupés  
+        description: |- 
+          "Un groupe de cases à cocher ou de boutons radio n'est pas inclus dans un <fieldset>.
+          Un <fieldset> fournit un regroupement visuel et structurel d'éléments de formulaire connexes. Il est généralement nécessaire pour les groupes de cases à cocher ou de boutons radio où une description de niveau supérieur (appelée légende) est nécessaire pour comprendre la fonction des cases à cocher ou des boutons radio. La description ne sera identifiée par un lecteur d'écran que si elle est fournie dans une légende du champ.
+          Déterminez si le regroupement des cases à cocher ou des boutons radio a ou a besoin d'un texte qui explique le but du regroupement des cases à cocher ou des boutons radio.Si c'est le cas, marquez le groupe dans un fieldset et placez la description du groupe dans un élément <legend>."
+        criterion: 11.5
+        delivery: Jalios
+      - name: Légende
+        criterion: 11.6
+        delivery: Jalios
+      - name: Systèmes de navigation
+        description: |- 
+          Présence d'un menu de navigation et d'un moteur de recherche.
+        criterion: 12.1
+      - name: Evitement
+        description: |- 
+          Les zones de regroupement de contenus (zones d’en-tête, de navigation principale, de contenu principal, de pied de page et de moteur de recherche) ne sont pas tous indiqués dans le code. Absence des liens d'accès rapide (visible à la prise de focus lors d’une tabulation) et d'évitement (précédant directement la zone dans l’ordre du code source ) pour soit accéder au contenu principal  <main> ou soit évitée. 
+        criterion: 12.6
+      - name: Evitement zone principal  
+        description: |- 
+          Absence de liens d'accès rapide et d'évitement.
+        criterion: 12.7
+        checked: true
+      - name: Tabulation ordre
+        description: |- 
+          L'ordre de tabulation n'est pas respecté.
+        criterion: 12.8
+        checked: true
+      - name: Zones atteignables
+        description: |- 
+          Les fenêtres modales.
+        criterion: 12.11
+        delivery: Jalios
+      - name: Consultable orientation
+        description: |- 
+          Le contenu de la page ne s'adapte pas avec la plupart des interfaces.
+        criterion: 13.9
+        checked: true
+  - name: Aide
+    blocks:
+    - name: Page
+      errors:
+      - name: Alternatives textuelles
+        description: |-
+          "L'image du pied de page <footer> ne contient pas de `alt`. Image avec un attribut `title` et sans attribut `alt`.
+        criterion: 1.1
+        checked: true
+      - name: Alternatives textuelles pertinence
+        description: |- 
+          Mettre le logo de la fédération Handicap International et ne pas celui de Jalios.
+          Image texte dans HI Library.
+        criterion: 1.3
+        checked: true
+      - name: Images porteuse information
+        description: |- 
+          Image texte dans HI Library: Faire un résumé de l'image texte dans un paragraphe.
+        criterion: 1.6
+        checked: true
+      - name: Cadre titre
+        description: |- 
+          Le titre doit faire une description succincte du contenu du cadre.
+        criterion: 2.2
+        checked: true
+      - name: Contraste
+        description: |-
+         21 erreurs concernat un contraste très faible.
+        criterion: 3.2
+        delivery: Jalios
+      - name: Médias Sous-titres
+        description: |- 
+          Les éléments `<video>` doivent avoir des sous-titres, aucune piste de sous-titres n’a pu être trouvée pour cet élément, absence de la balise `<track>` possèdant un attribut `kind="caption"`, par contre les sous-titres sont intégrés via YouTube.
+        criterion: 4.3
+      - name: Scripts
+        description: |- 
+          Présence des `role` WAI-ARIA qui nécessitent des enfants: `menu` -> `menuitem`
+        criterion: 7.1
+        checked: true
+      - name: Script contrôlables
+        criterion: 7.3
+        checked: true
+      - name: Code source
+        description: |- 
+          Erreurs HTML à corriger. Tester la page avec https://validator.w3.org/nu/
+        criterion: 8.2
+        delivery: Jalios
+      - name: Titres hiérarchie
+        description: |- 
+          Les `panel-title` doivent être des `<h2>`, les éléments de listes qui ne sont pas dans un `<ul><li>` doivent être en `<h3>`
+        criterion: 9.1 
+      - name: Structure
+        criterion: 9.2
+        checked: true
+      - name: Feuilles de styles 
+        description: |- 
+          l'attribut 'max-width' n'est pas autorisé sur l'élément <div>, le style de la <div> doit être controlé par la feuille de CSS.
+          frameborder='0' sur l'iframe youtube (dérogé)
+          size='' sur le champs 'Rechercher dans cet espace'
+        criterion: 10.1
+      - name: Eléments controlables
+        description: |- 
+          Les popover au survol des titres
+        criterion: 10.13
+        delivery: Jalios
+      - name: Eléments controlables clavier  
+        description: |- 
+          Les popover au survol des titres
+        criterion: 10.14
+        delivery: Jalios
+      - name: Label
+        description: |- 
+          Chaque élément de formulaire doit avoir une étiquette:
+          L’attribut aria-label n’existe pas ou est vide.
+          L’attribut aria-labelledby n’exis pas, fait référence à des éléments qui n’existent pas ou à des éléments vides ou non visibles.
+          L’élément de formulaire n’a pas de `<label>` implicite (imbriqué).
+          L’élément de formulaire n’a pas de `<label>` explicite.
+          L’élément n’a pas d’attribut title ou l’attribut title est vide.
+        criterion: 11.1
+        delivery: Jalios
+      - name: + Input liés
+        description: |- 
+          Présence d'un <label> qui n'est pas correctement associé par `id` a son champ, par contre le `aria-label`, il faut supprimer le `<label>` et garder le `aria-label`.
+          Rubrique 2.Utilisateur: Étiquettes de formulaires multiples.
+          Un contrôle de formulaire est associé à plusieurs étiquettes.
+          Un contrôle de formulaire doit comporter au maximum un élément d'étiquetage associé. Si plus d'un élément d'étiquette est associé au contrôle, la technologie d'assistance peut ne pas lire l'étiquette appropriée.
+        criterion: 11.2
+        delivery: Jalios
+      - name: Zones de regroupement
+        description: |- 
+          Les zones de regroupement de contenus (zones d’en-tête, de navigation principale, de contenu principal, de pied de page et de moteur de recherche) ne sont pas tous indiqués dans le code. Absence des liens d'accès rapide (visible à la prise de focus lors d’une tabulation) et d'évitement (précédant directement la zone dans l’ordre du code source ) pour soit accéder au contenu principal <main> ou soit évitée. 
+        criterion: 12.6
+        delivery: Jalios
+      - name: Elément clignotant contrôle 
+        description: |- 
+          Le caroussel dans la rubrique à la une, n'a pas de bouton pour stoper le difelement des images. (L'image met + de 5 seconde à défiler
+        criterion: 13.8
+  - name: Recherche
+    blocks:
+    - name: Page
+      errors:
+      - name: Alternatives textuelles
+        criterion: 1.1
+        checked: true
+      - name: Alternatives textuelles pertinence
+        criterion: 1.3
+        checked: true
+      - name: Contraste
+        description: |-
+         64 Erreurs de contraste
+        criterion: 3.2
+        delivery: Jalios
+      - name: Liens
+        description: |- 
+          12 liens ne contiennent pas de texte. 
+        criterion: 6.2
+        delivery: Jalios
+      - name: Scripts
+        description: |- 
+          Menu ARIA brisé, un menu ARIA ne contient pas les éléments requis. Les menus ARIA sont des menus d'application (comme ceux utilisés dans le menu d'un logiciel) avec des interactions spécifiques au clavier. Ils ne sont PAS destinés aux liens de navigation sur un site web et doivent contenir au moins un élément menuitem, menuitemcheckbox ou menuitemradio.
+        criterion: 7.1
+        delivery: Jalios
+        checked: true
+      - name: Script contrôlables
+        criterion: 7.3
+        delivery: Jalios
+        checked: true
+      - name: Eléments controlables
+        description: |- 
+          Les popups et les popins ne sont pas accessibles au clavier.
+        criterion: 10.13
+        delivery: Jalios
+      - name: Eléments controlables clavier
+        description: |- 
+          L'accès au profil, les popups et les popins ne sont pas accessibles au clavier.
+        criterion: 10.14
+        delivery: Jalios
+      - name: Label
+        description: |- 
+          Un contrôle de formulaire n'a pas d'étiquette correspondante.
+          La balise <Select> a une  étiquette manquante.
+          Un élément <select> n'a pas de label associé.
+          Les éléments <select> doivent fournir un texte descriptif sur leur fonction. Ce texte est généralement fourni via le texte d'étiquette associé. Si le texte de l'étiquette visuelle n'est pas présent et si l'option de sélection par défaut présente correctement l'objectif du menu de sélection, alors une étiquette associée n'est pas nécessaire.
+          Assurez-vous que l'option par défaut du menu de sélection présente l'objectif du menu de sélection. Si le texte de l'étiquette est visible, il est préférable d'associer ce texte au menu de sélection.
+          Ajouter un attribut `aria-label`.
+        criterion: 11.1
+        delivery: Jalios
+      - name: Champs regroupés
+        description: |- 
+          Un <fieldset> manquant, un groupe de cases à cocher ou de boutons radio n'est pas inclus dans un <fieldset>.le nombre est de 6 éléments.
+        criterion: 11.5
+      - name: Evitement
+        description: |- 
+          Les zones de regroupement de contenus (zones d’en-tête, de navigation principale, de contenu principal, de pied de page et de moteur de recherche) ne sont pas tous indiqués dans le code. Absence des liens d'accès rapide (visible à la prise de focus lors d’une tabulation) et d'évitement (précédant directement la zone dans l’ordre du code source ) pour soit accéder au contenu principal  <main> ou soit évitée. 
+        criterion: 12.6
+      - name: Zones atteignables
+        criterion: 12.11
+        delivery: Jalios
+      
