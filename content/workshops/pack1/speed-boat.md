@@ -8,6 +8,7 @@ skills:
   - animation
   - accompagment
 pack: 2
+draft: true
 ---
 
 un bateau : il désigne le contexte qui renferme les acteurs du projet (qui sont les participants) et le thème de l’idéation, par exemple la refonte d’un site web.

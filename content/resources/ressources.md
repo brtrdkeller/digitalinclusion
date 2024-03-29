@@ -25,6 +25,7 @@ https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1137&context=ecis2004
 ## IA
 
   1. https://www.nature.com/articles/d41586-024-00639-y
+  1. https://www.fastcompany.com/91067625/why-were-fighting-to-make-sure-labor-unions-have-a-voice-in-how-ai-is-implemented
 
 ## Guides
 
@@ -35,10 +36,20 @@ https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1137&context=ecis2004
 ## A reprendre
 
  1. [https://webaccessibilitysurvey.com/survey-results/](https://webaccessibilitysurvey.com/survey-results/)
+ 1. [Des mécanismes d’éducation efficaces sont en place afin que toutes et tous aient la capacité d’utiliser pleinement les outils numériques essentiels](https://cheminsdetransition.org/wp-content/uploads/fiches_jalons_numerique/Jalon12_Defi-numerique.pdf)
+ 1. [Top tips: Supporting digital inclusion in general practice ](https://www.goodthingsfoundation.org/insights/supporting-digital-inclusion-in-general-practice-top-tips/)
 
 ## Indicateurs
 
  1. https://goingdigital.oecd.org/countries/aus
+ 1. [The Global E-waste Monitor 2024](https://www.itu.int/en/ITU-D/Environment/Pages/Publications/The-Global-E-waste-Monitor-2024.aspx)
+
+
+## Green
+
+ 1. [Les « e-déchets » augmentent cinq fois plus vite que leur recyclage](https://news.un.org/fr/story/2024/03/1144341)
+ 1. [Défi numérique](https://cheminsdetransition.org/defi-numerique.pdf)
+ 1. [Impact Pub](https://iabeurope.eu/wp-content/uploads/IAB-Europe-Mapping-of-Greenhouse-Gas-Estimation-Solutions-in-Digtial-Advertising.pdf)
 
 ## Ressources
 

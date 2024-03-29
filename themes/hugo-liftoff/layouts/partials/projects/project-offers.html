@@ -7,6 +7,13 @@
       <sup>{{ partial "general/label-drafts.html" $ctx }}</sup>
     </h4>
     <p class="crit">#{{ $ctx.Parent.Params.level }}.{{ add .key 1 }}</p>
+    {{- with $ctx.Params.goals -}}
+      <ul>
+        {{ range . }}
+        <li>{{ . }}</li>
+        {{ end -}}
+      </ul>
+    {{ end -}}
   </div>
   {{ else }}
     {{- if $ctx.Params.feature_image -}}
@@ -35,6 +42,13 @@
           {{ . | markdownify }}
         {{- end -}}
       </div>
+      {{- with $ctx.Params.goals -}}
+        <ul>
+          {{ range . }}
+          <li>{{ . }}</li>
+          {{ end -}}
+        </ul>
+      {{ end -}}
       <div class="project-list-footer">
         {{- with $ctx.Params.skills -}}
           <p class="m0">

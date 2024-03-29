@@ -25,6 +25,11 @@ title: World of A11Y
 
  1. [Digital Village Readiness Assessment Tool](https://www.fao.org/digital-villages-initiative/asia-pacific/tools/en)
  1. [Innovative business models for small farmer inclusion](https://www.fao.org/3/cb0700en/CB0700EN.pdf)
+ 1. [Promoting the digitalization of small and medium-sized agrifood enterprises in Asia and the Pacific](https://www.fao.org/documents/card/en/c/cc8826en)
+
+## OCDE 
+ 
+ 1. [Going Digital Project](https://www.oecd.org/digital/going-digital-project/)
 
 ## Other NGO
 

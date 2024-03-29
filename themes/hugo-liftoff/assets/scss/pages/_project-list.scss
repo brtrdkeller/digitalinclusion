@@ -121,9 +121,25 @@
   color: rebeccapurple !important;
 }
 
+.offers ul {
+  margin: 0;
+  padding: 1em 0;
+  //list-style-position: inside;
+}
+
+.offers li {
+  display: flex;
+  margin-bottom: 0.5em;
+}
+
+.offers li:before {
+  content: "●";
+  margin-right: 0.5em;
+}
+
 .offers .project-entry.small {
   max-width: 12em;
-  min-height: 15em;
+  min-height: 21em;
   margin: 2em 0;
 }
 
