@@ -10,3 +10,11 @@ content:
       - name: title
         label: Website title
         type: string
+  - name: quote
+    label: Quote
+    path: data/quote.yml
+    type: file
+    fields:
+      - name: author
+        label: Auteurs
+        type: string
