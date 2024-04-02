@@ -13,7 +13,7 @@ content:
   - name: quote
     label: Quote
     path: data/quote.yml
-    type: file
+    type: collection
     fields:
       - name: author
         label: Auteurs
