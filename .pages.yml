@@ -4,7 +4,7 @@ media:
 content:
   - name: site
     label: Site settings
-    path: data/offers.yml
+    path: hugo.tom
     type: file
     fields:
       - name: title
