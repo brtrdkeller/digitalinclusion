@@ -339,31 +339,31 @@
     background: var(--white);
   }
   
-  .switch-wrapper [type=&quot;radio&quot;] {
+  .switch-wrapper [type="radi"] {
     position: absolute;
     left: -9999px;
   }
   
-  .switch-wrapper [type=&quot;radio&quot;]:checked#monthly ~ label[for=&quot;monthly&quot;],
-  .switch-wrapper [type=&quot;radio&quot;]:checked#yearly ~ label[for=&quot;yearly&quot;] {
+  .switch-wrapper [type="radio"]:checked#monthly ~ label[for="monthly"],
+  .switch-wrapper [type="radio"]:checked#yearly ~ label[for="yearly"] {
     color: var(--white);
   }
   
-  .switch-wrapper [type=&quot;radio&quot;]:checked#monthly ~ label[for=&quot;monthly&quot;]:hover,
-  .switch-wrapper [type=&quot;radio&quot;]:checked#yearly ~ label[for=&quot;yearly&quot;]:hover {
+  .switch-wrapper [type="radio"]:checked#monthly ~ label[for="monthly"]:hover,
+  .switch-wrapper [type="radio"]:checked#yearly ~ label[for="yearly"]:hover {
     background: transparent;
   }
   
   .switch-wrapper
-    [type=&quot;radio&quot;]:checked#monthly
-    + label[for=&quot;yearly&quot;]
+    [type="radio"]:checked#monthly
+    + label[for="yearly"]
     ~ .highlighter {
     transform: none;
   }
   
   .switch-wrapper
-    [type=&quot;radio&quot;]:checked#yearly
-    + label[for=&quot;monthly&quot;]
+    [type="radio"]:checked#yearly
+    + label[for="monthly"]
     ~ .highlighter {
     transform: translateX(100%);
   }
@@ -547,8 +547,8 @@
     padding: 10px;
   }
 
-  color: #555;
   table td span {
+    color: #555;
   }
   
   table td:not(:first-child) {

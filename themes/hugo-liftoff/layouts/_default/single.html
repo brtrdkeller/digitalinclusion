@@ -7,20 +7,50 @@
 <section class="generic-single">
   <div class="single-container{{ if eq .Title "Roadmap"}} large{{ end }} markdown">
     {{ partialCached "content.html" .Content .Content }}
-    {{ if eq .Type "workshops" }}
+    {{ if eq .Type "modules" }}
       {{ $ctx := . }}
       {{- with $ctx.Params.sorte -}}
-        <p><strong>Type :</strong>ss {{ . }}</p>
+        <p><strong>Type :</strong> {{ . }}</p>
       {{- end -}}
-      <div class="project-list-summary">
-        {{- with $ctx.Description -}}
-          {{ . | markdownify }}
-        {{- end -}}
-      </div>
+      {{- with $ctx.Description -}}
+        <p class="m0"><strong>Description</strong></p>
+        {{ . | markdownify }}
+      {{- end -}}
       <div class="project-list-footer">
+      {{- with $ctx.Params.skills -}}
+        <p><strong>Compétences :</strong> {{ delimit . ", " }}</p>
+      {{- end -}}
       {{- if and $ctx.Params.persons $ctx.Params.days -}}
         <p><strong>Nombre de personnes à mobiliser :</strong> {{ $ctx.Params.persons }} personnes pendant {{ $ctx.Params.days }} jours</p>
       {{- end -}}
+      {{- if and $ctx.Params.persons $ctx.Params.days -}}
+        <p><strong>Coût :</strong> {{ mul (mul $ctx.Params.persons $ctx.Params.days) 800 }} euros</p>
+      {{- end -}}
+      {{- with $ctx.Params.workshops -}}
+        <p>
+            <strong>Ateliers potentiels :</strong> 
+            <ul>
+            {{ range . }}
+              {{ range (where (where $.Site.RegularPages "Section" "workshops") "Title" .) }}
+                <li> 
+                  <a href="{{ .Permalink }}">{{ .Title }}</a><br>
+                  <span>{{ .Description }}</span>
+                </li>
+              {{ end }}
+            {{ end }}
+          </ul>
+        </p>
+      {{- end -}}
+      {{- with $ctx.Params.urls -}}
+      <p>
+        <strong>Pour aller plus loin :</strong> 
+        <ul>
+        {{ range . }}
+          <li>{{ . | markdownify }}</li>
+        {{ end }}
+        </ul>
+      </p>
+      {{ end }}
     {{ end }}
   </div>
 </section>

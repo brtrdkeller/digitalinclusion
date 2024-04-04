@@ -139,7 +139,6 @@ blockquote {
 
   ul.notes-list {
     display: inline-block;
-    float: left;
     vertical-align: top;
   }
   

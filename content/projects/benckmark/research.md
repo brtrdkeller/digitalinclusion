@@ -79,9 +79,7 @@ articles:
   - name: Accessibility evaluation of websites using WCAG tools and Cambridge Simulator
     topic: Théorie
     description: |-
-      Ce document met en évidence les problèmes d'accessibilité qui ne peuvent être appréhendés uniquement par la conformité aux outils WCAG et propose des méthodes supplémentaires pour évaluer l'accessibilité par le biais d'un modèle d'utilisateur inclusif. 
-      
-      [...]
+      Ce document met en évidence les problèmes d'accessibilité qui ne peuvent être appréhendés uniquement par la conformité aux outils WCAG et propose des méthodes supplémentaires pour évaluer l'accessibilité par le biais d'un modèle d'utilisateur inclusif.  
 
       Le document se termine par une proposition de format de profil d'utilisateur commun qui peut être utilisé pour comparer les systèmes et les services d'accessibilité, et pour simuler et personnaliser l'interaction pour les utilisateurs ayant des capacités différentes.
     url: https://www.researchgate.net/publication/344244634_Accessibility_evaluation_of_websites_using_WCAG_tools_and_Cambridge_Simulator
@@ -106,7 +104,21 @@ articles:
     description: |- 
       Les gouvernements des pays en développement sont toujours confrontés à des défis en matière de transformation en raison d'une myriade d'obstacles, notamment le manque d'interopérabilité de l'administration en ligne, le manque de ressources et le manque d'engagement de la part de la direction.
       
-      L'objectif de cette étude est donc de définir un cadre de mise en œuvre de l'e-gouvernement pour les pays en développement. Les 12 facteurs critiques de succès identifiés pour les pays en développement ont été mis en correspondance avec les variables de la théorie de la diffusion de l'innovation (DOI) afin de créer le cadre de mise en œuvre proposé. 
+      L'objectif de cette étude est donc de définir un cadre de mise en œuvre de l'e-gouvernement pour les pays en développement. Les 12 facteurs critiques de succès identifiés pour les pays en développement ont été mis en correspondance avec les variables de la théorie de la diffusion de l'innovation (DOI) afin de créer le cadre de mise en œuvre proposé.
+      
+        1. Funding 
+        1. ICT Infrastructure 
+        1. Adequate legal and policy formulation 
+        1. Awareness 
+        1. Top management and government support 
+        1. User computer efficacy 
+        1. Stakeholder involvement 
+        1. Communication and change management 
+        1. Clear vision and strategy 
+        1. Training 
+        1. Government departmental goals 
+        1. Citizen empowerment (as opposed to marginalising groups)
+
     url: https://www.researchgate.net/publication/340474442_An_e-Government_Implementation_Framework_A_Developing_Country_Case_Study
   - name: "Disability digital divide: survey of accessibility of eHealth services as perceived by people with and without impairment"
     topic: eHealth

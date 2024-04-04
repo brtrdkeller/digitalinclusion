@@ -10,5 +10,7 @@ goals:
   - Prioriser les services
 persons: 2
 days: 4
+skills:
+  - Développement
 pack: 1
 ---

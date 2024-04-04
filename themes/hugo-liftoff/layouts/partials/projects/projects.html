@@ -36,31 +36,35 @@
       </details>
       </div>
       <h2>Offre détaillée</h2>
-      {{ $workshops := ($.Site.GetPage "workshops") }}
+      {{ $modules := ($.Site.GetPage "modules") }}
       <div class="grid-offer offers gap-null">
-        <div class="item r background-0" style="--grid-place: r0"><p><strong>Sociale</strong></p></div>
-        <div class="item r background-1" style="--grid-place: r1"><p><strong>Métiers</strong></p></div>
-        <div class="item r background-2" style="--grid-place: r2"><p><strong>Technique</strong></p></div>
-        <div class="item c" style="--grid-place: c0"><strong>Pack 1<br>Evaluation</strong></div>
-        <div class="item c" style="--grid-place: c1"><strong>Pack 2<br>Respect Mission</strong></div>
-        <div class="item c" style="--grid-place: c2"><strong>Pack 3<br>Transformation</strong></div>
-        {{ range  $id, $value := $workshops.RegularPagesRecursive.GroupByParam "pack" }}
+        {{ range  $id, $value := $modules.RegularPagesRecursive.GroupByParam "pack" }}
+            {{ $.Scratch.Set (string $id) 0 }}
             {{ $pages := .Pages }}
-            {{ range $key, $value := $workshops.Sections }}
+            {{ range $key, $value := $modules.Sections }}
             <div class="grid-card p-all background-{{ $key }} item" style="--grid-place: e{{ $id }}{{ $key }}">
               {{ range $key, $value := sort .Pages "Params.pack" "asc" }}
               {{ with (where $pages "Title" .Title) }}
                 {{ range . }}
+                  {{ $price := (mul (mul .Params.persons .Params.days) 800) }}
                   {{ partial "projects/project-offers.html" (dict "context" . "id" $id "key" $key "style" "small") }}
+                  {{ $.Scratch.Add (string $id) $price }}
+                  {{ $.Scratch.SetInMap "price" (string $id) ($.Scratch.Get (string $id)) }}
                 {{ end }}
               {{ end }}
               {{ end }}
             </div>
             {{ end }}
         {{ end }}
+        <div class="item r background-0" style="--grid-place: r0"><p><strong>Sociale</strong></p></div>
+        <div class="item r background-1" style="--grid-place: r1"><p><strong>Métiers</strong></p></div>
+        <div class="item r background-2" style="--grid-place: r2"><p><strong>Technique</strong></p></div>
+        <div class="item c" style="--grid-place: c0"><strong>Pack 1<br>Evaluation<br>{{ lang.FormatNumberCustom 0 (index ($.Scratch.Get "price") "0") "-|.| " "|" }} €</strong></div>
+        <div class="item c" style="--grid-place: c1"><strong>Pack 2<br>Consolidation<br> {{ lang.FormatNumberCustom 0 (index ($.Scratch.Get "price") "1") "-|.| " "|" }} €</strong></div>
+        <div class="item c" style="--grid-place: c2"><strong>Pack 3<br>Transformation<br>{{ lang.FormatNumberCustom 0 (index ($.Scratch.Get "price") "2") "-|.| " "|" }} €</strong></div>
       </div>
       
-      {{ range  $id, $value := ($.Site.GetPage "workshops").Sections }}
+      {{ range  $id, $value := ($.Site.GetPage "modules").Sections }}
         <h3 class="title-color{{ if gt ($id) 0 }} title-separator{{ end }}">{{ add $id 1 }} - {{ .Title }}</h3>
         <p>{{ .Params.description | markdownify }}</p>
         <div class="project-list offers">
