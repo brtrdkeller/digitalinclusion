@@ -1,0 +1,20 @@
+media:
+  input: /media
+  output: /media
+content:
+  - name: site
+    label: Site settings
+    path: hugo.toml
+    type: file
+    fields:
+      - name: title
+        label: Website title
+        type: string
+  - name: quote
+    label: Quote
+    path: data/quote.yml
+    type: object
+    fields:
+      - name: author
+        label: Auteurs
+        type: string
