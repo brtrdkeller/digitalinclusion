@@ -86,11 +86,11 @@ articles:
   - name: Factors influencing the design and implementation of accessible e‐Government services in South Africa
     topic: Methodology
     description: |-
-      Four practices in use were recognized as instrumental in the design and implementation of accessible e‐Government services : 
-      1. championing accessibility; 
-      2. adoption of an omni‐channel approach, as well as digital learning and awareness; 
-      3. development of inhouse guidelines and best practices, as well as support for developing assistive technologies;
-      4. reflective practices. (<https://se-realiser.com/pratique-reflexive/>)
+      Quatre pratiques ont été reconnues comme déterminantes pour la conception et la mise en œuvre de services d'administration en ligne accessibles : 
+        1. La promotion de l’accessibilité
+        1. L’adoption d’une approche omnicanale, la sensibilisation au numérique
+        1. L’élaboration de stratégies et de formations internes
+        1. La pratique réflexive.
     url: https://www.researchgate.net/publication/377919592_Factors_influencing_the_design_and_implementation_of_accessible_e-Government_services_in_South_Africa
   - name: Why is Public Policy Implementation Difficult in Developing Countries? Analysis of E-Government Implementation in Lesotho
     topic: Stratégie
@@ -104,20 +104,22 @@ articles:
     description: |- 
       Les gouvernements des pays en développement sont toujours confrontés à des défis en matière de transformation en raison d'une myriade d'obstacles, notamment le manque d'interopérabilité de l'administration en ligne, le manque de ressources et le manque d'engagement de la part de la direction.
       
-      L'objectif de cette étude est donc de définir un cadre de mise en œuvre de l'e-gouvernement pour les pays en développement. Les 12 facteurs critiques de succès identifiés pour les pays en développement ont été mis en correspondance avec les variables de la théorie de la diffusion de l'innovation (DOI) afin de créer le cadre de mise en œuvre proposé.
+       Les 12 facteurs critiques de succès ont été identifiés pour les pays en développement puis mis en correspondance avec les variables de la théorie de la diffusion de l'innovation (DOI) afin de créer le cadre de mise en œuvre proposé.
+
+       **Les facteurs de succès :**
       
-        1. Funding 
-        1. ICT Infrastructure 
-        1. Adequate legal and policy formulation 
-        1. Awareness 
-        1. Top management and government support 
-        1. User computer efficacy 
-        1. Stakeholder involvement 
-        1. Communication and change management 
-        1. Clear vision and strategy 
-        1. Training 
-        1. Government departmental goals 
-        1. Citizen empowerment (as opposed to marginalising groups)
+        1. Financement 
+        1. Infrastructure TIC
+        1. Formulation adéquate des lois et des politiques politiques 
+        1. Sensibilisation 
+        1. Soutien de l'encadrement supérieur et du gouverne-ment gouvernemental 
+        1. Efficacité de l'ordinateur de l'utilisateur 
+        1. Implication des parties prenantes 
+        1. Communication et gestion du changement changement 
+        1. Vision et stratégie claires 
+        1. Formation 
+        1. Objectifs des ministères objectifs 
+        1. Renforcement des capacités des citoyens 
 
     url: https://www.researchgate.net/publication/340474442_An_e-Government_Implementation_Framework_A_Developing_Country_Case_Study
   - name: "Disability digital divide: survey of accessibility of eHealth services as perceived by people with and without impairment"

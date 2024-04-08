@@ -7,7 +7,7 @@ goals:
   - Adapter l'organisation
   - Suivre les prestataires
 persons: 2
-days: 4
+days: 3
 skills:
   - Rédaction
   - Accompagment

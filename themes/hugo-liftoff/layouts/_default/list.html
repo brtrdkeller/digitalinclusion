@@ -51,6 +51,21 @@
     {{ else }}
       {{ partial "general/fallback-text.html" . }}
     {{ end }}
+    {{ $pages := where (where (.GetPage "interviews").RegularPagesRecursive "Params.slugpath" "eq" "digital-accessibility") "Title" "ne" "Model" }}
+        {{ $pagesstats := where $pages "Params.data.needexpert" "ne" "" }}
+        <h2>Statistiques générales</h2>
+        <p>
+          Le panel de personnes interrogées donne des résultats très homogènes. Les statisques suivantes permettent de noter si l'accessibilité numérique est un sujet ou non pour HI.<br>
+          Ce pendant, elles ne disent ni le pourquoi, ni le comment, ni le pour qui. L'analyse des interviews va permettre de mieux le déterminer.
+        </p>
+        {{ partial "interviews/generalstats.html" $pages }}
+        <br><hr><br>
+        <h2>Répartition des sujets clefs</h2>
+        <p>
+          Les interlocuteurs ont essayé de pointer des risques majeurs ou points focals sur lesquels s'attarder. Le graphique suivant liste ces points avec leur occurence d'apparition sur toutes les interviews.<br>
+          Il conviendra de mieux préciser les termes généraux recensés, ci-dessous. Exemple : l'<i>emploi</i> peut concerner le staff HI, comme l'emploi des personnes dans des programmes HI ; <i>expertise</i> peut concerner un expert confirmé, comme le besoin d'une meilleure expertise interne.
+        </p>
+        {{ partial "interviews/topicsstats.html" (dict "context" . "pages" $pages) }}
     {{ template "_internal/pagination.html" . }}
   </section>
 </div>

@@ -6,7 +6,7 @@ goals:
  - "#Accessibilité, #Performance, #Securtity,..."
  - Elargir les critères
 persons: 2
-days: 4
+days: 3
 skills:
   - Développement
 pack: 2

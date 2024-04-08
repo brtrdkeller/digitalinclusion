@@ -7,7 +7,7 @@ goals:
   - Participation de partenaires
   - Gérer les externalités
 persons: 3
-days: 5
+days: 6
 skills:
   - Animation
   - Accompagment

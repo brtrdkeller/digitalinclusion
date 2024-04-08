@@ -42,7 +42,9 @@
     ".  c0 c1 c2"
     "r0 e00  e10  e20"
     "r1 e01  e11  e21"
-    "r2 e02  e12  e22";
+    "r2 e02  e12  e22"
+    "r3 e03  e13  e23";
+  background: rgb(248, 247, 247);
 }
 .r, .c {
   display: flex;
@@ -152,6 +154,10 @@
 .offers .project-entry-title {
   font-size: 1.5em;
   line-height: 1.2;
+}
+
+.background-head {
+  --element_color: rgb(248, 247, 247);
 }
 
 .background-0 {

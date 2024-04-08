@@ -7,7 +7,7 @@ goals:
   - Améliorer les Feedback (#data)
   - Rencontre terrain
 persons: 2
-days: 8
+days: 6
 skills:
   - Animation
   - Formation

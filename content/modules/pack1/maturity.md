@@ -6,7 +6,7 @@ goals:
   - Suivre des référentiels
   - Assurer le suivi global
 persons: 2
-days: 8
+days: 9
 skills:
   - Analyse
   - Accompagnement

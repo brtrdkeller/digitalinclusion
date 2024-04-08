@@ -9,7 +9,7 @@ goals:
   - Classer les services
   - Prioriser les services
 persons: 2
-days: 4
+days: 3
 skills:
   - Développement
 pack: 1

@@ -58,24 +58,24 @@ hr {
 hr{ 
   border: 0;
   height: 2px;
-  width: 60%;
+  width: 95%;
   position: relative;
-  margin: 5rem auto;
-  background: #085279;
+  margin: 2rem auto 1rem;
+  background: #8fc8e76f;
 }
     
 hr:before {
   content: "";
-  width: 10px;
-  height: 10px;
-  background: #085279;
+  width: 6px;
+  height: 6px;
+  background: #cee6f3;
   display: inline-block;
-  border: 2px solid #085279;
-  border-radius: 50%;
+  border: 2px solid #cee6f3;
   position: absolute;
-  top: -6px;
+  top: -4px;
   left: 50%;
   margin: 0 0 0 -3px;
+  transform: rotate(45deg);
 }
 
 .b-all {

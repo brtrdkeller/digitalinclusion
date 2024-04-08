@@ -7,7 +7,7 @@ goals:
  - Appui technique
  - Certification
 persons: 1
-days: 5
+days: 3
 skills:
   - Développement
 pack: 3

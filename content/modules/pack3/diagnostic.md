@@ -6,7 +6,7 @@ goals:
  - Réduire les erreurs critiques
  - Recommandations
 persons: 1
-days: 20
+days: 12
 skills:
   - Développement
 pack: 3

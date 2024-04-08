@@ -8,6 +8,8 @@ title: World of A11Y
 
 ## United Nations
 
+1. https://www.un.org/en/webaccessibility/index.shtml
+
 ### E-Government
 
  1. https://publicadministration.un.org/egovkb/en-us/Reports/UN-E-Government-Survey-2022

@@ -6,7 +6,7 @@ goals:
   - Place du numérique
   - Identifier la place du handicap
 persons: 2
-days: 4
+days: 3
 skills:
   - Etude
   - Entretien

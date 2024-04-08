@@ -13,6 +13,7 @@ https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1137&context=ecis2004
  1. https://github.com/atelierPartage/wasc/tree/main
  1. https://disic.github.io/guides-documents_bureautiques_accessibles/html/
  1. https://lesbases.anct.gouv.fr/ressources/webinaire-redecouvrir-les-outils-de-pix-pour-la-mediation-numerique
+ 1. https://code.jasonmorris.com/pdfcheck/
 
 
 ## Digital Divide
@@ -38,18 +39,30 @@ https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1137&context=ecis2004
  1. [https://webaccessibilitysurvey.com/survey-results/](https://webaccessibilitysurvey.com/survey-results/)
  1. [Des mécanismes d’éducation efficaces sont en place afin que toutes et tous aient la capacité d’utiliser pleinement les outils numériques essentiels](https://cheminsdetransition.org/wp-content/uploads/fiches_jalons_numerique/Jalon12_Defi-numerique.pdf)
  1. [Top tips: Supporting digital inclusion in general practice ](https://www.goodthingsfoundation.org/insights/supporting-digital-inclusion-in-general-practice-top-tips/)
+ 1. [capacité d’utiliser pleinement les outils numériques essentiels](https://cheminsdetransition.org/wp-content/uploads/fiches_jalons_numerique/Jalon12_Defi-numerique.pdf)
 
 ## Indicateurs
 
  1. https://goingdigital.oecd.org/countries/aus
  1. [The Global E-waste Monitor 2024](https://www.itu.int/en/ITU-D/Environment/Pages/Publications/The-Global-E-waste-Monitor-2024.aspx)
+ 1. https://globalewaste.org/
+ 1. https://radar.cloudflare.com/quality
+ 1. https://www.pewresearch.org/internet/fact-sheet/mobile/?tabId=tab-64e32376-5a21-4b1d-8f8b-5f92406db984
+ 1. https://infrequently.org/2024/01/performance-inequality-gap-2024/
 
+## Cours 
+
+  1. https://www.w3.org/WAI/courses/foundations-course/
+  1. https://a11ytalks.com/
 
 ## Green
 
  1. [Les « e-déchets » augmentent cinq fois plus vite que leur recyclage](https://news.un.org/fr/story/2024/03/1144341)
  1. [Défi numérique](https://cheminsdetransition.org/defi-numerique.pdf)
  1. [Impact Pub](https://iabeurope.eu/wp-content/uploads/IAB-Europe-Mapping-of-Greenhouse-Gas-Estimation-Solutions-in-Digtial-Advertising.pdf)
+ 1. https://danluu.com/slow-device/
+ 1. https://www.tennaxia.com/ressource/csrd-ressources-et-liens-utiles/
+
 
 ## Ressources
 
@@ -70,3 +83,4 @@ https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1137&context=ecis2004
  1. https://www.peatworks.org/spotlighting-accessibility-in-the-new-nist-ai-risk-management-framework/
  1. https://dev.to/steady5063/the-ultimate-mobile-accessibility-resource-guide-53gh
  1. https://www.nourrituresterrestres.fr/p/68-vivre-avec-un-smartphone-obsolete
+ 1. https://www.linkedin.com/pulse/quelques-bonnes-pratiques-en-mati%25C3%25A8re-daccessibilit%25C3%25A9-learning-sphere-wrpae/

@@ -7,7 +7,7 @@ goals:
   - Autre regard sur le handicap
   - Exprimer un besoin
 persons: 2
-days: 6
+days: 3
 skills:
   - Sensibilisation
   - Formation

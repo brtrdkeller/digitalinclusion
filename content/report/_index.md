@@ -1,5 +1,6 @@
 ---
 title: Rapport
+type: study
 ---
 
 ## 1. Wordwilde

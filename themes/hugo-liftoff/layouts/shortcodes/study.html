@@ -1,0 +1,9 @@
+
+{{ $value := .Get 0 }}
+{{ range (where ($.Site.GetPage "section" "projects").RegularPagesRecursive "Title" "Papiers de recherche") }}
+<div>
+    {{ range (where .Params.articles "name" $value) }}
+        {{ .description | markdownify }}
+    {{ end }}
+</div>
+{{ end }}

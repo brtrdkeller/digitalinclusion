@@ -7,7 +7,7 @@ goals:
   - Politique Open Data
   - Approche centrée utilisateurs
 persons: 4
-days: 8
+days: 6
 skills:
   - Management
   - Accompagment

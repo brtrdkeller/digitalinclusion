@@ -6,7 +6,7 @@ goals:
   - Suivre les Indicateurs
   - Aide à la prise de décisions
 persons: 2
-days: 2
+days: 3
 skills:
   - Développement
 pack: 2
