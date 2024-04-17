@@ -11,15 +11,20 @@
         {{- end -}}
       {{- end -}}
     </p>
+    {{- if (eq .Type "study") }}
+    {{- range where .OutputFormats "Rel" "alternate" }}
+      {{- if (eq .Format.BaseName "print") }}<p>>&nbsp;<a href="{{ .Permalink | safeURL }}">Lien vers la version à imprimer</a></p>{{ end }}
+    {{- end }}
+    {{- end }}
   </section>
   <section>
     {{ $.Scratch.Set "menu" slice }}
     {{ range (.Paginate .RegularPagesRecursive).Pages }}
       {{- if (eq .Parent.Type "study") }}
-        {{ $.Scratch.Add "menu" .Title }}
-      {{ end }}
-    {{ end }}
-    {{ if gt (len ($.Scratch.Get "menu")) 0 }}
+        {{- $.Scratch.Add "menu" .Title }}
+      {{- end }}
+    {{- end }}
+    {{- if gt (len ($.Scratch.Get "menu")) 0 }}
     <div class="tableofcontents">
       <ol>
         {{ range ($.Scratch.Get "menu") }}
@@ -27,8 +32,8 @@
         {{ end }}
       </ul>
     </div>
-    {{ end }}
-    {{ range $id, $value := (.Paginate .RegularPagesRecursive).Pages }}
+    {{- end }}
+    {{- range $id, $value := (.Paginate .RegularPagesRecursive).Pages }}
       {{- if (eq .Parent.Type "study") }}
         <h2 id="{{ anchorize .Title }}">
           {{ add $id 1 }} - {{ .Title }}
@@ -41,11 +46,11 @@
       {{- else }}
         {{ partial "posts/post-entry.html" . }}
         <div class="post-entry-divider"></div>
-      {{ end }}
+      {{- end }}
     {{ else }}
       {{ partial "general/fallback-text.html" . }}
     {{ end }}
-    {{ $pages := where (where (.GetPage "interviews").RegularPagesRecursive "Params.slugpath" "eq" "digital-accessibility") "Title" "ne" "Model" }}
+    {{- $pages := where (where (.GetPage "interviews").RegularPagesRecursive "Params.slugpath" "eq" "digital-accessibility") "Title" "ne" "Model" }}
     {{ template "_internal/pagination.html" . }}
   </section>
 </div>

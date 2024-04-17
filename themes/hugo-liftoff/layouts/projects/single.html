@@ -65,7 +65,8 @@
       background-color: rebeccapurple;
   }
 </style>
-<div class="container">
+
+<div class="container{{ if in .Permalink "ts/benckmark" }}--sm{{ end }}">
   <section class="page-header">
     <nav class="nav-transverse">
       {{ $title := .Title }}
@@ -239,7 +240,7 @@
   {{ end }}
   {{ end }}
 </div>
-<div class="single-container">
+<div class="container{{ if in .Permalink "ts/benckmark" }}--sm{{ end }}">
   <article class="markdown">
     {{ partialCached "content.html" .Content .Content }}
     {{ with .Params.articles }}
@@ -256,10 +257,10 @@
         {{ range .countries }}
           <h3>{{ .name }}</h3>
           {{ range $id, $value := .competitor  }}
-          <h4 class="m0">{{ add $id 1 }}/ {{ .name }}{{ with .url}} <small>- <a href="{{ . }}">{{ . }}</a></small>{{ end }}</h4>
+          <p class="m0"><strong>{{ add $id 1 }}. {{ .name }}{{ with .url}} <small>- <a href="{{ . }}">{{ . }}</a></small>{{ end }}</strong></p>
             {{ with .links }}
-            <p>Liens notables :</p>
-            <ul>
+            <p class="mb0"><small>Liens notables :</small></p>
+            <ul class="mt0">
               {{ range .  }}
                 <li><small><a href="{{ . }}">{{ . }}</a></small></li>
               {{ end }}

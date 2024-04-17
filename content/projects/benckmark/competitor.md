@@ -9,7 +9,7 @@ competitors:
       - name: ONU
         competitor:
           - name: ALL Instance
-            urls:
+            links:
              - https://www.un.org/en/about-us/un-system
           - name: Unicef
             url: https://www.unicef.org
@@ -54,8 +54,8 @@ competitors:
             url: https://www.close-the-gap.org/
       - name: Luxembourg
         competitor:
-          - name: ADA (Appui au développement autonome)
-            url: ADA (Appui au développement autonome)
+          - name: ADA (Appui au Développement Autonome)
+            url: https://www.ada-microfinance.org/
             links:
               - https://www.ada-microfinance.org/sites/default/files/2023-11/69-OIK-2023-Agrievolve.pdf
       - name: Allemagne

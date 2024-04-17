@@ -1,5 +1,6 @@
 ---
 title: World of A11Y
+description: Accessibilité dans le monde de l'humanitaire regroupés par zones géographiques
 ---
 
 ## Sectors
@@ -9,6 +10,8 @@ title: World of A11Y
 ## United Nations
 
 1. https://www.un.org/en/webaccessibility/index.shtml
+1. https://un-dco.org/stories/how-achieve-digital-accessibility-and-disability-inclusion-year-un-indonesias-journey
+1. [ITU-ILO Accessibility of Online Job Application and Recruitment Systems](https://www.itu.int/en/ITU-D/Digital-Inclusion/Pages/itu-ilo/default.aspx)
 
 ### E-Government
 
@@ -62,6 +65,10 @@ title: World of A11Y
  1. [GOVUK - Service Standard](https://www.gov.uk/service-manual/service-standard)
  1. [GOVUK - Disability Action Plan](https://www.gov.uk/government/publications/disability-action-plan/disability-action-plan)
 
+### Sweden
+
+ 1. [Accessibility Core Competencies Certification Training (CPACC)](https://stiftelsenfunka.org/what-we-do/training/iaap-professional-certification-preparation-training/accessibility-core-competencies-certification-training-cpacc/)
+ 1. [Web Accessibility – an eye-opener for service design students at Laurea University](https://iaap-nordic.org/en/projects/web-accessibility-in-higher-education-a-project-funded-by-nordplus/web-accessibility-an-eye-opener-for-service-design-students-at-laurea-university/)
 
 ## Africa
 

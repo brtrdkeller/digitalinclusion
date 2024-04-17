@@ -52,6 +52,21 @@
       </p>
       {{ end }}
     {{ end }}
+    {{- with .Params.resources -}}
+      {{ range . }}
+      <h3>{{ .topic }}</h3>
+      <p>
+        {{ with .urls }}
+        <ul>
+          {{ range . }}
+            {{- $url := .url -}}
+            <li><a href="{{ .url }}">{{ with .name }}{{ . }}{{ else }}{{ $url }}{{ end }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </p>
+      {{ end }}
+    {{ end }}
   </div>
 </section>
 {{- end -}}

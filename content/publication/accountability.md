@@ -36,4 +36,4 @@ Prétendre prendre en compte l'accessibilité dans avoir mis en place ce process
 > 1. Comment les gens peuvent-ils vous contacter s'ils ont une question concernant l'accessibilité de votre organisation ?
 > 1. Disposez-vous d'une déclaration d'accessibilité ?  
 >
-> -- <cite>**Source** : <https://evengrounds.com/difference-between-the-accessibility-page-and-the-accessibility-statement/></cite>
+> -- <cite>**Source** : [Difference between the accessibility page and the accessibility statement](https://evengrounds.com/difference-between-the-accessibility-page-and-the-accessibility-statement/)</cite>

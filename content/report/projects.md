@@ -19,9 +19,9 @@ En se concentrant sur 3 aspects :
  
  Sur la base de cette évaluation, le rapport fournit une série de recommandations à l'intention des autorités à différents niveaux de gouvernance.
 
- Ce rapport est excellement fait car il prose à la fois une analyse contextuelle globale, mais aussi précises sur les objets techniques.
+ Ce rapport est excellement fait car il pose à la fois une analyse contextuelle globale, mais aussi très précise sur les objets techniques.
 
- On retrouve des éléments présent dans une série d'étude sur le sujet des outils numériques :
+ On retrouve des éléments présents dans une série d'étude sur le sujet des outils numériques :
 
   1. Manque d'investissement des dirigeants
   1. Forte demande des élus ou personnels proches du terrain

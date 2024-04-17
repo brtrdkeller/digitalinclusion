@@ -1,5 +1,6 @@
 ---
 title: Ressources pour l'accessibilité
+description: Liens fondamentaux regroupez par thématique pour construire le discours commercial 
 resources:
   - topic: Outils
     urls:
@@ -44,6 +45,10 @@ resources:
        url: https://www.usine-digitale.fr/article/entre-demande-de-formation-et-peur-du-remplacement-le-c-ur-des-salaries-balance.N2211077
      - name: Une fausse page Facebook de Midjourney a siphonné les données de plus d'un million d'abonnés pendant 1 an avant d'être fermée
        url: https://www.clubic.com/actualite-523452-une-fausse-page-facebook-de-midjourney-a-siphonne-les-donnees-de-plus-d-un-millions-d-abonnes-pendant-1-an-avant-d-etre-fermee.html
+     - name: Here lies the internet, murdered by generative AI
+       url: https://www.theintrinsicperspective.com/p/here-lies-the-internet-murdered-by
+     - name: End the Phone-Based Childhood Now
+       url: https://www.theatlantic.com/technology/archive/2024/03/teen-childhood-smartphone-use-mental-health-effects/677722/
   - topic: Guides
     urls:
      - name: What is Inclusive Design, and How Does it Relate to Accessibility? – Part 1
@@ -111,7 +116,7 @@ resources:
      - name: CSRD
        url: https://www.tennaxia.com/ressource/csrd-ressources-et-liens-utiles/
      - url: https://www.linkedin.com/pulse/people-disabilities-climate-change-our-crisis-too-singhal-yotzc/
-  - topic: law
+  - topic: Law
     urls:
      - name: Carte des Conformités
        url: https://github.com/Tanaguru/Map-of-Web-Accessibility-Laws-Policies/blob/master/South%20America/Brazil.mdown
@@ -119,6 +124,18 @@ resources:
        url: https://www.whoisaccessible.com/guidelines/international-web-accessibility-laws-and-policies/
      - name: Global Law and Policy
        url: https://www.lflegal.com/global-law-and-policy/
+  - topic: Position
+    urls:
+      - name: Why I Care Deeply About Web Accessibility And You Should Too
+        url: https://dev.to/schalkneethling/why-i-care-deeply-about-web-accessibility-and-you-should-too-274a
+      - name: How Disabled People Get Exploited to Build the Technology of War 
+        url: https://newrepublic.com/article/179391/wheelchair-warfare-pipeline-disability-technology
+      - name: La « souveraineté numérique », nouveau vecteur de l’influence russe en Afrique francophone ?
+        url: https://lerubicon.org/la-souverainete-numerique-nouveau-vecteur-de-linfluence-russe-en-afrique-francophone/
+  - topic: Considérations techniques
+    urls:
+      - name: Website ou Webapp
+        url: https://jakelazaroff.com/words/the-website-vs-web-app-dichotomy-doesnt-exist/
 ---
 
 

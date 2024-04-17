@@ -4,7 +4,8 @@
 <div class="tableofcontents">
     {{ range (where .Params.articles "name" $value) }}
         {{ .description | markdownify }}
-        <p>{{ with .url }}<strong>– Source :</strong> <a href="{{ . }}">{{ . }}</a></a>{{ end }}</p>
+        {{- $name := .name -}}
+        <p>{{ with .url }}<strong>– Source :</strong> <a href="{{ . }}">{{ $name }}</a></a>{{ end }}</p>
     {{ end }}
 </div>
 {{ end }}

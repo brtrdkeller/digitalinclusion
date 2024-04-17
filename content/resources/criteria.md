@@ -1,5 +1,6 @@
 ---
 title: Analyses des critères à retenir
+description: Liste de séries de critères à retenir pour construire l'outil d'évaluation
 ---
 
 End-to-end testing, also known as E2E testing, is a way to make sure that applications behave as expected…. This type of testing approach starts from the end user’s perspective and simulates a real-world scenario.
@@ -117,6 +118,9 @@ https://sheknowsseo.co/blog-accessibility-checklist/
 🚫 Don’t use green and pink if you use red and blue.  
 🚫 Don’t mix green with orange, red, or blue of the same lightness.  
 
+### User testing
+
+ 1. [Report on user testing and validation](https://accessibilitycluster.com/main-results/user-testing)
 
 ### Mobile accessibility
 

@@ -32,6 +32,7 @@
                 <header>
                     {{ with .Params.authors }}<p class=author>{{ delimit . "," }}</p>{{ end }}
                     <h1>{{ .Title }}</h1>
+                    {{ with .Description }}{{ . | markdownify }}{{ end }}
                 </header>
                 <footer>
                     <p>Handicap International</p>

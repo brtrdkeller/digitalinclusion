@@ -12,6 +12,7 @@
     --pagedjs-height-right: 216mm;
     --pagedjs-width-left: 140mm;
     --pagedjs-height-left: 216mm;
+    --marginbaseline: 30px;
 }
 
 
@@ -112,7 +113,7 @@
 
 
 :root {
-    --serif:"Open-Sans","Times New Roman", serif;
+    --serif:"Georgia","Times New Roman", serif;
     --sans-serif:'TT Norms Pro',"NHaasGroteskTXStd-55Rg", "Neue Haas Grotesk Text Std", "Arial", sans-serif;
     --baseline:8px;
     --baseline-color:cyan;
@@ -435,7 +436,7 @@ tr.text-xxs > th, th.text-xxs {
     margin-bottom: 24px;
 }
 #toc {
-    font-family: var(--sans-serif);
+    font-family: var(serif);
     break-after: right;
 }
 #toc li {
@@ -600,12 +601,12 @@ aside img {
 /* Notes */
 .footnotes {
     break-inside: avoid;
-    font-family: var(--sans-serif);
+    font-family: var(serif);
     font-size: var(--text-xs);
 }
 .footnote-ref {
     font-size: 0.625rem;
-    font-family: var(--sans-serif);
+    font-family: var(serif);
     margin-left: 0.125em;
     text-decoration: none;
 }
@@ -671,7 +672,7 @@ aside img {
 }
 #cover, 
 #first-page {
-    font-family: var(--sans-serif);
+    font-family: var(--serif);
 }
 #cover header, 
 #first-page header {
@@ -736,6 +737,21 @@ main > p[data-previous-break-after] ~ h3 {
 }
 main > .footnotes > ol {
     margin-top: 1.5px !important;
+}
+
+blockquote,.tableofcontents {
+    break-inside: avoid;
+}
+
+note {
+    font-size: 90%;
+}
+
+note::before {
+    content: " (";
+}
+note::after {
+    content: ") ";
 }
 
 @media print{
@@ -803,9 +819,8 @@ canvas {
 }
 
 .tableofcontents {
-    margin: var(--baseline,1.5em) 0 calc(var(--baseline,1.5em) * 2);
-    padding: 0 var(--baseline,1.5em) var(--baseline,1.5em);
-    color: var(--text-color);
+    margin: var(--marginbaseline,1.5em) 0 calc(var(--marginbaseline,1.5em) * 2);
+    padding: 0 var(--marginbaseline,1.5em) var(--marginbaseline,1.5em);
     border: 1px solid #dedede;
     background: rgb(226, 239, 244);
     word-wrap: break-word;

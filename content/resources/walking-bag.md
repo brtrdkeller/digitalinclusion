@@ -1,5 +1,6 @@
 --- 
 title: A walking bag of cognitive conditions as well as being a UX and Accessibility Expert
+description: Article avec plein de liens dedans concernant des handicap cognitifs
 date: 2021-05-10
 ---
 
