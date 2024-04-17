@@ -66,11 +66,11 @@ Les sujets d'infrastructure et d'interfaces peuvent sembler être éloignés. Ma
 
 #### Quelle Mission ?
 
-Les missions des ONG axées sur la question du handicap vont le plus souvent adresser leur action sur des populations en situation de handicap. La mission sera l'occasion de poser des questions plus générales sur ce que consititue la situation de handicap. Handicap non visible, handicap transitionel,...
+Les missions des ONG axées sur la question du handicap vont le plus souvent adresser leur action sur des populations en situation de handicap. La mission sera l'occasion de poser des questions plus générales sur ce que consititue la situation de handicap : handicap non visible, handicap transitionnel,...
 
-Sur le numérique 2 aspects vont élargir le sujet du handicap. 
+Avec le numérique, 2 aspects vont élargir le sujet du handicap. 
 
-Premièrement, le numérique est un terrain sur lequel la présence n'est pas effective a priori. Si on ne possède aucun appareil numérique, et que la nécessité de se connecter n'est pas indispensable, il n'existe aucune situation de handicap liée au numérique. On ne nait pas connecté, on le devient d'une certaine façon  (qui ne sera pas la même pour chacun) et avec des capacités qui dépendent d'un patrimoine cognitif, éducationnel et social pré-existant.
+Premièrement, le numérique est un terrain sur lequel la présence (existence sociale) n'est pas effective a priori. Si on ne possède aucun appareil numérique, et que la nécessité de se connecter n'est pas indispensable, il n'existe aucune situation de handicap liée au numérique. On ne nait pas connecté, on le devient d'une certaine façon  (qui ne sera pas la même pour chacun) et avec des capacités qui dépendent d'un patrimoine cognitif, éducationnel et social pré-existant.
 
 > L'utilisation d'une téléphone ne sera pas la même pour une femme au Sud Soudan ne sachant pas très bien lire que pour un cadre Japonais né dans une famille d'universitaires. 
 
@@ -78,7 +78,7 @@ De plus, l'environnement de navigation change en permanence. Un téléphone a un
 
 Enfin, l'inclusivité numérique consiste à faire des études de parcours avec le numérique et sans le numérique. Comme le téléphone qui peut servir de lampes torches dans des zones sombres.
 
-Ainsi la mission d'inclusion numérique reste une mission d'identification des parcours utilisateurs au sens large avec le numérique et sans numérique pour l'essemble des personnes ; car seule l'identification de tout type de situation de handicap peut permettre d'identifier celles étant critique (par exemple).
+Ainsi la mission d'inclusion numérique reste une mission d'identification des parcours utilisateurs au sens large avec le numérique et sans numérique pour l'essemble des personnes ; car seule l'identification de tout type de situations de handicap peut permettre d'identifier celles étant critiques (par exemple, car représentant les barrières).
 
 #### Quel développement
 

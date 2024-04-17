@@ -6,27 +6,12 @@
 </div>
 <section class="generic-single">
     <div class="container">
-        <style>
-        blockquote {
-            background: white;
-            padding: 3.5rem;
-            margin: 50px auto;
-            max-width: 80vw;
-            border: solid 2px rebeccapurple;
-            box-shadow: 13px 13px 0 0 white,
-                        15px 15px 0 0 rebeccapurple,
-                        15px 11px 0 0 rebeccapurple,
-                        11px 15px 0 0 rebeccapurple;
-            }
-        blockquote p {
-            display: block;
-            margin-bottom: 0;
-        }
-        </style>
     {{ range $.Site.Data.quote }}
         <blockquote>
         {{ .citation | markdownify }}
-        <p><strong>{{ .author }}</strong></p>
+        <footer>
+            <cite>{{ .author }}</cite>
+        </footer>
         </blockquote>
     {{ end }}
     </div>

@@ -29,6 +29,10 @@ title: World of A11Y
  1. [Innovative business models for small farmer inclusion](https://www.fao.org/3/cb0700en/CB0700EN.pdf)
  1. [Promoting the digitalization of small and medium-sized agrifood enterprises in Asia and the Pacific](https://www.fao.org/documents/card/en/c/cc8826en)
 
+###
+
+ 1. https://www.decentjobsforyouth.org/guiding-principles#impact
+
 ## OCDE 
  
  1. [Going Digital Project](https://www.oecd.org/digital/going-digital-project/)
@@ -103,6 +107,7 @@ title: World of A11Y
 ### India 
 
  1. https://techmoreitsolutions.com/
+ 1. Digital green en inde ? Agriculture.
 
 ### Philippine
  

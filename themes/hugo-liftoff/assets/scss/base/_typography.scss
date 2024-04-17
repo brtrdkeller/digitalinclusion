@@ -10,6 +10,10 @@
   font: normal 125% / 1.4 $text-font-stack;
 }
 
+p {
+  text-wrap: pretty;
+}
+
 .summary-text {
   font-weight: 300;
   @include font-size('base');

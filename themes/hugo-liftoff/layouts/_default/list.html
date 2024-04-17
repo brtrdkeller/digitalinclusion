@@ -32,13 +32,7 @@
       {{- if (eq .Parent.Type "study") }}
         <h2 id="{{ anchorize .Title }}">
           {{ add $id 1 }} - {{ .Title }}
-          <a href="#{{ anchorize .Title | safeURL }}">
-            <svg role="img" aria-labelledby="{{ anchorize . | safeURL }}-IconTitle" fill="var(--color-primary)" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
-              <title id="{{ anchorize . | safeURL }}-IconTitle">Link to this heading</title>
-              <path d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
-            </svg>
-          </a>
+          <a href="#{{ anchorize .Title | safeURL }}"></a>
         </h2>
         {{ partialCached "content.html" .Content .Content }}
         <br>
@@ -65,7 +59,7 @@
           Les interlocuteurs ont essayé de pointer des risques majeurs ou points focals sur lesquels s'attarder. Le graphique suivant liste ces points avec leur occurence d'apparition sur toutes les interviews.<br>
           Il conviendra de mieux préciser les termes généraux recensés, ci-dessous. Exemple : l'<i>emploi</i> peut concerner le staff HI, comme l'emploi des personnes dans des programmes HI ; <i>expertise</i> peut concerner un expert confirmé, comme le besoin d'une meilleure expertise interne.
         </p>
-        {{ partial "interviews/topicsstats.html" (dict "context" . "pages" $pages) }}
+        
     {{ template "_internal/pagination.html" . }}
   </section>
 </div>

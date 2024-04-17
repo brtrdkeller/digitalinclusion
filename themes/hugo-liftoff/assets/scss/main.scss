@@ -217,6 +217,12 @@ hr:before {
   max-width: 900px; 
 }
 
+.chart-pie {
+  margin-inline: auto;
+  max-width: 500px;
+  max-height: 500px;
+}
+
 .list.chart {
   gap: 3rem; 
 }
@@ -254,6 +260,7 @@ hr:before {
   color: var(--text-color);
   border: 1px solid #dedede;
   background: rgb(226, 239, 244);
+  word-wrap: break-word;
 }
 
 .tableofcontents ul, .tableofcontents ol {
@@ -261,7 +268,7 @@ hr:before {
   padding-left: var(--baseline,1.5em);
 }
 
-.tableofcontents a {
+.tableofcontents li a {
   color: var(--text-color);
 }
 

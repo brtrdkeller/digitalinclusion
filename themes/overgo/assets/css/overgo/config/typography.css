@@ -121,4 +121,5 @@ h3 small {
 
 p {
   margin: 0 0 var(--baseline,1.5em);
+  text-wrap: balance;
 }

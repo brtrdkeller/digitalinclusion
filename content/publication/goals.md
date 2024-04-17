@@ -10,3 +10,5 @@ Il convient de savoir où placer l'accessibilité numérique par rapport à l'ac
 
 Nous devons déterminer quelle est la relation entre la mission de Handicap International et l'usage du numérique sur les terrains ou dans les cycles projets.
 
+{{< quote 4 >}}
+

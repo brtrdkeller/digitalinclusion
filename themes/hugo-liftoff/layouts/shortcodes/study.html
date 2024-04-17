@@ -1,9 +1,10 @@
 
 {{ $value := .Get 0 }}
 {{ range (where ($.Site.GetPage "section" "projects").RegularPagesRecursive "Title" "Papiers de recherche") }}
-<div>
+<div class="tableofcontents">
     {{ range (where .Params.articles "name" $value) }}
         {{ .description | markdownify }}
+        <p>{{ with .url }}<strong>– Source :</strong> <a href="{{ . }}">{{ . }}</a></a>{{ end }}</p>
     {{ end }}
 </div>
 {{ end }}

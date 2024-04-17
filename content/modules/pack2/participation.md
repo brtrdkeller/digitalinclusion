@@ -1,5 +1,5 @@
 ---
-title: Make It Work
+title: Making It Work
 sorte: Application
 description: "Soutiens d'un cycle de projet complet à travers des compétences seniors."
 goals:

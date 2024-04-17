@@ -1,10 +1,7 @@
 ---
-title: Rapport
+title: Rapport de l'étude sur l'accessibilité numérique.
 type: study
+authors: 
+    - Bertrand Keller
 ---
-
-## 1. Wordwilde
-## 2. Niveau de connaissance de HI.
-## 3. Au regard des projets
-## 4. HI comme employeur
 

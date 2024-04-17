@@ -24,7 +24,7 @@ Un organisme doit respecter sa **mission sociale**. Il a une responsabilité env
 
 Prétendre prendre en compte l'accessibilité dans avoir mis en place ce processus révèle d'un manque de responsabilité de l'organisme.
 
-### Exemple de question à se poser sur l'engagement d'accessibilité d'un organisme
+#### Exemple de questions à se poser sur l'engagement d'accessibilité d'un organisme
 
 > 1. Êtes-vous engagé en faveur de l'accessibilité ? 
 > 1. Êtes-vous en conformité avec la législation ?
@@ -36,4 +36,4 @@ Prétendre prendre en compte l'accessibilité dans avoir mis en place ce process
 > 1. Comment les gens peuvent-ils vous contacter s'ils ont une question concernant l'accessibilité de votre organisation ?
 > 1. Disposez-vous d'une déclaration d'accessibilité ?  
 >
-> **Source** : <https://evengrounds.com/difference-between-the-accessibility-page-and-the-accessibility-statement/>
+> -- <cite>**Source** : <https://evengrounds.com/difference-between-the-accessibility-page-and-the-accessibility-statement/></cite>

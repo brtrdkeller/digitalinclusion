@@ -22,7 +22,7 @@ title: Model
 
 3. Quel est ton domaine d'activité ?
 
-4. Ton organisme est à l'origine de référentisl sur le numérique, queel serait pour toi les élement sindipensable à vérifier dans la conception d'un service nuémrique ?
+4. Ton organisme est à l'origine de référentisl sur le numérique, quel serait pour toi les élement sindipensable à vérifier dans la conception d'un service nuémrique ?
 
 5. Tu dois organiser une formation d'une journée, quel concept clefs tu veux faire passer ?
 

@@ -2,3 +2,12 @@
   [module.hugoVersion]
     extended = true
     min = "0.111.0"
+
+[outputformats]
+  _merge = 'deep'
+[outputFormats.pagejs]
+  baseName = "print"
+  mediaType = "text/html"
+  notAlternative = false
+  permalinkable = true
+  isHTML = true
