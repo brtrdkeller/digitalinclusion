@@ -16,7 +16,7 @@
     "sector": "",
     "successfactors": [Participation,Beneficiary],
     "developfactors": [Formation],
-    "issues": [Consistency,Competitor],
+    "issues": [Consistency,Competition],
     "accountability": "no",
     "needexpert": "oui"
   },

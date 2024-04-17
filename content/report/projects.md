@@ -49,9 +49,11 @@ Cet appel constitue un exemple de demande d'un bailleur sur le numérique. Un ex
 
 #### Sud Soudan : WiDEF
 
-Un financement sur la fracture numérique entre hommes et femmes a été publié par l'ONG WiDEF (Women in the Digital Economy Fund). Cette structure est géré par Bil et Melinda Gates.
+Un financement sur la fracture numérique entre hommes et femmes a été publié par l'[ONG WiDEF](https://widef.global/) (Women in the Digital Economy Fund). Cette structure est géré par Bil et Melinda Gates.
 
 Elle vise à proposer des mesures pour limiter les barrières présentes pour les femmes dans des sociétés numérisées.
+
+> Scale existing solutions that have made measurable progress toward closing the gender digital divide in their contexts and contribute to transformative approaches to digital inclusion. WiDEF will support entities that are rooted in the communities in which they seek to affect change and have demonstrated successful approaches to advancing gender equality and/or digital inclusion for women, girls, and marginalized populations, such as persons with disabilities and indigenous peoples
 
 A savoir, que qu'il existe des études de l'association GSMA sur la "Gender Digital Divide". Ces études consistent en des questionnaires réalisés auprès de femmes sur l'utilisation de téléphones cellulaires et de smartphones.
 

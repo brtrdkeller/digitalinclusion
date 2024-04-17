@@ -53,9 +53,9 @@ Mais la méthode d'obtention de ce chiffre pourrait servir pour des évaluations
 
 ### Sujets évoqués lors des interviews
 
-Pour obternir quelques indicateurs semi-quantitatifs, les questions avaient pour but d'emmener les interrogés vers ce qu'on pourrait appeller des grands thèmes. Les thèmes se sont affinés au cours du temps, sans pour autant rester fermé sur leur nombre. Certains sont apparus dans les dernières interviews avec les opérationnels.
+Pour obternir quelques indicateurs semi-quantitatifs, les questions avaient pour but d'emmener les interrogés vers ce qu'on pourrait appeller des grands thèmes. Les thèmes se sont affinés au cours du temps, sans pour autant rester fermés sur leur nombre. Certains sont apparus dans les dernières interviews avec les opérationnels.
 
-Les thèmes répondent à la question du problème de ne pas prendre en compte le sujet de l'accessibilité numérique en compte dans la mission de HI. Cela suite à la description de ce en quoi consiste l'accessibilité numérique, sans autre forme d'autre évocation de leur activité.
+Les thèmes répondent à la question du problème de ne pas prendre en compte le sujet de l'accessibilité numérique en compte dans la mission de HI (la question est posée sousla forme négative). Faisant suite à : la description de ce en quoi consiste l'accessibilité numérique (sans autre forme d'autre évocation de leur activité).
 
 {{< charts "issues" >}}
 
@@ -85,30 +85,27 @@ Sur des facteurs de succès cités aux interrogés, lequel présente le moins d'
 
 {{< charts "success" >}}
 
-On retrouve en tête la "Participation" et la "Formation". Ce qui peut être vue comme le besoin d'avancer sur la sujet par la pratique à travers une convergence de regard (entre secteurs ou métiers HI).
+On retrouve en tête la "Participation" et la "Formation". 
+
+Ce qui peut être vu comme le besoin d'avancer sur le sujet par la pratique à travers une convergence de regards (entre secteurs ou métiers HI). Ou encore un manque de cohérence entrela stratégie et le terrain.
 
 ### Ce qu'il manque ?
 
-* Intégrer l'accessibilité à tous les stades de la conception et de la planification de l'événement
-* S'attaquer aux handicaps invisibles ; répercuter toutes les bonnes pratiques internes à l'échelle du système ; 
-* établir un point focal pour les handicaps ; 
-* prendre en charge les coûts de participation des personnes handicapées et utiliser davantage les technologies d'assistance.
+Listons les élements phares qu'il pourrait manquer pour se lancer dans l'accessibilité numérique.
 
-1. Un processus interne d'innovation sociale
-1. Regard miroir
-1. Projets Pilotes
-1. Un comité de réflexion sur comment améliorer le regard
-1. Un banc de test en interne
-1. Une équipe d'assistance projets sur place
-
-Exemple Objectif: meilleure réponse aux offres.
-Avoir une meilleure reponse aux offres pour obtenir les offres. Mais aussi pour mieux évaluer le type de réponse.  
-
-Pour augmenter le niveau général des employés de HI et de les faire participer à la réflexion sur les meilleurs manières faire évoluer les cycles projets ; il serait possible d'associer à chaque projets des resources numériques.
+ * Intégrer l'accessibilité à tous les stades de la conception et de la planification
+ * S'attaquer aux handicaps invisibles ; répercuter toutes les bonnes pratiques internes à l'échelle du système
+ * Etablir un point focal pour les handicaps
+ * Prendre en charge les coûts de participation des personnes handicapées et utiliser davantage les technologies d'assistance.
 
 ### Ce qu'il faudrait lancer
 
-  1. Insérer une culture du numérique (assistance projet interne)
-  1. Diversité des acteurs
-  1. Des projets pilotes
-  1. Un regard sur les technologie d'assistance
+Listons ce qui pourrait être mis en place piur démarrer.
+
+ 1. Un processus interne d'Innovation Sociale
+ 1. Regard miroir entre nos pratiques et les demandes terrain
+ 1. Projets Pilotes
+ 1. Un comité de réflexion sur comment améliorer le regard sur le handicap avec le numérique
+ 1. Un banc de test en interne (différents appareils mis en condition terrain)
+ 1. Une équipe d'assistance projets étoffées (culture interne)
+ 1. Une approche transverse

@@ -3,7 +3,12 @@ title: Accessibilité numérique dans le monde humanitaire
 weight: 1
 ---
 
+### Présentation
+
 Quelle prise en compte de l'accessibilité numérique au niveau mondial. Quelle est la position des Nations Unis ? Quelles sont les ONG qui agissent sur ce sujet ? Quelles évolution en fonction des continents ou régions ?
+
+Nous aimerions bien le savoir. Il sera évidemment compliqué de donner des réponses définitives sur le sujet, mais essayons de chercher dans ce sens pour établir un veille dans le temps ; essayer de saisir le caractère mouvant du sujet.
+
 
 ### Plan large
 

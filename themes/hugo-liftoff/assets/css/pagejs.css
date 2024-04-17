@@ -169,15 +169,11 @@ h2 {
     break-before: page;
 }
 h2:before {
-    content: "Cahier n°"counter(chapters);
     display: block;
     font-size: var(--text-xl);
     line-height: calc(var(--baseline) * 4);
     margin-bottom: 23px;
     margin-top: 1px;
-}
-h3:not(.toc-title) {
-    break-before: page;
 }
 
 h3 {
@@ -463,8 +459,12 @@ tr.text-xxs > th, th.text-xxs {
     padding-left: 0;
     margin-top: 0;
 }
+#list-toc-generated a { 
+    text-decoration: none;
+}
 #list-toc-generated .toc-element-level-1 {
     margin-top: 16px;
+    font-weight: bold;
 }
 #list-toc-generated .toc-element-level-2 {
     font-size: var(--text-sm);
@@ -473,15 +473,6 @@ tr.text-xxs > th, th.text-xxs {
     font-size: var(--text-sm);
     font-weight: normal;
     position: relative;
-}
-#list-toc-generated [data-counter-countertoclevel1-value="1"]:before {
-    content: "Cahier n°1";
-}
-#list-toc-generated [data-counter-countertoclevel1-value="2"]:before {
-    content: "Cahier n°2";
-}
-#list-toc-generated [data-counter-countertoclevel1-value="3"]:before {
-    content: "Cahier n°3";
 }
 /* counters */
 #list-toc-generated { 
@@ -804,10 +795,11 @@ main > .footnotes > ol {
     #colophon, #last-page {
         break-before: left;
     }
-    h2 {
-        break-after: right;
-        break-before: right;
-    }
+    
+}
+
+canvas {
+    display: none !important;
 }
 
 .tableofcontents {
