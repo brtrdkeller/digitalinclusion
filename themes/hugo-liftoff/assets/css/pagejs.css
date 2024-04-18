@@ -369,10 +369,13 @@ blockquote {
                 9px 13px 0 0 rebeccapurple;
   }
   
-  blockquote p {
+  blockquote p, blockquote li {
     font-size: 90%;
     font-weight: 600;
     line-height: 1.4;
+  }
+  blockquote li {
+    font-size: 85%;
   }
 
 blockquote > footer {
@@ -380,6 +383,9 @@ blockquote > footer {
     font-size: var(--text-sm);
     margin-bottom: 3.5px;
     margin-top: 5px;
+}
+blockquote > footer p,.tableofcontents > footer p {
+    margin: 0;
 }
 blockquote + p {
     margin-top: 21px;

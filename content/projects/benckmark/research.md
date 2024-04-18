@@ -131,6 +131,32 @@ articles:
       
       Ces résultats peuvent guider la recherche future dans la création d'une santé en ligne accessible à tous, y compris aux personnes ayant les difficultés les plus importantes. 
     url: https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-023-15094-z
+  - name: "Difference between the accessibility page and the accessibility statement"
+    topic: compliance
+    description: |- 
+      1. Êtes-vous engagé en faveur de l'accessibilité ? 
+      1. Êtes-vous en conformité avec la législation ?
+      1. Si ce n'est pas le cas, dans quelle mesure vous y conformez-vous ?
+      1. Disposez-vous d'une feuille de route en matière d'accessibilité ?
+      1. Testez-vous vos produits et services avec des technologies d'assistance ?
+      1. Testez-vous vos produits et services en demandant l'avis de personnes handicapées ?
+      1. Allez-vous au-delà des exigences légales ?
+      1. Comment les gens peuvent-ils vous contacter s'ils ont une question concernant l'accessibilité de votre organisation ?
+      1. Disposez-vous d'une déclaration d'accessibilité ?  
+    url: https://evengrounds.com/difference-between-the-accessibility-page-and-the-accessibility-statement/
+  - name: "La Qualité des services doit respecter 10 critères"
+    topic: compliance
+    description: |-
+      1. Disponibilité
+      1. Participation/approches participatives
+      1. Non-discrimination
+      1. Accessibilité
+      1. Adaptabilité
+      1. Prix abordable
+      1. Centré sur la personne
+      1. Responsabilité
+      1. Continuité
+      1. Qualité technique
 ---
 
     

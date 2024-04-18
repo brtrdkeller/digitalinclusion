@@ -18,10 +18,10 @@ Il s'agit bien de mettre en place un système différent de prise de décision e
 
 Ce qu'on apprend dans l'expérience de la réalisation de services numériques, c'est que chaque projet est spécifique. Il n'existe pas de contexte unique.
 
-Le numérique, malgré sont aspect extérieur uniforme, de proposition d'une interface qui serait la même pour chacun des utilisateurs, est soumis à la très forte variété des pratiques humaines.
-La capacité d'intéragir avec une interface dépend d'un variété de facteurs allant de l'équipement, à la culture... jusqu'à l'humeur d'un jour.
+Le numérique, malgré son aspect extérieur uniforme, avec interface qui seraient la même pour chacun des utilisateurs, est soumis à la très forte variété des pratiques humaines.
+La capacité d'intéragir avec une interface dépend d'un diversité de facteurs allant de l'équipement, à la culture... jusqu'à l'humeur d'un jour.
 
-Ainsi, ce n'est pas presque pas apprendre qu'il convient de mettre en pratique, mais d'apprendre à apprendre. L'assistance à la mise en place d'un processus d'amélioration de l'accessibilité tient donc plus dans la bonne réalisation des modalités que dans les modalités elles-même.
+Ainsi, ce n'est pas apprendre l'accessibilité numérique qu'il convient de mettre en pratique ; mais d'apprendre à apprendre comment améliorer l'accessibilité numérique. L'assistance à la mise en place d'un processus d'amélioration de l'accessibilité tient donc plus dans la bonne réalisation des modalités que dans les modalités elles-même.
 
 **Exemple :** Un facteur de succès pour l'amélioration de l'accessibilité est la *Participation des parties prenantes*. Si les personnes exclues par le numérique sont par essence invisibilisées ; comment déterminer qui sont les parties prenantes à inviter ? Une fois un atelier de partage organisé ; comment déterminer si chaque partie prenante a bien pu s'exprimer ?  
 Ce n'est que par la pratique que ce processus peut s'améliorer.
@@ -44,6 +44,8 @@ En France, la loi demande la rédaction d'une Schéma Pluri-Annuel d'une validit
 
 ### Suivi
 
+Encore une fois qu'est-ce que l'outil informatique : un outil, une aide... une solution ? Certanes pratiques laissent penser que des algorithmes pourrait aider à améliorer l'accessibilité, masi ce sont les erreurs humaines qu'il faut détecter.
+
 > Lorsque davantage de personnes seront en mesure de détecter (et de prévenir) les problèmes d'accessibilité, nous aurons également des produits numériques plus accessibles, et nous n'aurons pas besoin d'outils "automatiques" douteux qui ne font souvent qu'empirer les choses en fin de compte.
 
 Accessibility continue
@@ -52,5 +54,7 @@ Analyse semi-automatisée
 
 #### Des indicateurs
 
-{{< study "An e-Government Implementation Framework: A Developing Country Case Study" >}}
+Quels indicateurs produire afin de suivre les évolutions de l'accessibilité ? Sachant
+
+{{< study "An e-Government Implementation Framework: A Developing Country Case Study" "Un cadre de mise en œuvre de l'e-gouvernement : Une étude de cas dans un pays en développement" >}}
   

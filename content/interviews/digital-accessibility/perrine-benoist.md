@@ -85,7 +85,7 @@ Gaza : lead de la réponse, on est parfois les seuls, On devrait gérer comme si
  - Changer les processus de travail. Et être en capacité de changer les choses en interne. 
  => Traduire ce qui se passe sur le terrain. Sensibiliser un opérateur pays, pour pas qu'il dise : mais ça c'est pas important (genre le handicap c'est pas important).
  - On devrait avoir un commexe de politiques inclusions avec dedans une diversité de membres (métier).
- - + avoir une compétence technique.
+ - Avoir aussi une compétence technique.
 
 **8. Que penses-tu de la prise en compte de l'accessibilité numérique en interne et sur le terrain par HI ?**
 

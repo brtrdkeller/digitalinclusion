@@ -11,7 +11,7 @@ L'Initiative sur l'Accessibilité du web ou Web Accessibility Initiative (WAI) f
 
 ### Les versions des WCAG
 
-Il existe plusieurs versions du WCAG, en effet la manière de voir l'accessibilité évolue, tout comme les technologie. Il est donc nécessaire de faire évoluer le guide.
+Il existe plusieurs versions du WCAG, en effet la manière de voir l'accessibilité évolue, tout comme les technologies. Il est donc nécessaire de faire évoluer le guide.
 
   1. WCAG 1.0 - 1999
   1. WCAG 2.0 - 2008

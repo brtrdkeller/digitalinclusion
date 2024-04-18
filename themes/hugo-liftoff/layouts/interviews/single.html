@@ -29,9 +29,15 @@
           {{- range $key, $value := index (unmarshal (readFile (printf "%s/%s" $path .Name))) "form" }}
           {{- range .questions}}
             {{- if ne .name "name" }}
-            {{- if index $.Params.data (anchorize .label) }}
-              <strong>{{ .label }}</strong><br>
-              {{ index $.Params.data (anchorize .label) | markdownify }}<br><br>
+            {{- if or (index $.Params.data (anchorize .label)) (index $.Params.data (.label)) }}
+              <p><strong>{{ .label }}</strong></p>
+              {{- $markdown := cond (not (index $.Params.data (anchorize .label))) "" (index $.Params.data (anchorize .label)) }}
+              {{- $markdown := (printf "%s%s" (index $.Params.data (.label)) $markdown) | markdownify}}
+              {{ if not ( findRE "<[h|p][^>]*>" $markdown ) }}
+                  <p>{{ $markdown }}</p>
+              {{ else }}
+                  {{ $markdown }}
+              {{ end }}
             {{- end }}
             {{- end }}
           {{- end }}

@@ -3,6 +3,9 @@
     extended = true
     min = "0.111.0"
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [outputformats]
   _merge = 'deep'
 [outputFormats.pagejs]

@@ -20,20 +20,8 @@ d'**amélioration de l'accessibilité**
   1. Une stratégie
   1. Une évaluation
 
-Un organisme doit respecter sa **mission sociale**. Il a une responsabilité envers ses clients, employés, utilisateurs, partenaires, l'administration...
+Un organisme doit assumer sa **responsabilité sociale**. Il a une responsabilité envers ses clients, employés, utilisateurs, partenaires, l'administration...
 
 Prétendre prendre en compte l'accessibilité dans avoir mis en place ce processus révèle d'un manque de responsabilité de l'organisme.
 
-#### Exemple de questions à se poser sur l'engagement d'accessibilité d'un organisme
-
-> 1. Êtes-vous engagé en faveur de l'accessibilité ? 
-> 1. Êtes-vous en conformité avec la législation ?
-> 1. Si ce n'est pas le cas, dans quelle mesure vous y conformez-vous ?
-> 1. Disposez-vous d'une feuille de route en matière d'accessibilité ?
-> 1. Testez-vous vos produits et services avec des technologies d'assistance ?
-> 1. Testez-vous vos produits et services en demandant l'avis de personnes handicapées ?
-> 1. Allez-vous au-delà des exigences légales ?
-> 1. Comment les gens peuvent-ils vous contacter s'ils ont une question concernant l'accessibilité de votre organisation ?
-> 1. Disposez-vous d'une déclaration d'accessibilité ?  
->
-> -- <cite>**Source** : [Difference between the accessibility page and the accessibility statement](https://evengrounds.com/difference-between-the-accessibility-page-and-the-accessibility-statement/)</cite>
+{{< study "Difference between the accessibility page and the accessibility statement" "Exemple de questions à se poser sur l'engagement d'accessibilité d'un organisme">}}
