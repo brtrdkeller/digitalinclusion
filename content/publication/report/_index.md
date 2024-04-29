@@ -1,6 +1,8 @@
 ---
-title: Rapport de l'étude sur l'accessibilité numérique.
+title: Rapport de l'étude interne sur l'accessibilité numérique
 subtitle: Numérique responsable en milieu humanitaire
+description: |-
+  Retour sur l'étude effectuée en interne pendant la mission de 4 mois.
 type: study
 authors: 
     - Bertrand Keller

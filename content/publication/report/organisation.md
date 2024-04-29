@@ -26,17 +26,17 @@ Les services à l'usage des employés ont des scores RGAA plutôt bas.
 
 #### Conformité des applications dans les programmes
 
-Il n'existe presqu'aucune prise en compte de l'accessibilité numérique pour les services développés sur les terrains. En tout cas pas de budget conséquent.
+Il n'existe presqu'aucune prise en compte de l'accessibilité numérique pour les services développés sur les terrains. En tout cas pas de budget attribué.
 
-Pour OpenTeleRehab, une page existe, mais rédigée par les développeurs de l'application eux-même. Elle ne correspond à pas à ce qui est attendu.
+Pour [OpenTeleRehab](https://www.opentelerehab.com), une page existe, mais rédigée par les développeurs de l'application eux-même. Elle ne correspond à pas à ce qui est attendu.
 
 ### Plan d'action cycle projet
 
-La DSI suit les sujet de l'amélioration des scores RGAA de ses applications. Mais il n'existe aucun plan schéma pluri-annuel, ni de plan d'action annuel.
+La DSI suit les sujets de l'amélioration des scores RGAA de ses applications. Mais il n'existe aucun schéma pluri-annuel, ni de plan d'action annuel.
 
-C'est-à-dire aucun budget réel dédié pour ce sujet.
+C'est-à-dire aucune stratégies réelle dédiée à ce sujet.
 
-Les audits ont été réalisé par une statigaire en interne sans expérience confirmé en informatique. Toutes les actions découlent de la réalité de ces audits. 
+Les audits ont été réalisés par une statigaire en interne sans expérience confirmée en informatique. Toutes les actions découlent de la réalité de ces audits. 
 
 Ce qui évidemment ne peut pas amener à une amélioration significative de l'accessibilité.
 

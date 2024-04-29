@@ -12,6 +12,7 @@ projects_section_heading: Projects
 outputs:
   - html
   - pagejs
+  - presentation
 disableKinds:
   - RSS
   - taxonomy
@@ -19,13 +20,15 @@ disableKinds:
   - accessibility  
 cascade:
 - _target:
-    path: /publication/_index.md
+    path: /publication/**
   outputs:
     - html
     - pagejs
+    - presentation
 - _target:
     path: /report/_index.md
   outputs:
     - html
     - pagejs
+    - presentation
 ---

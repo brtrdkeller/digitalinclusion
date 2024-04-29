@@ -1,5 +1,5 @@
 ---
-title: Projects
-summary: Some projects to explore
+title: Recherche
+summary: Travail exploratoire
 description: 
 ---

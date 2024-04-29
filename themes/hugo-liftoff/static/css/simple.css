@@ -36,10 +36,6 @@ body {
     color: #164791;
   }
   
-  em {
-    font-style: normal;
-  }
-  
   li,
   .nowrap {
     white-space: nowrap;

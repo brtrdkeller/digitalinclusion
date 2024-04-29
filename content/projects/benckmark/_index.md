@@ -1,5 +1,5 @@
 ---
-title: Benchmark
+title: Veille comparative
 seo_title: Benchmark
 summary:
 description: 

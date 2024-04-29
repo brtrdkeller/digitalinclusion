@@ -14,3 +14,9 @@
   notAlternative = false
   permalinkable = true
   isHTML = true
+[outputFormats.presentation]
+  baseName = "presentation"
+  mediaType = "text/html"
+  notAlternative = false
+  permalinkable = true
+  isHTML = true

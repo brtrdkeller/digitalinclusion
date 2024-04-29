@@ -112,7 +112,7 @@ articles:
         1. Infrastructure TIC
         1. Formulation adéquate des lois et des politiques politiques 
         1. Sensibilisation 
-        1. Soutien de l'encadrement supérieur et du gouverne-ment gouvernemental 
+        1. Soutien de l'encadrement supérieur et du gouvernement 
         1. Efficacité de l'ordinateur de l'utilisateur 
         1. Implication des parties prenantes 
         1. Communication et gestion du changement changement 

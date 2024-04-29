@@ -7,14 +7,19 @@
         {{- . -}}
       {{- else -}}
         {{- with .Description -}}
-          {{- . -}}
+          {{- . | markdownify -}}
         {{- end -}}
       {{- end -}}
     </p>
     {{- if (eq .Type "study") }}
+    {{ $slides := .Params.slides }}
+    <br>
+    <ul class="list-unstyled list-inline">
     {{- range where .OutputFormats "Rel" "alternate" }}
-      {{- if (eq .Format.BaseName "print") }}<p>>&nbsp;<a href="{{ .Permalink | safeURL }}">Lien vers la version à imprimer</a></p>{{ end }}
+      {{- if (eq .Format.BaseName "print") }}<li>>&nbsp;<a href="{{ .Permalink | safeURL }}">Lien vers la version à imprimer</a></li>{{ end }}&nbsp;
+      {{- if $slides }}{{- if (eq .Format.BaseName "presentation") }} - <li>&nbsp;<a href="{{ .Permalink | safeURL }}">Lien vers la version présentation</a></li>{{ end }}{{ end -}} 
     {{- end }}
+   </ul>
     {{- end }}
   </section>
   <section>

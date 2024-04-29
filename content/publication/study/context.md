@@ -29,3 +29,19 @@ L'accessibilité numérique désigne l'accessibilité avec le numérique en plus
 
 **Les interfaces numériques doivent rester des aides et ne pas devenir des freins.**
 
+### Les disparités
+
+La recherche des attentes numériques dans le domaine de l'humanitaire montrent une forte demande pour limiter les écarts entre population sur des projets d'insertion économique ou sociale (par exemple).
+
+Une fois la possession d'un téléphone considérée comme essentielle, des programmes auront pour but de cibler des types de personnes pour éviter qu'elles ne soient discriminées.
+
+La discrimination par des conditions intersectionnalité est un sujet assez bien considéré par HI. Plus, on prend en compte ces particularités, plus les sujets sensibles remontent. Notamment celui du harcélement.
+
+Si la possession d'une téléphone permet d'avoir un contact en cas de situation d'urgence, il peut aussi mettre des personnes dans des situations de harcélement sévère ; si rien n'est mis en place pour le considérer.
+
+Le numérique peut donc amener à de grandes disparités dans des disparités déjà existantes.
+
+
+
+
+
