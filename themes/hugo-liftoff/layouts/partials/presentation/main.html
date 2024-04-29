@@ -63,6 +63,9 @@
             color: #fff;
             text-decoration: underline;
         }
+        li {
+            max-width: 30ch;
+        }
     </style>
 </head>
 
@@ -77,7 +80,7 @@
     {{ $collection := union ($.Parent.Resources.ByType "image") ($.Resources.ByType "image") -}}
     {{ if (reflect.IsSlice .Params.slides) }}
     <div data-body-style="background: #222; color: #fff;">
-        {{ if .Params.subtitle }}{{ .Params.subtitle }}{{ else }}{{ .Title }}{{ end }}
+        {{ if .Params.subtitle }}{{ .Params.subtitle | markdownify }}{{ else }}{{ .Title }}{{ end }}
     </div>
     {{ range $key, $value := $slides }}
     <div {{ with .part }} data-body-style="background: #164791; color: #fff;"{{ end }}{{ with .focus }} data-body-style="background: #c61818; color: #fff;"{{ end }}>
@@ -88,7 +91,7 @@
     <div class="reveal deck1">
         <div class="slides absolute">
             <section data-background-color="#222">
-            <h1>{{ if .Params.subtitle }}{{ .Params.subtitle }}{{ else }}{{ .Title }}{{ end }}</h1>
+            <h1>{{ if .Params.subtitle }}{{ .Params.subtitle | markdownify }}{{ else }}{{ .Title }}{{ end }}</h1>
             </section>
             {{ range $key, $value := $slides.content }}
             {{ $.Scratch.Set "background" "" }}

@@ -41,7 +41,7 @@ slides:
         ## Milieu humanitaire
         Guidances internationales 
         
-        (ex. ONU UNDYS)
+        (ex. ONU UNDiS)
     - title: 3. Le visible et l'invisible
     - texte: On conçoit selon sa propre vision du monde
     - focus: |-
