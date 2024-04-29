@@ -21,6 +21,10 @@ Dans une logique analytique, on aura des indicateurs qui donneront des informati
 
 En logique systémique, l'évaluation ne pourra déterminer si un état est totalement vrai ou totalement faux. On sera plus dans une notion de présence ou non d'une considération. La pertinence d'un paramètre dépendant très fortement du contexte.
 
+> Adopter une approche systémique, c’est adopter une démarche pour étudier un système qui s’efforce, au lieu de saisir séparément les différentes parties, d’appréhender de façon globale l’ensemble des composants du système en s’intéressant tout particulièrement à leurs liaisons.
+>
+> [Chapitre 1. Qu’est-ce que l’approche systémique ? - Arlette Yatchinovsky](https://www.cairn.info/l-approche-systemique--9782710134565-page-13.htm)
+
 Pour limiter les effets pervers de la complexité, la logique systémique s'attachera à mesurer la présence des éléments favorisant (ou non) le facteur de complexité.
 
 ### Quel indicateur ?
@@ -44,5 +48,13 @@ Si l'accessibilité est ce trait d'union de la responsabilité face au système 
  1. Critères certains (certitude de justesse d'audit connue)
  1. Critères multi-activités (tous domaines de compétences)
  1. Critères multi-échelons (tous niveaux hiérarchiques)
+
+### Les actions
+
+L'activité d'accessibilité nuémrique consiste donc à proposer des actions pour améliorer les liaisons. 
+
+Pour cela, il est nécessaire de prendre la témpérature de manière régulière et répétée. Puis de fournir un diagnostic, par l'écoute du patient, sur les actions potentiellement à mener pour améliorer la cohérence des actions au regard de la repsonsabilité.
+
+C'est donc à partir d'un rapport d'évaluation, ponctué d'actions simples et vérifiables, qu'il sera possible d'assister des organismes sur ce sujet de l'accessibilité numérique, pour aller vers la conformité.
 
 

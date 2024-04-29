@@ -1,13 +1,7 @@
 ---
-title: Offers
+title: Offres
 
 feature_image: website.jpg
 
-draft: false
-
-techstack:
-    - Accessibility
-    - Offers
-    - Finance
 ---
 
