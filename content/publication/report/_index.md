@@ -1,5 +1,5 @@
 ---
-title: Rapport de l'étude interne sur l'accessibilité numérique
+title: "Étude : HI et l'accessibilité numérique"
 subtitle: Offre ATI - Accessibilité numérique
 description: |-
   Retour sur l'étude effectuée en interne pendant la mission de 4 mois.

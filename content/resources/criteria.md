@@ -95,6 +95,10 @@ Lien : https://design-accessible.fr/checklist
 
 https://sheknowsseo.co/blog-accessibility-checklist/
 
+### WCAG Testing Checklist by Accessguide
+
+https://www.accessguide.io/wcag-testing-checklist
+
 
 ### Color for blind people
 

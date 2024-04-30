@@ -1,5 +1,5 @@
 ---
-title: Recherche
+title: Étude
 summary: Travail exploratoire
 description: 
 ---

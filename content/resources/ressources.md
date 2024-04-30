@@ -27,6 +27,8 @@ resources:
        url: https://www.weforum.org/press/2023/09/edison-alliance-expands-to-close-global-digital-gap/
      - name: Accessibility, digital divide and skills challenges and opportunities ?
        url: https://www.youtube.com/watch?v=qnrDMVmPaa4
+     - name: The Digital Access Divide - Office of Educational Technology
+       url: https://tech.ed.gov/netp/digital-access-divide/ 
   - topic: IA
     urls:
      - name: Spotlighting Accessibility in the New NIST AI Risk Management Framework
@@ -103,6 +105,10 @@ resources:
        url: https://www.accessi.org/blog/web-accessibility-for-deaf-users/
      - name: "Quelques bonnes pratiques en matière d’accessibilité pour un projet e-learning : notre retour d’expérience !"
        url: https://www.linkedin.com/pulse/quelques-bonnes-pratiques-en-mati%25C3%25A8re-daccessibilit%25C3%25A9-learning-sphere-wrpae/
+     - name: TA11y - Learn about Accessibility
+       url: https://www.ta11y.org/learning 
+     - name: The Front End Developer/Engineer Handbook 2024
+       url: https://frontendmasters.com/guides/front-end-handbook/2024/
   - topic: Green
     urls:
      - name: Les « e-déchets » augmentent cinq fois plus vite que leur recyclage
@@ -116,6 +122,8 @@ resources:
      - name: CSRD
        url: https://www.tennaxia.com/ressource/csrd-ressources-et-liens-utiles/
      - url: https://www.linkedin.com/pulse/people-disabilities-climate-change-our-crisis-too-singhal-yotzc/
+     - name: Base de données de critères d’achat durable (SPCD) du GT Achats Durables, septembre 2023 
+       url: https://www.environnementhumanitaire.org/ressource/outil-daide-a-la-mise-en-oeuvre-des-achats-durables-spcd-du-gt-achats-durables-septembre-2023/
   - topic: Law
     urls:
      - name: Carte des Conformités

@@ -30,6 +30,8 @@ Ce support modifie considérablement les modalités transactionnelles. Mais auss
 
 Du contrôle : des réseaux, du stockage des données, de la fabrication des périphériques, des stores d'application... notre vie numérique dépend des choix structurels dans la manière d'organiser les informations numériques.
 
+{{< quote 9 >}}
+
 Il existe un lien fort entre la capacité d'autonomie des populations et la capacité de choix stratégique sur l'infrastructure.
 
 #### Numérique : matériel & immatériel
@@ -98,9 +100,3 @@ De plus, l'environnement de navigation change en permanence. Un téléphone a un
 Enfin, l'inclusivité numérique consiste à faire des études de parcours avec le numérique et sans le numérique. Comme le téléphone qui peut servir de lampes torches dans des zones sombres.
 
 Ainsi la mission d'inclusion numérique reste une mission d'identification des parcours utilisateurs au sens large avec le numérique et sans numérique pour l'essemble des personnes ; car seule l'identification de tout type de situations de handicap peut permettre d'identifier celles étant critiques (par exemple, car représentant les barrières).
-
-#### Quel développement
-
-**Enjeux :** 
- - Technique
- - entrainement des salariés

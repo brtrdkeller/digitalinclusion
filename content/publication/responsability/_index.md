@@ -1,5 +1,5 @@
 ---
-title: L'accessibilité ou la responsabilité des organismes
+title: "Étude : Accessibilité numérique ou la responsabilité des organismes"
 subtitle: Numérique responsable en milieu humanitaire
 type: study
 description: |-

@@ -1,5 +1,5 @@
 ---
-title: Etude sur l'accessibilité numérique dans le monde humanitaire
+title: "Étude : le monde humanitaire et l'accessibilité numérique"
 type: study
 description: |-
     Document servant à présenter une manière d'aborder le numérique afin de mieux comprendre les enjeux de l'accessibilité numérique.
