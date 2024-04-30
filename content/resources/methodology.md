@@ -22,6 +22,8 @@ Page regroupant différents manières de suivre les évolutions de l'accessibili
 1. [Web accessibility simplified](https://thisiswcag.com/)
 1. [Making the UN Accessible Through the Business Operations Strategy (BOS) 2.0](https://unsdg.un.org/sites/default/files/2021-05/BOS-Disability%20Inclusion-ICT%20Accessibility-Practice%20Note-20210303_F01.pdf)
 1. [Access Denied: The (in)accessibility of European Political Party websites](https://www.edf-feph.org/publications/access-denied-the-inaccessibility-of-european-political-party-websites/)
+1. [Creating the UK government’s accessibility empathy lab](https://gds.blog.gov.uk/2018/06/20/creating-the-uk-governments-accessibility-empathy-lab/)
+1. [Neurodiversity and UX: Essential Resources for Cognitive Accessibility](https://stephaniewalter.design/blog/neurodiversity-and-ux-essential-resources-for-cognitive-accessibility/)
 
 ### Questionnaires 
 
