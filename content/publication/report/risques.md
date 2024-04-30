@@ -56,7 +56,7 @@ Tous ces sujets pouvant être évalués autant avec les critères habituels, qu'
  1. Regard miroir entre nos pratiques et les demandes terrain
  1. Projets Pilotes
  1. Un comité de réflexion sur comment améliorer le regard sur le handicap avec le numérique
- 1. Un banc de test en interne (différents appareils mis en condition terrain)
+ 1. Un banc de test en interne (différents appareils mis en condition terrain comme un Emphatie Lab)
  1. Une équipe d'assistance projets étoffées (culture interne)
  1. Une approche transverse
 

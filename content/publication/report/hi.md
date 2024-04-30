@@ -31,19 +31,19 @@ Il a été demandé aux interviewés d'estimer ce qui serait le plus important �
 On remarque une légère différence entre l'interne et l'externe. On aura tendance à penser qu'en interne la culture devrait passer en premier alors qu'en externe ce serait la formation. Le principe d'externalité n'est pas très clair, mais que ce soit l'interne ou l'externe, les considérations devraient être les mêmes.
 
 Ainsi, on a tendance à considérer qu'il faudrait avant tout définir (pour soit) ce qu'est l'accessibilité numérique avant d'entamer tout autre action. Pour les autres, la culture de l'accessibilité numérique serait déjà définie ou non nécessaire à définir, la formation serait plus essentielle.
-A l'inverse, un interviewé peut considérer que ses connaissances en accessibilité sont déjà pré-existante, donc que si l'accessibilité nuémrique n'est pas prise en compte c'est en raison de la culture interne, pas de ses propres lacunes en accessibilité numérique.
+A l'inverse, un interviewé peut considérer que ses connaissances en accessibilité sont déjà pré-existantes, donc que si l'accessibilité nuémrique n'est pas prise en compte c'est en raison de la culture interne, pas de ses propres lacunes en accessibilité numérique.
 
 ### Connaissances
 
-Niveau de connaissance du numérique des personnes interviewées a été estimé de manière assez arbitraire et direct. L'idée, de cette question, est venue de la difficulté à expliquer l'accessibilité numérique à une personne qui ne connait pas assez bien comment fonctionne une organisation qui produit des services numériques.
+Niveau de connaissance du numérique des personnes interviewées a été estimé de manière assez arbitraire et directe. L'idée, de cette question, est venue de la difficulté à expliquer l'accessibilité numérique à une personne qui ne connait pas assez bien comment fonctionne une organisation qui produit des services numériques.
 
-Une personne est considérée comme n'ayant aucune connaissance de l'accessibiilité numérique à partir du moment où n'est évoqué aucun lien n'est fait entre accessibilité numérique et la nécessité d'un processus d'amélioration.
+Une personne est considérée comme n'ayant aucune connaissance de l'accessibiilité numérique à partir du moment où aucun lien n'est fait entre accessibilité numérique et la nécessité d'un processus d'amélioration.
 
 {{< charts "level" >}}
 
 Pour la ligne "Niveau Estimé", on retrouve un quasi courbe de Gauss, qui l'aisserait croire que l'accessibiltié numérique est plutôt moyennement maîtrisée ; en imagineant que seule la question technique de l'accessibilité numérique ferait défaut.  
 
-Pour la ligne "Niveau Réel", La coubre se déplace vers un niveau qui se situe entre "Aucune" et "Réduite". Les personnes en charge de Be-Inclusive sont les plus au courant de la prise en compte d'une diversité de facteurs pour améliorer l'accessibilité numérique. Elles ont une expérience du sujet.
+Pour la ligne "Niveau Réel", La courbe se déplace vers un niveau qui se situe entre "Aucune" et "Réduite". Les personnes en charge de Be-Inclusive sont les plus au courant de la prise en compte d'une diversité de facteurs pour améliorer l'accessibilité numérique. Elles ont une expérience du sujet.
 
 Globalement, les personnes surestiment beaucoup leur niveau. Premièrement, car il est difficile de répondre à un questionnaire en disant qu'on ne connaît pas un sujet qui semble être proche de son domaine d'activité, mais aussi car le sujet reste trop méconnu pour évaluer son niveau.
 
@@ -69,7 +69,7 @@ Si on prend le sujet de la "Cohérence Mission HI", le thème le plus évoqué, 
 
 Ce résultat nous donne encore un indicateur assez significatif qui est l'adhésion des employés à la mission. Indicateur qui va être très impactant sur les autres thèmes qui ressortent moins : obtention d'appels d'offre, notoriété, concurrence...
 
-On mesurerait une forme d'engagement.
+On pourrait mesurer une forme d'engagement employés.
 
 #### Ce qu'il faudrait développer en interne ?
 

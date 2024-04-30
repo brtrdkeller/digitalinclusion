@@ -24,7 +24,7 @@ theme = 'hugo-liftoff'
     weight = 1
 [[menus.main]]
     identifier = "resources"
-    name = "Resources"
+    name = "Ressources"
     url = "/resources/"
     weight = 20
 [[menus.main]]
