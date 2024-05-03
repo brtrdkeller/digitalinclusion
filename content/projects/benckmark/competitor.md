@@ -112,7 +112,7 @@ competitors:
             url: https://qhala.com/about
   - name: Asie
     countries:
-      - name: "KeJaponnya"
+      - name: "Japon"
         competitor: 
           - name: KDDI
             url: https://www.kddi.com/english/

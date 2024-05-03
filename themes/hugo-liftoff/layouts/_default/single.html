@@ -24,7 +24,7 @@
         <p><strong>Nombre de personnes à mobiliser :</strong> {{ $ctx.Params.persons }} personnes pendant {{ $ctx.Params.days }} jours</p>
       {{- end -}}
       {{- if and $ctx.Params.persons $ctx.Params.days -}}
-        <p><strong>Coût :</strong> {{ mul (mul $ctx.Params.persons $ctx.Params.days) 800 }} euros</p>
+        <p><strong>Coût :</strong> {{ lang.FormatNumberCustom 0 (mul $ctx.Params.days 833.3333) }} euros</p>
       {{- end -}}
       {{- with $ctx.Params.workshops -}}
         <p>
