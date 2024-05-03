@@ -73,7 +73,7 @@ On pourrait mesurer une forme d'engagement employés.
 
 #### Ce qu'il faudrait développer en interne ?
 
-Que manquerait-il aux employés d'HI pour se lancer dans la prise en de l'accessibilité numérique ?
+Que manquerait-il aux employés d'HI pour se lancer dans la prise en compte de l'accessibilité numérique ?
 
 On retrouve en tête l'"Innovation sociale" et la "Stratégie". C'est-à-dire la connexion entre l'activité, le métiers des employés et la stratégie. En tout cas, sur le sujet de l'accessibilité numérique.
 
