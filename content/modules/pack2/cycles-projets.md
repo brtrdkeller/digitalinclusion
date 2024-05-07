@@ -10,5 +10,12 @@ days: 3
 skills:
   - Etude
   - Entretien
+profil:
+  "Coordination": 10
+  "Expert technique": 20
+  "Expert inclusion": 20 
+  "Assistant technique": 0
+  "Assistant inclusion": 30
+  "Facilitateur": 0
 pack: 1
 ---

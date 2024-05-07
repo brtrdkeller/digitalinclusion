@@ -11,6 +11,13 @@ days: 3
 skills:
   - Sensibilisation
   - Formation
+profil:
+  "Coordination": 10
+  "Expert technique": 15
+  "Expert inclusion": 15
+  "Assistant technique": 30
+  "Assistant inclusion": 30
+  "Facilitateur": 0
 Resources:
     
 pack: 2

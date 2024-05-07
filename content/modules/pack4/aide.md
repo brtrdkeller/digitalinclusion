@@ -8,6 +8,9 @@ goals:
 persons: 1
 days: 3
 skills:
-  - 
+  - code
+profil:
+  "Coordination": 5
+  "Expert technique": 9
 pack: 2
 ---

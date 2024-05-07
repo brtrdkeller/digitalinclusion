@@ -10,5 +10,12 @@ days: 3
 skills:
   - Entretien
   - Observation
+profil:
+  "Coordination": 10
+  "Expert technique": 10
+  "Expert inclusion": 10 
+  "Assistant technique": 30
+  "Assistant inclusion": 30
+  "Facilitateur": 0
 pack: 1
 ---

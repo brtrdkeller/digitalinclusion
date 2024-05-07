@@ -9,7 +9,7 @@ theme = 'hugo-liftoff'
 [menus]
 [[menus.main]]
     identifier = "projects"
-    name = "Étude"
+    name = "Exploration"
     url = "/projects/"
     weight = 1
 [[menus.main]]

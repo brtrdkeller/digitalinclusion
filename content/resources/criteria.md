@@ -60,6 +60,22 @@ https://webaim.org/projects/screenreadersurvey10/
 
  Le critère de réussite 3.3.8 Authentification accessible (minimum) concerne les tests de fonctions cognitives utilisés pour authentifier les utilisateurs. Lorsque de tels tests sont utilisés, une méthode d'authentification alternative doit être fournie (qui ne repose pas sur un test des fonctions cognitives), ou un mécanisme doit être mis en place pour aider les utilisateurs à le compléter.
 
+### Nouveaux Critères du WCAG 2.2
+
+De nouveaux critères WCAG 2.2 montre ce qui peut importer le plus dans sur le terrain, avec l'usage des SmartPhones.
+
+ 1. 2.4.11 Focus Not Obscured (Minimum) (AA)
+ 1. 2.4.12 Focus Not Obscured (Enhanced) (AAA)
+ 1. 2.4.13 Focus Appearance (AAA)
+ 1. 2.5.7 Dragging Gestures (Level AA)
+ 1. 2.5.8 Pointer Target Spacing (Level AA)
+ 1. 3.2.6 Consistent Help (A)
+ 1. 3.3.7 Redundant Entry (A)
+ 1. 3.3.8 Accessible Authentication (Minimum) (AA)
+ 1. 3.3.9 Accessible Authentication (Enhanced) (AAA)
+
+https://africakenyah.com/breaking-down-web-accessibility-barriers-whats-new-in-wcag-22
+
 ### Critères de Vitaly Friedman
 
 1. Évitez les messages qui disparaissent : laissez les utilisateurs les fermer.

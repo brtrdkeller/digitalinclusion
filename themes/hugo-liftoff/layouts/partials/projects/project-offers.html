@@ -1,5 +1,5 @@
 {{ $ctx := .context }}
-<div class="project-entry offers enlarge-link {{ if .style }}small{{ end }}">
+<div class="project-entry offers enlarge-link {{ if .style }}small{{ end }}{{ with $ctx.Params.days }} {{ if gt . 4 }}project-double{{ end }}{{ end }}">
   {{ if .style }}
   <div class="project-entry-info">
     <h4 class="project-entry-title">
@@ -15,6 +15,7 @@
       </ul>
     {{ end -}}
     <p class="m0 invisible">{{ $ctx.Params.persons }} personnes, {{ $ctx.Params.days }} jours</p>
+    {{ if not $ctx.Params.profil }}No profils{{ end }}
   </div>
   {{ else }}
     {{- if $ctx.Params.feature_image -}}

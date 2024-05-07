@@ -11,6 +11,13 @@ days: 6
 skills:
   - Management
   - Accompagment
+profil:
+  "Coordination": 10
+  "Expert technique": 15
+  "Expert inclusion": 15
+  "Assistant technique": 10
+  "Assistant inclusion": 40
+  "Facilitateur": 10
 pack: 3
 ---
 

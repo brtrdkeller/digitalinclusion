@@ -10,5 +10,12 @@ days: 9
 skills:
   - Analyse
   - Accompagnement
+profil:
+  "Coordination": 10
+  "Expert technique": 20
+  "Expert inclusion": 40
+  "Assistant technique": 0
+  "Assistant inclusion": 20
+  "Facilitateur": 10
 pack: 3
 ---

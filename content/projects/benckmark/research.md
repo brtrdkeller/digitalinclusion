@@ -157,6 +157,31 @@ articles:
       1. Responsabilité
       1. Continuité
       1. Qualité technique
+  - name: "Depoliticising development: the uses and abuses of participation"
+    topic: General
+    description: |-
+      Sarah White distingue quatre formes de participation :
+      nominale, instrumentale, représentative et transformatrice. Elle identifie pour chaque niveau des
+      fonctions différentes, et soutient que les acteurs « au sommet » (les plus puissants) et « à la
+      racine » (les moins puissants) ont des perceptions et des intérêts spécifiques dans chacun de ces
+      niveaux.
+      • La participation nominale est souvent utilisée par des acteurs plus puissants que ceux à qui
+      sont destinés les programmes, pour donner une légitimité aux interventions. Les personnes
+      moins puissantes sont incluses car elles le désirent, elles sont présentes mais leur
+      participation est fictive, elle ne donne pas lieu à des changements.
+      • La participation instrumentale : la participation de la communauté est utilisée comme un
+      moyen pour atteindre des objectifs définis antérieurement par l’organisation qui a la maîtrise
+      d’ouvrage. Le but est souvent l'utilisation efficace des compétences et des connaissances des
+      membres de la communauté dans la mise en œuvre du projet.
+      • La participation représentative consiste à donner aux membres de la communauté une voix
+      dans le processus de mise en œuvre et les ac tions des projets ou des politiques qui les
+      concernent. La participation représentative augmente les chances d’une intervention durable
+      et offre aux bénéficiaires un levier d’expression et d’action.
+      • La participation transformatrice se traduit par une autonomisation de ceux qui sont
+      impliqués, et en conséquence modifie les structures et les institutions qui provoquent la
+      marginalisation et l'exclusion.
+    url: https://www.researchgate.net/publication/240528117_Depoliticising_Development_The_Uses_and_Abuses_of_Participation
+
 ---
 
     

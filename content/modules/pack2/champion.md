@@ -11,6 +11,13 @@ days: 3
 skills:
   - Rédaction
   - Accompagment
+profil:
+  "Coordination": 10
+  "Expert technique": 15
+  "Expert inclusion": 45 
+  "Assistant technique": 0
+  "Assistant inclusion": 20
+  "Facilitateur": 10
 pack: 3
 ---
 

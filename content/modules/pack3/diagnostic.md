@@ -9,5 +9,12 @@ persons: 1
 days: 12
 skills:
   - Développement
+profil:
+  "Coordination": 10
+  "Expert technique": 90
+  "Expert inclusion": 0
+  "Assistant technique": 0
+  "Assistant inclusion": 0
+  "Facilitateur": 0
 pack: 3
 ---

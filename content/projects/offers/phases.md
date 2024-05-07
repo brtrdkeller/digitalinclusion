@@ -43,15 +43,7 @@ Enfin, on va appliquer un filtre d'audit technique des outils numérique, selon 
 
 ### Rappels des Facteurs de succès 
 
- 1. Financement
- 1. Compréhension des lois
- 1. Sensibilisation
- 1. Soutien et de l'implication des dirigeants
- 1. Niveau et qualité d'équipement des utilisateurs
- 1. Modèle de prise de décision par l'ensemble des parties prenantes
- 1. Une vision et d'une stratégie claires
- 1. Formation
- 1. Capacité de participation des bénéficiaires
+ {{< study "An e-Government Implementation Framework: A Developing Country Case Study" >}}
 
 ### La Qualité des services
 

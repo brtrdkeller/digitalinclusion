@@ -12,17 +12,17 @@ weight: 10
  1. Compétences en Silo
  1. Manque de culture technique
  1. Non implication des dirigeants
- 1. Pas de démarche d'expériementation
+ 1. Pas de démarche d'expérimentation
 
 {{< study "La Qualité des services doit respecter 10 critères" "La Qualité des services doit respecter 10 critères :" >}}
 
 ### Force de HI
 
-La mission sociale de HI est un très fort moyen de convergence entre les employés et les financeurs.
+La responsabilité sociale de HI est un très fort moyen de convergence entre les employés et les financeurs.
 
  > HI a donc développé une capacité unique à relier les mécanismes de réponse qui assurent la cohérence et la continuité dans les transitions entre différents types de contextes.
 
-HI est une ONG confirmé avec une présence sur plusieurs continent. Elle est présente sur les terrains et à noué des liens très fort avec le organisations de personnes handicapées.
+HI est une ONG confirmée avec une présence sur plusieurs continents. Elle est présente sur les terrains et a noué des liens très fort avec les organisations de personnes handicapées.
 
 On peut imaginer que la position de HI est vue comme "neutre" sur la scène internationale car sa mission est uniquement orientée vers l'aide aux personnes.
 

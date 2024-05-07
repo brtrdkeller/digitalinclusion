@@ -11,6 +11,12 @@ days: 6
 skills:
   - Animation
   - Formation
+profil:
+  "Coordination": 10
+  "Expert technique": 10
+  "Expert inclusion": 30
+  "Assistant technique": 0
+  "Assistant inclusion": 20
+  "Facilitateur": 30
 pack: 2
 ---
-

@@ -51,7 +51,7 @@ Si l'accessibilité est ce trait d'union de la responsabilité face au système 
 
 ### Les actions
 
-L'activité d'accessibilité nuémrique consiste donc à proposer des actions pour améliorer les liaisons. 
+L'activité d'accessibilité numérique consiste donc à proposer des actions pour améliorer les liaisons. 
 
 Pour cela, il est nécessaire de prendre la témpérature de manière régulière et répétée. Puis de fournir un diagnostic, par l'écoute du patient, sur les actions potentiellement à mener pour améliorer la cohérence des actions au regard de la repsonsabilité.
 

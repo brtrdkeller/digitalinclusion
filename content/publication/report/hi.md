@@ -87,5 +87,14 @@ Sur des facteurs de succès cités aux interrogés, lequel présente le moins d'
 
 On retrouve en tête la "Participation" et la "Formation". 
 
-Ce qui peut être vu comme le besoin d'avancer sur le sujet par la pratique à travers une convergence de regards (entre secteurs ou métiers HI). Ou encore un manque de cohérence entrela stratégie et le terrain.
+Ce qui peut être vu comme le besoin d'avancer sur le sujet par la pratique à travers une convergence de regards (entre secteurs ou métiers HI). Ou encore un manque de cohérence entre la stratégie et le terrain.
+
+**Principes de la participation:** 
+
+| Form | Top--Down | Bottom--Up | Function |
+|:------|-----------|------------|----------|
+| Nominal | Legitimation | Inclusion | Display |
+| Instrumental | Efﬁciency |  Cost |  Means |
+| Representative | Sustainability |  Leverage |  Voice |
+| Transformative | Empowerment |  Empowerment |  Means/End |
 

@@ -161,6 +161,11 @@ hr:before {
   flex: 1;
 }
 
+.flex { 
+  display: flex;
+  gap: 0.5rem
+}
+
 .list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

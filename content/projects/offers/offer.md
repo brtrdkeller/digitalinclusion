@@ -42,7 +42,7 @@ La conformité concerne exactement le sujet du processus permettant de garantir 
 L'offre consiste donc à être en capacité d'assister un organisme à établir une politique et à la suivre dans le temps. Chaque module comportera donc :
 
  1. Un type d'activité : atelier, étude...
-1. Des actions potentielles à entreprendre en fonction de cet indicateurs
+ 1. Des actions potentielles à entreprendre en fonction de cet indicateurs
  1. Des indicateurs simples et reproductibles
 
 On s'attachera, non pas à viser à garantir le "conformité" technique (le suivi de la réalisation de recommandations sur les services numériques), mais plutôt à **garantir que les moyens permettant d'aboutir à cette conformité technique sont présents**.
