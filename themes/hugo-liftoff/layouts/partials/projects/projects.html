@@ -52,16 +52,16 @@
                   {{ $price := (mul .Params.days 833.3333) }}
                   {{ partial "projects/project-offers.html" (dict "context" . "id" $id "key" $key "style" "small") }}
                   {{- if ne .Parent.Params.level 4 }}
-                    {{ $days := .Params.days }}
-                    {{ $.Scratch.Add (string $id) .Params.days }}
-                    {{ $.Scratch.SetInMap "days" (string $id) ($.Scratch.Get (string $id)) }}
+                    {{- $days := .Params.days }}
+                    {{- $.Scratch.Add (string $id) .Params.days }}
+                    {{- $.Scratch.SetInMap "days" (string $id) ($.Scratch.Get (string $id)) }}
                     {{- with .Params.profil }}
-                      {{ $.Scratch.Add (printf "profilCounter%s" $id) 1 }}
-                      {{ $.Scratch.Add (printf "profilDays%s" $id) $days }}
-                      {{ $.Scratch.SetInMap "profilDays" (string $id) ($.Scratch.Get (printf "profilDays%s" $id)) }}
+                      {{- $.Scratch.Add (printf "profilCounter%s" $id) 1 }}
+                      {{- $.Scratch.Add (printf "profilDays%s" $id) $days }}
+                      {{- $.Scratch.SetInMap "profilDays" (string $id) ($.Scratch.Get (printf "profilDays%s" $id)) }}
                       {{- range $key, $value := . }}
-                        {{ $.Scratch.Add (printf "profilSlice%s%s" $id $key) $value }}
-                        {{ $.Scratch.SetInMap (printf "profil%s" $id) (string $key) ($.Scratch.Get (printf "profilSlice%s%s" $id $key)) }}
+                        {{- $.Scratch.Add (printf "profilSlice%s%s" $id $key) $value }}
+                        {{- $.Scratch.SetInMap (printf "profil%s" $id) (string $key) ($.Scratch.Get (printf "profilSlice%s%s" $id $key)) }}
                       {{ end -}}
                     {{ end -}}
                   {{ end -}}

@@ -26,6 +26,14 @@
       {{- if and $ctx.Params.persons $ctx.Params.days -}}
         <p><strong>Coût :</strong> {{ lang.FormatNumberCustom 0 (mul $ctx.Params.days 833.3333) }} euros</p>
       {{- end -}}
+      {{- with $ctx.Params.profil -}}
+        <p><strong>Répartition du temps par profil :</strong></p>
+        <ul>
+        {{ range $key, $value := . }}
+          <li>{{ $key | humanize }}: {{ $value }}%</li>
+        {{ end }}
+        </ul>
+      {{- end -}}
       {{- with $ctx.Params.workshops -}}
         <p>
             <strong>Ateliers potentiels :</strong> 
