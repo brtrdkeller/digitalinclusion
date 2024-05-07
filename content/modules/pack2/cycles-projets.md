@@ -1,7 +1,7 @@
 ---
 title: Analyse des cycles projets
 sorte: Etude
-description: "Recul sur les manières de travailler pour cibler les irritants, les blocges, les incohérences, les dynamiques positives."
+description: "Recul sur les manières de travailler pour cibler les irritants, les blocages, les incohérences, les dynamiques positives."
 goals:
   - Place du numérique
   - Identifier la place du handicap
